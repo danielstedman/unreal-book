@@ -23,24 +23,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=71\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] D2 | \"G\"G4 BG | B4 A2 | \"C\"G4 E2 |\n[V:2] z2 | [G,,D,]6 | [G,,D,]6 | [C,G,]6 |\n[V:1] \"G\"D4 D2 | G4 BG | \"Em\"B4 A2 | \"D\"d6- |\n[V:2] [G,,D,]6 | [G,,D,]6 | [E,B,]6 | [D,A,]6 |\n[V:1] \"D7\"d4 B2 | \"G\"d3B dB | G4 D2 | \"C\"E3G GE |\n[V:2] [D,A,]6 | [G,,D,]6 | [G,,D,]6 | [C,G,]6 |\n[V:1] \"G\"D4 D2 | \"Em\"G4 BG | \"G\"B4 \"D7\"A2 | \"G\"G6- |\n[V:2] [G,,D,]6 | [E,B,]6 | [G,,D,]4 D,2 | [G,,D,]6 |\n[V:1] G4 |]\n[V:2] [G,,D,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=71\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] D2 | \"G\"G4 BG | B4 A2 | \"C\"G4 E2 |\nw: A-maz-ing * grace! How sweet the\n[V:2] z2 | [G,,D,]6 | [G,,D,]6 | [C,G,]6 |\n[V:1] \"G\"D4 D2 | G4 BG | \"Em\"B4 A2 | \"D\"d6- |\nw: sound That saved a * wretch like me!\n[V:2] [G,,D,]6 | [G,,D,]6 | [E,B,]6 | [D,A,]6 |\n[V:1] \"D7\"d4 B2 | \"G\"d3B dB | G4 D2 | \"C\"E3G GE |\nw: * I once * was * lost, but now * am *\n[V:2] [D,A,]6 | [G,,D,]6 | [G,,D,]6 | [C,G,]6 |\n[V:1] \"G\"D4 D2 | \"Em\"G4 BG | \"G\"B4 \"D7\"A2 | \"G\"G6- |\nw: found; Was blind, but * now I see.\n[V:2] [G,,D,]6 | [E,B,]6 | [G,,D,]4 D,2 | [G,,D,]6 |\n[V:1] G4 |]\n[V:2] [G,,D,]4 |]",
      "key": "G",
      "bars": 16,
      "bpm": 71
     },
     "inter": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] D2 | \"G\"[DG]4 BG | [GB]4 [DA]2 | \"C\"[EG]4 [CE]2 |\n[V:2] z2 | [G,,D,B,]6 | [G,,D,B,]6 | [C,,G,,E,]6 |\n[V:1] \"G\"[B,D]4 [B,D]2 | [DG]4 BG | \"Em\"[GB]4 [EA]2 | \"D\"[Ad]6- |\n[V:2] [G,,D,]6 | [G,,D,B,]6 | [E,,B,,G,]6 | [D,,A,,F,]6 |\n[V:1] \"D7\"[Ad]4 [FB]2 | \"G\"[Bd]3B dB | [DG]4 [B,D]2 | \"C\"[CE]3G GE |\n[V:2] [D,,C,F,]6 | [G,,D,B,]6 | [G,,D,]6 | [C,,G,,E,]6 |\n[V:1] \"G\"[B,D]4 [B,D]2 | \"Em\"[EG]4 BG | \"G\"[GB]4 \"D7\"[FA]2 | \"G\"[DG]6- |\n[V:2] [G,,D,]6 | [E,,B,,G,]6 | [G,,D,B,]4 [D,,C,F,]2 | [G,,D,B,]6 |\n[V:1] [DG]4 |]\n[V:2] [G,,D,G,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] D2 | \"G\"[DG]4 BG | [GB]4 [DA]2 | \"C\"[EG]4 [CE]2 |\nw: A-maz-ing * grace! How sweet the\n[V:2] z2 | [G,,D,B,]6 | [G,,D,B,]6 | [C,,G,,E,]6 |\n[V:1] \"G\"[B,D]4 [B,D]2 | [DG]4 BG | \"Em\"[GB]4 [EA]2 | \"D\"[Ad]6- |\nw: sound That saved a * wretch like me!\n[V:2] [G,,D,]6 | [G,,D,B,]6 | [E,,B,,G,]6 | [D,,A,,F,]6 |\n[V:1] \"D7\"[Ad]4 [FB]2 | \"G\"[Bd]3B dB | [DG]4 [B,D]2 | \"C\"[CE]3G GE |\nw: * I once * was * lost, but now * am *\n[V:2] [D,,C,F,]6 | [G,,D,B,]6 | [G,,D,]6 | [C,,G,,E,]6 |\n[V:1] \"G\"[B,D]4 [B,D]2 | \"Em\"[EG]4 BG | \"G\"[GB]4 \"D7\"[FA]2 | \"G\"[DG]6- |\nw: found; Was blind, but * now I see.\n[V:2] [G,,D,]6 | [E,,B,,G,]6 | [G,,D,B,]4 [D,,C,F,]2 | [G,,D,B,]6 |\n[V:1] [DG]4 |]\n[V:2] [G,,D,G,]4 |]",
      "key": "G",
      "bars": 16,
      "bpm": 80
     },
     "adv": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] D2 | \"G\"[B,DG]4 BG | [DGB]4 [DA]2 | \"C\"[CEG]4 [CE]2 |\n[V:2] z2 | [G,,,G,,D,]6 | [G,,,G,,D,B,]6 | [C,,G,,E,A,]6 |\n[V:1] \"G\"[B,D]4 [B,D]2 | [B,DG]4 BG | \"Em\"[EGB]4 [EA]2 | \"D\"[FAd]6- |\n[V:2] [G,,,G,,D,]6 | [G,,,G,,D,]6 | [E,,,E,,B,,D,G,]6 | [D,,A,,F,B,]6 |\n[V:1] \"D7\"[FAd]4 [FB]2 | \"G\"[Bd]3B dB | [B,DG]4 [B,D]2 | \"C\"[CE]3G GE |\n[V:2] [D,,C,F,A,]6 | [G,,,G,,D,B,E]6 | [G,,,G,,D,]6 | [C,,G,,E,A,]6 |\n[V:1] \"G\"[B,D]4 [B,D]2 | \"Em\"[B,EG]4 BG | \"G\"[DGB]4 \"D7\"[FA]2 | \"G\"[B,DG]6- |\n[V:2] [G,,,G,,D,]6 | [E,,,E,,B,,D,G,]6 | [G,,,G,,D,B,]4 [D,,C,F,A,]2 | [G,,,G,,D,]6 |\n[V:1] [B,DG]4 |]\n[V:2] [G,,D,G,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] D2 | \"G\"[B,DG]4 BG | [DGB]4 [DA]2 | \"C\"[CEG]4 [CE]2 |\nw: A-maz-ing * grace! How sweet the\n[V:2] z2 | [G,,,G,,D,]6 | [G,,,G,,D,B,]6 | [C,,G,,E,A,]6 |\n[V:1] \"G\"[B,D]4 [B,D]2 | [B,DG]4 BG | \"Em\"[EGB]4 [EA]2 | \"D\"[FAd]6- |\nw: sound That saved a * wretch like me!\n[V:2] [G,,,G,,D,]6 | [G,,,G,,D,]6 | [E,,,E,,B,,D,G,]6 | [D,,A,,F,B,]6 |\n[V:1] \"D7\"[FAd]4 [FB]2 | \"G\"[Bd]3B dB | [B,DG]4 [B,D]2 | \"C\"[CE]3G GE |\nw: * I once * was * lost, but now * am *\n[V:2] [D,,C,F,A,]6 | [G,,,G,,D,B,E]6 | [G,,,G,,D,]6 | [C,,G,,E,A,]6 |\n[V:1] \"G\"[B,D]4 [B,D]2 | \"Em\"[B,EG]4 BG | \"G\"[DGB]4 \"D7\"[FA]2 | \"G\"[B,DG]6- |\nw: found; Was blind, but * now I see.\n[V:2] [G,,,G,,D,]6 | [E,,,E,,B,,D,G,]6 | [G,,,G,,D,B,]4 [D,,C,F,A,]2 | [G,,,G,,D,]6 |\n[V:1] [B,DG]4 |]\n[V:2] [G,,D,G,]4 |]",
      "key": "G",
      "bars": 16,
      "bpm": 84
     }
-   }
+   },
+   "verses": [
+    "'Twas grace that taught my heart to fear, And\ngrace my fears relieved; How precious did that\ngrace appear The hour I first believed.",
+    "Through many dangers, toils and snares, I\nhave already come; 'Tis grace hath brought me\nsafe thus far, And grace will lead me home.",
+    "The Lord has promised good to me, His\nWord my hope secures; He will my Shield and\nPortion be, As long as life endures.",
+    "Yea, when this flesh and heart shall fail, And\nmortal life shall cease, I shall possess, with\nin the veil, A life of joy and peace."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "be-thou-my-vision",
@@ -53,24 +60,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=82\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"E2 E2 FE | \"Ab\"C2 \"Eb\"B,2 B,C | E2 E2 \"Bb\"F2 | \"Eb\"G6 |\n[V:2] [E,B,]6 | A,,2 [E,G,]4 | [E,B,]4 B,,2 | [E,B,]6 |\n[V:1] \"Bb\"F2 F2 F2 | F2 \"Eb\"G2 B2 | \"Ab\"c2 \"Eb\"B2 G2 | \"Bb\"B6 |\n[V:2] [B,,F,]6 | B,,2 [E,B,]4 | A,,2 [E,B,]4 | [B,,F,]6 |\n[V:1] \"Ab\"c2 cd ed | c2 \"Eb\"B2 G2 | B2 E2 \"Bb\"D2 | \"Ab\"C4 \"Eb\"B,2 |\n[V:2] [A,,E,]6 | A,,2 [E,B,]4 | [E,B,]4 B,,2 | [A,,E,]4 E,2 |\n[V:1] E2 G2 B2 | \"Ab\"cB \"Eb\"G2 EG | \"Bb7\"F2 \"Eb\"E2 E2 | E6 |]\n[V:2] [E,B,]6 | A,,2 [E,B,]4 | B,,2 [E,B,]4 | [E,B,]6 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=82\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"E2 E2 FE | \"Ab\"C2 \"Eb\"B,2 B,C | E2 E2 \"Bb\"F2 | \"Eb\"G6 |\nw: Be Thou my * Vi-sion, O * Lord of my heart;\n[V:2] [E,B,]6 | A,,2 [E,G,]4 | [E,B,]4 B,,2 | [E,B,]6 |\n[V:1] \"Bb\"F2 F2 F2 | F2 \"Eb\"G2 B2 | \"Ab\"c2 \"Eb\"B2 G2 | \"Bb\"B6 |\nw: Naught be all else to me, save that Thou art.\n[V:2] [B,,F,]6 | B,,2 [E,B,]4 | A,,2 [E,B,]4 | [B,,F,]6 |\n[V:1] \"Ab\"c2 cd ed | c2 \"Eb\"B2 G2 | B2 E2 \"Bb\"D2 | \"Ab\"C4 \"Eb\"B,2 |\nw: Thou my * * * best Thought, by day or by night, *\n[V:2] [A,,E,]6 | A,,2 [E,B,]4 | [E,B,]4 B,,2 | [A,,E,]4 E,2 |\n[V:1] E2 G2 B2 | \"Ab\"cB \"Eb\"G2 EG | \"Bb7\"F2 \"Eb\"E2 E2 | E6 |]\nw: Wa-king or sleep-* ing, Thy * pre-sence my light.\n[V:2] [E,B,]6 | A,,2 [E,B,]4 | B,,2 [E,B,]4 | [E,B,]6 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 82
     },
     "inter": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=91\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[B,E]2 [B,E]2 FE | \"Ab\"C2 \"Eb\"B,2 B,C | [B,E]2 [B,E]2 \"Bb\"[DF]2 | \"Eb\"[EG]6 |\n[V:2] [E,,B,,G,]6 | [A,,E,]2 [E,,B,,G,]4 | [E,,B,,G,]4 [B,,,F,,D,]2 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[DF]2 [DF]2 [DF]2 | [DF]2 \"Eb\"[EG]2 [GB]2 | \"Ab\"[Ac]2 \"Eb\"[GB]2 [EG]2 | \"Bb\"[FB]6 |\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]2 [E,,B,,G,]4 | [A,,E,C]2 [E,,B,,G,]4 | [B,,,F,,D,]6 |\n[V:1] \"Ab\"[Ac]2 cd ed | [Ac]2 \"Eb\"[GB]2 [EG]2 | [GB]2 [B,E]2 \"Bb\"[B,D]2 | \"Ab\"C4 \"Eb\"B,2 |\n[V:2] [A,,E,C]6 | [A,,E,C]2 [E,,B,,G,]4 | [E,,B,,G,]4 [B,,,F,,D,]2 | [A,,E,]4 [E,,B,,G,]2 |\n[V:1] [B,E]2 [EG]2 [GB]2 | \"Ab\"cB \"Eb\"[EG]2 EG | \"Bb7\"[DF]2 \"Eb\"[B,E]2 [B,E]2 | [B,E]6 |]\n[V:2] [E,,B,,G,]6 | [A,,E,C]2 [E,,B,,G,]4 | [B,,,A,,D,]2 [E,,B,,G,]4 | [E,,B,,E,]6 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=91\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[B,E]2 [B,E]2 FE | \"Ab\"C2 \"Eb\"B,2 B,C | [B,E]2 [B,E]2 \"Bb\"[DF]2 | \"Eb\"[EG]6 |\nw: Be Thou my * Vi-sion, O * Lord of my heart;\n[V:2] [E,,B,,G,]6 | [A,,E,]2 [E,,B,,G,]4 | [E,,B,,G,]4 [B,,,F,,D,]2 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[DF]2 [DF]2 [DF]2 | [DF]2 \"Eb\"[EG]2 [GB]2 | \"Ab\"[Ac]2 \"Eb\"[GB]2 [EG]2 | \"Bb\"[FB]6 |\nw: Naught be all else to me, save that Thou art.\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]2 [E,,B,,G,]4 | [A,,E,C]2 [E,,B,,G,]4 | [B,,,F,,D,]6 |\n[V:1] \"Ab\"[Ac]2 cd ed | [Ac]2 \"Eb\"[GB]2 [EG]2 | [GB]2 [B,E]2 \"Bb\"[B,D]2 | \"Ab\"C4 \"Eb\"B,2 |\nw: Thou my * * * best Thought, by day or by night, *\n[V:2] [A,,E,C]6 | [A,,E,C]2 [E,,B,,G,]4 | [E,,B,,G,]4 [B,,,F,,D,]2 | [A,,E,]4 [E,,B,,G,]2 |\n[V:1] [B,E]2 [EG]2 [GB]2 | \"Ab\"cB \"Eb\"[EG]2 EG | \"Bb7\"[DF]2 \"Eb\"[B,E]2 [B,E]2 | [B,E]6 |]\nw: Wa-king or sleep-* ing, Thy * pre-sence my light.\n[V:2] [E,,B,,G,]6 | [A,,E,C]2 [E,,B,,G,]4 | [B,,,A,,D,]2 [E,,B,,G,]4 | [E,,B,,E,]6 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 91
     },
     "adv": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[B,E]2 [B,E]2 FE | \"Ab\"C2 \"Eb\"B,2 B,C | [B,E]2 [B,E]2 \"Bb\"[DF]2 | \"Eb\"[B,EG]6 |\n[V:2] [E,,B,,G,]6 | [A,,,A,,E,]2 [E,,B,,G,]4 | [E,,B,,G,]4 [B,,,F,,D,G,]2 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[DF]2 [DF]2 [DF]2 | [DF]2 \"Eb\"[EG]2 [GB]2 | \"Ab\"[Ac]2 \"Eb\"[GB]2 [EG]2 | \"Bb\"[DFB]6 |\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]2 [E,,B,,G,C]4 | [A,,,A,,E,C]2 [E,,B,,G,C]4 | [B,,,F,,D,G,]6 |\n[V:1] \"Ab\"[Ac]2 cd ed | [Ac]2 \"Eb\"[GB]2 [EG]2 | [GB]2 [B,E]2 \"Bb\"[B,D]2 | \"Ab\"C4 \"Eb\"B,2 |\n[V:2] [A,,,A,,E,C]6 | [A,,,A,,E,C]2 [E,,B,,G,C]4 | [E,,B,,G,]4 [B,,,F,,D,G,]2 | [A,,,A,,E,]4 [E,,B,,G,]2 |\n[V:1] [B,E]2 [EG]2 [GB]2 | \"Ab\"cB \"Eb\"[EG]2 EG | \"Bb7\"[DF]2 \"Eb\"[B,E]2 [B,E]2 | [B,E]6 |]\n[V:2] [E,,B,,G,]6 | [A,,,A,,E,C]2 [E,,B,,G,C]4 | [B,,,A,,D,F,]2 [E,,B,,G,]4 | [E,,B,,E,]6 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[B,E]2 [B,E]2 FE | \"Ab\"C2 \"Eb\"B,2 B,C | [B,E]2 [B,E]2 \"Bb\"[DF]2 | \"Eb\"[B,EG]6 |\nw: Be Thou my * Vi-sion, O * Lord of my heart;\n[V:2] [E,,B,,G,]6 | [A,,,A,,E,]2 [E,,B,,G,]4 | [E,,B,,G,]4 [B,,,F,,D,G,]2 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[DF]2 [DF]2 [DF]2 | [DF]2 \"Eb\"[EG]2 [GB]2 | \"Ab\"[Ac]2 \"Eb\"[GB]2 [EG]2 | \"Bb\"[DFB]6 |\nw: Naught be all else to me, save that Thou art.\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]2 [E,,B,,G,C]4 | [A,,,A,,E,C]2 [E,,B,,G,C]4 | [B,,,F,,D,G,]6 |\n[V:1] \"Ab\"[Ac]2 cd ed | [Ac]2 \"Eb\"[GB]2 [EG]2 | [GB]2 [B,E]2 \"Bb\"[B,D]2 | \"Ab\"C4 \"Eb\"B,2 |\nw: Thou my * * * best Thought, by day or by night, *\n[V:2] [A,,,A,,E,C]6 | [A,,,A,,E,C]2 [E,,B,,G,C]4 | [E,,B,,G,]4 [B,,,F,,D,G,]2 | [A,,,A,,E,]4 [E,,B,,G,]2 |\n[V:1] [B,E]2 [EG]2 [GB]2 | \"Ab\"cB \"Eb\"[EG]2 EG | \"Bb7\"[DF]2 \"Eb\"[B,E]2 [B,E]2 | [B,E]6 |]\nw: Wa-king or sleep-* ing, Thy * pre-sence my light.\n[V:2] [E,,B,,G,]6 | [A,,,A,,E,C]2 [E,,B,,G,C]4 | [B,,,A,,D,F,]2 [E,,B,,G,]4 | [E,,B,,E,]6 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 96
     }
-   }
+   },
+   "verses": [
+    "Be Thou my Wisdom, and Thou my true Word;\nI ever with Thee and Thou with me, Lord;\nThou my great Father, and I Thy true son;\nThou in me dwelling, and I with Thee one.",
+    "Be Thou my battle Shield, Sword for the fight;\nBe Thou my Dignity, Thou my Delight;\nThou my soul's Shelter, Thou my high Tower:\nRaise Thou me heav'nward, O Pow'r of my pow'r.",
+    "Riches I heed not, nor man's empty praise,\nThou mine Inheritance, now and always:\nThou and Thou only, be first in my heart,\nHigh King of Heaven, my Treasure Thou art.",
+    "High King of Heaven, my victory won,\nMay I reach Heav'ns joys, O bright Heaven's Sun!\nHeart of my own heart, whatever befall,\nStill be my Vision, O Ruler of all."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "abide-with-me",
@@ -83,24 +97,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=61\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"G4 G2 \"Bb\"F2 | \"Eb\"E4 B4 | \"Ab\"c2 \"Eb\"B2 \"Bb7\"B2 A2 | \"Eb\"G8 |\n[V:2] [E,B,]6 B,,2 | [E,B,]8 | A,,2 E,2 [B,,F,]4 | [E,B,]8 |\n[V:1] G4 \"Bb7\"A2 \"Eb\"B2 | \"Ab\"c4 \"Eb\"B4 | \"Fm\"A2 F2 \"Eb\"G2 \"F7\"=A2 | \"Bb\"B8 |\n[V:2] [E,B,]4 B,,2 E,2 | [A,,E,]4 [E,B,]4 | [F,,C,]4 E,2 F,,2 | [B,,F,]8 |\n[V:1] \"Eb\"G4 G2 \"Bb\"F2 | \"Eb\"E4 B4 | \"Bb7\"B2 A2 \"Ab\"A2 \"Eb\"G2 | \"Bb\"F8 |\n[V:2] [E,B,]6 B,,2 | [E,B,]8 | [B,,F,]4 A,,2 E,2 | [B,,F,]8 |\n[V:1] F4 \"Eb\"G2 \"Ab\"A2 | \"Eb\"G2 \"Bb\"F2 \"Cm\"E2 \"Ab\"A2 | \"Eb\"G4 \"Bb7\"F4 | \"Eb\"E8 |]\n[V:2] [B,,F,]4 E,2 A,,2 | E,2 B,,2 C,2 A,,2 | [E,B,]4 [B,,F,]4 | [E,B,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=61\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"G4 G2 \"Bb\"F2 | \"Eb\"E4 B4 | \"Ab\"c2 \"Eb\"B2 \"Bb7\"B2 A2 | \"Eb\"G8 |\nw: A-bide with me; fast falls the ev-en-tide;\n[V:2] [E,B,]6 B,,2 | [E,B,]8 | A,,2 E,2 [B,,F,]4 | [E,B,]8 |\n[V:1] G4 \"Bb7\"A2 \"Eb\"B2 | \"Ab\"c4 \"Eb\"B4 | \"Fm\"A2 F2 \"Eb\"G2 \"F7\"=A2 | \"Bb\"B8 |\nw: The dark-ness deep-ens; Lord with me a-bide.\n[V:2] [E,B,]4 B,,2 E,2 | [A,,E,]4 [E,B,]4 | [F,,C,]4 E,2 F,,2 | [B,,F,]8 |\n[V:1] \"Eb\"G4 G2 \"Bb\"F2 | \"Eb\"E4 B4 | \"Bb7\"B2 A2 \"Ab\"A2 \"Eb\"G2 | \"Bb\"F8 |\nw: When o-ther help-ers fail and com-forts flee,\n[V:2] [E,B,]6 B,,2 | [E,B,]8 | [B,,F,]4 A,,2 E,2 | [B,,F,]8 |\n[V:1] F4 \"Eb\"G2 \"Ab\"A2 | \"Eb\"G2 \"Bb\"F2 \"Cm\"E2 \"Ab\"A2 | \"Eb\"G4 \"Bb7\"F4 | \"Eb\"E8 |]\nw: Help of the help-less, O a-bide with me.\n[V:2] [B,,F,]4 E,2 A,,2 | E,2 B,,2 C,2 A,,2 | [E,B,]4 [B,,F,]4 | [E,B,]8 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 61
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EG]4 [EG]2 \"Bb\"[DF]2 | \"Eb\"[B,E]4 [GB]4 | \"Ab\"[Ac]2 \"Eb\"[GB]2 \"Bb7\"[FB]2 [FA]2 | \"Eb\"[EG]8 |\n[V:2] [E,,B,,G,]4 [E,,B,,G,]2 [B,,,F,,D,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [A,,E,C]2 [E,,B,,G,]2 [B,,,A,,D,]4 | [E,,B,,G,]4 [E,,B,,G,]4 |\n[V:1] [EG]4 \"Bb7\"[FA]2 \"Eb\"[GB]2 | \"Ab\"[Ac]4 \"Eb\"[GB]4 | \"Fm\"[FA]2 [CF]2 \"Eb\"[EG]2 \"F7\"[F=A]2 | \"Bb\"[FB]8 |\n[V:2] [E,,B,,G,]4 [B,,,A,,D,]2 [E,,B,,G,]2 | [A,,E,C]4 [E,,B,,G,]4 | [F,,C,A,]4 [E,,B,,G,]2 [F,,E,=A,]2 | [B,,,F,,D,]4 [B,,,F,,D,]4 |\n[V:1] \"Eb\"[EG]4 [EG]2 \"Bb\"[DF]2 | \"Eb\"[B,E]4 [GB]4 | \"Bb7\"[FB]2 [FA]2 \"Ab\"[EA]2 \"Eb\"[EG]2 | \"Bb\"[DF]8 |\n[V:2] [E,,B,,G,]4 [E,,B,,G,]2 [B,,,F,,D,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [B,,,A,,D,]4 [A,,E,C]2 [E,,B,,G,]2 | [B,,,F,,D,]4 [B,,,F,,D,]4 |\n[V:1] [DF]4 \"Eb\"[EG]2 \"Ab\"[EA]2 | \"Eb\"[EG]2 \"Bb\"[DF]2 \"Cm\"[CE]2 \"Ab\"[EA]2 | \"Eb\"[EG]4 \"Bb7\"[DF]4 | \"Eb\"[B,E]8 |]\n[V:2] [B,,,F,,D,]4 [E,,B,,G,]2 [A,,E,C]2 | [E,,B,,G,]2 [B,,,F,,D,]2 [C,,G,,E,]2 [A,,E,]2 | [E,,B,,G,]4 [B,,,A,,D,]4 | [E,,B,,E,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EG]4 [EG]2 \"Bb\"[DF]2 | \"Eb\"[B,E]4 [GB]4 | \"Ab\"[Ac]2 \"Eb\"[GB]2 \"Bb7\"[FB]2 [FA]2 | \"Eb\"[EG]8 |\nw: A-bide with me; fast falls the ev-en-tide;\n[V:2] [E,,B,,G,]4 [E,,B,,G,]2 [B,,,F,,D,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [A,,E,C]2 [E,,B,,G,]2 [B,,,A,,D,]4 | [E,,B,,G,]4 [E,,B,,G,]4 |\n[V:1] [EG]4 \"Bb7\"[FA]2 \"Eb\"[GB]2 | \"Ab\"[Ac]4 \"Eb\"[GB]4 | \"Fm\"[FA]2 [CF]2 \"Eb\"[EG]2 \"F7\"[F=A]2 | \"Bb\"[FB]8 |\nw: The dark-ness deep-ens; Lord with me a-bide.\n[V:2] [E,,B,,G,]4 [B,,,A,,D,]2 [E,,B,,G,]2 | [A,,E,C]4 [E,,B,,G,]4 | [F,,C,A,]4 [E,,B,,G,]2 [F,,E,=A,]2 | [B,,,F,,D,]4 [B,,,F,,D,]4 |\n[V:1] \"Eb\"[EG]4 [EG]2 \"Bb\"[DF]2 | \"Eb\"[B,E]4 [GB]4 | \"Bb7\"[FB]2 [FA]2 \"Ab\"[EA]2 \"Eb\"[EG]2 | \"Bb\"[DF]8 |\nw: When o-ther help-ers fail and com-forts flee,\n[V:2] [E,,B,,G,]4 [E,,B,,G,]2 [B,,,F,,D,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [B,,,A,,D,]4 [A,,E,C]2 [E,,B,,G,]2 | [B,,,F,,D,]4 [B,,,F,,D,]4 |\n[V:1] [DF]4 \"Eb\"[EG]2 \"Ab\"[EA]2 | \"Eb\"[EG]2 \"Bb\"[DF]2 \"Cm\"[CE]2 \"Ab\"[EA]2 | \"Eb\"[EG]4 \"Bb7\"[DF]4 | \"Eb\"[B,E]8 |]\nw: Help of the help-less, O a-bide with me.\n[V:2] [B,,,F,,D,]4 [E,,B,,G,]2 [A,,E,C]2 | [E,,B,,G,]2 [B,,,F,,D,]2 [C,,G,,E,]2 [A,,E,]2 | [E,,B,,G,]4 [B,,,A,,D,]4 | [E,,B,,E,]8 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 68
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[B,EG]4 [EG]2 \"Bb\"[DF]2 | \"Eb\"[B,E]4 [EGB]4 | \"Ab\"[Ac]2 \"Eb\"[GB]2 \"Bb7\"[FB]2 [FA]2 | \"Eb\"[B,EG]8 |\n[V:2] [E,,B,,G,]4 [E,,B,,G,]2 [B,,,F,,D,G,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [A,,,A,,E,C]2 [E,,B,,G,C]2 [B,,,A,,D,F,]4 | [E,,B,,G,]4 [E,,B,,G,]4 |\n[V:1] [B,EG]4 \"Bb7\"[FA]2 \"Eb\"[GB]2 | \"Ab\"[EAc]4 \"Eb\"[EGB]4 | \"Fm\"[FA]2 [CF]2 \"Eb\"[EG]2 \"F7\"[F=A]2 | \"Bb\"[DFB]8 |\n[V:2] [E,,B,,G,]4 [B,,,A,,D,F,]2 [E,,B,,G,]2 | [A,,,A,,E,C]4 [E,,B,,G,C]4 | [F,,,F,,C,E,A,]4 [E,,B,,G,]2 [F,,,F,,E,=A,]2 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 |\n[V:1] \"Eb\"[B,EG]4 [EG]2 \"Bb\"[DF]2 | \"Eb\"[B,E]4 [EGB]4 | \"Bb7\"[FB]2 [FA]2 \"Ab\"[EA]2 \"Eb\"[EG]2 | \"Bb\"[B,DF]8 |\n[V:2] [E,,B,,G,]4 [E,,B,,G,]2 [B,,,F,,D,G,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [B,,,A,,D,F,]4 [A,,,A,,E,C]2 [E,,B,,G,C]2 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 |\n[V:1] [B,DF]4 \"Eb\"[EG]2 \"Ab\"[EA]2 | \"Eb\"[EG]2 \"Bb\"[DF]2 \"Cm\"[CE]2 \"Ab\"[EA]2 | \"Eb\"[B,EG]4 \"Bb7\"[B,DF]4 | \"Eb\"[B,E]8 |]\n[V:2] [B,,,F,,D,G,]4 [E,,B,,G,]2 [A,,,A,,E,]2 | [E,,B,,G,]2 [B,,,F,,D,G,]2 [C,,G,,B,,E,]2 [A,,,A,,E,]2 | [E,,B,,G,]4 [B,,,A,,D,F,]4 | [E,,B,,E,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[B,EG]4 [EG]2 \"Bb\"[DF]2 | \"Eb\"[B,E]4 [EGB]4 | \"Ab\"[Ac]2 \"Eb\"[GB]2 \"Bb7\"[FB]2 [FA]2 | \"Eb\"[B,EG]8 |\nw: A-bide with me; fast falls the ev-en-tide;\n[V:2] [E,,B,,G,]4 [E,,B,,G,]2 [B,,,F,,D,G,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [A,,,A,,E,C]2 [E,,B,,G,C]2 [B,,,A,,D,F,]4 | [E,,B,,G,]4 [E,,B,,G,]4 |\n[V:1] [B,EG]4 \"Bb7\"[FA]2 \"Eb\"[GB]2 | \"Ab\"[EAc]4 \"Eb\"[EGB]4 | \"Fm\"[FA]2 [CF]2 \"Eb\"[EG]2 \"F7\"[F=A]2 | \"Bb\"[DFB]8 |\nw: The dark-ness deep-ens; Lord with me a-bide.\n[V:2] [E,,B,,G,]4 [B,,,A,,D,F,]2 [E,,B,,G,]2 | [A,,,A,,E,C]4 [E,,B,,G,C]4 | [F,,,F,,C,E,A,]4 [E,,B,,G,]2 [F,,,F,,E,=A,]2 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 |\n[V:1] \"Eb\"[B,EG]4 [EG]2 \"Bb\"[DF]2 | \"Eb\"[B,E]4 [EGB]4 | \"Bb7\"[FB]2 [FA]2 \"Ab\"[EA]2 \"Eb\"[EG]2 | \"Bb\"[B,DF]8 |\nw: When o-ther help-ers fail and com-forts flee,\n[V:2] [E,,B,,G,]4 [E,,B,,G,]2 [B,,,F,,D,G,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [B,,,A,,D,F,]4 [A,,,A,,E,C]2 [E,,B,,G,C]2 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 |\n[V:1] [B,DF]4 \"Eb\"[EG]2 \"Ab\"[EA]2 | \"Eb\"[EG]2 \"Bb\"[DF]2 \"Cm\"[CE]2 \"Ab\"[EA]2 | \"Eb\"[B,EG]4 \"Bb7\"[B,DF]4 | \"Eb\"[B,E]8 |]\nw: Help of the help-less, O a-bide with me.\n[V:2] [B,,,F,,D,G,]4 [E,,B,,G,]2 [A,,,A,,E,]2 | [E,,B,,G,]2 [B,,,F,,D,G,]2 [C,,G,,B,,E,]2 [A,,,A,,E,]2 | [E,,B,,G,]4 [B,,,A,,D,F,]4 | [E,,B,,E,]8 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 72
     }
-   }
+   },
+   "verses": [
+    "Swift to its close ebbs out life's little day; Earth's joys grow\ndim; its glories pass away; Change and decay in\nall around I see; O Thou who changest not, abide with me.",
+    "Not a brief glance I beg, a passing word; But as Thou\ndwell'st with Thy disciples, Lord, Familiar, condes\ncending, patient, free. Come not to sojourn, but abide with me.",
+    "Come not in terrors, as the King of kings, But kind and\ngood, with healing in Thy wings, Tears for all woes, a\nheart for every plea? Come, Friend of sinners, and thus bide with me.",
+    "Thou on my head in early youth didst smile; And, though re\nbellious and perverse meanwhile, Thou hast not left me,\noft as I left Thee, On to the close, O Lord, abide with me."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "what-a-friend",
@@ -113,24 +134,30 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=75\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"c3c dc AF | \"Bb\"F4 D4 | \"F\"C3F AF cA | \"C\"G6 z2 |\n[V:2] [F,,C,]8 | [B,,F,]8 | [F,,C,]8 | [C,G,]8 |\n[V:1] \"F\"c3c dc AF | \"Bb\"F4 D4 | \"F\"C3F \"C7\"AG FE | \"F\"F6 z2 |\n[V:2] [F,,C,]8 | [B,,F,]8 | [F,,C,]4 [C,G,]4 | [F,,C,]8 |\n[V:1] \"C\"G3^F GA BG | \"F\"A4 c4 | \"Bb\"d3d \"F\"cA BA | \"C\"G6 z2 |\n[V:2] [C,G,]8 | [F,,C,]8 | [B,,F,]4 [F,,C,]4 | [C,G,]8 |\n[V:1] \"F\"c3c dc AF | \"Bb\"F4 D4 | \"F\"C3F \"C7\"AG FE | \"F\"F6 z2 |]\n[V:2] [F,,C,]8 | [B,,F,]8 | [F,,C,]4 [C,G,]4 | [F,,C,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=75\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"c3c dc AF | \"Bb\"F4 D4 | \"F\"C3F AF cA | \"C\"G6 z2 |\nw: What a Friend we have in Je-sus, all our sins and griefs to bear!\n[V:2] [F,,C,]8 | [B,,F,]8 | [F,,C,]8 | [C,G,]8 |\n[V:1] \"F\"c3c dc AF | \"Bb\"F4 D4 | \"F\"C3F \"C7\"AG FE | \"F\"F6 z2 |\nw: What a priv-i-lege to car-ry ev-ery-thing to God in prayer!\n[V:2] [F,,C,]8 | [B,,F,]8 | [F,,C,]4 [C,G,]4 | [F,,C,]8 |\n[V:1] \"C\"G3^F GA BG | \"F\"A4 c4 | \"Bb\"d3d \"F\"cA BA | \"C\"G6 z2 |\nw: O what peace we of-ten for-feit, O what need-less pain we bear,\n[V:2] [C,G,]8 | [F,,C,]8 | [B,,F,]4 [F,,C,]4 | [C,G,]8 |\n[V:1] \"F\"c3c dc AF | \"Bb\"F4 D4 | \"F\"C3F \"C7\"AG FE | \"F\"F6 z2 |]\nw: All be-cause we do not ca-rry ev-ery-thing to God in prayer.\n[V:2] [F,,C,]8 | [B,,F,]8 | [F,,C,]4 [C,G,]4 | [F,,C,]8 |]",
      "key": "F",
      "bars": 16,
      "bpm": 75
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[DF]4 [B,D]4 | \"F\"[A,C]3F AF cA | \"C\"[EG]6 z2 |\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [F,,C,]4 [F,,C,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[DF]4 [B,D]4 | \"F\"[A,C]3F \"C7\"AG FE | \"F\"[CF]6 z2 |\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [F,,C,]4 [C,,B,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] \"C\"[EG]3^F GA BG | \"F\"[FA]4 [Ac]4 | \"Bb\"[Bd]3d \"F\"cA BA | \"C\"[EG]6 z2 |\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [F,,C,A,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[DF]4 [B,D]4 | \"F\"[A,C]3F \"C7\"AG FE | \"F\"[CF]6 z2 |]\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [F,,C,]4 [C,,B,,E,]4 | [F,,C,F,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[DF]4 [B,D]4 | \"F\"[A,C]3F AF cA | \"C\"[EG]6 z2 |\nw: What a Friend we have in Je-sus, all our sins and griefs to bear!\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [F,,C,]4 [F,,C,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[DF]4 [B,D]4 | \"F\"[A,C]3F \"C7\"AG FE | \"F\"[CF]6 z2 |\nw: What a priv-i-lege to car-ry ev-ery-thing to God in prayer!\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [F,,C,]4 [C,,B,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] \"C\"[EG]3^F GA BG | \"F\"[FA]4 [Ac]4 | \"Bb\"[Bd]3d \"F\"cA BA | \"C\"[EG]6 z2 |\nw: O what peace we of-ten for-feit, O what need-less pain we bear,\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [F,,C,A,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[DF]4 [B,D]4 | \"F\"[A,C]3F \"C7\"AG FE | \"F\"[CF]6 z2 |]\nw: All be-cause we do not ca-rry ev-ery-thing to God in prayer.\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [F,,C,]4 [C,,B,,E,]4 | [F,,C,F,]8 |]",
      "key": "F",
      "bars": 16,
      "bpm": 84
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=88\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[B,DF]4 [B,D]4 | \"F\"[A,C]3F AF cA | \"C\"[CEG]6 z2 |\n[V:2] [F,,,F,,C,A,D]4 [F,,,F,,C,A,D]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[B,DF]4 [B,D]4 | \"F\"[A,C]3F \"C7\"AG FE | \"F\"[A,CF]6 z2 |\n[V:2] [F,,,F,,C,A,D]4 [F,,,F,,C,A,D]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [F,,,F,,C,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"C\"[EG]3^F GA BG | \"F\"[CFA]4 [FAc]4 | \"Bb\"[Bd]3d \"F\"cA BA | \"C\"[CEG]6 z2 |\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [F,,,F,,C,A,D]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[B,DF]4 [B,D]4 | \"F\"[A,C]3F \"C7\"AG FE | \"F\"[A,CF]6 z2 |]\n[V:2] [F,,,F,,C,A,D]4 [F,,,F,,C,A,D]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [F,,,F,,C,]4 [C,,B,,E,G,]4 | [F,,C,F,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=88\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[B,DF]4 [B,D]4 | \"F\"[A,C]3F AF cA | \"C\"[CEG]6 z2 |\nw: What a Friend we have in Je-sus, all our sins and griefs to bear!\n[V:2] [F,,,F,,C,A,D]4 [F,,,F,,C,A,D]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[B,DF]4 [B,D]4 | \"F\"[A,C]3F \"C7\"AG FE | \"F\"[A,CF]6 z2 |\nw: What a priv-i-lege to car-ry ev-ery-thing to God in prayer!\n[V:2] [F,,,F,,C,A,D]4 [F,,,F,,C,A,D]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [F,,,F,,C,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"C\"[EG]3^F GA BG | \"F\"[CFA]4 [FAc]4 | \"Bb\"[Bd]3d \"F\"cA BA | \"C\"[CEG]6 z2 |\nw: O what peace we of-ten for-feit, O what need-less pain we bear,\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [F,,,F,,C,A,D]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"F\"[Ac]3c dc AF | \"Bb\"[B,DF]4 [B,D]4 | \"F\"[A,C]3F \"C7\"AG FE | \"F\"[A,CF]6 z2 |]\nw: All be-cause we do not ca-rry ev-ery-thing to God in prayer.\n[V:2] [F,,,F,,C,A,D]4 [F,,,F,,C,A,D]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [F,,,F,,C,]4 [C,,B,,E,G,]4 | [F,,C,F,]8 |]",
      "key": "F",
      "bars": 16,
      "bpm": 88
     }
-   }
+   },
+   "verses": [
+    "Have we trials and temptations? Is there trouble anywhere?\nWe should never be discouraged; take it to the Lord in prayer.\nCan we find a friend so faithful who will all our sorrows share?\nJesus knows our every weakness; take it to the Lord in prayer.",
+    "Are we weak and heavy laden, cumbered with a load of care?\nPrecious Savior, still our refuge, take it to the Lord in prayer.\nDo your friends despise, forsake you? Take it to the Lord in prayer!\nIn His arms He'll take and shield you; you will find a solace there.",
+    "Blessed Savior, Thou hast promised Thou wilt all our burdens bear\nMay we ever, Lord, be bringing all to Thee in earnest prayer.\nSoon in glory bright unclouded there will be no need for prayer\nRapture, praise and endless worship will be our sweet portion there."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "it-is-well",
@@ -143,25 +170,32 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] G2 | \"C\"G4 F2 E2 | E4 \"G7\"D2 \"C\"E2 | \"G7\"F2 A2 G2 F2 |\n[V:2] z2 | [C,G,]8 | [C,G,]4 G,,2 C,2 | [G,,D,]8 |\n[V:1] \"C\"E6 G2 | \"Am\"c4 B2 A2 | \"D7\"A4 G2 ^F2 | \"G\"G6 G2 |\n[V:2] [C,G,]8 | [A,,E,]8 | [D,A,]8 | [G,,D,]8 |\n[V:1] \"C\"c4 c2 B2 | \"D7\"A4 A2 A2 | \"G\"d4 d2 c2 | \"Em\"B4 \"Am\"A2 G2 |\n[V:2] [C,G,]8 | [D,A,]8 | [G,,D,]8 | [E,B,]4 [A,,E,]4 |\n[V:1] \"F\"c4 \"C\"c2 c2 | c4 \"G7\"B3c | \"C\"c4 z2 |]\n[V:2] [F,,C,]4 [C,G,]4 | [C,G,]4 [G,,D,]4 | [C,G,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] G2 | \"C\"G4 F2 E2 | E4 \"G7\"D2 \"C\"E2 | \"G7\"F2 A2 G2 F2 |\nw: When peace, like a ri-ver, at-ten-* deth my\n[V:2] z2 | [C,G,]8 | [C,G,]4 G,,2 C,2 | [G,,D,]8 |\n[V:1] \"C\"E6 G2 | \"Am\"c4 B2 A2 | \"D7\"A4 G2 ^F2 | \"G\"G6 G2 |\nw: way, When sor-rows like sea bil-lows roll; What-\n[V:2] [C,G,]8 | [A,,E,]8 | [D,A,]8 | [G,,D,]8 |\n[V:1] \"C\"c4 c2 B2 | \"D7\"A4 A2 A2 | \"G\"d4 d2 c2 | \"Em\"B4 \"Am\"A2 G2 |\nw: ev-er my lot, Thou has taught me to say, It is\n[V:2] [C,G,]8 | [D,A,]8 | [G,,D,]8 | [E,B,]4 [A,,E,]4 |\n[V:1] \"F\"c4 \"C\"c2 c2 | c4 \"G7\"B3c | \"C\"c4 z2 |]\nw: well, it is well, with my soul.\n[V:2] [F,,C,]4 [C,G,]4 | [C,G,]4 [G,,D,]4 | [C,G,]6 |]",
      "key": "C",
      "bars": 14,
      "bpm": 68,
      "note": "Verse only"
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] G2 | \"C\"[EG]4 [CF]2 [CE]2 | [CE]4 \"G7\"[B,D]2 \"C\"[CE]2 | \"G7\"[DF]2 [FA]2 [DG]2 [DF]2 |\n[V:2] z2 | [C,,G,,E,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [G,,F,]2 [C,,G,,E,]2 | [G,,F,B,]4 [G,,F,B,]4 |\n[V:1] \"C\"[CE]6 [EG]2 | \"Am\"[Ac]4 [EB]2 [EA]2 | \"D7\"[^FA]4 [DG]2 [DF]2 | \"G\"[DG]6 [DG]2 |\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [A,,E,C]4 [A,,E,C]4 | [D,,C,^F,]4 [D,,C,F,]4 | [G,,D,B,]4 [G,,D,B,]4 |\n[V:1] \"C\"[Gc]4 [Gc]2 [GB]2 | \"D7\"[^FA]4 [FA]2 [FA]2 | \"G\"[Bd]4 [Bd]2 [Gc]2 | \"Em\"[GB]4 \"Am\"[EA]2 [EG]2 |\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [D,,C,^F,]4 [D,,C,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [E,,B,,G,]4 [A,,E,C]4 |\n[V:1] \"F\"[Ac]4 \"C\"[Gc]2 [Gc]2 | [Gc]4 \"G7\"[GB]3c | \"C\"[Gc]4 [EG]2 [EG]2 | [EG]8- |\n[V:2] [F,,C,A,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [G,,F,B,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"G\"[EG]4 [DG]2 [DG]2 | \"G7\"[DG]8- | \"C\"[DG]4 [CE]2 [EG]2 | \"F\"[FA]4 [FA]2 [Ac]2 |\n[V:2] [G,,D,B,]4 [G,,D,B,]4 | [G,,F,B,]4 [G,,F,B,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] \"C\"[Gc]4 \"G7\"[GB]3c | \"C\"[Gc]6 |]\n[V:2] [C,,G,,E,]4 [G,,F,B,]4 | [C,,G,,C,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] G2 | \"C\"[EG]4 [CF]2 [CE]2 | [CE]4 \"G7\"[B,D]2 \"C\"[CE]2 | \"G7\"[DF]2 [FA]2 [DG]2 [DF]2 |\nw: When peace, like a ri-ver, at-ten-* deth my\n[V:2] z2 | [C,,G,,E,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [G,,F,]2 [C,,G,,E,]2 | [G,,F,B,]4 [G,,F,B,]4 |\n[V:1] \"C\"[CE]6 [EG]2 | \"Am\"[Ac]4 [EB]2 [EA]2 | \"D7\"[^FA]4 [DG]2 [DF]2 | \"G\"[DG]6 [DG]2 |\nw: way, When sor-rows like sea bil-lows roll; What-\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [A,,E,C]4 [A,,E,C]4 | [D,,C,^F,]4 [D,,C,F,]4 | [G,,D,B,]4 [G,,D,B,]4 |\n[V:1] \"C\"[Gc]4 [Gc]2 [GB]2 | \"D7\"[^FA]4 [FA]2 [FA]2 | \"G\"[Bd]4 [Bd]2 [Gc]2 | \"Em\"[GB]4 \"Am\"[EA]2 [EG]2 |\nw: ev-er my lot, Thou has taught me to say, It is\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [D,,C,^F,]4 [D,,C,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [E,,B,,G,]4 [A,,E,C]4 |\n[V:1] \"F\"[Ac]4 \"C\"[Gc]2 [Gc]2 | [Gc]4 \"G7\"[GB]3c | \"C\"[Gc]4 [EG]2 [EG]2 | [EG]8- |\nw: well, it is well, with my soul. It is well,\n[V:2] [F,,C,A,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [G,,F,B,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"G\"[EG]4 [DG]2 [DG]2 | \"G7\"[DG]8- | \"C\"[DG]4 [CE]2 [EG]2 | \"F\"[FA]4 [FA]2 [Ac]2 |\nw: * with my soul, * It is well, it is\n[V:2] [G,,D,B,]4 [G,,D,B,]4 | [G,,F,B,]4 [G,,F,B,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] \"C\"[Gc]4 \"G7\"[GB]3c | \"C\"[Gc]6 |]\nw: well with my soul.\n[V:2] [C,,G,,E,]4 [G,,F,B,]4 | [C,,G,,C,]6 |]",
      "key": "C",
      "bars": 21,
      "bpm": 76
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] G2 | \"C\"[CEG]4 [CF]2 [CE]2 | [CE]4 \"G7\"[B,D]2 \"C\"[CE]2 | \"G7\"[DF]2 [FA]2 [DG]2 [DF]2 |\n[V:2] z2 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [C,,G,,E,A,]4 [G,,,G,,F,]2 [C,,G,,E,A,]2 | [G,,,G,,F,B,]4 [G,,,G,,F,B,]4 |\n[V:1] \"C\"[CE]6 [EG]2 | \"Am\"[EAc]4 [EB]2 [EA]2 | \"D7\"[D^FA]4 [DG]2 [DF]2 | \"G\"[B,DG]6 [DG]2 |\n[V:2] [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [A,,,A,,E,G,C]4 [A,,,A,,E,G,C]4 | [D,,C,^F,A,]4 [D,,C,F,A,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 |\n[V:1] \"C\"[EGc]4 [Gc]2 [GB]2 | \"D7\"[D^FA]4 [FA]2 [FA]2 | \"G\"[GBd]4 [Bd]2 [Gc]2 | \"Em\"[EGB]4 \"Am\"[EA]2 [EG]2 |\n[V:2] [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [D,,C,^F,A,]4 [D,,C,F,A,]4 | [G,,,G,,D,B,E]4 [G,,,G,,D,B,E]4 | [E,,,E,,B,,D,G,]4 [A,,,A,,E,G,C]4 |\n[V:1] \"F\"[FAc]4 \"C\"[Gc]2 [Gc]2 | [EGc]4 \"G7\"[GB]3c | \"C\"[EGc]4 [EG]2 [EG]2 | [CEG]8- |\n[V:2] [F,,,F,,C,A,D]4 [C,,G,,E,A,]4 | [C,,G,,E,A,]4 [G,,,G,,F,B,D]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"G\"[CEG]4 [DG]2 [DG]2 | \"G7\"[B,DG]8- | \"C\"[B,DG]4 [CE]2 [EG]2 | \"F\"[CFA]4 [FA]2 [Ac]2 |\n[V:2] [G,,,G,,D,B,]4 [G,,,G,,D,B,]4 | [G,,,G,,F,]4 [G,,,G,,F,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 |\n[V:1] \"C\"[EGc]4 \"G7\"[GB]3c | \"C\"[EGc]6 |]\n[V:2] [C,,G,,E,A,]4 [G,,,G,,F,B,D]4 | [C,,G,,C,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] G2 | \"C\"[CEG]4 [CF]2 [CE]2 | [CE]4 \"G7\"[B,D]2 \"C\"[CE]2 | \"G7\"[DF]2 [FA]2 [DG]2 [DF]2 |\nw: When peace, like a ri-ver, at-ten-* deth my\n[V:2] z2 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [C,,G,,E,A,]4 [G,,,G,,F,]2 [C,,G,,E,A,]2 | [G,,,G,,F,B,]4 [G,,,G,,F,B,]4 |\n[V:1] \"C\"[CE]6 [EG]2 | \"Am\"[EAc]4 [EB]2 [EA]2 | \"D7\"[D^FA]4 [DG]2 [DF]2 | \"G\"[B,DG]6 [DG]2 |\nw: way, When sor-rows like sea bil-lows roll; What-\n[V:2] [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [A,,,A,,E,G,C]4 [A,,,A,,E,G,C]4 | [D,,C,^F,A,]4 [D,,C,F,A,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 |\n[V:1] \"C\"[EGc]4 [Gc]2 [GB]2 | \"D7\"[D^FA]4 [FA]2 [FA]2 | \"G\"[GBd]4 [Bd]2 [Gc]2 | \"Em\"[EGB]4 \"Am\"[EA]2 [EG]2 |\nw: ev-er my lot, Thou has taught me to say, It is\n[V:2] [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [D,,C,^F,A,]4 [D,,C,F,A,]4 | [G,,,G,,D,B,E]4 [G,,,G,,D,B,E]4 | [E,,,E,,B,,D,G,]4 [A,,,A,,E,G,C]4 |\n[V:1] \"F\"[FAc]4 \"C\"[Gc]2 [Gc]2 | [EGc]4 \"G7\"[GB]3c | \"C\"[EGc]4 [EG]2 [EG]2 | [CEG]8- |\nw: well, it is well, with my soul. It is well,\n[V:2] [F,,,F,,C,A,D]4 [C,,G,,E,A,]4 | [C,,G,,E,A,]4 [G,,,G,,F,B,D]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"G\"[CEG]4 [DG]2 [DG]2 | \"G7\"[B,DG]8- | \"C\"[B,DG]4 [CE]2 [EG]2 | \"F\"[CFA]4 [FA]2 [Ac]2 |\nw: * with my soul, * It is well, it is\n[V:2] [G,,,G,,D,B,]4 [G,,,G,,D,B,]4 | [G,,,G,,F,]4 [G,,,G,,F,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 |\n[V:1] \"C\"[EGc]4 \"G7\"[GB]3c | \"C\"[EGc]6 |]\nw: well with my soul.\n[V:2] [C,,G,,E,A,]4 [G,,,G,,F,B,D]4 | [C,,G,,C,]6 |]",
      "key": "C",
      "bars": 21,
      "bpm": 80
     }
-   }
+   },
+   "verses": [
+    "Though Satan should buffet, though trials should come, Let this blest\nassurance control, That Christ has regarded my helpless es\ntate, And hath shed His own blood for my soul.",
+    "My sin, oh, the bliss of this glorious thought! My sin, not\nin part but the whole, Is nailed to the cross, and I bear it no\nmore, Praise the Lord, praise the Lord, O my soul!",
+    "For me, be it Christ, be it Christ hence to live: If Jordan\nabove me shall roll, No pang shall be mine, for in death as in\nlife Thou wilt whisper Thy peace to my soul.",
+    "But, Lord, 'tis for Thee, for Thy coming we wait, The sky, not\nthe grave, is our goal; Oh trump of the angel! Oh voice of the\nLord! Blessèd hope, blessèd rest of my soul!"
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "holy-holy-holy",
@@ -174,24 +208,30 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=82\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"D2 D2 F2 F2 | A4 A4 | \"G\"B2 B2 B2 B2 | \"D\"A4 F4 |\n[V:2] [D,A,]8 | [D,A,]8 | [G,,D,]8 | [D,A,]8 |\n[V:1] \"A\"A3A A2 A2 | \"D\"d2 d2 \"A\"c2 A2 | E2 A2 \"E7\"B3A | \"A\"A8 |\n[V:2] [A,,E,]8 | [D,A,]4 [A,,E,]4 | [A,,E,]4 [E,B,]4 | [A,,E,]8 |\n[V:1] \"D\"D2 D2 F2 F2 | A2 A2 A4 | \"G\"B3B B2 B2 | \"D\"A4 A4 |\n[V:2] [D,A,]8 | [D,A,]8 | [G,,D,]8 | [D,A,]8 |\n[V:1] d4 A2 A2 | \"G\"B4 \"D\"F4 | \"Em\"G2 E2 \"A7\"E3D | \"D\"D8 |]\n[V:2] [D,A,]8 | [G,,D,]4 [D,A,]4 | [E,B,]4 [A,,E,]4 | [D,A,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=82\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"D2 D2 F2 F2 | A4 A4 | \"G\"B2 B2 B2 B2 | \"D\"A4 F4 |\nw: Ho-ly, ho-ly, ho-ly! Lord * God Al-migh-ty!\n[V:2] [D,A,]8 | [D,A,]8 | [G,,D,]8 | [D,A,]8 |\n[V:1] \"A\"A3A A2 A2 | \"D\"d2 d2 \"A\"c2 A2 | E2 A2 \"E7\"B3A | \"A\"A8 |\nw: Ear-ly in the morn-* ing our song shall rise to Thee;\n[V:2] [A,,E,]8 | [D,A,]4 [A,,E,]4 | [A,,E,]4 [E,B,]4 | [A,,E,]8 |\n[V:1] \"D\"D2 D2 F2 F2 | A2 A2 A4 | \"G\"B3B B2 B2 | \"D\"A4 A4 |\nw: Ho-ly, ho-ly, ho-* ly, mer-ci-ful and might-y!\n[V:2] [D,A,]8 | [D,A,]8 | [G,,D,]8 | [D,A,]8 |\n[V:1] d4 A2 A2 | \"G\"B4 \"D\"F4 | \"Em\"G2 E2 \"A7\"E3D | \"D\"D8 |]\nw: God in three Per-sons, bless-ed Tri-ni-ty!\n[V:2] [D,A,]8 | [G,,D,]4 [D,A,]4 | [E,B,]4 [A,,E,]4 | [D,A,]8 |]",
      "key": "D",
      "bars": 16,
      "bpm": 82
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=91\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[A,D]2 [A,D]2 [DF]2 [DF]2 | [FA]4 [FA]4 | \"G\"[GB]2 [GB]2 [GB]2 [GB]2 | \"D\"[FA]4 [DF]4 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"A\"[EA]3A [EA]2 [EA]2 | \"D\"[Ad]2 [Ad]2 \"A\"[Ac]2 [EA]2 | [CE]2 [EA]2 \"E7\"[^GB]3A | \"A\"[EA]8 |\n[V:2] [A,,E,C]4 [A,,E,C]4 | [D,,A,,F,]4 [A,,E,C]4 | [A,,E,]4 [E,,D,^G,]4 | [A,,E,C]4 [A,,E,C]4 |\n[V:1] \"D\"[A,D]2 [A,D]2 [DF]2 [DF]2 | [FA]2 [FA]2 [FA]4 | \"G\"[GB]3B [GB]2 [GB]2 | \"D\"[FA]4 [FA]4 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] [Ad]4 [FA]2 [FA]2 | \"G\"[GB]4 \"D\"[DF]4 | \"Em\"[EG]2 [B,E]2 \"A7\"[CE]3D | \"D\"[A,D]8 |]\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [D,,A,,F,]4 | [E,,B,,G,]4 [A,,G,]4 | [D,,A,,D,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=91\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[A,D]2 [A,D]2 [DF]2 [DF]2 | [FA]4 [FA]4 | \"G\"[GB]2 [GB]2 [GB]2 [GB]2 | \"D\"[FA]4 [DF]4 |\nw: Ho-ly, ho-ly, ho-ly! Lord * God Al-migh-ty!\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"A\"[EA]3A [EA]2 [EA]2 | \"D\"[Ad]2 [Ad]2 \"A\"[Ac]2 [EA]2 | [CE]2 [EA]2 \"E7\"[^GB]3A | \"A\"[EA]8 |\nw: Ear-ly in the morn-* ing our song shall rise to Thee;\n[V:2] [A,,E,C]4 [A,,E,C]4 | [D,,A,,F,]4 [A,,E,C]4 | [A,,E,]4 [E,,D,^G,]4 | [A,,E,C]4 [A,,E,C]4 |\n[V:1] \"D\"[A,D]2 [A,D]2 [DF]2 [DF]2 | [FA]2 [FA]2 [FA]4 | \"G\"[GB]3B [GB]2 [GB]2 | \"D\"[FA]4 [FA]4 |\nw: Ho-ly, ho-ly, ho-* ly, mer-ci-ful and might-y!\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] [Ad]4 [FA]2 [FA]2 | \"G\"[GB]4 \"D\"[DF]4 | \"Em\"[EG]2 [B,E]2 \"A7\"[CE]3D | \"D\"[A,D]8 |]\nw: God in three Per-sons, bless-ed Tri-ni-ty!\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [D,,A,,F,]4 | [E,,B,,G,]4 [A,,G,]4 | [D,,A,,D,]8 |]",
      "key": "D",
      "bars": 16,
      "bpm": 91
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[A,D]2 [A,D]2 [DF]2 [DF]2 | [DFA]4 [DFA]4 | \"G\"[GB]2 [GB]2 [GB]2 [GB]2 | \"D\"[DFA]4 [A,DF]4 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [G,,,G,,D,B,E]4 [G,,,G,,D,B,E]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"A\"[EA]3A [EA]2 [EA]2 | \"D\"[Ad]2 [Ad]2 \"A\"[Ac]2 [EA]2 | [CE]2 [EA]2 \"E7\"[^GB]3A | \"A\"[CEA]8 |\n[V:2] [A,,,A,,E,C]4 [A,,,A,,E,C]4 | [D,,A,,F,B,]4 [A,,,A,,E,C]4 | [A,,,A,,E,]4 [E,,,E,,D,^G,B,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"D\"[A,D]2 [A,D]2 [DF]2 [DF]2 | [FA]2 [FA]2 [DFA]4 | \"G\"[GB]3B [GB]2 [GB]2 | \"D\"[DFA]4 [DFA]4 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [G,,,G,,D,B,E]4 [G,,,G,,D,B,E]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] [FAd]4 [FA]2 [FA]2 | \"G\"[DGB]4 \"D\"[A,DF]4 | \"Em\"[EG]2 [B,E]2 \"A7\"[CE]3D | \"D\"[A,D]8 |]\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [G,,,G,,D,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [A,,,A,,G,]4 | [D,,A,,D,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[A,D]2 [A,D]2 [DF]2 [DF]2 | [DFA]4 [DFA]4 | \"G\"[GB]2 [GB]2 [GB]2 [GB]2 | \"D\"[DFA]4 [A,DF]4 |\nw: Ho-ly, ho-ly, ho-ly! Lord * God Al-migh-ty!\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [G,,,G,,D,B,E]4 [G,,,G,,D,B,E]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"A\"[EA]3A [EA]2 [EA]2 | \"D\"[Ad]2 [Ad]2 \"A\"[Ac]2 [EA]2 | [CE]2 [EA]2 \"E7\"[^GB]3A | \"A\"[CEA]8 |\nw: Ear-ly in the morn-* ing our song shall rise to Thee;\n[V:2] [A,,,A,,E,C]4 [A,,,A,,E,C]4 | [D,,A,,F,B,]4 [A,,,A,,E,C]4 | [A,,,A,,E,]4 [E,,,E,,D,^G,B,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"D\"[A,D]2 [A,D]2 [DF]2 [DF]2 | [FA]2 [FA]2 [DFA]4 | \"G\"[GB]3B [GB]2 [GB]2 | \"D\"[DFA]4 [DFA]4 |\nw: Ho-ly, ho-ly, ho-* ly, mer-ci-ful and might-y!\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [G,,,G,,D,B,E]4 [G,,,G,,D,B,E]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] [FAd]4 [FA]2 [FA]2 | \"G\"[DGB]4 \"D\"[A,DF]4 | \"Em\"[EG]2 [B,E]2 \"A7\"[CE]3D | \"D\"[A,D]8 |]\nw: God in three Per-sons, bless-ed Tri-ni-ty!\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [G,,,G,,D,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [A,,,A,,G,]4 | [D,,A,,D,]8 |]",
      "key": "D",
      "bars": 16,
      "bpm": 96
     }
-   }
+   },
+   "verses": [
+    "Holy, holy, holy! All the saints adore Thee, Casting down their\ngolden crowns around the glassy sea; Cherubim and seraphim\nfalling down before Thee, Who was, and is, and evermore shall be.",
+    "Holy, holy, holy! though the darkness hide Thee, Though the eye of\nsinful man Thy glory may not see; Only Thou art holy;\nthere is none beside Thee, Perfect in pow'r, in love, and purity.",
+    "Holy, holy, holy! Lord God Almighty! All Thy works shall\npraise Thy Name, in earth, and sky, and sea; Holy, holy, holy;\nmerciful and mighty! God in three Persons, blessed Trinity!"
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "come-thou-fount",
@@ -204,24 +244,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=85\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] GF | \"Eb\"E2 E2 GB | \"Bb\"F2 F2 \"Eb\"GB | \"Ab\"c2 \"Eb\"B2 GF |\n[V:2] z2 | [E,B,]6 | [B,,F,]4 E,2 | A,,2 [E,B,]4 |\n[V:1] E4 GF | E2 E2 GB | \"Bb\"F2 F2 \"Eb\"GB | \"Ab\"c2 \"Eb\"B2 GF |\n[V:2] [E,B,]6 | [E,B,]6 | [B,,F,]4 E,2 | A,,2 [E,B,]4 |\n[V:1] E4 Bc/d/ | e2 d2 cB | \"Ab\"cB \"Eb\"G2 Bc/d/ | e2 d2 cB |\n[V:2] [E,B,]6 | [E,B,]6 | A,,2 [E,B,]4 | [E,B,]6 |\n[V:1] e4 GF | E2 E2 GB | \"Bb\"F2 F2 \"Eb\"GB | \"Ab\"c2 \"Eb\"B2 GF |\n[V:2] [E,B,]6 | [E,B,]6 | [B,,F,]4 E,2 | A,,2 [E,B,]4 |\n[V:1] E4 |]\n[V:2] [E,B,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=85\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] GF | \"Eb\"E2 E2 GB | \"Bb\"F2 F2 \"Eb\"GB | \"Ab\"c2 \"Eb\"B2 GF |\nw: Come, Thou Fount of ev-ery bless-ing, Tune my heart to sing Thy\n[V:2] z2 | [E,B,]6 | [B,,F,]4 E,2 | A,,2 [E,B,]4 |\n[V:1] E4 GF | E2 E2 GB | \"Bb\"F2 F2 \"Eb\"GB | \"Ab\"c2 \"Eb\"B2 GF |\nw: grace; Streams of mer-cy, ne-ver ceas-ing, Call for songs of loud-est\n[V:2] [E,B,]6 | [E,B,]6 | [B,,F,]4 E,2 | A,,2 [E,B,]4 |\n[V:1] E4 Bc/d/ | e2 d2 cB | \"Ab\"cB \"Eb\"G2 Bc/d/ | e2 d2 cB |\nw: praise. Teach me * some me-lo-dious son-* net, Sung by * fla-ming tongues a-\n[V:2] [E,B,]6 | [E,B,]6 | A,,2 [E,B,]4 | [E,B,]6 |\n[V:1] e4 GF | E2 E2 GB | \"Bb\"F2 F2 \"Eb\"GB | \"Ab\"c2 \"Eb\"B2 GF |\nw: bove. Praise the mount! I'm fixed u-pon it, Mount of Thy re-deem-ing\n[V:2] [E,B,]6 | [E,B,]6 | [B,,F,]4 E,2 | A,,2 [E,B,]4 |\n[V:1] E4 |]\nw: love.\n[V:2] [E,B,]4 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 85
     },
     "inter": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=95\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] GF | \"Eb\"[B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\n[V:2] z2 | [E,,B,,G,]6 | [B,,,F,,D,]4 [E,,B,,G,]2 | [A,,E,C]2 [E,,B,,G,]4 |\n[V:1] [B,E]4 GF | [B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\n[V:2] [E,,B,,G,]6 | [E,,B,,G,]6 | [B,,,F,,D,]4 [E,,B,,G,]2 | [A,,E,C]2 [E,,B,,G,]4 |\n[V:1] [B,E]4 Bc/d/ | [Be]2 [Bd]2 cB | \"Ab\"cB \"Eb\"[EG]2 Bc/d/ | [Be]2 [Bd]2 cB |\n[V:2] [E,,B,,G,]6 | [E,,B,,G,]6 | [A,,E,C]2 [E,,B,,G,]4 | [E,,B,,G,]6 |\n[V:1] [Be]4 GF | [B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\n[V:2] [E,,B,,G,]6 | [E,,B,,G,]6 | [B,,,F,,D,]4 [E,,B,,G,]2 | [A,,E,C]2 [E,,B,,G,]4 |\n[V:1] [B,E]4 |]\n[V:2] [E,,B,,E,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=95\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] GF | \"Eb\"[B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\nw: Come, Thou Fount of ev-ery bless-ing, Tune my heart to sing Thy\n[V:2] z2 | [E,,B,,G,]6 | [B,,,F,,D,]4 [E,,B,,G,]2 | [A,,E,C]2 [E,,B,,G,]4 |\n[V:1] [B,E]4 GF | [B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\nw: grace; Streams of mer-cy, ne-ver ceas-ing, Call for songs of loud-est\n[V:2] [E,,B,,G,]6 | [E,,B,,G,]6 | [B,,,F,,D,]4 [E,,B,,G,]2 | [A,,E,C]2 [E,,B,,G,]4 |\n[V:1] [B,E]4 Bc/d/ | [Be]2 [Bd]2 cB | \"Ab\"cB \"Eb\"[EG]2 Bc/d/ | [Be]2 [Bd]2 cB |\nw: praise. Teach me * some me-lo-dious son-* net, Sung by * fla-ming tongues a-\n[V:2] [E,,B,,G,]6 | [E,,B,,G,]6 | [A,,E,C]2 [E,,B,,G,]4 | [E,,B,,G,]6 |\n[V:1] [Be]4 GF | [B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\nw: bove. Praise the mount! I'm fixed u-pon it, Mount of Thy re-deem-ing\n[V:2] [E,,B,,G,]6 | [E,,B,,G,]6 | [B,,,F,,D,]4 [E,,B,,G,]2 | [A,,E,C]2 [E,,B,,G,]4 |\n[V:1] [B,E]4 |]\nw: love.\n[V:2] [E,,B,,E,]4 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 95
     },
     "adv": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=100\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] GF | \"Eb\"[B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\n[V:2] z2 | [E,,B,,G,]6 | [B,,,F,,D,G,]4 [E,,B,,G,C]2 | [A,,,A,,E,C]2 [E,,B,,G,C]4 |\n[V:1] [B,E]4 GF | [B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\n[V:2] [E,,B,,G,]6 | [E,,B,,G,]6 | [B,,,F,,D,G,]4 [E,,B,,G,C]2 | [A,,,A,,E,C]2 [E,,B,,G,C]4 |\n[V:1] [B,E]4 Bc/d/ | [Be]2 [Bd]2 cB | \"Ab\"cB \"Eb\"[EG]2 Bc/d/ | [Be]2 [Bd]2 cB |\n[V:2] [E,,B,,G,]6 | [E,,B,,G,C]6 | [A,,,A,,E,C]2 [E,,B,,G,C]4 | [E,,B,,G,C]6 |\n[V:1] [GBe]4 GF | [B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\n[V:2] [E,,B,,G,C]6 | [E,,B,,G,]6 | [B,,,F,,D,G,]4 [E,,B,,G,C]2 | [A,,,A,,E,C]2 [E,,B,,G,C]4 |\n[V:1] [B,E]4 |]\n[V:2] [E,,B,,E,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=100\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] GF | \"Eb\"[B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\nw: Come, Thou Fount of ev-ery bless-ing, Tune my heart to sing Thy\n[V:2] z2 | [E,,B,,G,]6 | [B,,,F,,D,G,]4 [E,,B,,G,C]2 | [A,,,A,,E,C]2 [E,,B,,G,C]4 |\n[V:1] [B,E]4 GF | [B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\nw: grace; Streams of mer-cy, ne-ver ceas-ing, Call for songs of loud-est\n[V:2] [E,,B,,G,]6 | [E,,B,,G,]6 | [B,,,F,,D,G,]4 [E,,B,,G,C]2 | [A,,,A,,E,C]2 [E,,B,,G,C]4 |\n[V:1] [B,E]4 Bc/d/ | [Be]2 [Bd]2 cB | \"Ab\"cB \"Eb\"[EG]2 Bc/d/ | [Be]2 [Bd]2 cB |\nw: praise. Teach me * some me-lo-dious son-* net, Sung by * fla-ming tongues a-\n[V:2] [E,,B,,G,]6 | [E,,B,,G,C]6 | [A,,,A,,E,C]2 [E,,B,,G,C]4 | [E,,B,,G,C]6 |\n[V:1] [GBe]4 GF | [B,E]2 [B,E]2 GB | \"Bb\"[DF]2 [DF]2 \"Eb\"GB | \"Ab\"[Ac]2 \"Eb\"[GB]2 GF |\nw: bove. Praise the mount! I'm fixed u-pon it, Mount of Thy re-deem-ing\n[V:2] [E,,B,,G,C]6 | [E,,B,,G,]6 | [B,,,F,,D,G,]4 [E,,B,,G,C]2 | [A,,,A,,E,C]2 [E,,B,,G,C]4 |\n[V:1] [B,E]4 |]\nw: love.\n[V:2] [E,,B,,E,]4 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 100
     }
-   }
+   },
+   "verses": [
+    "Sorr'wing I shall be in spirit, Till released from flesh and sin,\nYet from what I do inherit, Here Thy praises I'll begin;\nHere I raise my Ebenezer; Here by Thy great help I've come;\nAnd I hope, by Thy good pleasure, Safely to arrive at home.",
+    "Jesus sought me when a stranger, Wand'ring from the fold of God;\nHe, to rescue me from danger, Interposed His precious blood;\nHow His kindness yet pursues me Mortal tongue can never tell,\nClothed in flesh, till death shall loose me I cannot proclaim it well.",
+    "O to grace how great a debtor Daily I'm constrained to be!\nLet Thy goodness, like a fetter, Bind my wand'ring heart to Thee.\nProne to wander, Lord, I feel it, Prone to leave the God I love;\nHere's my heart, O take and seal it, Seal it for Thy courts above.",
+    "O that day when freed from sinning, I shall see Thy lovely face;\nClothèd then in blood washed linen How I'll sing Thy sovereign grace;\nCome, my Lord, no longer tarry, Take my ransomed soul away;\nSend thine angels now to carry Me to realms of endless day."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "great-is-thy-faithfulness",
@@ -234,25 +281,30 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=75\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"G2 G2 G2 | \"Ab\"G3F F2 | \"Bb7\"A2 A2 A2 | A2 \"Eb\"G4 |\n[V:2] [E,B,]6 | [A,,E,]6 | [B,,F,]6 | B,,2 [E,B,]4 |\n[V:1] \"Ab\"c2 d2 c2 | \"Eb\"B3A G2 | \"F7\"F2 G2 =A2 | \"Bb\"B6 |\n[V:2] [A,,E,]6 | [E,B,]6 | [F,,C,]6 | [B,,F,]6 |\n[V:1] \"Bb7\"B2 c2 d2 | \"Eb\"e3d \"Ab\"c2 | \"Bb7\"B2 A2 \"Eb\"G2 | G2 \"Bb\"F4 |\n[V:2] [B,,F,]6 | [E,B,]4 A,,2 | [B,,F,]4 E,2 | E,2 [B,,F,]4 |\n[V:1] \"Ab\"c2 d2 \"Adim\"e2 | \"Eb\"e3B B2 | G2 G2 \"Bb7\"F2 | \"Eb\"E6 |]\n[V:2] [A,,E,]4 =A,,2 | [E,B,]6 | [E,B,]4 B,,2 | [E,B,]6 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=75\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"G2 G2 G2 | \"Ab\"G3F F2 | \"Bb7\"A2 A2 A2 | A2 \"Eb\"G4 |\nw: Great is Thy faith-ful-ness, O God my Fa-ther;\n[V:2] [E,B,]6 | [A,,E,]6 | [B,,F,]6 | B,,2 [E,B,]4 |\n[V:1] \"Ab\"c2 d2 c2 | \"Eb\"B3A G2 | \"F7\"F2 G2 =A2 | \"Bb\"B6 |\nw: There is no sha-dow of turn-ing with Thee;\n[V:2] [A,,E,]6 | [E,B,]6 | [F,,C,]6 | [B,,F,]6 |\n[V:1] \"Bb7\"B2 c2 d2 | \"Eb\"e3d \"Ab\"c2 | \"Bb7\"B2 A2 \"Eb\"G2 | G2 \"Bb\"F4 |\nw: Thou chan-gest not, Thy com-pas-sions, they fail not;\n[V:2] [B,,F,]6 | [E,B,]4 A,,2 | [B,,F,]4 E,2 | E,2 [B,,F,]4 |\n[V:1] \"Ab\"c2 d2 \"Adim\"e2 | \"Eb\"e3B B2 | G2 G2 \"Bb7\"F2 | \"Eb\"E6 |]\nw: As Thou hast been, Thou for-ev-er will be.\n[V:2] [A,,E,]4 =A,,2 | [E,B,]6 | [E,B,]4 B,,2 | [E,B,]6 |]",
      "key": "Eb",
      "bars": 16,
      "bpm": 75,
      "note": "Verse only"
     },
     "inter": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EG]2 [EG]2 [EG]2 | \"Ab\"[EG]3F [CF]2 | \"Bb7\"[FA]2 [FA]2 [FA]2 | [FA]2 \"Eb\"[EG]4 |\n[V:2] [E,,B,,G,]6 | [A,,E,]6 | [B,,,A,,D,]6 | [B,,,A,,D,]2 [E,,B,,G,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 [Ac]2 | \"Eb\"[GB]3A [EG]2 | \"F7\"[CF]2 [EG]2 [F=A]2 | \"Bb\"[FB]6 |\n[V:2] [A,,E,C]6 | [E,,B,,G,]6 | [F,,E,=A,]6 | [B,,,F,,D,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]3d \"Ab\"[Ac]2 | \"Bb7\"[FB]2 [FA]2 \"Eb\"[EG]2 | [EG]2 \"Bb\"[DF]4 |\n[V:2] [B,,,A,,D,]6 | [E,,B,,G,]4 [A,,E,C]2 | [B,,,A,,D,]4 [E,,B,,G,]2 | [E,,B,,G,]2 [B,,,F,,D,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 \"Adim\"[ce]2 | \"Eb\"[Be]3B [GB]2 | [EG]2 [EG]2 \"Bb7\"[DF]2 | \"Eb\"[B,E]6 |\n[V:2] [A,,E,C]4 [=A,,C,E,=A,]2 | [E,,B,,G,]6 | [E,,B,,G,]4 [B,,,A,,D,]2 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[FB]2 [FB]2 [DF]2 | \"Eb\"A3/2G/ [EG]4 | \"C7\"[Gc]2 [Gc]2 [=EG]2 | \"Fm\"B3/2A/ [FA]4 |\n[V:2] [B,,,F,,D,]6 | [E,,B,,G,]6 | [C,,B,,=E,]6 | [F,,C,A,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]2 [GB]2 \"Ab\"[Ac]2 | \"Bb\"[Bd]2 [Be]2 \"F7\"[=Ac]2 | \"Bb\"[FB]6 |\n[V:2] [B,,,A,,D,]6 | [E,,B,,G,]4 [A,,E,C]2 | [B,,,F,,D,]4 [F,,E,=A,]2 | [B,,,F,,D,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]3d \"Ab\"[Ac]2 | \"Bb7\"[FB]2 [FA]2 \"Eb\"[EG]2 | [EG]2 \"Bb\"[DF]2 z2 |\n[V:2] [B,,,A,,D,]6 | [E,,B,,G,]4 [A,,E,C]2 | [B,,,A,,D,]4 [E,,B,,G,]2 | [E,,B,,G,]2 [B,,,F,,D,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 \"Adim\"[ce]2 | \"Eb\"[Be]3B [GB]2 | [EG]2 \"Fm\"[FA]2 \"Bb7\"[B,D]2 | \"Eb\"[B,E]6 |]\n[V:2] [A,,E,C]4 [=A,,C,E,=A,]2 | [E,,B,,G,]6 | [E,,B,,G,]2 [F,,C,A,]2 [B,,,A,,D,]2 | [E,,B,,E,]6 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EG]2 [EG]2 [EG]2 | \"Ab\"[EG]3F [CF]2 | \"Bb7\"[FA]2 [FA]2 [FA]2 | [FA]2 \"Eb\"[EG]4 |\nw: Great is Thy faith-ful-ness, O God my Fa-ther;\n[V:2] [E,,B,,G,]6 | [A,,E,]6 | [B,,,A,,D,]6 | [B,,,A,,D,]2 [E,,B,,G,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 [Ac]2 | \"Eb\"[GB]3A [EG]2 | \"F7\"[CF]2 [EG]2 [F=A]2 | \"Bb\"[FB]6 |\nw: There is no sha-dow of turn-ing with Thee;\n[V:2] [A,,E,C]6 | [E,,B,,G,]6 | [F,,E,=A,]6 | [B,,,F,,D,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]3d \"Ab\"[Ac]2 | \"Bb7\"[FB]2 [FA]2 \"Eb\"[EG]2 | [EG]2 \"Bb\"[DF]4 |\nw: Thou chan-gest not, Thy com-pas-sions, they fail not;\n[V:2] [B,,,A,,D,]6 | [E,,B,,G,]4 [A,,E,C]2 | [B,,,A,,D,]4 [E,,B,,G,]2 | [E,,B,,G,]2 [B,,,F,,D,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 \"Adim\"[ce]2 | \"Eb\"[Be]3B [GB]2 | [EG]2 [EG]2 \"Bb7\"[DF]2 | \"Eb\"[B,E]6 |\nw: As Thou hast been, Thou for-ev-er will be.\n[V:2] [A,,E,C]4 [=A,,C,E,=A,]2 | [E,,B,,G,]6 | [E,,B,,G,]4 [B,,,A,,D,]2 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[FB]2 [FB]2 [DF]2 | \"Eb\"A3/2G/ [EG]4 | \"C7\"[Gc]2 [Gc]2 [=EG]2 | \"Fm\"B3/2A/ [FA]4 |\nw: Great is Thy faith-ful-ness! Great is Thy faith-ful-ness!\n[V:2] [B,,,F,,D,]6 | [E,,B,,G,]6 | [C,,B,,=E,]6 | [F,,C,A,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]2 [GB]2 \"Ab\"[Ac]2 | \"Bb\"[Bd]2 [Be]2 \"F7\"[=Ac]2 | \"Bb\"[FB]6 |\nw: Mor-ning by mor-ning new mer-cies I see.\n[V:2] [B,,,A,,D,]6 | [E,,B,,G,]4 [A,,E,C]2 | [B,,,F,,D,]4 [F,,E,=A,]2 | [B,,,F,,D,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]3d \"Ab\"[Ac]2 | \"Bb7\"[FB]2 [FA]2 \"Eb\"[EG]2 | [EG]2 \"Bb\"[DF]2 z2 |\nw: All I have nee-ded Thy hand hath pro-vi-ded;\n[V:2] [B,,,A,,D,]6 | [E,,B,,G,]4 [A,,E,C]2 | [B,,,A,,D,]4 [E,,B,,G,]2 | [E,,B,,G,]2 [B,,,F,,D,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 \"Adim\"[ce]2 | \"Eb\"[Be]3B [GB]2 | [EG]2 \"Fm\"[FA]2 \"Bb7\"[B,D]2 | \"Eb\"[B,E]6 |]\nw: Great is Thy faith-ful-ness, Lord, un-to me!\n[V:2] [A,,E,C]4 [=A,,C,E,=A,]2 | [E,,B,,G,]6 | [E,,B,,G,]2 [F,,C,A,]2 [B,,,A,,D,]2 | [E,,B,,E,]6 |]",
      "key": "Eb",
      "bars": 32,
      "bpm": 84
     },
     "adv": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=88\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EG]2 [EG]2 [EG]2 | \"Ab\"[EG]3F [CF]2 | \"Bb7\"[FA]2 [FA]2 [FA]2 | [FA]2 \"Eb\"[B,EG]4 |\n[V:2] [E,,B,,G,C]6 | [A,,,A,,E,]6 | [B,,,A,,D,F,]6 | [B,,,A,,D,F,]2 [E,,B,,G,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 [Ac]2 | \"Eb\"[GB]3A [EG]2 | \"F7\"[CF]2 [EG]2 [F=A]2 | \"Bb\"[DFB]6 |\n[V:2] [A,,,A,,E,C]6 | [E,,B,,G,C]6 | [F,,,F,,E,=A,]6 | [B,,,F,,D,G,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]3d \"Ab\"[Ac]2 | \"Bb7\"[FB]2 [FA]2 \"Eb\"[EG]2 | [EG]2 \"Bb\"[B,DF]4 |\n[V:2] [B,,,A,,D,F,]6 | [E,,B,,G,C]4 [A,,,A,,E,C]2 | [B,,,A,,D,F,]4 [E,,B,,G,C]2 | [E,,B,,G,]2 [B,,,F,,D,G,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 \"Adim\"[ce]2 | \"Eb\"[Be]3B [GB]2 | [EG]2 [EG]2 \"Bb7\"[DF]2 | \"Eb\"[B,E]6 |\n[V:2] [A,,,A,,E,C]4 [=A,,,=A,,C,E,=A,]2 | [E,,B,,G,C]6 | [E,,B,,G,C]4 [B,,,A,,D,F,]2 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[FB]2 [FB]2 [DF]2 | \"Eb\"A3/2G/ [B,EG]4 | \"C7\"[Gc]2 [Gc]2 [=EG]2 | \"Fm\"B3/2A/ [CFA]4 |\n[V:2] [B,,,F,,D,G,]6 | [E,,B,,G,]6 | [C,,B,,=E,G,]6 | [F,,,F,,C,E,A,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]2 [GB]2 \"Ab\"[Ac]2 | \"Bb\"[Bd]2 [Be]2 \"F7\"[=Ac]2 | \"Bb\"[DFB]6 |\n[V:2] [B,,,A,,D,F,]6 | [E,,B,,G,C]4 [A,,,A,,E,C]2 | [B,,,F,,D,G,]4 [F,,,F,,E,=A,C]2 | [B,,,F,,D,G,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]3d \"Ab\"[Ac]2 | \"Bb7\"[FB]2 [FA]2 \"Eb\"[EG]2 | [EG]2 \"Bb\"[DF]2 z2 |\n[V:2] [B,,,A,,D,F,]6 | [E,,B,,G,C]4 [A,,,A,,E,C]2 | [B,,,A,,D,F,]4 [E,,B,,G,C]2 | [E,,B,,G,C]2 [B,,,F,,D,G,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 \"Adim\"[ce]2 | \"Eb\"[Be]3B [GB]2 | [EG]2 \"Fm\"[FA]2 \"Bb7\"[B,D]2 | \"Eb\"[B,E]6 |]\n[V:2] [A,,,A,,E,C]4 [=A,,,=A,,C,E,=A,]2 | [E,,B,,G,C]6 | [E,,B,,G,]2 [F,,,F,,C,E,A,]2 [B,,,A,,D,F,]2 | [E,,B,,E,]6 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=88\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EG]2 [EG]2 [EG]2 | \"Ab\"[EG]3F [CF]2 | \"Bb7\"[FA]2 [FA]2 [FA]2 | [FA]2 \"Eb\"[B,EG]4 |\nw: Great is Thy faith-ful-ness, O God my Fa-ther;\n[V:2] [E,,B,,G,C]6 | [A,,,A,,E,]6 | [B,,,A,,D,F,]6 | [B,,,A,,D,F,]2 [E,,B,,G,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 [Ac]2 | \"Eb\"[GB]3A [EG]2 | \"F7\"[CF]2 [EG]2 [F=A]2 | \"Bb\"[DFB]6 |\nw: There is no sha-dow of turn-ing with Thee;\n[V:2] [A,,,A,,E,C]6 | [E,,B,,G,C]6 | [F,,,F,,E,=A,]6 | [B,,,F,,D,G,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]3d \"Ab\"[Ac]2 | \"Bb7\"[FB]2 [FA]2 \"Eb\"[EG]2 | [EG]2 \"Bb\"[B,DF]4 |\nw: Thou chan-gest not, Thy com-pas-sions, they fail not;\n[V:2] [B,,,A,,D,F,]6 | [E,,B,,G,C]4 [A,,,A,,E,C]2 | [B,,,A,,D,F,]4 [E,,B,,G,C]2 | [E,,B,,G,]2 [B,,,F,,D,G,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 \"Adim\"[ce]2 | \"Eb\"[Be]3B [GB]2 | [EG]2 [EG]2 \"Bb7\"[DF]2 | \"Eb\"[B,E]6 |\nw: As Thou hast been, Thou for-ev-er will be.\n[V:2] [A,,,A,,E,C]4 [=A,,,=A,,C,E,=A,]2 | [E,,B,,G,C]6 | [E,,B,,G,C]4 [B,,,A,,D,F,]2 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[FB]2 [FB]2 [DF]2 | \"Eb\"A3/2G/ [B,EG]4 | \"C7\"[Gc]2 [Gc]2 [=EG]2 | \"Fm\"B3/2A/ [CFA]4 |\nw: Great is Thy faith-ful-ness! Great is Thy faith-ful-ness!\n[V:2] [B,,,F,,D,G,]6 | [E,,B,,G,]6 | [C,,B,,=E,G,]6 | [F,,,F,,C,E,A,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]2 [GB]2 \"Ab\"[Ac]2 | \"Bb\"[Bd]2 [Be]2 \"F7\"[=Ac]2 | \"Bb\"[DFB]6 |\nw: Mor-ning by mor-ning new mer-cies I see.\n[V:2] [B,,,A,,D,F,]6 | [E,,B,,G,C]4 [A,,,A,,E,C]2 | [B,,,F,,D,G,]4 [F,,,F,,E,=A,C]2 | [B,,,F,,D,G,]6 |\n[V:1] \"Bb7\"[FB]2 [Ac]2 [Bd]2 | \"Eb\"[Be]3d \"Ab\"[Ac]2 | \"Bb7\"[FB]2 [FA]2 \"Eb\"[EG]2 | [EG]2 \"Bb\"[DF]2 z2 |\nw: All I have nee-ded Thy hand hath pro-vi-ded;\n[V:2] [B,,,A,,D,F,]6 | [E,,B,,G,C]4 [A,,,A,,E,C]2 | [B,,,A,,D,F,]4 [E,,B,,G,C]2 | [E,,B,,G,C]2 [B,,,F,,D,G,]4 |\n[V:1] \"Ab\"[Ac]2 [Ad]2 \"Adim\"[ce]2 | \"Eb\"[Be]3B [GB]2 | [EG]2 \"Fm\"[FA]2 \"Bb7\"[B,D]2 | \"Eb\"[B,E]6 |]\nw: Great is Thy faith-ful-ness, Lord, un-to me!\n[V:2] [A,,,A,,E,C]4 [=A,,,=A,,C,E,=A,]2 | [E,,B,,G,C]6 | [E,,B,,G,]2 [F,,,F,,C,E,A,]2 [B,,,A,,D,F,]2 | [E,,B,,E,]6 |]",
      "key": "Eb",
      "bars": 32,
      "bpm": 88
     }
-   }
+   },
+   "verses": [
+    "Summer and winter and springtime and harvest, Sun, moon and\nstars in their courses above Join with all nature in\nmanifold witness To Thy great faithfulness, mercy and love.",
+    "Pardon for sin and a peace that endureth Thine own dear\npresence to cheer and to guide; Strength for today and bright\nhope for tomorrow, Blessings all mine, with ten thousand beside!"
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "blessed-assurance",
@@ -265,25 +317,30 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:9/8\nL:1/8\nQ:3/8=48\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] FED | \"D\"A3 A3 \"G\"GAB | \"D\"A6 AFA | d3 \"A\"c2c \"E7\"BA^G |\n[V:2] z3 | [D,A,]6 G,,3 | [D,A,]8-[D,A,] | D,3 A,,3 E,3 |\n[V:1] \"A\"A6 FED | \"D\"A3 A3 \"G\"GAB | \"D\"A6 DEF | \"Em\"G3 \"A7\"E3 DEC |\n[V:2] [A,,E,]8-[A,,E,] | [D,A,]6 G,,3 | [D,A,]8-[D,A,] | E,3 [A,,E,]6 |\n[V:1] \"D\"D6 |]\n[V:2] [D,A,]6 |]",
+     "abc": "X:1\nM:9/8\nL:1/8\nQ:3/8=48\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] FED | \"D\"A3 A3 \"G\"GAB | \"D\"A6 AFA | d3 \"A\"c2c \"E7\"BA^G |\nw: Bless-èd a-ssu-rance, Je-sus is mine! O what a fore-taste of glo-ry di-\n[V:2] z3 | [D,A,]6 G,,3 | [D,A,]8-[D,A,] | D,3 A,,3 E,3 |\n[V:1] \"A\"A6 FED | \"D\"A3 A3 \"G\"GAB | \"D\"A6 DEF | \"Em\"G3 \"A7\"E3 DEC |\nw: vine! Heir of sal-va-tion, pur-chase of God, Born of His Spi-rit, washed in His\n[V:2] [A,,E,]8-[A,,E,] | [D,A,]6 G,,3 | [D,A,]8-[D,A,] | E,3 [A,,E,]6 |\n[V:1] \"D\"D6 |]\nw: blood.\n[V:2] [D,A,]6 |]",
      "key": "D",
      "bars": 8,
      "bpm": 48,
      "note": "Verse only"
     },
     "inter": {
-     "abc": "X:1\nM:9/8\nL:1/8\nQ:3/8=53\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] FED | \"D\"[FA]3 [FA]3 \"G\"GAB | \"D\"[FA]6 AFA | [Ad]3 \"A\"[Ac]2c \"E7\"BA^G |\n[V:2] z3 | [D,,A,,F,]6 [G,,D,B,]3 | [D,,A,,F,]8-[D,,A,,F,] | [D,,A,,F,]3 [A,,E,C]3 [E,,D,^G,]3 |\n[V:1] \"A\"[EA]6 FED | \"D\"[FA]3 [FA]3 \"G\"GAB | \"D\"[FA]6 DEF | \"Em\"[EG]3 \"A7\"[CE]3 DEC |\n[V:2] [A,,E,C]8-[A,,E,C] | [D,,A,,F,]6 [G,,D,B,]3 | [D,,A,,F,]8-[D,,A,,F,] | [E,,B,,G,]3 [A,,G,]6 |\n[V:1] \"D\"[A,D]6 AAA | [Ad]3 [FA]3 \"G\"BBB | \"D\"[FA]6 AAA | \"G\"[GB]3 [Bd]3 \"A\"ccB |\n[V:2] [D,,A,,F,]8-[D,,A,,F,] | [D,,A,,F,]6 [G,,D,B,]3 | [D,,A,,F,]8-[D,,A,,F,] | [G,,D,B,]6 [A,,E,C]3 |\n[V:1] [Ac]6 cde | \"D\"[Ad]3 [FA]3 \"G\"BAB | \"D\"[FA]6 DEF | \"Em\"[EG]3 \"A7\"[CE]3 D3/2E/C |\n[V:2] [A,,E,C]8-[A,,E,C] | [D,,A,,F,]6 [G,,D,B,]3 | [D,,A,,F,]8-[D,,A,,F,] | [E,,B,,G,]3 [A,,G,]6 |\n[V:1] \"D\"[A,D]6 |]\n[V:2] [D,,A,,D,]6 |]",
+     "abc": "X:1\nM:9/8\nL:1/8\nQ:3/8=53\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] FED | \"D\"[FA]3 [FA]3 \"G\"GAB | \"D\"[FA]6 AFA | [Ad]3 \"A\"[Ac]2c \"E7\"BA^G |\nw: Bless-èd a-ssu-rance, Je-sus is mine! O what a fore-taste of glo-ry di-\n[V:2] z3 | [D,,A,,F,]6 [G,,D,B,]3 | [D,,A,,F,]8-[D,,A,,F,] | [D,,A,,F,]3 [A,,E,C]3 [E,,D,^G,]3 |\n[V:1] \"A\"[EA]6 FED | \"D\"[FA]3 [FA]3 \"G\"GAB | \"D\"[FA]6 DEF | \"Em\"[EG]3 \"A7\"[CE]3 DEC |\nw: vine! Heir of sal-va-tion, pur-chase of God, Born of His Spi-rit, washed in His\n[V:2] [A,,E,C]8-[A,,E,C] | [D,,A,,F,]6 [G,,D,B,]3 | [D,,A,,F,]8-[D,,A,,F,] | [E,,B,,G,]3 [A,,G,]6 |\n[V:1] \"D\"[A,D]6 AAA | [Ad]3 [FA]3 \"G\"BBB | \"D\"[FA]6 AAA | \"G\"[GB]3 [Bd]3 \"A\"ccB |\nw: blood. This is my stor-y, this is my song, Prais-ing my Sa-vior, all the day\n[V:2] [D,,A,,F,]8-[D,,A,,F,] | [D,,A,,F,]6 [G,,D,B,]3 | [D,,A,,F,]8-[D,,A,,F,] | [G,,D,B,]6 [A,,E,C]3 |\n[V:1] [Ac]6 cde | \"D\"[Ad]3 [FA]3 \"G\"BAB | \"D\"[FA]6 DEF | \"Em\"[EG]3 \"A7\"[CE]3 D3/2E/C |\nw: long; This is my stor-y, this is my song, Prais-ing my Sa-vior, all the day\n[V:2] [A,,E,C]8-[A,,E,C] | [D,,A,,F,]6 [G,,D,B,]3 | [D,,A,,F,]8-[D,,A,,F,] | [E,,B,,G,]3 [A,,G,]6 |\n[V:1] \"D\"[A,D]6 |]\nw: long.\n[V:2] [D,,A,,D,]6 |]",
      "key": "D",
      "bars": 16,
      "bpm": 53
     },
     "adv": {
-     "abc": "X:1\nM:9/8\nL:1/8\nQ:3/8=56\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] FED | \"D\"[FA]3 [FA]3 \"G\"GAB | \"D\"[DFA]6 AFA | [Ad]3 \"A\"[Ac]2c \"E7\"BA^G |\n[V:2] z3 | [D,,A,,F,B,]6 [G,,,G,,D,B,E]3 | [D,,A,,F,B,]8-[D,,A,,F,B,] | [D,,A,,F,B,]3 [A,,,A,,E,C]3 [E,,,E,,D,^G,B,]3 |\n[V:1] \"A\"[CEA]6 FED | \"D\"[FA]3 [FA]3 \"G\"GAB | \"D\"[DFA]6 DEF | \"Em\"[EG]3 \"A7\"[CE]3 DEC |\n[V:2] [A,,,A,,E,]8-[A,,,A,,E,] | [D,,A,,F,B,]6 [G,,,G,,D,B,E]3 | [D,,A,,F,B,]8-[D,,A,,F,B,] | [E,,,E,,B,,D,G,]3 [A,,,A,,G,]6 |\n[V:1] \"D\"[A,D]6 AAA | [Ad]3 [FA]3 \"G\"BBB | \"D\"[DFA]6 AAA | \"G\"[GB]3 [Bd]3 \"A\"ccB |\n[V:2] [D,,A,,F,]8-[D,,A,,F,] | [D,,A,,F,B,]6 [G,,,G,,D,B,E]3 | [D,,A,,F,B,]8-[D,,A,,F,B,] | [G,,,G,,D,B,E]6 [A,,,A,,E,C]3 |\n[V:1] [EAc]6 cde | \"D\"[Ad]3 [FA]3 \"G\"BAB | \"D\"[DFA]6 DEF | \"Em\"[EG]3 \"A7\"[CE]3 D3/2E/C |\n[V:2] [A,,,A,,E,C]8-[A,,,A,,E,C] | [D,,A,,F,B,]6 [G,,,G,,D,B,E]3 | [D,,A,,F,B,]8-[D,,A,,F,B,] | [E,,,E,,B,,D,G,]3 [A,,,A,,G,]6 |\n[V:1] \"D\"[A,D]6 |]\n[V:2] [D,,A,,D,]6 |]",
+     "abc": "X:1\nM:9/8\nL:1/8\nQ:3/8=56\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] FED | \"D\"[FA]3 [FA]3 \"G\"GAB | \"D\"[DFA]6 AFA | [Ad]3 \"A\"[Ac]2c \"E7\"BA^G |\nw: Bless-èd a-ssu-rance, Je-sus is mine! O what a fore-taste of glo-ry di-\n[V:2] z3 | [D,,A,,F,B,]6 [G,,,G,,D,B,E]3 | [D,,A,,F,B,]8-[D,,A,,F,B,] | [D,,A,,F,B,]3 [A,,,A,,E,C]3 [E,,,E,,D,^G,B,]3 |\n[V:1] \"A\"[CEA]6 FED | \"D\"[FA]3 [FA]3 \"G\"GAB | \"D\"[DFA]6 DEF | \"Em\"[EG]3 \"A7\"[CE]3 DEC |\nw: vine! Heir of sal-va-tion, pur-chase of God, Born of His Spi-rit, washed in His\n[V:2] [A,,,A,,E,]8-[A,,,A,,E,] | [D,,A,,F,B,]6 [G,,,G,,D,B,E]3 | [D,,A,,F,B,]8-[D,,A,,F,B,] | [E,,,E,,B,,D,G,]3 [A,,,A,,G,]6 |\n[V:1] \"D\"[A,D]6 AAA | [Ad]3 [FA]3 \"G\"BBB | \"D\"[DFA]6 AAA | \"G\"[GB]3 [Bd]3 \"A\"ccB |\nw: blood. This is my stor-y, this is my song, Prais-ing my Sa-vior, all the day\n[V:2] [D,,A,,F,]8-[D,,A,,F,] | [D,,A,,F,B,]6 [G,,,G,,D,B,E]3 | [D,,A,,F,B,]8-[D,,A,,F,B,] | [G,,,G,,D,B,E]6 [A,,,A,,E,C]3 |\n[V:1] [EAc]6 cde | \"D\"[Ad]3 [FA]3 \"G\"BAB | \"D\"[DFA]6 DEF | \"Em\"[EG]3 \"A7\"[CE]3 D3/2E/C |\nw: long; This is my stor-y, this is my song, Prais-ing my Sa-vior, all the day\n[V:2] [A,,,A,,E,C]8-[A,,,A,,E,C] | [D,,A,,F,B,]6 [G,,,G,,D,B,E]3 | [D,,A,,F,B,]8-[D,,A,,F,B,] | [E,,,E,,B,,D,G,]3 [A,,,A,,G,]6 |\n[V:1] \"D\"[A,D]6 |]\nw: long.\n[V:2] [D,,A,,D,]6 |]",
      "key": "D",
      "bars": 16,
      "bpm": 56
     }
-   }
+   },
+   "verses": [
+    "Perfect submission, perfect delight, Visions of rapture now burst on my sight;\nAngels descending bring from above Echoes of mercy, whispers of love.",
+    "Perfect submission, all is at rest I in my Savior am happy and blest,\nWatching and waiting, looking above, Filled with His goodness, lost in His love."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "rock-of-ages",
@@ -296,24 +353,30 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] F3/2G/ | \"Bb\"F2 D2 \"Eb\"B3/2G/ | \"Bb\"F4 B3/2c/ | d3c \"F7\"BA |\n[V:2] z2 | [B,,F,]4 E,2 | [B,,F,]6 | [B,,F,]4 F,,2 |\n[V:1] \"Bb\"B4 A3/2B/ | \"F7\"c3c AF | \"Bb\"B4 A3/2B/ | \"F7\"c3c AF |\n[V:2] [B,,F,]6 | [F,,C,]6 | [B,,F,]6 | [F,,C,]6 |\n[V:1] \"Bb\"B4 F3/2G/ | F2 D2 \"Eb\"B3/2G/ | \"Bb\"F4 B3/2c/ | d3c \"F7\"BA |\n[V:2] [B,,F,]6 | [B,,F,]4 E,2 | [B,,F,]6 | [B,,F,]4 F,,2 |\n[V:1] \"Bb\"B4 |]\n[V:2] [B,,F,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] F3/2G/ | \"Bb\"F2 D2 \"Eb\"B3/2G/ | \"Bb\"F4 B3/2c/ | d3c \"F7\"BA |\nw: Rock of A-ges, cleft for me, Let me hide my-self in\n[V:2] z2 | [B,,F,]4 E,2 | [B,,F,]6 | [B,,F,]4 F,,2 |\n[V:1] \"Bb\"B4 A3/2B/ | \"F7\"c3c AF | \"Bb\"B4 A3/2B/ | \"F7\"c3c AF |\nw: Thee; Let the wa-ter and the blood, From Thy wound-ed side which\n[V:2] [B,,F,]6 | [F,,C,]6 | [B,,F,]6 | [F,,C,]6 |\n[V:1] \"Bb\"B4 F3/2G/ | F2 D2 \"Eb\"B3/2G/ | \"Bb\"F4 B3/2c/ | d3c \"F7\"BA |\nw: flowed, Be of sin the doub-le cure; Save from wrath and make me\n[V:2] [B,,F,]6 | [B,,F,]4 E,2 | [B,,F,]6 | [B,,F,]4 F,,2 |\n[V:1] \"Bb\"B4 |]\nw: pure.\n[V:2] [B,,F,]4 |]",
      "key": "Bb",
      "bars": 12,
      "bpm": 68
     },
     "inter": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] F3/2G/ | \"Bb\"[DF]2 [B,D]2 \"Eb\"B3/2G/ | \"Bb\"[DF]4 B3/2c/ | [Bd]3c \"F7\"BA |\n[V:2] z2 | [B,,,F,,D,]4 [E,,B,,G,]2 | [B,,,F,,D,]6 | [B,,,F,,D,]4 [F,,E,A,]2 |\n[V:1] \"Bb\"[FB]4 A3/2B/ | \"F7\"[Ac]3c AF | \"Bb\"[FB]4 A3/2B/ | \"F7\"[Ac]3c AF |\n[V:2] [B,,,F,,D,]6 | [F,,E,A,]6 | [B,,,F,,D,]6 | [F,,E,A,]6 |\n[V:1] \"Bb\"[FB]4 F3/2G/ | [DF]2 [B,D]2 \"Eb\"B3/2G/ | \"Bb\"[DF]4 B3/2c/ | [Bd]3c \"F7\"BA |\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]4 [E,,B,,G,]2 | [B,,,F,,D,]6 | [B,,,F,,D,]4 [F,,E,A,]2 |\n[V:1] \"Bb\"[FB]4 |]\n[V:2] [B,,F,B,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] F3/2G/ | \"Bb\"[DF]2 [B,D]2 \"Eb\"B3/2G/ | \"Bb\"[DF]4 B3/2c/ | [Bd]3c \"F7\"BA |\nw: Rock of A-ges, cleft for me, Let me hide my-self in\n[V:2] z2 | [B,,,F,,D,]4 [E,,B,,G,]2 | [B,,,F,,D,]6 | [B,,,F,,D,]4 [F,,E,A,]2 |\n[V:1] \"Bb\"[FB]4 A3/2B/ | \"F7\"[Ac]3c AF | \"Bb\"[FB]4 A3/2B/ | \"F7\"[Ac]3c AF |\nw: Thee; Let the wa-ter and the blood, From Thy wound-ed side which\n[V:2] [B,,,F,,D,]6 | [F,,E,A,]6 | [B,,,F,,D,]6 | [F,,E,A,]6 |\n[V:1] \"Bb\"[FB]4 F3/2G/ | [DF]2 [B,D]2 \"Eb\"B3/2G/ | \"Bb\"[DF]4 B3/2c/ | [Bd]3c \"F7\"BA |\nw: flowed, Be of sin the doub-le cure; Save from wrath and make me\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]4 [E,,B,,G,]2 | [B,,,F,,D,]6 | [B,,,F,,D,]4 [F,,E,A,]2 |\n[V:1] \"Bb\"[FB]4 |]\nw: pure.\n[V:2] [B,,F,B,]4 |]",
      "key": "Bb",
      "bars": 12,
      "bpm": 76
     },
     "adv": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] F3/2G/ | \"Bb\"[DF]2 [B,D]2 \"Eb\"B3/2G/ | \"Bb\"[B,DF]4 B3/2c/ | [Bd]3c \"F7\"BA |\n[V:2] z2 | [B,,,F,,D,G,]4 [E,,B,,G,]2 | [B,,,F,,D,G,]6 | [B,,,F,,D,G,]4 [F,,,F,,E,A,C]2 |\n[V:1] \"Bb\"[DFB]4 A3/2B/ | \"F7\"[Ac]3c AF | \"Bb\"[DFB]4 A3/2B/ | \"F7\"[Ac]3c AF |\n[V:2] [B,,,F,,D,G,]6 | [F,,,F,,E,A,C]6 | [B,,,F,,D,G,]6 | [F,,,F,,E,A,C]6 |\n[V:1] \"Bb\"[DFB]4 F3/2G/ | [DF]2 [B,D]2 \"Eb\"B3/2G/ | \"Bb\"[B,DF]4 B3/2c/ | [Bd]3c \"F7\"BA |\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]4 [E,,B,,G,]2 | [B,,,F,,D,G,]6 | [B,,,F,,D,G,]4 [F,,,F,,E,A,C]2 |\n[V:1] \"Bb\"[DFB]4 |]\n[V:2] [B,,F,B,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] F3/2G/ | \"Bb\"[DF]2 [B,D]2 \"Eb\"B3/2G/ | \"Bb\"[B,DF]4 B3/2c/ | [Bd]3c \"F7\"BA |\nw: Rock of A-ges, cleft for me, Let me hide my-self in\n[V:2] z2 | [B,,,F,,D,G,]4 [E,,B,,G,]2 | [B,,,F,,D,G,]6 | [B,,,F,,D,G,]4 [F,,,F,,E,A,C]2 |\n[V:1] \"Bb\"[DFB]4 A3/2B/ | \"F7\"[Ac]3c AF | \"Bb\"[DFB]4 A3/2B/ | \"F7\"[Ac]3c AF |\nw: Thee; Let the wa-ter and the blood, From Thy wound-ed side which\n[V:2] [B,,,F,,D,G,]6 | [F,,,F,,E,A,C]6 | [B,,,F,,D,G,]6 | [F,,,F,,E,A,C]6 |\n[V:1] \"Bb\"[DFB]4 F3/2G/ | [DF]2 [B,D]2 \"Eb\"B3/2G/ | \"Bb\"[B,DF]4 B3/2c/ | [Bd]3c \"F7\"BA |\nw: flowed, Be of sin the doub-le cure; Save from wrath and make me\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]4 [E,,B,,G,]2 | [B,,,F,,D,G,]6 | [B,,,F,,D,G,]4 [F,,,F,,E,A,C]2 |\n[V:1] \"Bb\"[DFB]4 |]\nw: pure.\n[V:2] [B,,F,B,]4 |]",
      "key": "Bb",
      "bars": 12,
      "bpm": 80
     }
-   }
+   },
+   "verses": [
+    "Not the labor of my hands Can fulfill Thy law's demands;\nCould my zeal no respite know, Could my tears forever flow,\nAll for sin could not atone; Thou must save, and Thou alone.",
+    "Nothing in my hand I bring, Simply to the cross I cling;\nNaked, come to Thee for dress; Helpless look to Thee for grace;\nFoul, I to the fountain fly; Wash me, Savior, or I die.",
+    "While I draw this fleeting breath, When mine eyes shall close in death,\nWhen I soar to worlds unknown, See Thee on Thy judgment throne,\nRock of Ages, cleft for me, Let me hide myself in Thee."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "nearer-my-god",
@@ -326,24 +389,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=44\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"B3 \"D7\"A2G | \"C\"G2E E3 | \"G\"D3 G2B | \"D\"A3- A2z |\n[V:2] G,,3 D,3 | [C,G,]6 | [G,,D,]6 | [D,A,]6 |\n[V:1] \"G\"B3 \"D7\"A2G | \"C\"G2E E3 | \"G\"D2G \"D7\"F2A | \"G\"G3- G2z |\n[V:2] G,,3 D,3 | [C,G,]6 | G,,3 D,3 | [G,,D,]6 |\n[V:1] d3 e2d | d2B d3 | d3 e2d | d2B \"D\"A3 |\n[V:2] [G,,D,]6 | [G,,D,]6 | [G,,D,]6 | G,,3 D,3 |\n[V:1] \"G\"B3 \"D7\"A2G | \"C\"G2E E3 | \"G\"D2G \"D7\"F2A | \"G\"G3- G2z |]\n[V:2] G,,3 D,3 | [C,G,]6 | G,,3 D,3 | [G,,D,]6 |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=44\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"B3 \"D7\"A2G | \"C\"G2E E3 | \"G\"D3 G2B | \"D\"A3- A2z |\nw: Near-er, my God, to Thee, near-er to Thee! *\n[V:2] G,,3 D,3 | [C,G,]6 | [G,,D,]6 | [D,A,]6 |\n[V:1] \"G\"B3 \"D7\"A2G | \"C\"G2E E3 | \"G\"D2G \"D7\"F2A | \"G\"G3- G2z |\nw: E'en though it be a cross that * rais-eth me, *\n[V:2] G,,3 D,3 | [C,G,]6 | G,,3 D,3 | [G,,D,]6 |\n[V:1] d3 e2d | d2B d3 | d3 e2d | d2B \"D\"A3 |\nw: Still all my song shall be, near-er, my God, to Thee.\n[V:2] [G,,D,]6 | [G,,D,]6 | [G,,D,]6 | G,,3 D,3 |\n[V:1] \"G\"B3 \"D7\"A2G | \"C\"G2E E3 | \"G\"D2G \"D7\"F2A | \"G\"G3- G2z |]\nw: Near-er, my God, to Thee, Near-* er to Thee! *\n[V:2] G,,3 D,3 | [C,G,]6 | G,,3 D,3 | [G,,D,]6 |]",
      "key": "G",
      "bars": 16,
      "bpm": 44
     },
     "inter": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=49\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]3 [DG]2B | \"D\"[FA]3- [FA]2z |\n[V:2] [G,,D,B,]3 [D,,C,F,]3 | [C,,G,,E,]6 | [G,,D,]6 | [D,,A,,F,]6 |\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]2G \"D7\"[DF]2A | \"G\"[DG]3- [DG]2z |\n[V:2] [G,,D,B,]3 [D,,C,F,]3 | [C,,G,,E,]6 | [G,,D,]3 [D,,C,F,]3 | [G,,D,B,]6 |\n[V:1] [Bd]3 [Be]2d | [Bd]2B [Bd]3 | [Bd]3 [Be]2d | [Bd]2B \"D\"[FA]3 |\n[V:2] [G,,D,B,]6 | [G,,D,B,]6 | [G,,D,B,]6 | [G,,D,B,]3 [D,,A,,F,]3 |\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]2G \"D7\"[DF]2A | \"G\"[DG]3- [DG]2z |]\n[V:2] [G,,D,B,]3 [D,,C,F,]3 | [C,,G,,E,]6 | [G,,D,]3 [D,,C,F,]3 | [G,,D,G,]6 |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=49\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]3 [DG]2B | \"D\"[FA]3- [FA]2z |\nw: Near-er, my God, to Thee, near-er to Thee! *\n[V:2] [G,,D,B,]3 [D,,C,F,]3 | [C,,G,,E,]6 | [G,,D,]6 | [D,,A,,F,]6 |\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]2G \"D7\"[DF]2A | \"G\"[DG]3- [DG]2z |\nw: E'en though it be a cross that * rais-eth me, *\n[V:2] [G,,D,B,]3 [D,,C,F,]3 | [C,,G,,E,]6 | [G,,D,]3 [D,,C,F,]3 | [G,,D,B,]6 |\n[V:1] [Bd]3 [Be]2d | [Bd]2B [Bd]3 | [Bd]3 [Be]2d | [Bd]2B \"D\"[FA]3 |\nw: Still all my song shall be, near-er, my God, to Thee.\n[V:2] [G,,D,B,]6 | [G,,D,B,]6 | [G,,D,B,]6 | [G,,D,B,]3 [D,,A,,F,]3 |\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]2G \"D7\"[DF]2A | \"G\"[DG]3- [DG]2z |]\nw: Near-er, my God, to Thee, Near-* er to Thee! *\n[V:2] [G,,D,B,]3 [D,,C,F,]3 | [C,,G,,E,]6 | [G,,D,]3 [D,,C,F,]3 | [G,,D,G,]6 |]",
      "key": "G",
      "bars": 16,
      "bpm": 49
     },
     "adv": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=52\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]3 [DG]2B | \"D\"[FA]3- [FA]2z |\n[V:2] [G,,,G,,D,B,E]3 [D,,C,F,A,]3 | [C,,G,,E,A,]6 | [G,,,G,,D,]6 | [D,,A,,F,B,]6 |\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]2G \"D7\"[DF]2A | \"G\"[DG]3- [DG]2z |\n[V:2] [G,,,G,,D,B,E]3 [D,,C,F,A,]3 | [C,,G,,E,A,]6 | [G,,,G,,D,]3 [D,,C,F,A,]3 | [G,,,G,,D,B,]6 |\n[V:1] [Bd]3 [Be]2d | [Bd]2B [Bd]3 | [Bd]3 [Be]2d | [Bd]2B \"D\"[FA]3 |\n[V:2] [G,,,G,,D,B,E]6 | [G,,,G,,D,B,E]6 | [G,,,G,,D,B,E]6 | [G,,,G,,D,B,E]3 [D,,A,,F,B,]3 |\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]2G \"D7\"[DF]2A | \"G\"[DG]3- [DG]2z |]\n[V:2] [G,,,G,,D,B,E]3 [D,,C,F,A,]3 | [C,,G,,E,A,]6 | [G,,,G,,D,]3 [D,,C,F,A,]3 | [G,,D,G,]6 |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=52\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]3 [DG]2B | \"D\"[FA]3- [FA]2z |\nw: Near-er, my God, to Thee, near-er to Thee! *\n[V:2] [G,,,G,,D,B,E]3 [D,,C,F,A,]3 | [C,,G,,E,A,]6 | [G,,,G,,D,]6 | [D,,A,,F,B,]6 |\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]2G \"D7\"[DF]2A | \"G\"[DG]3- [DG]2z |\nw: E'en though it be a cross that * rais-eth me, *\n[V:2] [G,,,G,,D,B,E]3 [D,,C,F,A,]3 | [C,,G,,E,A,]6 | [G,,,G,,D,]3 [D,,C,F,A,]3 | [G,,,G,,D,B,]6 |\n[V:1] [Bd]3 [Be]2d | [Bd]2B [Bd]3 | [Bd]3 [Be]2d | [Bd]2B \"D\"[FA]3 |\nw: Still all my song shall be, near-er, my God, to Thee.\n[V:2] [G,,,G,,D,B,E]6 | [G,,,G,,D,B,E]6 | [G,,,G,,D,B,E]6 | [G,,,G,,D,B,E]3 [D,,A,,F,B,]3 |\n[V:1] \"G\"[GB]3 \"D7\"[FA]2G | \"C\"[EG]2E [CE]3 | \"G\"[B,D]2G \"D7\"[DF]2A | \"G\"[DG]3- [DG]2z |]\nw: Near-er, my God, to Thee, Near-* er to Thee! *\n[V:2] [G,,,G,,D,B,E]3 [D,,C,F,A,]3 | [C,,G,,E,A,]6 | [G,,,G,,D,]3 [D,,C,F,A,]3 | [G,,D,G,]6 |]",
      "key": "G",
      "bars": 16,
      "bpm": 52
     }
-   }
+   },
+   "verses": [
+    "Though like the wanderer, the sun gone down,\nDarkness be over me, my rest a stone.\nYet in my dreams I'd be nearer, my God to Thee.\nThen evermore to be Nearer to Thee!",
+    "Nearer, my Lord, to thee, Nearer to thee!\nWho to the cross didst come, Dying for me!\nStrengthen my willing feet, Hold me in service sweet",
+    "Nearer, O Comforter, Nearer to thee!\nWho with my loving Lord Dwellest with me!\nGrant me thy fellowship! Help me each day to keep",
+    "But to be nearer still, Bring me, O God,\nNot by the visioned steeps Angels have trod.\nHere where thy cross I see, Jesus, I wait for thee,"
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "be-still-my-soul",
@@ -356,24 +426,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=65\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] A2 G2 A2 | \"Bb\"B6 \"F\"A2 | \"C7\"G2 A2 \"F\"F3G | \"C7\"G2 \"F\"A6- |\n[V:2] z6 | [B,,F,]6 F,,2 | [C,G,]4 [F,,C,]4 | C,2 [F,,C,]6 |\n[V:1] A2 A2 G2 A2 | \"Bb\"B6 \"F\"A2 | \"C7\"G2 A2 \"F\"F3G | A8- |\n[V:2] [F,,C,]8 | [B,,F,]6 F,,2 | [C,G,]4 [F,,C,]4 | [F,,C,]8 |\n[V:1] A2 c2 c2 c2 | \"Bb\"d6 \"F\"A2 | A2 c2 \"C\"c3G | \"Gm\"G2 B6- |\n[V:2] [F,,C,]8 | [B,,F,]6 F,,2 | [F,,C,]4 [C,G,]4 | [G,,D,]8 |\n[V:1] B2 B2 \"F\"A2 \"C\"G2 | \"F\"A6 F2 | \"Bb\"F2 G2 \"C7\"G3A | \"F\"A8- |\n[V:2] [G,,D,]4 F,,2 C,2 | [F,,C,]8 | [B,,F,]4 [C,G,]4 | [F,,C,]8 |\n[V:1] A2 c2 c2 c2 | \"Bb\"d6 \"F\"A2 | A2 c2 \"C\"c3G | \"Gm\"G2 B6- |\n[V:2] [F,,C,]8 | [B,,F,]6 F,,2 | [F,,C,]4 [C,G,]4 | [G,,D,]8 |\n[V:1] B2 B2 \"F\"A2 \"C\"G2 | \"F\"A6 F2 | \"Bb\"F2 G2 \"C7\"G3F | \"F\"F8- |\n[V:2] [G,,D,]4 F,,2 C,2 | [F,,C,]8 | [B,,F,]4 [C,G,]4 | [F,,C,]8 |\n[V:1] F2 |]\n[V:2] F,,2 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=65\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] A2 G2 A2 | \"Bb\"B6 \"F\"A2 | \"C7\"G2 A2 \"F\"F3G | \"C7\"G2 \"F\"A6- |\nw: Be still, my soul: the Lord is on thy side. *\n[V:2] z6 | [B,,F,]6 F,,2 | [C,G,]4 [F,,C,]4 | C,2 [F,,C,]6 |\n[V:1] A2 A2 G2 A2 | \"Bb\"B6 \"F\"A2 | \"C7\"G2 A2 \"F\"F3G | A8- |\nw: * Bear pa-tient-ly the cross of grief or pain.\n[V:2] [F,,C,]8 | [B,,F,]6 F,,2 | [C,G,]4 [F,,C,]4 | [F,,C,]8 |\n[V:1] A2 c2 c2 c2 | \"Bb\"d6 \"F\"A2 | A2 c2 \"C\"c3G | \"Gm\"G2 B6- |\nw: * Leave to thy God to or-der and pro-vide; *\n[V:2] [F,,C,]8 | [B,,F,]6 F,,2 | [F,,C,]4 [C,G,]4 | [G,,D,]8 |\n[V:1] B2 B2 \"F\"A2 \"C\"G2 | \"F\"A6 F2 | \"Bb\"F2 G2 \"C7\"G3A | \"F\"A8- |\nw: * In ev-ery change, He faith-ful will re-main.\n[V:2] [G,,D,]4 F,,2 C,2 | [F,,C,]8 | [B,,F,]4 [C,G,]4 | [F,,C,]8 |\n[V:1] A2 c2 c2 c2 | \"Bb\"d6 \"F\"A2 | A2 c2 \"C\"c3G | \"Gm\"G2 B6- |\nw: * Be still, my soul: thy best, thy heav'n-ly Friend *\n[V:2] [F,,C,]8 | [B,,F,]6 F,,2 | [F,,C,]4 [C,G,]4 | [G,,D,]8 |\n[V:1] B2 B2 \"F\"A2 \"C\"G2 | \"F\"A6 F2 | \"Bb\"F2 G2 \"C7\"G3F | \"F\"F8- |\nw: * Through thorn-y ways leads to a joy-ful end.\n[V:2] [G,,D,]4 F,,2 C,2 | [F,,C,]8 | [B,,F,]4 [C,G,]4 | [F,,C,]8 |\n[V:1] F2 |]\n[V:2] F,,2 |]",
      "key": "F",
      "bars": 24,
      "bpm": 65
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] A2 G2 A2 | \"Bb\"[FB]6 \"F\"[FA]2 | \"C7\"[EG]2 [EA]2 \"F\"[CF]3G | \"C7\"[EG]2 \"F\"[FA]6- |\n[V:2] z6 | [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [C,,B,,E,]4 [F,,C,A,]4 | [C,,B,,E,]2 [F,,C,A,]4 [F,,C,A,]2 |\n[V:1] [FA]2 [FA]2 [CG]2 [FA]2 | \"Bb\"[FB]6 \"F\"[FA]2 | \"C7\"[EG]2 [EA]2 \"F\"[CF]3G | [FA]8- |\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [C,,B,,E,]4 [F,,C,A,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] [FA]2 [Ac]2 [Ac]2 [Ac]2 | \"Bb\"[Bd]6 \"F\"[FA]2 | [FA]2 [Ac]2 \"C\"[Gc]3G | \"Gm\"[DG]2 [GB]6- |\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [F,,C,A,]4 [C,,G,,E,]4 | [G,,D,B,]4 [G,,D,B,]4 |\n[V:1] [GB]2 [GB]2 \"F\"[FA]2 \"C\"[EG]2 | \"F\"[FA]6 [CF]2 | \"Bb\"[DF]2 [DG]2 \"C7\"[EG]3A | \"F\"[FA]8- |\n[V:2] [G,,D,B,]4 [F,,C,A,]2 [C,,G,,E,]2 | [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [C,,B,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] [FA]2 [Ac]2 [Ac]2 [Ac]2 | \"Bb\"[Bd]6 \"F\"[FA]2 | [FA]2 [Ac]2 \"C\"[Gc]3G | \"Gm\"[DG]2 [GB]6- |\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [F,,C,A,]4 [C,,G,,E,]4 | [G,,D,B,]4 [G,,D,B,]4 |\n[V:1] [GB]2 [GB]2 \"F\"[FA]2 \"C\"[EG]2 | \"F\"[FA]6 [CF]2 | \"Bb\"[DF]2 [DG]2 \"C7\"[EG]3F | \"F\"[CF]8- |\n[V:2] [G,,D,B,]4 [F,,C,A,]2 [C,,G,,E,]2 | [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [C,,B,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] [CF]2 |]\n[V:2] [F,,C,F,]2 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] A2 G2 A2 | \"Bb\"[FB]6 \"F\"[FA]2 | \"C7\"[EG]2 [EA]2 \"F\"[CF]3G | \"C7\"[EG]2 \"F\"[FA]6- |\nw: Be still, my soul: the Lord is on thy side. *\n[V:2] z6 | [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [C,,B,,E,]4 [F,,C,A,]4 | [C,,B,,E,]2 [F,,C,A,]4 [F,,C,A,]2 |\n[V:1] [FA]2 [FA]2 [CG]2 [FA]2 | \"Bb\"[FB]6 \"F\"[FA]2 | \"C7\"[EG]2 [EA]2 \"F\"[CF]3G | [FA]8- |\nw: * Bear pa-tient-ly the cross of grief or pain.\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [C,,B,,E,]4 [F,,C,A,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] [FA]2 [Ac]2 [Ac]2 [Ac]2 | \"Bb\"[Bd]6 \"F\"[FA]2 | [FA]2 [Ac]2 \"C\"[Gc]3G | \"Gm\"[DG]2 [GB]6- |\nw: * Leave to thy God to or-der and pro-vide; *\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [F,,C,A,]4 [C,,G,,E,]4 | [G,,D,B,]4 [G,,D,B,]4 |\n[V:1] [GB]2 [GB]2 \"F\"[FA]2 \"C\"[EG]2 | \"F\"[FA]6 [CF]2 | \"Bb\"[DF]2 [DG]2 \"C7\"[EG]3A | \"F\"[FA]8- |\nw: * In ev-ery change, He faith-ful will re-main.\n[V:2] [G,,D,B,]4 [F,,C,A,]2 [C,,G,,E,]2 | [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [C,,B,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] [FA]2 [Ac]2 [Ac]2 [Ac]2 | \"Bb\"[Bd]6 \"F\"[FA]2 | [FA]2 [Ac]2 \"C\"[Gc]3G | \"Gm\"[DG]2 [GB]6- |\nw: * Be still, my soul: thy best, thy heav'n-ly Friend *\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [F,,C,A,]4 [C,,G,,E,]4 | [G,,D,B,]4 [G,,D,B,]4 |\n[V:1] [GB]2 [GB]2 \"F\"[FA]2 \"C\"[EG]2 | \"F\"[FA]6 [CF]2 | \"Bb\"[DF]2 [DG]2 \"C7\"[EG]3F | \"F\"[CF]8- |\nw: * Through thorn-y ways leads to a joy-ful end.\n[V:2] [G,,D,B,]4 [F,,C,A,]2 [C,,G,,E,]2 | [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]4 [C,,B,,E,]4 | [F,,C,A,]4 [F,,C,A,]4 |\n[V:1] [CF]2 |]\n[V:2] [F,,C,F,]2 |]",
      "key": "F",
      "bars": 24,
      "bpm": 72
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] A2 G2 A2 | \"Bb\"[DFB]6 \"F\"[FA]2 | \"C7\"[EG]2 [EA]2 \"F\"[CF]3G | \"C7\"[EG]2 \"F\"[CFA]6- |\n[V:2] z6 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,]2 | [C,,B,,E,G,]4 [F,,,F,,C,A,]4 | [C,,B,,E,G,]2 [F,,,F,,C,A,]4 [F,,,F,,C,A,]2 |\n[V:1] [CFA]2 [FA]2 [CG]2 [FA]2 | \"Bb\"[DFB]6 \"F\"[FA]2 | \"C7\"[EG]2 [EA]2 \"F\"[CF]3G | [CFA]8- |\n[V:2] [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,]2 | [C,,B,,E,G,]4 [F,,,F,,C,A,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 |\n[V:1] [CFA]2 [Ac]2 [Ac]2 [Ac]2 | \"Bb\"[FBd]6 \"F\"[FA]2 | [FA]2 [Ac]2 \"C\"[Gc]3G | \"Gm\"[DG]2 [DGB]6- |\n[V:2] [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,D]2 | [F,,,F,,C,A,D]4 [C,,G,,E,A,]4 | [G,,,G,,D,F,B,]4 [G,,,G,,D,F,B,]4 |\n[V:1] [DGB]2 [GB]2 \"F\"[FA]2 \"C\"[EG]2 | \"F\"[CFA]6 [CF]2 | \"Bb\"[DF]2 [DG]2 \"C7\"[EG]3A | \"F\"[CFA]8- |\n[V:2] [G,,,G,,D,F,B,]4 [F,,,F,,C,A,]2 [C,,G,,E,A,]2 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [C,,B,,E,G,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 |\n[V:1] [CFA]2 [Ac]2 [Ac]2 [Ac]2 | \"Bb\"[FBd]6 \"F\"[FA]2 | [FA]2 [Ac]2 \"C\"[Gc]3G | \"Gm\"[DG]2 [DGB]6- |\n[V:2] [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,D]2 | [F,,,F,,C,A,D]4 [C,,G,,E,A,]4 | [G,,,G,,D,F,B,]4 [G,,,G,,D,F,B,]4 |\n[V:1] [DGB]2 [GB]2 \"F\"[FA]2 \"C\"[EG]2 | \"F\"[CFA]6 [CF]2 | \"Bb\"[DF]2 [DG]2 \"C7\"[EG]3F | \"F\"[A,CF]8- |\n[V:2] [G,,,G,,D,F,B,]4 [F,,,F,,C,A,]2 [C,,G,,E,A,]2 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] [A,CF]2 |]\n[V:2] [F,,C,F,]2 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] A2 G2 A2 | \"Bb\"[DFB]6 \"F\"[FA]2 | \"C7\"[EG]2 [EA]2 \"F\"[CF]3G | \"C7\"[EG]2 \"F\"[CFA]6- |\nw: Be still, my soul: the Lord is on thy side. *\n[V:2] z6 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,]2 | [C,,B,,E,G,]4 [F,,,F,,C,A,]4 | [C,,B,,E,G,]2 [F,,,F,,C,A,]4 [F,,,F,,C,A,]2 |\n[V:1] [CFA]2 [FA]2 [CG]2 [FA]2 | \"Bb\"[DFB]6 \"F\"[FA]2 | \"C7\"[EG]2 [EA]2 \"F\"[CF]3G | [CFA]8- |\nw: * Bear pa-tient-ly the cross of grief or pain.\n[V:2] [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,]2 | [C,,B,,E,G,]4 [F,,,F,,C,A,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 |\n[V:1] [CFA]2 [Ac]2 [Ac]2 [Ac]2 | \"Bb\"[FBd]6 \"F\"[FA]2 | [FA]2 [Ac]2 \"C\"[Gc]3G | \"Gm\"[DG]2 [DGB]6- |\nw: * Leave to thy God to or-der and pro-vide; *\n[V:2] [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,D]2 | [F,,,F,,C,A,D]4 [C,,G,,E,A,]4 | [G,,,G,,D,F,B,]4 [G,,,G,,D,F,B,]4 |\n[V:1] [DGB]2 [GB]2 \"F\"[FA]2 \"C\"[EG]2 | \"F\"[CFA]6 [CF]2 | \"Bb\"[DF]2 [DG]2 \"C7\"[EG]3A | \"F\"[CFA]8- |\nw: * In ev-ery change, He faith-ful will re-main.\n[V:2] [G,,,G,,D,F,B,]4 [F,,,F,,C,A,]2 [C,,G,,E,A,]2 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [C,,B,,E,G,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 |\n[V:1] [CFA]2 [Ac]2 [Ac]2 [Ac]2 | \"Bb\"[FBd]6 \"F\"[FA]2 | [FA]2 [Ac]2 \"C\"[Gc]3G | \"Gm\"[DG]2 [DGB]6- |\nw: * Be still, my soul: thy best, thy heav'n-ly Friend *\n[V:2] [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,D]2 | [F,,,F,,C,A,D]4 [C,,G,,E,A,]4 | [G,,,G,,D,F,B,]4 [G,,,G,,D,F,B,]4 |\n[V:1] [DGB]2 [GB]2 \"F\"[FA]2 \"C\"[EG]2 | \"F\"[CFA]6 [CF]2 | \"Bb\"[DF]2 [DG]2 \"C7\"[EG]3F | \"F\"[A,CF]8- |\nw: * Through thorn-y ways leads to a joy-ful end.\n[V:2] [G,,,G,,D,F,B,]4 [F,,,F,,C,A,]2 [C,,G,,E,A,]2 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] [A,CF]2 |]\n[V:2] [F,,C,F,]2 |]",
      "key": "F",
      "bars": 24,
      "bpm": 76
     }
-   }
+   },
+   "verses": [
+    "Be still, my soul: thy God doth undertake To guide the fu\nture, as He has the past. Thy hope, thy confidence let nothing shake;\nAll now mysterious shall be bright at last. Be still, my soul: the waves\nand winds still know His voice Who ruled them while He dwelt below.",
+    "Be still, my soul: when dearest friends depart, And all is dark\nened in the vale of tears, Then shalt thou better know His love, His heart,\nWho comes to soothe thy sorrow and thy fears. Be still, my soul: thy Je\nsus can repay From His own fullness all He takes away.",
+    "Be still, my soul: the hour is hast'ning on When we shall be\nforever with the Lord. When disappointment, grief and fear are gone,\nSorrow forgot, love's purest joys restored. Be still, my soul: when change\nand tears are past All safe and blessèd we shall meet at last.",
+    "Be still, my soul: begin the song of praise On earth, believ\ning, to Thy Lord on high; Acknowledge Him in all thy words and ways,\nSo shall He view thee with a well pleased eye. Be still, my soul: the Sun\nof life divine Through passing clouds shall but more brightly shine."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "a-mighty-fortress",
@@ -386,24 +463,30 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=78\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] d2 | \"D\"d2 d2 \"A\"AB c2 | \"D\"dc \"G\"B2 \"A\"A2 \"D\"d2 | \"A\"c2 \"G\"B2 \"D\"A2 \"G\"B2 |\n[V:2] z2 | [D,A,]4 [A,,E,]4 | D,2 G,,2 A,,2 D,2 | A,,2 G,,2 D,2 G,,2 |\n[V:1] \"Em\"GF \"A7\"E2 \"D\"D2 d2 | d2 d2 \"A\"AB c2 | \"D\"dc \"G\"B2 \"A\"A2 \"D\"d2 | \"A\"c2 \"G\"B2 \"D\"A2 \"G\"B2 |\n[V:2] E,2 A,,2 [D,A,]4 | [D,A,]4 [A,,E,]4 | D,2 G,,2 A,,2 D,2 | A,,2 G,,2 D,2 G,,2 |\n[V:1] \"Em\"GF \"A7\"E2 \"D\"D2 D2 | F2 A2 \"E7\"B2 ^G2 | \"A\"A2 \"D\"D2 \"A\"A2 A2 | \"G\"B2 \"A\"c2 \"D\"d2 \"A\"c2 |\n[V:2] E,2 A,,2 [D,A,]4 | [D,A,]4 [E,B,]4 | A,,2 D,2 [A,,E,]4 | G,,2 A,,2 D,2 A,,2 |\n[V:1] \"Bm\"d2 \"A\"c2 \"G\"B2 B2 | \"D\"A2 \"G\"B2 B2 \"D\"A2 | \"G\"B2 \"Em\"G2 \"D\"F2 d2 | \"A\"c2 \"G\"B2 \"D\"A2 \"G\"B2 |\n[V:2] B,,2 A,,2 [G,,D,]4 | D,2 [G,,D,]4 D,2 | G,,2 E,2 [D,A,]4 | A,,2 G,,2 D,2 G,,2 |\n[V:1] \"Em\"GF \"A7\"E2 \"D\"D2 |]\n[V:2] E,2 A,,2 D,2 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=78\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] d2 | \"D\"d2 d2 \"A\"AB c2 | \"D\"dc \"G\"B2 \"A\"A2 \"D\"d2 | \"A\"c2 \"G\"B2 \"D\"A2 \"G\"B2 |\nw: A might-y for-* tress is * our God, a bul-wark nev-er\n[V:2] z2 | [D,A,]4 [A,,E,]4 | D,2 G,,2 A,,2 D,2 | A,,2 G,,2 D,2 G,,2 |\n[V:1] \"Em\"GF \"A7\"E2 \"D\"D2 d2 | d2 d2 \"A\"AB c2 | \"D\"dc \"G\"B2 \"A\"A2 \"D\"d2 | \"A\"c2 \"G\"B2 \"D\"A2 \"G\"B2 |\nw: fail-* * ing; Our help-er He, * a-mid * the flood of mor-tal ills pre-\n[V:2] E,2 A,,2 [D,A,]4 | [D,A,]4 [A,,E,]4 | D,2 G,,2 A,,2 D,2 | A,,2 G,,2 D,2 G,,2 |\n[V:1] \"Em\"GF \"A7\"E2 \"D\"D2 D2 | F2 A2 \"E7\"B2 ^G2 | \"A\"A2 \"D\"D2 \"A\"A2 A2 | \"G\"B2 \"A\"c2 \"D\"d2 \"A\"c2 |\nw: vail-* * ing: For still our an-cient foe doth seek to work us woe; His\n[V:2] E,2 A,,2 [D,A,]4 | [D,A,]4 [E,B,]4 | A,,2 D,2 [A,,E,]4 | G,,2 A,,2 D,2 A,,2 |\n[V:1] \"Bm\"d2 \"A\"c2 \"G\"B2 B2 | \"D\"A2 \"G\"B2 B2 \"D\"A2 | \"G\"B2 \"Em\"G2 \"D\"F2 d2 | \"A\"c2 \"G\"B2 \"D\"A2 \"G\"B2 |\nw: craft and pow'r are great, and, armed with cru-el hate, On earth is not his\n[V:2] B,,2 A,,2 [G,,D,]4 | D,2 [G,,D,]4 D,2 | G,,2 E,2 [D,A,]4 | A,,2 G,,2 D,2 G,,2 |\n[V:1] \"Em\"GF \"A7\"E2 \"D\"D2 |]\nw: e-* * qual.\n[V:2] E,2 A,,2 D,2 |]",
      "key": "D",
      "bars": 16,
      "bpm": 78
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=87\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] d2 | \"D\"[Ad]2 [Ad]2 \"A\"AB [Ac]2 | \"D\"dc \"G\"[GB]2 \"A\"[EA]2 \"D\"[Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\n[V:2] z2 | [D,,A,,F,]4 [A,,E,C]4 | [D,,A,,F,]2 [G,,D,B,]2 [A,,E,C]2 [D,,A,,F,]2 | [A,,E,C]2 [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 [Ad]2 | [Ad]2 [Ad]2 \"A\"AB [Ac]2 | \"D\"dc \"G\"[GB]2 \"A\"[EA]2 \"D\"[Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\n[V:2] [E,,B,,G,]2 [A,,G,]2 [D,,A,,F,]4 | [D,,A,,F,]4 [A,,E,C]4 | [D,,A,,F,]2 [G,,D,B,]2 [A,,E,C]2 [D,,A,,F,]2 | [A,,E,C]2 [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 [A,D]2 | [DF]2 [FA]2 \"E7\"[^GB]2 [EG]2 | \"A\"[EA]2 \"D\"[A,D]2 \"A\"[EA]2 [EA]2 | \"G\"[GB]2 \"A\"[Ac]2 \"D\"[Ad]2 \"A\"[Ac]2 |\n[V:2] [E,,B,,G,]2 [A,,G,]2 [D,,A,,F,]4 | [D,,A,,F,]4 [E,,D,^G,]4 | [A,,E,]2 [D,,A,,F,]2 [A,,E,]4 | [G,,D,B,]2 [A,,E,C]2 [D,,A,,F,]2 [A,,E,C]2 |\n[V:1] \"Bm\"[Bd]2 \"A\"[Ac]2 \"G\"[GB]2 [GB]2 | \"D\"[FA]2 \"G\"[GB]2 [GB]2 \"D\"[FA]2 | \"G\"[GB]2 \"Em\"[EG]2 \"D\"[DF]2 [Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\n[V:2] [B,,,F,,D,]2 [A,,E,C]2 [G,,D,B,]4 | [D,,A,,F,]2 [G,,D,B,]4 [D,,A,,F,]2 | [G,,D,B,]2 [E,,B,,G,]2 [D,,A,,F,]4 | [A,,E,C]2 [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 |]\n[V:2] [E,,B,,G,]2 [A,,G,]2 [D,,A,,D,]2 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=87\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] d2 | \"D\"[Ad]2 [Ad]2 \"A\"AB [Ac]2 | \"D\"dc \"G\"[GB]2 \"A\"[EA]2 \"D\"[Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\nw: A might-y for-* tress is * our God, a bul-wark nev-er\n[V:2] z2 | [D,,A,,F,]4 [A,,E,C]4 | [D,,A,,F,]2 [G,,D,B,]2 [A,,E,C]2 [D,,A,,F,]2 | [A,,E,C]2 [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 [Ad]2 | [Ad]2 [Ad]2 \"A\"AB [Ac]2 | \"D\"dc \"G\"[GB]2 \"A\"[EA]2 \"D\"[Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\nw: fail-* * ing; Our help-er He, * a-mid * the flood of mor-tal ills pre-\n[V:2] [E,,B,,G,]2 [A,,G,]2 [D,,A,,F,]4 | [D,,A,,F,]4 [A,,E,C]4 | [D,,A,,F,]2 [G,,D,B,]2 [A,,E,C]2 [D,,A,,F,]2 | [A,,E,C]2 [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 [A,D]2 | [DF]2 [FA]2 \"E7\"[^GB]2 [EG]2 | \"A\"[EA]2 \"D\"[A,D]2 \"A\"[EA]2 [EA]2 | \"G\"[GB]2 \"A\"[Ac]2 \"D\"[Ad]2 \"A\"[Ac]2 |\nw: vail-* * ing: For still our an-cient foe doth seek to work us woe; His\n[V:2] [E,,B,,G,]2 [A,,G,]2 [D,,A,,F,]4 | [D,,A,,F,]4 [E,,D,^G,]4 | [A,,E,]2 [D,,A,,F,]2 [A,,E,]4 | [G,,D,B,]2 [A,,E,C]2 [D,,A,,F,]2 [A,,E,C]2 |\n[V:1] \"Bm\"[Bd]2 \"A\"[Ac]2 \"G\"[GB]2 [GB]2 | \"D\"[FA]2 \"G\"[GB]2 [GB]2 \"D\"[FA]2 | \"G\"[GB]2 \"Em\"[EG]2 \"D\"[DF]2 [Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\nw: craft and pow'r are great, and, armed with cru-el hate, On earth is not his\n[V:2] [B,,,F,,D,]2 [A,,E,C]2 [G,,D,B,]4 | [D,,A,,F,]2 [G,,D,B,]4 [D,,A,,F,]2 | [G,,D,B,]2 [E,,B,,G,]2 [D,,A,,F,]4 | [A,,E,C]2 [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 |]\nw: e-* * qual.\n[V:2] [E,,B,,G,]2 [A,,G,]2 [D,,A,,D,]2 |]",
      "key": "D",
      "bars": 16,
      "bpm": 87
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=92\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] d2 | \"D\"[Ad]2 [Ad]2 \"A\"AB [Ac]2 | \"D\"dc \"G\"[GB]2 \"A\"[EA]2 \"D\"[Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\n[V:2] z2 | [D,,A,,F,B,]4 [A,,,A,,E,C]4 | [D,,A,,F,B,]2 [G,,,G,,D,B,]2 [A,,,A,,E,C]2 [D,,A,,F,B,]2 | [A,,,A,,E,C]2 [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 [Ad]2 | [Ad]2 [Ad]2 \"A\"AB [Ac]2 | \"D\"dc \"G\"[GB]2 \"A\"[EA]2 \"D\"[Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\n[V:2] [E,,,E,,B,,D,G,]2 [A,,,A,,G,]2 [D,,A,,F,]4 | [D,,A,,F,B,]4 [A,,,A,,E,C]4 | [D,,A,,F,B,]2 [G,,,G,,D,B,]2 [A,,,A,,E,C]2 [D,,A,,F,B,]2 | [A,,,A,,E,C]2 [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 [A,D]2 | [DF]2 [FA]2 \"E7\"[^GB]2 [EG]2 | \"A\"[EA]2 \"D\"[A,D]2 \"A\"[EA]2 [EA]2 | \"G\"[GB]2 \"A\"[Ac]2 \"D\"[Ad]2 \"A\"[Ac]2 |\n[V:2] [E,,,E,,B,,D,G,]2 [A,,,A,,G,]2 [D,,A,,F,]4 | [D,,A,,F,B,]4 [E,,,E,,D,^G,B,]4 | [A,,,A,,E,]2 [D,,A,,F,]2 [A,,,A,,E,]4 | [G,,,G,,D,B,E]2 [A,,,A,,E,C]2 [D,,A,,F,B,]2 [A,,,A,,E,C]2 |\n[V:1] \"Bm\"[Bd]2 \"A\"[Ac]2 \"G\"[GB]2 [GB]2 | \"D\"[FA]2 \"G\"[GB]2 [GB]2 \"D\"[FA]2 | \"G\"[GB]2 \"Em\"[EG]2 \"D\"[DF]2 [Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\n[V:2] [B,,,F,,A,,D,]2 [A,,,A,,E,C]2 [G,,,G,,D,B,E]4 | [D,,A,,F,B,]2 [G,,,G,,D,B,E]4 [D,,A,,F,B,]2 | [G,,,G,,D,B,]2 [E,,,E,,B,,D,G,]2 [D,,A,,F,B,]4 | [A,,,A,,E,C]2 [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 |]\n[V:2] [E,,,E,,B,,D,G,]2 [A,,,A,,G,]2 [D,,A,,D,]2 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=92\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] d2 | \"D\"[Ad]2 [Ad]2 \"A\"AB [Ac]2 | \"D\"dc \"G\"[GB]2 \"A\"[EA]2 \"D\"[Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\nw: A might-y for-* tress is * our God, a bul-wark nev-er\n[V:2] z2 | [D,,A,,F,B,]4 [A,,,A,,E,C]4 | [D,,A,,F,B,]2 [G,,,G,,D,B,]2 [A,,,A,,E,C]2 [D,,A,,F,B,]2 | [A,,,A,,E,C]2 [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 [Ad]2 | [Ad]2 [Ad]2 \"A\"AB [Ac]2 | \"D\"dc \"G\"[GB]2 \"A\"[EA]2 \"D\"[Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\nw: fail-* * ing; Our help-er He, * a-mid * the flood of mor-tal ills pre-\n[V:2] [E,,,E,,B,,D,G,]2 [A,,,A,,G,]2 [D,,A,,F,]4 | [D,,A,,F,B,]4 [A,,,A,,E,C]4 | [D,,A,,F,B,]2 [G,,,G,,D,B,]2 [A,,,A,,E,C]2 [D,,A,,F,B,]2 | [A,,,A,,E,C]2 [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 [A,D]2 | [DF]2 [FA]2 \"E7\"[^GB]2 [EG]2 | \"A\"[EA]2 \"D\"[A,D]2 \"A\"[EA]2 [EA]2 | \"G\"[GB]2 \"A\"[Ac]2 \"D\"[Ad]2 \"A\"[Ac]2 |\nw: vail-* * ing: For still our an-cient foe doth seek to work us woe; His\n[V:2] [E,,,E,,B,,D,G,]2 [A,,,A,,G,]2 [D,,A,,F,]4 | [D,,A,,F,B,]4 [E,,,E,,D,^G,B,]4 | [A,,,A,,E,]2 [D,,A,,F,]2 [A,,,A,,E,]4 | [G,,,G,,D,B,E]2 [A,,,A,,E,C]2 [D,,A,,F,B,]2 [A,,,A,,E,C]2 |\n[V:1] \"Bm\"[Bd]2 \"A\"[Ac]2 \"G\"[GB]2 [GB]2 | \"D\"[FA]2 \"G\"[GB]2 [GB]2 \"D\"[FA]2 | \"G\"[GB]2 \"Em\"[EG]2 \"D\"[DF]2 [Ad]2 | \"A\"[Ac]2 \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 |\nw: craft and pow'r are great, and, armed with cru-el hate, On earth is not his\n[V:2] [B,,,F,,A,,D,]2 [A,,,A,,E,C]2 [G,,,G,,D,B,E]4 | [D,,A,,F,B,]2 [G,,,G,,D,B,E]4 [D,,A,,F,B,]2 | [G,,,G,,D,B,]2 [E,,,E,,B,,D,G,]2 [D,,A,,F,B,]4 | [A,,,A,,E,C]2 [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 |\n[V:1] \"Em\"GF \"A7\"[CE]2 \"D\"[A,D]2 |]\nw: e-* * qual.\n[V:2] [E,,,E,,B,,D,G,]2 [A,,,A,,G,]2 [D,,A,,D,]2 |]",
      "key": "D",
      "bars": 16,
      "bpm": 92
     }
-   }
+   },
+   "verses": [
+    "Did we in our own strength confide, our striving would be losing;\nWere not the right Man on our side, the Man of God's own choosing:\nDost ask who that may be? Christ Jesus, it is He; Lord Sabaoth, His name,\nfrom age to age the same, And He must win the battle.",
+    "And though this world, with devils filled, should threaten to undo us,\nWe will not fear, for God hath willed His truth to triumph through us:\nThe Prince of Darkness grim, we tremble not for him; His rage we can endure,\nfor lo, his doom is sure, One little word shall fell him.",
+    "That word above all earthly pow'rs, no thanks to them, abideth;\nThe Spirit and the gifts are ours through Him who with us sideth:\nLet goods and kindred go, this mortal life also; The body they may kill:\nGod's truth abideth still, His kingdom is forever."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "old-rugged-cross",
@@ -416,25 +499,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=46\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] D/E/ | \"Bb\"F3/2=E/G F2F/F/ | \"Eb\"G3/2^F/A G2G/G/ | \"F7\"A3/2G/F EFE |\n[V:2] z | [B,,F,]6 | [E,B,]6 | [F,,C,]6 |\n[V:1] \"Bb\"D3- D2D/E/ | F3/2=E/G F2F/F/ | \"Eb\"G3/2^F/A G2G/G/ | \"F7\"A3/2G/F edc |\n[V:2] [B,,F,]6 | [B,,F,]6 | [E,B,]6 | [F,,C,]6 |\n[V:1] \"Bb\"B3- B2 |]\n[V:2] [B,,F,]4-[B,,F,] |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=46\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] D/E/ | \"Bb\"F3/2=E/G F2F/F/ | \"Eb\"G3/2^F/A G2G/G/ | \"F7\"A3/2G/F EFE |\nw: On a hill far a-way stood an old rug-ged cross, The * em-blem of suff'r-ing and\n[V:2] z | [B,,F,]6 | [E,B,]6 | [F,,C,]6 |\n[V:1] \"Bb\"D3- D2D/E/ | F3/2=E/G F2F/F/ | \"Eb\"G3/2^F/A G2G/G/ | \"F7\"A3/2G/F edc |\nw: shame; * And I love that old cross where the dear-est and best For a world of lost sin-ners was\n[V:2] [B,,F,]6 | [B,,F,]6 | [E,B,]6 | [F,,C,]6 |\n[V:1] \"Bb\"B3- B2 |]\nw: slain. *\n[V:2] [B,,F,]4-[B,,F,] |]",
      "key": "Bb",
      "bars": 8,
      "bpm": 46,
      "note": "Verse only"
     },
     "inter": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=51\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] D/E/ | \"Bb\"F3/2=E/G [DF]2F/F/ | \"Eb\"G3/2^F/A [EG]2G/G/ | \"F7\"A3/2G/F EFE |\n[V:2] z | [B,,,F,,D,]6 | [E,,B,,G,]6 | [F,,E,A,]6 |\n[V:1] \"Bb\"[B,D]3- [B,D]2D/E/ | F3/2=E/G [DF]2F/F/ | \"Eb\"G3/2^F/A [EG]2G/G/ | \"F7\"A3/2G/F edc |\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]6 | [E,,B,,G,]6 | [F,,E,A,]6 |\n[V:1] \"Bb\"[FB]3- [FB]2A/B/ | \"F7\"c3/2c/c cBA | \"Bb\"[FB]3- [FB]2B/A/ | \"Eb\"G3/2G/G BAG |\n[V:2] [B,,,F,,D,]6 | [F,,E,A,]6 | [B,,,F,,D,]6 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[DF]3- [DF]2F/B/ | d3/2d/d ded | \"Eb\"[EG]3- [EG]2e/e/ | \"Bb\"d3/2c/B \"F7\"FAc |\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]6 | [E,,B,,G,]6 | [B,,,F,,D,]3 [F,,E,A,]3 |\n[V:1] \"Bb\"[FB]3- [FB]2 |]\n[V:2] [B,,F,B,]4-[B,,F,B,] |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=51\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] D/E/ | \"Bb\"F3/2=E/G [DF]2F/F/ | \"Eb\"G3/2^F/A [EG]2G/G/ | \"F7\"A3/2G/F EFE |\nw: On a hill far a-way stood an old rug-ged cross, The * em-blem of suff'r-ing and\n[V:2] z | [B,,,F,,D,]6 | [E,,B,,G,]6 | [F,,E,A,]6 |\n[V:1] \"Bb\"[B,D]3- [B,D]2D/E/ | F3/2=E/G [DF]2F/F/ | \"Eb\"G3/2^F/A [EG]2G/G/ | \"F7\"A3/2G/F edc |\nw: shame; * And I love that old cross where the dear-est and best For a world of lost sin-ners was\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]6 | [E,,B,,G,]6 | [F,,E,A,]6 |\n[V:1] \"Bb\"[FB]3- [FB]2A/B/ | \"F7\"c3/2c/c cBA | \"Bb\"[FB]3- [FB]2B/A/ | \"Eb\"G3/2G/G BAG |\nw: slain. * So I'll cher-ish the old rug-ged cross, * Till my tro-phies at last I lay\n[V:2] [B,,,F,,D,]6 | [F,,E,A,]6 | [B,,,F,,D,]6 | [E,,B,,G,]6 |\n[V:1] \"Bb\"[DF]3- [DF]2F/B/ | d3/2d/d ded | \"Eb\"[EG]3- [EG]2e/e/ | \"Bb\"d3/2c/B \"F7\"FAc |\nw: down; * I will cling to the old rug-ged cross, * And ex-change it some day for a\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]6 | [E,,B,,G,]6 | [B,,,F,,D,]3 [F,,E,A,]3 |\n[V:1] \"Bb\"[FB]3- [FB]2 |]\nw: crown. *\n[V:2] [B,,F,B,]4-[B,,F,B,] |]",
      "key": "Bb",
      "bars": 16,
      "bpm": 51
     },
     "adv": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=54\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] D/E/ | \"Bb\"F3/2=E/G [DF]2F/F/ | \"Eb\"G3/2^F/A [EG]2G/G/ | \"F7\"A3/2G/F EFE |\n[V:2] z | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 | [F,,,F,,E,A,C]6 |\n[V:1] \"Bb\"[B,D]3- [B,D]2D/E/ | F3/2=E/G [DF]2F/F/ | \"Eb\"G3/2^F/A [EG]2G/G/ | \"F7\"A3/2G/F edc |\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 | [F,,,F,,E,A,C]6 |\n[V:1] \"Bb\"[FB]3- [FB]2A/B/ | \"F7\"c3/2c/c cBA | \"Bb\"[FB]3- [FB]2B/A/ | \"Eb\"G3/2G/G BAG |\n[V:2] [B,,,F,,D,G,]6 | [F,,,F,,E,A,C]6 | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 |\n[V:1] \"Bb\"[DF]3- [DF]2F/B/ | d3/2d/d ded | \"Eb\"[EG]3- [EG]2e/e/ | \"Bb\"d3/2c/B \"F7\"FAc |\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 | [B,,,F,,D,G,]3 [F,,,F,,E,A,C]3 |\n[V:1] \"Bb\"[FB]3- [FB]2 |]\n[V:2] [B,,F,B,]4-[B,,F,B,] |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=54\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] D/E/ | \"Bb\"F3/2=E/G [DF]2F/F/ | \"Eb\"G3/2^F/A [EG]2G/G/ | \"F7\"A3/2G/F EFE |\nw: On a hill far a-way stood an old rug-ged cross, The * em-blem of suff'r-ing and\n[V:2] z | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 | [F,,,F,,E,A,C]6 |\n[V:1] \"Bb\"[B,D]3- [B,D]2D/E/ | F3/2=E/G [DF]2F/F/ | \"Eb\"G3/2^F/A [EG]2G/G/ | \"F7\"A3/2G/F edc |\nw: shame; * And I love that old cross where the dear-est and best For a world of lost sin-ners was\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 | [F,,,F,,E,A,C]6 |\n[V:1] \"Bb\"[FB]3- [FB]2A/B/ | \"F7\"c3/2c/c cBA | \"Bb\"[FB]3- [FB]2B/A/ | \"Eb\"G3/2G/G BAG |\nw: slain. * So I'll cher-ish the old rug-ged cross, * Till my tro-phies at last I lay\n[V:2] [B,,,F,,D,G,]6 | [F,,,F,,E,A,C]6 | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 |\n[V:1] \"Bb\"[DF]3- [DF]2F/B/ | d3/2d/d ded | \"Eb\"[EG]3- [EG]2e/e/ | \"Bb\"d3/2c/B \"F7\"FAc |\nw: down; * I will cling to the old rug-ged cross, * And ex-change it some day for a\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 | [B,,,F,,D,G,]3 [F,,,F,,E,A,C]3 |\n[V:1] \"Bb\"[FB]3- [FB]2 |]\nw: crown. *\n[V:2] [B,,F,B,]4-[B,,F,B,] |]",
      "key": "Bb",
      "bars": 16,
      "bpm": 54
     }
-   }
+   },
+   "verses": [
+    "O that old rugged cross, so despised by the world, Has a wondrous\nattraction for me; For the dear Lamb of God left His glory\nabove To bear it to dark Calvary.",
+    "In that old rugged cross, stained with blood so divine, A won\ndrous beauty I see, For 'twas on that old cross Jesus suffered\nand died, To pardon and sanctify me.",
+    "To the old rugged cross I will ever be true; Its shame and\nreproach gladly bear; Then He'll call me some day to my home far\naway, Where His glory forever I'll share."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "just-as-i-am",
@@ -447,24 +536,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=42\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D/E/ | \"D\"F2F A3/2G/F | \"A7\"E3/2F/G \"D\"F2A | AEF \"G\"G2B |\n[V:2] z | [D,A,]6 | A,,3 D,3 | D,3 G,,3 |\n[V:1] \"D\"B2A F2D/E/ | F2F A3/2G/F | \"G\"B2B d3/2c/B | \"D\"A2A A3/2G/F |\n[V:2] [D,A,]6 | [D,A,]6 | [G,,D,]6 | [D,A,]6 |\n[V:1] \"A7\"E3 A3 | \"D\"F3- F2 |]\n[V:2] [A,,E,]6 | [D,A,]4-[D,A,] |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=42\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D/E/ | \"D\"F2F A3/2G/F | \"A7\"E3/2F/G \"D\"F2A | AEF \"G\"G2B |\nw: Just * as I am, * wi-thout * one plea, But that * Thy blood was\n[V:2] z | [D,A,]6 | A,,3 D,3 | D,3 G,,3 |\n[V:1] \"D\"B2A F2D/E/ | F2F A3/2G/F | \"G\"B2B d3/2c/B | \"D\"A2A A3/2G/F |\nw: shed for me, And * that Thou bid-dest me come to Thee, * O Lamb of God, * I\n[V:2] [D,A,]6 | [D,A,]6 | [G,,D,]6 | [D,A,]6 |\n[V:1] \"A7\"E3 A3 | \"D\"F3- F2 |]\nw: come, I come. *\n[V:2] [A,,E,]6 | [D,A,]4-[D,A,] |]",
      "key": "D",
      "bars": 9,
      "bpm": 42
     },
     "inter": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=48\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D/E/ | \"D\"[DF]2F A3/2G/F | \"A7\"E3/2F/G \"D\"[DF]2A | AEF \"G\"[DG]2B |\n[V:2] z | [D,,A,,F,]6 | [A,,G,C]3 [D,,A,,F,]3 | [D,,A,,F,]3 [G,,D,B,]3 |\n[V:1] \"D\"[FB]2A [DF]2D/E/ | [DF]2F A3/2G/F | \"G\"[GB]2B d3/2c/B | \"D\"[FA]2A A3/2G/F |\n[V:2] [D,,A,,F,]6 | [D,,A,,F,]6 | [G,,D,B,]6 | [D,,A,,F,]6 |\n[V:1] \"A7\"[CE]3 [EA]3 | \"D\"[DF]3- [DF]2 |]\n[V:2] [A,,G,]6 | [D,,A,,D,]4-[D,,A,,D,] |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=48\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D/E/ | \"D\"[DF]2F A3/2G/F | \"A7\"E3/2F/G \"D\"[DF]2A | AEF \"G\"[DG]2B |\nw: Just * as I am, * wi-thout * one plea, But that * Thy blood was\n[V:2] z | [D,,A,,F,]6 | [A,,G,C]3 [D,,A,,F,]3 | [D,,A,,F,]3 [G,,D,B,]3 |\n[V:1] \"D\"[FB]2A [DF]2D/E/ | [DF]2F A3/2G/F | \"G\"[GB]2B d3/2c/B | \"D\"[FA]2A A3/2G/F |\nw: shed for me, And * that Thou bid-dest me come to Thee, * O Lamb of God, * I\n[V:2] [D,,A,,F,]6 | [D,,A,,F,]6 | [G,,D,B,]6 | [D,,A,,F,]6 |\n[V:1] \"A7\"[CE]3 [EA]3 | \"D\"[DF]3- [DF]2 |]\nw: come, I come. *\n[V:2] [A,,G,]6 | [D,,A,,D,]4-[D,,A,,D,] |]",
      "key": "D",
      "bars": 9,
      "bpm": 48
     },
     "adv": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=50\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D/E/ | \"D\"[DF]2F A3/2G/F | \"A7\"E3/2F/G \"D\"[DF]2A | AEF \"G\"[DG]2B |\n[V:2] z | [D,,A,,F,B,]6 | [A,,,A,,G,C]3 [D,,A,,F,B,]3 | [D,,A,,F,B,]3 [G,,,G,,D,B,]3 |\n[V:1] \"D\"[FB]2A [DF]2D/E/ | [DF]2F A3/2G/F | \"G\"[GB]2B d3/2c/B | \"D\"[FA]2A A3/2G/F |\n[V:2] [D,,A,,F,B,]6 | [D,,A,,F,B,]6 | [G,,,G,,D,B,E]6 | [D,,A,,F,B,]6 |\n[V:1] \"A7\"[CE]3 [EA]3 | \"D\"[DF]3- [DF]2 |]\n[V:2] [A,,,A,,G,]6 | [D,,A,,D,]4-[D,,A,,D,] |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=50\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D/E/ | \"D\"[DF]2F A3/2G/F | \"A7\"E3/2F/G \"D\"[DF]2A | AEF \"G\"[DG]2B |\nw: Just * as I am, * wi-thout * one plea, But that * Thy blood was\n[V:2] z | [D,,A,,F,B,]6 | [A,,,A,,G,C]3 [D,,A,,F,B,]3 | [D,,A,,F,B,]3 [G,,,G,,D,B,]3 |\n[V:1] \"D\"[FB]2A [DF]2D/E/ | [DF]2F A3/2G/F | \"G\"[GB]2B d3/2c/B | \"D\"[FA]2A A3/2G/F |\nw: shed for me, And * that Thou bid-dest me come to Thee, * O Lamb of God, * I\n[V:2] [D,,A,,F,B,]6 | [D,,A,,F,B,]6 | [G,,,G,,D,B,E]6 | [D,,A,,F,B,]6 |\n[V:1] \"A7\"[CE]3 [EA]3 | \"D\"[DF]3- [DF]2 |]\nw: come, I come. *\n[V:2] [A,,,A,,G,]6 | [D,,A,,D,]4-[D,,A,,D,] |]",
      "key": "D",
      "bars": 9,
      "bpm": 50
     }
-   }
+   },
+   "verses": [
+    "Just as I am, and waiting not To rid my soul of one dark blot,\nTo Thee, Whose blood can cleanse each spot, O Lamb of God, I come, I come.",
+    "Just as I am, though tossed about With many'a conflict, many'a doubt,\nFightings and fears within, without, O Lamb of God, I come, I come.",
+    "Just as I am, poor, wretched, blind; Sight riches healing of the mind,\nYea, all I need, in Thee to find, O Lamb of God, I come, I come.",
+    "Just as I am, Thou wilt receive, Wilt welcome, pardon, cleanse, relieve,\nBecause Thy promise I believe, O Lamb of God, I come, I come."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "crown-him",
@@ -477,24 +573,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=85\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"D2 DD F2 F2 | \"G\"B6 B2 | \"D\"A2 D2 \"G\"G2 \"D\"F2 | \"A\"E6 E2 |\n[V:2] [D,A,]8 | [G,,D,]8 | [D,A,]4 G,,2 D,2 | [A,,E,]8 |\n[V:1] \"D\"F2 A2 \"G\"B2 \"D\"A2 | \"E7\"^G2 FE \"A\"A2 d2 | c2 \"D\"d2 \"E7\"B2 B2 | \"A\"A6 A2 |\n[V:2] [D,A,]4 G,,2 D,2 | [E,B,]4 [A,,E,]4 | A,,2 D,2 [E,B,]4 | [A,,E,]8 |\n[V:1] \"D\"A2 F2 \"A\"E2 \"D\"D2 | \"G\"B6 \"B7\"B2 | \"E\"B2 ^G2 F2 E2 | \"A\"c6 c2 |\n[V:2] [D,A,]4 A,,2 D,2 | [G,,D,]6 B,,2 | [E,B,]8 | [A,,E,]8 |\n[V:1] \"D\"d3c \"G\"B2 \"D\"A2 | \"Em\"G2 E2 \"D\"F2 A2 | \"G\"G2 \"D\"F2 \"A7\"E2 E2 | \"D\"D8 |]\n[V:2] [D,A,]4 G,,2 D,2 | [E,B,]4 [D,A,]4 | G,,2 D,2 [A,,E,]4 | [D,A,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=85\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"D2 DD F2 F2 | \"G\"B6 B2 | \"D\"A2 D2 \"G\"G2 \"D\"F2 | \"A\"E6 E2 |\nw: Crown Him with man-y crowns, the Lamb up-on His throne. Hark!\n[V:2] [D,A,]8 | [G,,D,]8 | [D,A,]4 G,,2 D,2 | [A,,E,]8 |\n[V:1] \"D\"F2 A2 \"G\"B2 \"D\"A2 | \"E7\"^G2 FE \"A\"A2 d2 | c2 \"D\"d2 \"E7\"B2 B2 | \"A\"A6 A2 |\nw: How the heav'n-ly an-them * drowns all mu-sic but its own. A-\n[V:2] [D,A,]4 G,,2 D,2 | [E,B,]4 [A,,E,]4 | A,,2 D,2 [E,B,]4 | [A,,E,]8 |\n[V:1] \"D\"A2 F2 \"A\"E2 \"D\"D2 | \"G\"B6 \"B7\"B2 | \"E\"B2 ^G2 F2 E2 | \"A\"c6 c2 |\nw: wake, my soul, and sing of Him who died for thee, And\n[V:2] [D,A,]4 A,,2 D,2 | [G,,D,]6 B,,2 | [E,B,]8 | [A,,E,]8 |\n[V:1] \"D\"d3c \"G\"B2 \"D\"A2 | \"Em\"G2 E2 \"D\"F2 A2 | \"G\"G2 \"D\"F2 \"A7\"E2 E2 | \"D\"D8 |]\nw: hail Him as thy match-less King through all e-ter-ni-ty.\n[V:2] [D,A,]4 G,,2 D,2 | [E,B,]4 [D,A,]4 | G,,2 D,2 [A,,E,]4 | [D,A,]8 |]",
      "key": "D",
      "bars": 16,
      "bpm": 85
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=95\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[A,D]2 DD [DF]2 [DF]2 | \"G\"[GB]6 [GB]2 | \"D\"[FA]2 [A,D]2 \"G\"[DG]2 \"D\"[DF]2 | \"A\"[CE]6 [CE]2 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [D,,A,,F,]4 [G,,D,]2 [D,,A,,F,]2 | [A,,E,]4 [A,,E,]4 |\n[V:1] \"D\"[DF]2 [FA]2 \"G\"[GB]2 \"D\"[FA]2 | \"E7\"[E^G]2 FE \"A\"[EA]2 [Ad]2 | [Ac]2 \"D\"[Ad]2 \"E7\"[^GB]2 [GB]2 | \"A\"[EA]6 [EA]2 |\n[V:2] [D,,A,,F,]4 [G,,D,B,]2 [D,,A,,F,]2 | [E,,D,^G,]4 [A,,E,C]4 | [A,,E,C]2 [D,,A,,F,]2 [E,,D,^G,]4 | [A,,E,C]4 [A,,E,C]4 |\n[V:1] \"D\"[FA]2 [DF]2 \"A\"[CE]2 \"D\"[A,D]2 | \"G\"[GB]6 \"B7\"[FB]2 | \"E\"[^GB]2 [EG]2 [B,F]2 [B,E]2 | \"A\"[Ac]6 [Ac]2 |\n[V:2] [D,,A,,F,]4 [A,,E,]2 [D,,A,,F,]2 | [G,,D,B,]4 [G,,D,B,]2 [B,,,A,,^D,]2 | [E,,B,,^G,]4 [E,,B,,G,]4 | [A,,E,C]4 [A,,E,C]4 |\n[V:1] \"D\"[Ad]3c \"G\"[GB]2 \"D\"[FA]2 | \"Em\"[EG]2 [B,E]2 \"D\"[DF]2 [FA]2 | \"G\"[DG]2 \"D\"[DF]2 \"A7\"[CE]2 [CE]2 | \"D\"[A,D]8 |]\n[V:2] [D,,A,,F,]4 [G,,D,B,]2 [D,,A,,F,]2 | [E,,B,,G,]4 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]2 [A,,G,]4 | [D,,A,,D,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=95\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[A,D]2 DD [DF]2 [DF]2 | \"G\"[GB]6 [GB]2 | \"D\"[FA]2 [A,D]2 \"G\"[DG]2 \"D\"[DF]2 | \"A\"[CE]6 [CE]2 |\nw: Crown Him with man-y crowns, the Lamb up-on His throne. Hark!\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [D,,A,,F,]4 [G,,D,]2 [D,,A,,F,]2 | [A,,E,]4 [A,,E,]4 |\n[V:1] \"D\"[DF]2 [FA]2 \"G\"[GB]2 \"D\"[FA]2 | \"E7\"[E^G]2 FE \"A\"[EA]2 [Ad]2 | [Ac]2 \"D\"[Ad]2 \"E7\"[^GB]2 [GB]2 | \"A\"[EA]6 [EA]2 |\nw: How the heav'n-ly an-them * drowns all mu-sic but its own. A-\n[V:2] [D,,A,,F,]4 [G,,D,B,]2 [D,,A,,F,]2 | [E,,D,^G,]4 [A,,E,C]4 | [A,,E,C]2 [D,,A,,F,]2 [E,,D,^G,]4 | [A,,E,C]4 [A,,E,C]4 |\n[V:1] \"D\"[FA]2 [DF]2 \"A\"[CE]2 \"D\"[A,D]2 | \"G\"[GB]6 \"B7\"[FB]2 | \"E\"[^GB]2 [EG]2 [B,F]2 [B,E]2 | \"A\"[Ac]6 [Ac]2 |\nw: wake, my soul, and sing of Him who died for thee, And\n[V:2] [D,,A,,F,]4 [A,,E,]2 [D,,A,,F,]2 | [G,,D,B,]4 [G,,D,B,]2 [B,,,A,,^D,]2 | [E,,B,,^G,]4 [E,,B,,G,]4 | [A,,E,C]4 [A,,E,C]4 |\n[V:1] \"D\"[Ad]3c \"G\"[GB]2 \"D\"[FA]2 | \"Em\"[EG]2 [B,E]2 \"D\"[DF]2 [FA]2 | \"G\"[DG]2 \"D\"[DF]2 \"A7\"[CE]2 [CE]2 | \"D\"[A,D]8 |]\nw: hail Him as thy match-less King through all e-ter-ni-ty.\n[V:2] [D,,A,,F,]4 [G,,D,B,]2 [D,,A,,F,]2 | [E,,B,,G,]4 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]2 [A,,G,]4 | [D,,A,,D,]8 |]",
      "key": "D",
      "bars": 16,
      "bpm": 95
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=100\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[A,D]2 DD [DF]2 [DF]2 | \"G\"[DGB]6 [GB]2 | \"D\"[FA]2 [A,D]2 \"G\"[DG]2 \"D\"[DF]2 | \"A\"[A,CE]6 [CE]2 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,,G,,D,B,]4 [G,,,G,,D,B,]4 | [D,,A,,F,]4 [G,,,G,,D,]2 [D,,A,,F,]2 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"D\"[DF]2 [FA]2 \"G\"[GB]2 \"D\"[FA]2 | \"E7\"[E^G]2 FE \"A\"[EA]2 [Ad]2 | [Ac]2 \"D\"[Ad]2 \"E7\"[^GB]2 [GB]2 | \"A\"[CEA]6 [EA]2 |\n[V:2] [D,,A,,F,B,]4 [G,,,G,,D,B,]2 [D,,A,,F,B,]2 | [E,,,E,,D,^G,B,]4 [A,,,A,,E,C]4 | [A,,,A,,E,C]2 [D,,A,,F,B,]2 [E,,,E,,D,^G,B,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"D\"[FA]2 [DF]2 \"A\"[CE]2 \"D\"[A,D]2 | \"G\"[DGB]6 \"B7\"[FB]2 | \"E\"[^GB]2 [EG]2 [B,F]2 [B,E]2 | \"A\"[EAc]6 [Ac]2 |\n[V:2] [D,,A,,F,]4 [A,,,A,,E,]2 [D,,A,,F,]2 | [G,,,G,,D,B,]4 [G,,,G,,D,B,]2 [B,,,A,,^D,F,]2 | [E,,,E,,B,,^G,]4 [E,,,E,,B,,G,]4 | [A,,,A,,E,C]4 [A,,,A,,E,C]4 |\n[V:1] \"D\"[Ad]3c \"G\"[GB]2 \"D\"[FA]2 | \"Em\"[EG]2 [B,E]2 \"D\"[DF]2 [FA]2 | \"G\"[DG]2 \"D\"[DF]2 \"A7\"[CE]2 [CE]2 | \"D\"[A,D]8 |]\n[V:2] [D,,A,,F,B,]4 [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]4 | [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [A,,,A,,G,]4 | [D,,A,,D,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=100\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[A,D]2 DD [DF]2 [DF]2 | \"G\"[DGB]6 [GB]2 | \"D\"[FA]2 [A,D]2 \"G\"[DG]2 \"D\"[DF]2 | \"A\"[A,CE]6 [CE]2 |\nw: Crown Him with man-y crowns, the Lamb up-on His throne. Hark!\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,,G,,D,B,]4 [G,,,G,,D,B,]4 | [D,,A,,F,]4 [G,,,G,,D,]2 [D,,A,,F,]2 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"D\"[DF]2 [FA]2 \"G\"[GB]2 \"D\"[FA]2 | \"E7\"[E^G]2 FE \"A\"[EA]2 [Ad]2 | [Ac]2 \"D\"[Ad]2 \"E7\"[^GB]2 [GB]2 | \"A\"[CEA]6 [EA]2 |\nw: How the heav'n-ly an-them * drowns all mu-sic but its own. A-\n[V:2] [D,,A,,F,B,]4 [G,,,G,,D,B,]2 [D,,A,,F,B,]2 | [E,,,E,,D,^G,B,]4 [A,,,A,,E,C]4 | [A,,,A,,E,C]2 [D,,A,,F,B,]2 [E,,,E,,D,^G,B,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"D\"[FA]2 [DF]2 \"A\"[CE]2 \"D\"[A,D]2 | \"G\"[DGB]6 \"B7\"[FB]2 | \"E\"[^GB]2 [EG]2 [B,F]2 [B,E]2 | \"A\"[EAc]6 [Ac]2 |\nw: wake, my soul, and sing of Him who died for thee, And\n[V:2] [D,,A,,F,]4 [A,,,A,,E,]2 [D,,A,,F,]2 | [G,,,G,,D,B,]4 [G,,,G,,D,B,]2 [B,,,A,,^D,F,]2 | [E,,,E,,B,,^G,]4 [E,,,E,,B,,G,]4 | [A,,,A,,E,C]4 [A,,,A,,E,C]4 |\n[V:1] \"D\"[Ad]3c \"G\"[GB]2 \"D\"[FA]2 | \"Em\"[EG]2 [B,E]2 \"D\"[DF]2 [FA]2 | \"G\"[DG]2 \"D\"[DF]2 \"A7\"[CE]2 [CE]2 | \"D\"[A,D]8 |]\nw: hail Him as thy match-less King through all e-ter-ni-ty.\n[V:2] [D,,A,,F,B,]4 [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]4 | [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [A,,,A,,G,]4 | [D,,A,,D,]8 |]",
      "key": "D",
      "bars": 16,
      "bpm": 100
     }
-   }
+   },
+   "verses": [
+    "Crown Him the virgin's Son, the God incarnate born,\nWhose arm those crimson trophies won which now His brow adorn;\nFruit of the mystic rose, as of that rose the stem;\nThe root whence mercy ever flows, the Babe of Bethlehem.",
+    "Crown Him the Son of God, before the worlds began,\nAnd ye who tread where He hath trod, crown Him the Son of Man;\nWho every grief hath known that wrings the human breast,\nAnd takes and bears them for His own, that all in Him may rest.",
+    "Crown Him the Lord of life, who triumphed o'er the grave,\nAnd rose victorious in the strife for those He came to save.\nHis glories now we sing, Who died, and rose on high,\nWho died eternal life to bring, and lives that death may die.",
+    "Crown Him the Lord of peace, Whose pow'r a scepter sways\nFrom pole to pole, that wars may cease, and all be prayer and praise.\nHis reign shall know no end, and round His pierced feet\nFair flow'rs of paradise extend their fragrance ever sweet."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "all-creatures",
@@ -507,24 +610,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=102\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D2 | \"D\"DE FD FG | \"A\"A4 \"D\"D2 | DE FD FG |\n[V:2] z2 | [D,A,]6 | [A,,E,]4 D,2 | [D,A,]6 |\n[V:1] \"A\"A4 \"D\"dc | \"G\"B2 \"D\"A2 dc | \"G\"B2 \"D\"A2 d2 | dA AG FG |\n[V:2] [A,,E,]4 D,2 | G,,2 [D,A,]4 | G,,2 [D,A,]4 | [D,A,]6 |\n[V:1] \"A\"A4 \"D\"d2 | dA AG FG | \"A\"A4 \"D\"GF | \"A\"E2 \"D\"D2 GF |\n[V:2] [A,,E,]4 D,2 | [D,A,]6 | [A,,E,]4 D,2 | A,,2 [D,A,]4 |\n[V:1] \"A\"E2 \"D\"D2 dc | \"G\"B2 \"D\"A2 dc | \"G\"B2 \"D\"A2 GF | \"A7\"E6 |\n[V:2] A,,2 [D,A,]4 | G,,2 [D,A,]4 | G,,2 [D,A,]4 | [A,,E,]6 |\n[V:1] \"D\"D4 |]\n[V:2] [D,A,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=102\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D2 | \"D\"DE FD FG | \"A\"A4 \"D\"D2 | DE FD FG |\nw: All crea-tures of our God and King Lift up your voice and with us\n[V:2] z2 | [D,A,]6 | [A,,E,]4 D,2 | [D,A,]6 |\n[V:1] \"A\"A4 \"D\"dc | \"G\"B2 \"D\"A2 dc | \"G\"B2 \"D\"A2 d2 | dA AG FG |\nw: sing, A-lle-lu-ia! A-lle-lu-ia! Thou burn-ing sun with gol-den\n[V:2] [A,,E,]4 D,2 | G,,2 [D,A,]4 | G,,2 [D,A,]4 | [D,A,]6 |\n[V:1] \"A\"A4 \"D\"d2 | dA AG FG | \"A\"A4 \"D\"GF | \"A\"E2 \"D\"D2 GF |\nw: beam, Thou sil-ver moon with soft-er gleam! O * praise Him! O *\n[V:2] [A,,E,]4 D,2 | [D,A,]6 | [A,,E,]4 D,2 | A,,2 [D,A,]4 |\n[V:1] \"A\"E2 \"D\"D2 dc | \"G\"B2 \"D\"A2 dc | \"G\"B2 \"D\"A2 GF | \"A7\"E6 |\nw: praise Him! A-lle-lu-ia! A-lle-lu-ia! A-lle-lu-\n[V:2] A,,2 [D,A,]4 | G,,2 [D,A,]4 | G,,2 [D,A,]4 | [A,,E,]6 |\n[V:1] \"D\"D4 |]\nw: ia!\n[V:2] [D,A,]4 |]",
      "key": "D",
      "bars": 16,
      "bpm": 102
     },
     "inter": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=114\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D2 | \"D\"DE FD FG | \"A\"[EA]4 \"D\"[A,D]2 | DE FD FG |\n[V:2] z2 | [D,,A,,F,]6 | [A,,E,]4 [D,,A,,F,]2 | [D,,A,,F,]6 |\n[V:1] \"A\"[EA]4 \"D\"dc | \"G\"[GB]2 \"D\"[FA]2 dc | \"G\"[GB]2 \"D\"[FA]2 [Ad]2 | dA AG FG |\n[V:2] [A,,E,C]4 [D,,A,,F,]2 | [G,,D,B,]2 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]4 | [D,,A,,F,]6 |\n[V:1] \"A\"[EA]4 \"D\"[Ad]2 | dA AG FG | \"A\"[EA]4 \"D\"GF | \"A\"[CE]2 \"D\"[A,D]2 GF |\n[V:2] [A,,E,C]4 [D,,A,,F,]2 | [D,,A,,F,]6 | [A,,E,C]4 [D,,A,,F,]2 | [A,,E,]2 [D,,A,,F,]4 |\n[V:1] \"A\"[CE]2 \"D\"[A,D]2 dc | \"G\"[GB]2 \"D\"[FA]2 dc | \"G\"[GB]2 \"D\"[FA]2 GF | \"A7\"[CE]6 |\n[V:2] [A,,E,]2 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]4 | [A,,G,]6 |\n[V:1] \"D\"[A,D]4 |]\n[V:2] [D,,A,,D,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=114\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D2 | \"D\"DE FD FG | \"A\"[EA]4 \"D\"[A,D]2 | DE FD FG |\nw: All crea-tures of our God and King Lift up your voice and with us\n[V:2] z2 | [D,,A,,F,]6 | [A,,E,]4 [D,,A,,F,]2 | [D,,A,,F,]6 |\n[V:1] \"A\"[EA]4 \"D\"dc | \"G\"[GB]2 \"D\"[FA]2 dc | \"G\"[GB]2 \"D\"[FA]2 [Ad]2 | dA AG FG |\nw: sing, A-lle-lu-ia! A-lle-lu-ia! Thou burn-ing sun with gol-den\n[V:2] [A,,E,C]4 [D,,A,,F,]2 | [G,,D,B,]2 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]4 | [D,,A,,F,]6 |\n[V:1] \"A\"[EA]4 \"D\"[Ad]2 | dA AG FG | \"A\"[EA]4 \"D\"GF | \"A\"[CE]2 \"D\"[A,D]2 GF |\nw: beam, Thou sil-ver moon with soft-er gleam! O * praise Him! O *\n[V:2] [A,,E,C]4 [D,,A,,F,]2 | [D,,A,,F,]6 | [A,,E,C]4 [D,,A,,F,]2 | [A,,E,]2 [D,,A,,F,]4 |\n[V:1] \"A\"[CE]2 \"D\"[A,D]2 dc | \"G\"[GB]2 \"D\"[FA]2 dc | \"G\"[GB]2 \"D\"[FA]2 GF | \"A7\"[CE]6 |\nw: praise Him! A-lle-lu-ia! A-lle-lu-ia! A-lle-lu-\n[V:2] [A,,E,]2 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]4 | [A,,G,]6 |\n[V:1] \"D\"[A,D]4 |]\nw: ia!\n[V:2] [D,,A,,D,]4 |]",
      "key": "D",
      "bars": 16,
      "bpm": 114
     },
     "adv": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=120\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D2 | \"D\"DE FD FG | \"A\"[CEA]4 \"D\"[A,D]2 | DE FD FG |\n[V:2] z2 | [D,,A,,F,B,]6 | [A,,,A,,E,]4 [D,,A,,F,]2 | [D,,A,,F,B,]6 |\n[V:1] \"A\"[CEA]4 \"D\"dc | \"G\"[GB]2 \"D\"[FA]2 dc | \"G\"[GB]2 \"D\"[FA]2 [Ad]2 | dA AG FG |\n[V:2] [A,,,A,,E,]4 [D,,A,,F,B,]2 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]4 | [D,,A,,F,B,]6 |\n[V:1] \"A\"[CEA]4 \"D\"[Ad]2 | dA AG FG | \"A\"[CEA]4 \"D\"GF | \"A\"[CE]2 \"D\"[A,D]2 GF |\n[V:2] [A,,,A,,E,]4 [D,,A,,F,B,]2 | [D,,A,,F,B,]6 | [A,,,A,,E,]4 [D,,A,,F,B,]2 | [A,,,A,,E,]2 [D,,A,,F,]4 |\n[V:1] \"A\"[CE]2 \"D\"[A,D]2 dc | \"G\"[GB]2 \"D\"[FA]2 dc | \"G\"[GB]2 \"D\"[FA]2 GF | \"A7\"[A,CE]6 |\n[V:2] [A,,,A,,E,]2 [D,,A,,F,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]4 | [A,,,A,,G,]6 |\n[V:1] \"D\"[A,D]4 |]\n[V:2] [D,,A,,D,]4 |]",
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=120\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D2 | \"D\"DE FD FG | \"A\"[CEA]4 \"D\"[A,D]2 | DE FD FG |\nw: All crea-tures of our God and King Lift up your voice and with us\n[V:2] z2 | [D,,A,,F,B,]6 | [A,,,A,,E,]4 [D,,A,,F,]2 | [D,,A,,F,B,]6 |\n[V:1] \"A\"[CEA]4 \"D\"dc | \"G\"[GB]2 \"D\"[FA]2 dc | \"G\"[GB]2 \"D\"[FA]2 [Ad]2 | dA AG FG |\nw: sing, A-lle-lu-ia! A-lle-lu-ia! Thou burn-ing sun with gol-den\n[V:2] [A,,,A,,E,]4 [D,,A,,F,B,]2 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]4 | [D,,A,,F,B,]6 |\n[V:1] \"A\"[CEA]4 \"D\"[Ad]2 | dA AG FG | \"A\"[CEA]4 \"D\"GF | \"A\"[CE]2 \"D\"[A,D]2 GF |\nw: beam, Thou sil-ver moon with soft-er gleam! O * praise Him! O *\n[V:2] [A,,,A,,E,]4 [D,,A,,F,B,]2 | [D,,A,,F,B,]6 | [A,,,A,,E,]4 [D,,A,,F,B,]2 | [A,,,A,,E,]2 [D,,A,,F,]4 |\n[V:1] \"A\"[CE]2 \"D\"[A,D]2 dc | \"G\"[GB]2 \"D\"[FA]2 dc | \"G\"[GB]2 \"D\"[FA]2 GF | \"A7\"[A,CE]6 |\nw: praise Him! A-lle-lu-ia! A-lle-lu-ia! A-lle-lu-\n[V:2] [A,,,A,,E,]2 [D,,A,,F,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]4 | [A,,,A,,G,]6 |\n[V:1] \"D\"[A,D]4 |]\nw: ia!\n[V:2] [D,,A,,D,]4 |]",
      "key": "D",
      "bars": 16,
      "bpm": 120
     }
-   }
+   },
+   "verses": [
+    "Thou rushing wind that art so strong Ye clouds that sail in Heaven along,\nO praise Him! Alleluia! Thou rising moon, in praise rejoice,\nYe lights of evening, find a voice!",
+    "Thou flowing water, pure and clear, Make music for thy Lord to hear,\nO praise Him! Alleluia! Thou fire so masterful and bright,\nThat givest man both warmth and light.",
+    "Dear mother earth, who day by day Unfoldest blessings on our way,\nO praise Him! Alleluia! The flowers and fruits that in thee grow,\nLet them His glory also show.",
+    "And all ye men of tender heart, Forgiving others, take your part,\nO sing ye! Alleluia! Ye who long pain and sorrow bear,\nPraise God and on Him cast your care!"
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "doxology",
@@ -554,7 +664,9 @@ window.SONGBOOK = {
      "bars": 8,
      "bpm": 88
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "shall-we-gather",
@@ -585,7 +697,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 92
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "pending-in-the-garden",
@@ -622,24 +736,30 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=39\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Bb\"F3/2G/F D3 | F3/2G/F D3 | \"F7\"c2c A3 | \"Bb\"B2B F3 |\n[V:2] [B,,F,]6 | [B,,F,]6 | [F,,C,]6 | [B,,F,]6 |\n[V:1] \"Eb\"G2G B3/2A/G | \"Bb\"F3/2G/F D3 | \"Eb\"G2G B3/2A/G | \"Bb\"F3/2G/F D3 |\n[V:2] [E,B,]6 | [B,,F,]6 | [E,B,]6 | [B,,F,]6 |\n[V:1] \"F7\"c2c e3/2c/A | \"Bb\"B3 d3 | BFD \"F7\"F3/2E/C | \"Bb\"B,6 |]\n[V:2] [F,,C,]6 | [B,,F,]6 | B,,3 F,,3 | [B,,F,]6 |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=39\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Bb\"F3/2G/F D3 | F3/2G/F D3 | \"F7\"c2c A3 | \"Bb\"B2B F3 |\nw: Si-* lent night, ho-* ly night, All is calm, all is bright\n[V:2] [B,,F,]6 | [B,,F,]6 | [F,,C,]6 | [B,,F,]6 |\n[V:1] \"Eb\"G2G B3/2A/G | \"Bb\"F3/2G/F D3 | \"Eb\"G2G B3/2A/G | \"Bb\"F3/2G/F D3 |\nw: Round yon vir-* gin mo-ther and Child. Ho-ly In-fant, so ten-der and mild,\n[V:2] [E,B,]6 | [B,,F,]6 | [E,B,]6 | [B,,F,]6 |\n[V:1] \"F7\"c2c e3/2c/A | \"Bb\"B3 d3 | BFD \"F7\"F3/2E/C | \"Bb\"B,6 |]\nw: Sleep in hea-ven-ly peace, * Sleep * in hea-ven-ly peace.\n[V:2] [F,,C,]6 | [B,,F,]6 | B,,3 F,,3 | [B,,F,]6 |]",
      "key": "Bb",
      "bars": 12,
      "bpm": 39
     },
     "inter": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=44\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Bb\"F3/2G/F [B,D]3 | F3/2G/F [B,D]3 | \"F7\"[Ac]2c [FA]3 | \"Bb\"[FB]2B [DF]3 |\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]6 | [F,,E,A,]6 | [B,,,F,,D,]6 |\n[V:1] \"Eb\"[EG]2G B3/2A/G | \"Bb\"F3/2G/F [B,D]3 | \"Eb\"[EG]2G B3/2A/G | \"Bb\"F3/2G/F [B,D]3 |\n[V:2] [E,,B,,G,]6 | [B,,,F,,D,]6 | [E,,B,,G,]6 | [B,,,F,,D,]6 |\n[V:1] \"F7\"[Ac]2c e3/2c/A | \"Bb\"[FB]3 [Bd]3 | BFD \"F7\"F3/2E/C | \"Bb\"B,6 |]\n[V:2] [F,,E,A,]6 | [B,,,F,,D,]6 | [B,,,F,,D,]3 [F,,E,A,]3 | [B,,F,]6 |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=44\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Bb\"F3/2G/F [B,D]3 | F3/2G/F [B,D]3 | \"F7\"[Ac]2c [FA]3 | \"Bb\"[FB]2B [DF]3 |\nw: Si-* lent night, ho-* ly night, All is calm, all is bright\n[V:2] [B,,,F,,D,]6 | [B,,,F,,D,]6 | [F,,E,A,]6 | [B,,,F,,D,]6 |\n[V:1] \"Eb\"[EG]2G B3/2A/G | \"Bb\"F3/2G/F [B,D]3 | \"Eb\"[EG]2G B3/2A/G | \"Bb\"F3/2G/F [B,D]3 |\nw: Round yon vir-* gin mo-ther and Child. Ho-ly In-fant, so ten-der and mild,\n[V:2] [E,,B,,G,]6 | [B,,,F,,D,]6 | [E,,B,,G,]6 | [B,,,F,,D,]6 |\n[V:1] \"F7\"[Ac]2c e3/2c/A | \"Bb\"[FB]3 [Bd]3 | BFD \"F7\"F3/2E/C | \"Bb\"B,6 |]\nw: Sleep in hea-ven-ly peace, * Sleep * in hea-ven-ly peace.\n[V:2] [F,,E,A,]6 | [B,,,F,,D,]6 | [B,,,F,,D,]3 [F,,E,A,]3 | [B,,F,]6 |]",
      "key": "Bb",
      "bars": 12,
      "bpm": 44
     },
     "adv": {
-     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=46\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Bb\"F3/2G/F [B,D]3 | F3/2G/F [B,D]3 | \"F7\"[Ac]2c [FA]3 | \"Bb\"[FB]2B [DF]3 |\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]6 | [F,,,F,,E,A,C]6 | [B,,,F,,D,G,]6 |\n[V:1] \"Eb\"[EG]2G B3/2A/G | \"Bb\"F3/2G/F [B,D]3 | \"Eb\"[EG]2G B3/2A/G | \"Bb\"F3/2G/F [B,D]3 |\n[V:2] [E,,B,,G,C]6 | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 | [B,,,F,,D,G,]6 |\n[V:1] \"F7\"[Ac]2c e3/2c/A | \"Bb\"[FB]3 [Bd]3 | BFD \"F7\"F3/2E/C | \"Bb\"B,6 |]\n[V:2] [F,,,F,,E,A,C]6 | [B,,,F,,D,G,]6 | [B,,,F,,D,G,]3 [F,,,F,,E,A,]3 | [B,,F,]6 |]",
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=46\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Bb\"F3/2G/F [B,D]3 | F3/2G/F [B,D]3 | \"F7\"[Ac]2c [FA]3 | \"Bb\"[FB]2B [DF]3 |\nw: Si-* lent night, ho-* ly night, All is calm, all is bright\n[V:2] [B,,,F,,D,G,]6 | [B,,,F,,D,G,]6 | [F,,,F,,E,A,C]6 | [B,,,F,,D,G,]6 |\n[V:1] \"Eb\"[EG]2G B3/2A/G | \"Bb\"F3/2G/F [B,D]3 | \"Eb\"[EG]2G B3/2A/G | \"Bb\"F3/2G/F [B,D]3 |\nw: Round yon vir-* gin mo-ther and Child. Ho-ly In-fant, so ten-der and mild,\n[V:2] [E,,B,,G,C]6 | [B,,,F,,D,G,]6 | [E,,B,,G,C]6 | [B,,,F,,D,G,]6 |\n[V:1] \"F7\"[Ac]2c e3/2c/A | \"Bb\"[FB]3 [Bd]3 | BFD \"F7\"F3/2E/C | \"Bb\"B,6 |]\nw: Sleep in hea-ven-ly peace, * Sleep * in hea-ven-ly peace.\n[V:2] [F,,,F,,E,A,C]6 | [B,,,F,,D,G,]6 | [B,,,F,,D,G,]3 [F,,,F,,E,A,]3 | [B,,F,]6 |]",
      "key": "Bb",
      "bars": 12,
      "bpm": 46
     }
-   }
+   },
+   "verses": [
+    "Silent night, holy night, Shepherds quake at the sight;\nGlories stream from heaven afar, Heavenly hosts sing Allelu\nia! Christ the Savior is born, Christ the Savior is born!",
+    "Silent night, holy night, Son of God, love's pure light;\nRadiant beams from Thy holy face With the dawn of redeeming\ngrace, Jesus, Lord, at Thy birth, Jesus, Lord, at Thy birth.",
+    "Silent night, holy night Wondrous star, lend thy light;\nWith the angels let us sing, Alleluia to our\nKing; Christ the Savior is born, Christ the Savior is born!"
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "joy-to-the-world",
@@ -652,24 +772,30 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=107\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"d4 c3B | A6 \"A7\"G2 | \"D\"F4 \"A7\"E4 | \"D\"D6 A2 |\n[V:2] [D,A,]8 | [D,A,]6 A,,2 | [D,A,]4 [A,,E,]4 | [D,A,]8 |\n[V:1] \"G\"B6 B2 | \"A\"c6 c2 | \"D\"d6 d2 | d2 c2 B2 A2 |\n[V:2] [G,,D,]8 | [A,,E,]8 | [D,A,]8 | [D,A,]8 |\n[V:1] A3G F2 d2 | d2 c2 B2 A2 | A3G F2 F2 | F2 F2 F2 FG |\n[V:2] [D,A,]8 | [D,A,]8 | [D,A,]8 | [D,A,]8 |\n[V:1] A6 GF | \"A\"E2 E2 E2 EF | \"A7\"G6 FE | \"D\"D2 d4 \"G\"B2 |\n[V:2] [D,A,]8 | [A,,E,]8 | [A,,E,]8 | [D,A,]6 G,,2 |\n[V:1] \"D\"A3G F2 \"G\"G2 | \"D\"F4 \"A7\"E4 | \"D\"D8 |]\n[V:2] [D,A,]6 G,,2 | [D,A,]4 [A,,E,]4 | [D,A,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=107\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"d4 c3B | A6 \"A7\"G2 | \"D\"F4 \"A7\"E4 | \"D\"D6 A2 |\nw: Joy to the world, the Lord is come! Let\n[V:2] [D,A,]8 | [D,A,]6 A,,2 | [D,A,]4 [A,,E,]4 | [D,A,]8 |\n[V:1] \"G\"B6 B2 | \"A\"c6 c2 | \"D\"d6 d2 | d2 c2 B2 A2 |\nw: earth re-ceive her King; Let ev-* 'ry *\n[V:2] [G,,D,]8 | [A,,E,]8 | [D,A,]8 | [D,A,]8 |\n[V:1] A3G F2 d2 | d2 c2 B2 A2 | A3G F2 F2 | F2 F2 F2 FG |\nw: heart * * pre-pare * Him * room, * * And Heav'n and na-ture *\n[V:2] [D,A,]8 | [D,A,]8 | [D,A,]8 | [D,A,]8 |\n[V:1] A6 GF | \"A\"E2 E2 E2 EF | \"A7\"G6 FE | \"D\"D2 d4 \"G\"B2 |\nw: sing, And * Heav'n and na-ture * sing, And * Heav'n, * and\n[V:2] [D,A,]8 | [A,,E,]8 | [A,,E,]8 | [D,A,]6 G,,2 |\n[V:1] \"D\"A3G F2 \"G\"G2 | \"D\"F4 \"A7\"E4 | \"D\"D8 |]\nw: Heav'n, * * and na-ture sing.\n[V:2] [D,A,]6 G,,2 | [D,A,]4 [A,,E,]4 | [D,A,]8 |]",
      "key": "D",
      "bars": 19,
      "bpm": 107
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=120\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[Ad]4 [Ac]3B | [FA]6 \"A7\"[EG]2 | \"D\"[DF]4 \"A7\"[CE]4 | \"D\"[A,D]6 [FA]2 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]2 [A,,G,C]2 | [D,,A,,F,]4 [A,,G,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"G\"[GB]6 [GB]2 | \"A\"[Ac]6 [Ac]2 | \"D\"[Ad]6 [Ad]2 | [Ad]2 [Ac]2 [FB]2 [FA]2 |\n[V:2] [G,,D,B,]4 [G,,D,B,]4 | [A,,E,C]4 [A,,E,C]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] [FA]3G [DF]2 [Ad]2 | [Ad]2 [Ac]2 [FB]2 [FA]2 | [FA]3G [DF]2 [DF]2 | [DF]2 [DF]2 [DF]2 FG |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] [FA]6 GF | \"A\"[CE]2 [CE]2 [CE]2 EF | \"A7\"[EG]6 FE | \"D\"[A,D]2 [Ad]4 \"G\"[GB]2 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [A,,E,]4 [A,,E,]4 | [A,,G,C]4 [A,,G,C]4 | [D,,A,,F,]4 [D,,A,,F,]2 [G,,D,]2 |\n[V:1] \"D\"[FA]3G [DF]2 \"G\"[DG]2 | \"D\"[DF]4 \"A7\"[CE]4 | \"D\"[A,D]8 |]\n[V:2] [D,,A,,F,]4 [D,,A,,F,]2 [G,,D,B,]2 | [D,,A,,F,]4 [A,,G,]4 | [D,,A,,D,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=120\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[Ad]4 [Ac]3B | [FA]6 \"A7\"[EG]2 | \"D\"[DF]4 \"A7\"[CE]4 | \"D\"[A,D]6 [FA]2 |\nw: Joy to the world, the Lord is come! Let\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]2 [A,,G,C]2 | [D,,A,,F,]4 [A,,G,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"G\"[GB]6 [GB]2 | \"A\"[Ac]6 [Ac]2 | \"D\"[Ad]6 [Ad]2 | [Ad]2 [Ac]2 [FB]2 [FA]2 |\nw: earth re-ceive her King; Let ev-* 'ry *\n[V:2] [G,,D,B,]4 [G,,D,B,]4 | [A,,E,C]4 [A,,E,C]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] [FA]3G [DF]2 [Ad]2 | [Ad]2 [Ac]2 [FB]2 [FA]2 | [FA]3G [DF]2 [DF]2 | [DF]2 [DF]2 [DF]2 FG |\nw: heart * * pre-pare * Him * room, * * And Heav'n and na-ture *\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] [FA]6 GF | \"A\"[CE]2 [CE]2 [CE]2 EF | \"A7\"[EG]6 FE | \"D\"[A,D]2 [Ad]4 \"G\"[GB]2 |\nw: sing, And * Heav'n and na-ture * sing, And * Heav'n, * and\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [A,,E,]4 [A,,E,]4 | [A,,G,C]4 [A,,G,C]4 | [D,,A,,F,]4 [D,,A,,F,]2 [G,,D,]2 |\n[V:1] \"D\"[FA]3G [DF]2 \"G\"[DG]2 | \"D\"[DF]4 \"A7\"[CE]4 | \"D\"[A,D]8 |]\nw: Heav'n, * * and na-ture sing.\n[V:2] [D,,A,,F,]4 [D,,A,,F,]2 [G,,D,B,]2 | [D,,A,,F,]4 [A,,G,]4 | [D,,A,,D,]8 |]",
      "key": "D",
      "bars": 19,
      "bpm": 120
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=126\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[FAd]4 [Ac]3B | [DFA]6 \"A7\"[EG]2 | \"D\"[A,DF]4 \"A7\"[A,CE]4 | \"D\"[A,D]6 [FA]2 |\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]2 [A,,,A,,G,C]2 | [D,,A,,F,]4 [A,,,A,,G,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"G\"[DGB]6 [GB]2 | \"A\"[EAc]6 [Ac]2 | \"D\"[FAd]6 [Ad]2 | [Ad]2 [Ac]2 [FB]2 [FA]2 |\n[V:2] [G,,,G,,D,B,]4 [G,,,G,,D,B,]4 | [A,,,A,,E,C]4 [A,,,A,,E,C]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] [FA]3G [DF]2 [Ad]2 | [Ad]2 [Ac]2 [FB]2 [FA]2 | [FA]3G [DF]2 [DF]2 | [DF]2 [DF]2 [DF]2 FG |\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] [DFA]6 GF | \"A\"[CE]2 [CE]2 [CE]2 EF | \"A7\"[CEG]6 FE | \"D\"[A,D]2 [FAd]4 \"G\"[GB]2 |\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [A,,,A,,G,]4 [A,,,A,,G,]4 | [D,,A,,F,]4 [D,,A,,F,]2 [G,,,G,,D,]2 |\n[V:1] \"D\"[FA]3G [DF]2 \"G\"[DG]2 | \"D\"[A,DF]4 \"A7\"[A,CE]4 | \"D\"[A,D]8 |]\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 | [D,,A,,F,]4 [A,,,A,,G,]4 | [D,,A,,D,]8 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=126\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[FAd]4 [Ac]3B | [DFA]6 \"A7\"[EG]2 | \"D\"[A,DF]4 \"A7\"[A,CE]4 | \"D\"[A,D]6 [FA]2 |\nw: Joy to the world, the Lord is come! Let\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]2 [A,,,A,,G,C]2 | [D,,A,,F,]4 [A,,,A,,G,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"G\"[DGB]6 [GB]2 | \"A\"[EAc]6 [Ac]2 | \"D\"[FAd]6 [Ad]2 | [Ad]2 [Ac]2 [FB]2 [FA]2 |\nw: earth re-ceive her King; Let ev-* 'ry *\n[V:2] [G,,,G,,D,B,]4 [G,,,G,,D,B,]4 | [A,,,A,,E,C]4 [A,,,A,,E,C]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] [FA]3G [DF]2 [Ad]2 | [Ad]2 [Ac]2 [FB]2 [FA]2 | [FA]3G [DF]2 [DF]2 | [DF]2 [DF]2 [DF]2 FG |\nw: heart * * pre-pare * Him * room, * * And Heav'n and na-ture *\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] [DFA]6 GF | \"A\"[CE]2 [CE]2 [CE]2 EF | \"A7\"[CEG]6 FE | \"D\"[A,D]2 [FAd]4 \"G\"[GB]2 |\nw: sing, And * Heav'n and na-ture * sing, And * Heav'n, * and\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [A,,,A,,G,]4 [A,,,A,,G,]4 | [D,,A,,F,]4 [D,,A,,F,]2 [G,,,G,,D,]2 |\n[V:1] \"D\"[FA]3G [DF]2 \"G\"[DG]2 | \"D\"[A,DF]4 \"A7\"[A,CE]4 | \"D\"[A,D]8 |]\nw: Heav'n, * * and na-ture sing.\n[V:2] [D,,A,,F,B,]4 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 | [D,,A,,F,]4 [A,,,A,,G,]4 | [D,,A,,D,]8 |]",
      "key": "D",
      "bars": 19,
      "bpm": 126
     }
-   }
+   },
+   "verses": [
+    "Joy to the earth, the Savior reigns! Let men their songs employ;\nWhile fields and floods, rocks, hills and plains Repeat the sounding joy,\nRepeat the sounding joy, Repeat, repeat, the sounding joy.",
+    "No more let sins and sorrows grow, Nor thorns infest the ground;\nHe comes to make His blessings flow Far as the curse is found,\nFar as the curse is found, Far as, far as, the curse is found.",
+    "He rules the world with truth and grace, And makes the nations prove\nThe glories of His righteousness, And wonders of His love,\nAnd wonders of His love, And wonders, wonders, of His love."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "god-rest-ye",
@@ -682,24 +808,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=99\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] E2 | \"Em\"E2 B2 B2 A2 | G2 F2 \"D\"E2 D2 | \"Em\"E2 F2 \"Am\"G2 A2 |\n[V:2] z2 | [E,B,]8 | [E,B,]4 [D,A,]4 | [E,B,]4 [A,,E,]4 |\n[V:1] \"B7\"B6 \"Em\"E2 | E2 B2 B2 A2 | G2 F2 \"D\"E2 D2 | \"Em\"E2 F2 \"Am\"G2 A2 |\n[V:2] [B,,F,]6 E,2 | [E,B,]8 | [E,B,]4 [D,A,]4 | [E,B,]4 [A,,E,]4 |\n[V:1] \"B7\"B4 z2 B2 | \"Am\"c2 A2 \"G\"B2 c2 | d2 e2 \"D\"B2 A2 | \"Em\"G2 E2 \"D\"F2 G2 |\n[V:2] [B,,F,]8 | [A,,E,]4 [G,,D,]4 | [G,,D,]4 [D,A,]4 | [E,B,]4 [D,A,]4 |\n[V:1] A4 \"Em\"G2 \"D\"A2 | \"G\"B4 \"C\"c2 \"G\"B2 | B2 \"D\"A2 \"Em\"G2 \"B7\"F2 | \"Em\"E4 GF E2 |\n[V:2] [D,A,]4 E,2 D,2 | [G,,D,]4 C,2 G,,2 | G,,2 D,2 E,2 B,,2 | [E,B,]8 |\n[V:1] \"D\"A4 \"Em\"G2 \"D\"A2 | \"G\"B2 \"C\"c2 \"G\"d2 \"Em\"e2 | \"G\"B2 \"D\"A2 \"Em\"G2 \"B7\"F2 | \"Em\"E6 |]\n[V:2] [D,A,]4 E,2 D,2 | G,,2 C,2 G,,2 E,2 | G,,2 D,2 E,2 B,,2 | [E,B,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=99\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] E2 | \"Em\"E2 B2 B2 A2 | G2 F2 \"D\"E2 D2 | \"Em\"E2 F2 \"Am\"G2 A2 |\nw: God rest ye mer-ry, gen-tle-men, let no-thing you dis-\n[V:2] z2 | [E,B,]8 | [E,B,]4 [D,A,]4 | [E,B,]4 [A,,E,]4 |\n[V:1] \"B7\"B6 \"Em\"E2 | E2 B2 B2 A2 | G2 F2 \"D\"E2 D2 | \"Em\"E2 F2 \"Am\"G2 A2 |\nw: may, Re-mem-ber Christ our Sa-* vior was born on Christ-mas\n[V:2] [B,,F,]6 E,2 | [E,B,]8 | [E,B,]4 [D,A,]4 | [E,B,]4 [A,,E,]4 |\n[V:1] \"B7\"B4 z2 B2 | \"Am\"c2 A2 \"G\"B2 c2 | d2 e2 \"D\"B2 A2 | \"Em\"G2 E2 \"D\"F2 G2 |\nw: Day; To save us all from Sa-tan's pow'r when we were gone a-\n[V:2] [B,,F,]8 | [A,,E,]4 [G,,D,]4 | [G,,D,]4 [D,A,]4 | [E,B,]4 [D,A,]4 |\n[V:1] A4 \"Em\"G2 \"D\"A2 | \"G\"B4 \"C\"c2 \"G\"B2 | B2 \"D\"A2 \"Em\"G2 \"B7\"F2 | \"Em\"E4 GF E2 |\nw: stray. O * ti-dings of com-* fort and joy, com-fort and\n[V:2] [D,A,]4 E,2 D,2 | [G,,D,]4 C,2 G,,2 | G,,2 D,2 E,2 B,,2 | [E,B,]8 |\n[V:1] \"D\"A4 \"Em\"G2 \"D\"A2 | \"G\"B2 \"C\"c2 \"G\"d2 \"Em\"e2 | \"G\"B2 \"D\"A2 \"Em\"G2 \"B7\"F2 | \"Em\"E6 |]\nw: joy; O * ti-* dings of com-* fort and joy.\n[V:2] [D,A,]4 E,2 D,2 | G,,2 C,2 G,,2 E,2 | G,,2 D,2 E,2 B,,2 | [E,B,]6 |]",
      "key": "Em",
      "bars": 19,
      "bpm": 99
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=110\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] E2 | \"Em\"[B,E]2 [GB]2 [GB]2 [EA]2 | [EG]2 [B,F]2 \"D\"[A,E]2 [A,D]2 | \"Em\"[B,E]2 [B,F]2 \"Am\"[EG]2 [EA]2 |\n[V:2] z2 | [E,,B,,G,]4 [E,,B,,G,]4 | [E,,B,,G,]4 [D,,A,,F,]4 | [E,,B,,G,]4 [A,,E,]4 |\n[V:1] \"B7\"[FB]6 \"Em\"[B,E]2 | [B,E]2 [GB]2 [GB]2 [EA]2 | [EG]2 [B,F]2 \"D\"[A,E]2 [A,D]2 | \"Em\"[B,E]2 [B,F]2 \"Am\"[EG]2 [EA]2 |\n[V:2] [B,,,A,,^D,]4 [B,,,A,,D,]2 [E,,B,,G,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [E,,B,,G,]4 [D,,A,,F,]4 | [E,,B,,G,]4 [A,,E,]4 |\n[V:1] \"B7\"[FB]4 z2 [FB]2 | \"Am\"[Ac]2 [EA]2 \"G\"[GB]2 [Gc]2 | [Bd]2 [Be]2 \"D\"[FB]2 [FA]2 | \"Em\"[EG]2 [B,E]2 \"D\"[DF]2 [DG]2 |\n[V:2] [B,,,A,,^D,]4 [B,,,A,,D,]4 | [A,,E,C]4 [G,,D,B,]4 | [G,,D,B,]4 [D,,A,,F,]4 | [E,,B,,G,]4 [D,,A,,F,]4 |\n[V:1] [FA]4 \"Em\"[EG]2 \"D\"[FA]2 | \"G\"[GB]4 \"C\"[Gc]2 \"G\"[GB]2 | [GB]2 \"D\"[FA]2 \"Em\"[EG]2 \"B7\"[^DF]2 | \"Em\"[B,E]4 GF [B,E]2 |\n[V:2] [D,,A,,F,]4 [E,,B,,G,]2 [D,,A,,F,]2 | [G,,D,B,]4 [C,,G,,E,]2 [G,,D,B,]2 | [G,,D,B,]2 [D,,A,,F,]2 [E,,B,,G,]2 [B,,,A,,^D,]2 | [E,,B,,G,]4 [E,,B,,G,]4 |\n[V:1] \"D\"[FA]4 \"Em\"[EG]2 \"D\"[FA]2 | \"G\"[GB]2 \"C\"[Gc]2 \"G\"[Bd]2 \"Em\"[Be]2 | \"G\"[GB]2 \"D\"[FA]2 \"Em\"[EG]2 \"B7\"[^DF]2 | \"Em\"[B,E]6 |]\n[V:2] [D,,A,,F,]4 [E,,B,,G,]2 [D,,A,,F,]2 | [G,,D,B,]2 [C,,G,,E,]2 [G,,D,B,]2 [E,,B,,G,]2 | [G,,D,B,]2 [D,,A,,F,]2 [E,,B,,G,]2 [B,,,A,,^D,]2 | [E,,B,,E,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=110\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] E2 | \"Em\"[B,E]2 [GB]2 [GB]2 [EA]2 | [EG]2 [B,F]2 \"D\"[A,E]2 [A,D]2 | \"Em\"[B,E]2 [B,F]2 \"Am\"[EG]2 [EA]2 |\nw: God rest ye mer-ry, gen-tle-men, let no-thing you dis-\n[V:2] z2 | [E,,B,,G,]4 [E,,B,,G,]4 | [E,,B,,G,]4 [D,,A,,F,]4 | [E,,B,,G,]4 [A,,E,]4 |\n[V:1] \"B7\"[FB]6 \"Em\"[B,E]2 | [B,E]2 [GB]2 [GB]2 [EA]2 | [EG]2 [B,F]2 \"D\"[A,E]2 [A,D]2 | \"Em\"[B,E]2 [B,F]2 \"Am\"[EG]2 [EA]2 |\nw: may, Re-mem-ber Christ our Sa-* vior was born on Christ-mas\n[V:2] [B,,,A,,^D,]4 [B,,,A,,D,]2 [E,,B,,G,]2 | [E,,B,,G,]4 [E,,B,,G,]4 | [E,,B,,G,]4 [D,,A,,F,]4 | [E,,B,,G,]4 [A,,E,]4 |\n[V:1] \"B7\"[FB]4 z2 [FB]2 | \"Am\"[Ac]2 [EA]2 \"G\"[GB]2 [Gc]2 | [Bd]2 [Be]2 \"D\"[FB]2 [FA]2 | \"Em\"[EG]2 [B,E]2 \"D\"[DF]2 [DG]2 |\nw: Day; To save us all from Sa-tan's pow'r when we were gone a-\n[V:2] [B,,,A,,^D,]4 [B,,,A,,D,]4 | [A,,E,C]4 [G,,D,B,]4 | [G,,D,B,]4 [D,,A,,F,]4 | [E,,B,,G,]4 [D,,A,,F,]4 |\n[V:1] [FA]4 \"Em\"[EG]2 \"D\"[FA]2 | \"G\"[GB]4 \"C\"[Gc]2 \"G\"[GB]2 | [GB]2 \"D\"[FA]2 \"Em\"[EG]2 \"B7\"[^DF]2 | \"Em\"[B,E]4 GF [B,E]2 |\nw: stray. O * ti-dings of com-* fort and joy, com-fort and\n[V:2] [D,,A,,F,]4 [E,,B,,G,]2 [D,,A,,F,]2 | [G,,D,B,]4 [C,,G,,E,]2 [G,,D,B,]2 | [G,,D,B,]2 [D,,A,,F,]2 [E,,B,,G,]2 [B,,,A,,^D,]2 | [E,,B,,G,]4 [E,,B,,G,]4 |\n[V:1] \"D\"[FA]4 \"Em\"[EG]2 \"D\"[FA]2 | \"G\"[GB]2 \"C\"[Gc]2 \"G\"[Bd]2 \"Em\"[Be]2 | \"G\"[GB]2 \"D\"[FA]2 \"Em\"[EG]2 \"B7\"[^DF]2 | \"Em\"[B,E]6 |]\nw: joy; O * ti-* dings of com-* fort and joy.\n[V:2] [D,,A,,F,]4 [E,,B,,G,]2 [D,,A,,F,]2 | [G,,D,B,]2 [C,,G,,E,]2 [G,,D,B,]2 [E,,B,,G,]2 | [G,,D,B,]2 [D,,A,,F,]2 [E,,B,,G,]2 [B,,,A,,^D,]2 | [E,,B,,E,]6 |]",
      "key": "Em",
      "bars": 19,
      "bpm": 110
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=116\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] E2 | \"Em\"[B,E]2 [GB]2 [GB]2 [EA]2 | [EG]2 [B,F]2 \"D\"[A,E]2 [A,D]2 | \"Em\"[B,E]2 [B,F]2 \"Am\"[EG]2 [EA]2 |\n[V:2] z2 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [A,,,A,,E,G,]4 |\n[V:1] \"B7\"[^DFB]6 \"Em\"[B,E]2 | [B,E]2 [GB]2 [GB]2 [EA]2 | [EG]2 [B,F]2 \"D\"[A,E]2 [A,D]2 | \"Em\"[B,E]2 [B,F]2 \"Am\"[EG]2 [EA]2 |\n[V:2] [B,,,A,,^D,F,]4 [B,,,A,,D,F,]2 [E,,,E,,B,,=D,G,]2 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [A,,,A,,E,G,]4 |\n[V:1] \"B7\"[^DFB]4 z2 [FB]2 | \"Am\"[Ac]2 [EA]2 \"G\"[GB]2 [Gc]2 | [Bd]2 [Be]2 \"D\"[FB]2 [FA]2 | \"Em\"[EG]2 [B,E]2 \"D\"[DF]2 [DG]2 |\n[V:2] [B,,,A,,^D,F,]4 [B,,,A,,D,F,]4 | [A,,,A,,E,G,C]4 [G,,,G,,D,B,]4 | [G,,,G,,D,B,E]4 [D,,A,,F,B,]4 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]4 |\n[V:1] [DFA]4 \"Em\"[EG]2 \"D\"[FA]2 | \"G\"[DGB]4 \"C\"[Gc]2 \"G\"[GB]2 | [GB]2 \"D\"[FA]2 \"Em\"[EG]2 \"B7\"[^DF]2 | \"Em\"[B,E]4 GF [B,E]2 |\n[V:2] [D,,A,,F,B,]4 [E,,,E,,B,,D,G,]2 [D,,A,,F,B,]2 | [G,,,G,,D,B,]4 [C,,G,,E,A,]2 [G,,,G,,D,B,]2 | [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [E,,,E,,B,,D,G,]2 [B,,,A,,^D,F,]2 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 |\n[V:1] \"D\"[DFA]4 \"Em\"[EG]2 \"D\"[FA]2 | \"G\"[GB]2 \"C\"[Gc]2 \"G\"[Bd]2 \"Em\"[Be]2 | \"G\"[GB]2 \"D\"[FA]2 \"Em\"[EG]2 \"B7\"[^DF]2 | \"Em\"[B,E]6 |]\n[V:2] [D,,A,,F,B,]4 [E,,,E,,B,,D,G,]2 [D,,A,,F,B,]2 | [G,,,G,,D,B,E]2 [C,,G,,E,A,]2 [G,,,G,,D,B,E]2 [E,,,E,,B,,D,G,]2 | [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [E,,,E,,B,,D,G,]2 [B,,,A,,^D,F,]2 | [E,,B,,E,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=116\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] E2 | \"Em\"[B,E]2 [GB]2 [GB]2 [EA]2 | [EG]2 [B,F]2 \"D\"[A,E]2 [A,D]2 | \"Em\"[B,E]2 [B,F]2 \"Am\"[EG]2 [EA]2 |\nw: God rest ye mer-ry, gen-tle-men, let no-thing you dis-\n[V:2] z2 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [A,,,A,,E,G,]4 |\n[V:1] \"B7\"[^DFB]6 \"Em\"[B,E]2 | [B,E]2 [GB]2 [GB]2 [EA]2 | [EG]2 [B,F]2 \"D\"[A,E]2 [A,D]2 | \"Em\"[B,E]2 [B,F]2 \"Am\"[EG]2 [EA]2 |\nw: may, Re-mem-ber Christ our Sa-* vior was born on Christ-mas\n[V:2] [B,,,A,,^D,F,]4 [B,,,A,,D,F,]2 [E,,,E,,B,,=D,G,]2 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [A,,,A,,E,G,]4 |\n[V:1] \"B7\"[^DFB]4 z2 [FB]2 | \"Am\"[Ac]2 [EA]2 \"G\"[GB]2 [Gc]2 | [Bd]2 [Be]2 \"D\"[FB]2 [FA]2 | \"Em\"[EG]2 [B,E]2 \"D\"[DF]2 [DG]2 |\nw: Day; To save us all from Sa-tan's pow'r when we were gone a-\n[V:2] [B,,,A,,^D,F,]4 [B,,,A,,D,F,]4 | [A,,,A,,E,G,C]4 [G,,,G,,D,B,]4 | [G,,,G,,D,B,E]4 [D,,A,,F,B,]4 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]4 |\n[V:1] [DFA]4 \"Em\"[EG]2 \"D\"[FA]2 | \"G\"[DGB]4 \"C\"[Gc]2 \"G\"[GB]2 | [GB]2 \"D\"[FA]2 \"Em\"[EG]2 \"B7\"[^DF]2 | \"Em\"[B,E]4 GF [B,E]2 |\nw: stray. O * ti-dings of com-* fort and joy, com-fort and\n[V:2] [D,,A,,F,B,]4 [E,,,E,,B,,D,G,]2 [D,,A,,F,B,]2 | [G,,,G,,D,B,]4 [C,,G,,E,A,]2 [G,,,G,,D,B,]2 | [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [E,,,E,,B,,D,G,]2 [B,,,A,,^D,F,]2 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 |\n[V:1] \"D\"[DFA]4 \"Em\"[EG]2 \"D\"[FA]2 | \"G\"[GB]2 \"C\"[Gc]2 \"G\"[Bd]2 \"Em\"[Be]2 | \"G\"[GB]2 \"D\"[FA]2 \"Em\"[EG]2 \"B7\"[^DF]2 | \"Em\"[B,E]6 |]\nw: joy; O * ti-* dings of com-* fort and joy.\n[V:2] [D,,A,,F,B,]4 [E,,,E,,B,,D,G,]2 [D,,A,,F,B,]2 | [G,,,G,,D,B,E]2 [C,,G,,E,A,]2 [G,,,G,,D,B,E]2 [E,,,E,,B,,D,G,]2 | [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [E,,,E,,B,,D,G,]2 [B,,,A,,^D,F,]2 | [E,,B,,E,]6 |]",
      "key": "Em",
      "bars": 19,
      "bpm": 116
     }
-   }
+   },
+   "verses": [
+    "In Bethlehem, in Israel, this blessèd Babe was born,\nAnd laid within a manger upon this blessèd morn;\nThe which His mother Mary did nothing take in scorn.",
+    "From God our heav'nly Father a blessèd angel came;\nAnd unto certain shepherds brought tidings of the same;\nHow that in Bethlehem was born the Son of God by name.",
+    "\"Fear not, then,\" said the angel, \"Let nothing you afright\nThis day is born a Savior of a pure Virgin bright,\nTo free all those who trust in Him from Satan's pow'r and might.\"",
+    "The shepherds at those tidings rejoiced much in mind,\nAnd left their flocks afeeding in tempest, storm and wind,\nAnd went to Bethl'em straightaway this blessèd Babe to find."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "o-come-all-ye-faithful",
@@ -712,24 +845,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=88\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] G2 | \"G\"G4 D2 G2 | \"D\"A4 D4 | \"G\"B2 \"D\"A2 \"G\"B2 \"C\"c2 |\n[V:2] z2 | [G,,D,]8 | [D,A,]8 | G,,2 D,2 G,,2 C,2 |\n[V:1] \"G\"B4 \"D\"A2 \"G\"G2 | \"Em\"G4 \"D\"F2 \"A\"E2 | \"D\"F2 G2 A2 \"G\"B2 | \"D\"F4 \"A7\"E3D |\n[V:2] [G,,D,]4 D,2 G,,2 | [E,B,]4 D,2 A,,2 | [D,A,]6 G,,2 | [D,A,]4 [A,,E,]4 |\n[V:1] \"D\"D6 z2 | \"G\"d4 \"D7\"c2 \"G\"B2 | \"C\"c4 \"G\"B4 | \"D\"A2 \"G\"B2 \"Em\"G2 \"D\"A2 |\n[V:2] [D,A,]8 | [G,,D,]4 D,2 G,,2 | [C,G,]4 [G,,D,]4 | D,2 G,,2 E,2 D,2 |\n[V:1] F3E D2 \"G\"G2 | G2 \"D\"F2 \"G\"G2 \"D\"A2 | \"G\"G4 D2 B2 | B2 \"D\"A2 \"G\"B2 \"C\"c2 |\n[V:2] [D,A,]6 G,,2 | G,,2 D,2 G,,2 D,2 | [G,,D,]8 | G,,2 D,2 G,,2 C,2 |\n[V:1] \"G\"B4 \"D\"A2 \"G\"B2 | \"C\"c2 \"G\"B2 \"D\"A2 \"Em\"G2 | \"D\"F4 \"G\"G2 \"C\"c2 | \"G\"B4 \"D7\"A3G |\n[V:2] [G,,D,]4 D,2 G,,2 | C,2 G,,2 D,2 E,2 | [D,A,]4 G,,2 C,2 | [G,,D,]4 [D,A,]4 |\n[V:1] \"G\"G6 |]\n[V:2] [G,,D,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=88\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] G2 | \"G\"G4 D2 G2 | \"D\"A4 D4 | \"G\"B2 \"D\"A2 \"G\"B2 \"C\"c2 |\nw: O come, all ye faith-ful, joy-ful and tri-\n[V:2] z2 | [G,,D,]8 | [D,A,]8 | G,,2 D,2 G,,2 C,2 |\n[V:1] \"G\"B4 \"D\"A2 \"G\"G2 | \"Em\"G4 \"D\"F2 \"A\"E2 | \"D\"F2 G2 A2 \"G\"B2 | \"D\"F4 \"A7\"E3D |\nw: um-phant, O come ye, O come * ye, to Beth-* le-\n[V:2] [G,,D,]4 D,2 G,,2 | [E,B,]4 D,2 A,,2 | [D,A,]6 G,,2 | [D,A,]4 [A,,E,]4 |\n[V:1] \"D\"D6 z2 | \"G\"d4 \"D7\"c2 \"G\"B2 | \"C\"c4 \"G\"B4 | \"D\"A2 \"G\"B2 \"Em\"G2 \"D\"A2 |\nw: hem. Come and be-hold Him, born the King of\n[V:2] [D,A,]8 | [G,,D,]4 D,2 G,,2 | [C,G,]4 [G,,D,]4 | D,2 G,,2 E,2 D,2 |\n[V:1] F3E D2 \"G\"G2 | G2 \"D\"F2 \"G\"G2 \"D\"A2 | \"G\"G4 D2 B2 | B2 \"D\"A2 \"G\"B2 \"C\"c2 |\nw: an-* gels; O come, let us a-dore Him, O come, let us a-\n[V:2] [D,A,]6 G,,2 | G,,2 D,2 G,,2 D,2 | [G,,D,]8 | G,,2 D,2 G,,2 C,2 |\n[V:1] \"G\"B4 \"D\"A2 \"G\"B2 | \"C\"c2 \"G\"B2 \"D\"A2 \"Em\"G2 | \"D\"F4 \"G\"G2 \"C\"c2 | \"G\"B4 \"D7\"A3G |\nw: dore Him, O come, let us a-dore Him, * Christ * the\n[V:2] [G,,D,]4 D,2 G,,2 | C,2 G,,2 D,2 E,2 | [D,A,]4 G,,2 C,2 | [G,,D,]4 [D,A,]4 |\n[V:1] \"G\"G6 |]\nw: Lord.\n[V:2] [G,,D,]6 |]",
      "key": "G",
      "bars": 20,
      "bpm": 88
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=99\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] G2 | \"G\"[DG]4 [B,D]2 [DG]2 | \"D\"[FA]4 [A,D]4 | \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 \"C\"[Gc]2 |\n[V:2] z2 | [G,,D,]4 [G,,D,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 [C,,G,,E,]2 |\n[V:1] \"G\"[GB]4 \"D\"[FA]2 \"G\"[DG]2 | \"Em\"[EG]4 \"D\"[DF]2 \"A\"[^CE]2 | \"D\"[DF]2 [DG]2 [FA]2 \"G\"[GB]2 | \"D\"[DF]4 \"A7\"[^CE]3D |\n[V:2] [G,,D,B,]4 [D,,A,,F,]2 [G,,D,B,]2 | [E,,B,,G,]4 [D,,A,,F,]2 [A,,E,]2 | [D,,A,,F,]4 [D,,A,,F,]2 [G,,D,B,]2 | [D,,A,,F,]4 [A,,G,]4 |\n[V:1] \"D\"[A,D]6 z2 | \"G\"[Bd]4 \"D7\"[Ac]2 \"G\"[GB]2 | \"C\"[Gc]4 \"G\"[GB]4 | \"D\"[FA]2 \"G\"[GB]2 \"Em\"[EG]2 \"D\"[FA]2 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [D,,C,F,]2 [G,,D,B,]2 | [C,,G,,E,]4 [G,,D,B,]4 | [D,,A,,F,]2 [G,,D,B,]2 [E,,B,,G,]2 [D,,A,,F,]2 |\n[V:1] [DF]3E [A,D]2 \"G\"[DG]2 | [DG]2 \"D\"[DF]2 \"G\"[DG]2 \"D\"[FA]2 | \"G\"[DG]4 [B,D]2 [GB]2 | [GB]2 \"D\"[FA]2 \"G\"[GB]2 \"C\"[Gc]2 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]2 [G,,D,]2 | [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 [D,,A,,F,]2 | [G,,D,]4 [G,,D,]4 | [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 [C,,G,,E,]2 |\n[V:1] \"G\"[GB]4 \"D\"[FA]2 \"G\"[GB]2 | \"C\"[Gc]2 \"G\"[GB]2 \"D\"[FA]2 \"Em\"[EG]2 | \"D\"[DF]4 \"G\"[DG]2 \"C\"[Gc]2 | \"G\"[GB]4 \"D7\"[FA]3G |\n[V:2] [G,,D,B,]4 [D,,A,,F,]2 [G,,D,B,]2 | [C,,G,,E,]2 [G,,D,B,]2 [D,,A,,F,]2 [E,,B,,G,]2 | [D,,A,,F,]4 [G,,D,B,]2 [C,,G,,E,]2 | [G,,D,B,]4 [D,,C,F,]4 |\n[V:1] \"G\"[DG]6 |]\n[V:2] [G,,D,G,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=99\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] G2 | \"G\"[DG]4 [B,D]2 [DG]2 | \"D\"[FA]4 [A,D]4 | \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 \"C\"[Gc]2 |\nw: O come, all ye faith-ful, joy-ful and tri-\n[V:2] z2 | [G,,D,]4 [G,,D,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 [C,,G,,E,]2 |\n[V:1] \"G\"[GB]4 \"D\"[FA]2 \"G\"[DG]2 | \"Em\"[EG]4 \"D\"[DF]2 \"A\"[^CE]2 | \"D\"[DF]2 [DG]2 [FA]2 \"G\"[GB]2 | \"D\"[DF]4 \"A7\"[^CE]3D |\nw: um-phant, O come ye, O come * ye, to Beth-* le-\n[V:2] [G,,D,B,]4 [D,,A,,F,]2 [G,,D,B,]2 | [E,,B,,G,]4 [D,,A,,F,]2 [A,,E,]2 | [D,,A,,F,]4 [D,,A,,F,]2 [G,,D,B,]2 | [D,,A,,F,]4 [A,,G,]4 |\n[V:1] \"D\"[A,D]6 z2 | \"G\"[Bd]4 \"D7\"[Ac]2 \"G\"[GB]2 | \"C\"[Gc]4 \"G\"[GB]4 | \"D\"[FA]2 \"G\"[GB]2 \"Em\"[EG]2 \"D\"[FA]2 |\nw: hem. Come and be-hold Him, born the King of\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,D,B,]4 [D,,C,F,]2 [G,,D,B,]2 | [C,,G,,E,]4 [G,,D,B,]4 | [D,,A,,F,]2 [G,,D,B,]2 [E,,B,,G,]2 [D,,A,,F,]2 |\n[V:1] [DF]3E [A,D]2 \"G\"[DG]2 | [DG]2 \"D\"[DF]2 \"G\"[DG]2 \"D\"[FA]2 | \"G\"[DG]4 [B,D]2 [GB]2 | [GB]2 \"D\"[FA]2 \"G\"[GB]2 \"C\"[Gc]2 |\nw: an-* gels; O come, let us a-dore Him, O come, let us a-\n[V:2] [D,,A,,F,]4 [D,,A,,F,]2 [G,,D,]2 | [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 [D,,A,,F,]2 | [G,,D,]4 [G,,D,]4 | [G,,D,B,]2 [D,,A,,F,]2 [G,,D,B,]2 [C,,G,,E,]2 |\n[V:1] \"G\"[GB]4 \"D\"[FA]2 \"G\"[GB]2 | \"C\"[Gc]2 \"G\"[GB]2 \"D\"[FA]2 \"Em\"[EG]2 | \"D\"[DF]4 \"G\"[DG]2 \"C\"[Gc]2 | \"G\"[GB]4 \"D7\"[FA]3G |\nw: dore Him, O come, let us a-dore Him, * Christ * the\n[V:2] [G,,D,B,]4 [D,,A,,F,]2 [G,,D,B,]2 | [C,,G,,E,]2 [G,,D,B,]2 [D,,A,,F,]2 [E,,B,,G,]2 | [D,,A,,F,]4 [G,,D,B,]2 [C,,G,,E,]2 | [G,,D,B,]4 [D,,C,F,]4 |\n[V:1] \"G\"[DG]6 |]\nw: Lord.\n[V:2] [G,,D,G,]6 |]",
      "key": "G",
      "bars": 20,
      "bpm": 99
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=104\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] G2 | \"G\"[B,DG]4 [B,D]2 [DG]2 | \"D\"[DFA]4 [A,D]4 | \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 \"C\"[Gc]2 |\n[V:2] z2 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 [C,,G,,E,A,]2 |\n[V:1] \"G\"[DGB]4 \"D\"[FA]2 \"G\"[DG]2 | \"Em\"[B,EG]4 \"D\"[DF]2 \"A\"[^CE]2 | \"D\"[DF]2 [DG]2 [FA]2 \"G\"[GB]2 | \"D\"[A,DF]4 \"A7\"[^CE]3D |\n[V:2] [G,,,G,,D,B,]4 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]2 [A,,,A,,E,]2 | [D,,A,,F,B,]4 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 | [D,,A,,F,]4 [A,,,A,,G,]4 |\n[V:1] \"D\"[A,D]6 z2 | \"G\"[GBd]4 \"D7\"[Ac]2 \"G\"[GB]2 | \"C\"[EGc]4 \"G\"[DGB]4 | \"D\"[FA]2 \"G\"[GB]2 \"Em\"[EG]2 \"D\"[FA]2 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,,G,,D,B,E]4 [D,,C,F,A,]2 [G,,,G,,D,B,E]2 | [C,,G,,E,A,]4 [G,,,G,,D,B,]4 | [D,,A,,F,B,]2 [G,,,G,,D,B,]2 [E,,,E,,B,,D,G,]2 [D,,A,,F,B,]2 |\n[V:1] [DF]3E [A,D]2 \"G\"[DG]2 | [DG]2 \"D\"[DF]2 \"G\"[DG]2 \"D\"[FA]2 | \"G\"[B,DG]4 [B,D]2 [GB]2 | [GB]2 \"D\"[FA]2 \"G\"[GB]2 \"C\"[Gc]2 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]2 [G,,,G,,D,]2 | [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 [D,,A,,F,B,]2 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 [C,,G,,E,A,]2 |\n[V:1] \"G\"[DGB]4 \"D\"[FA]2 \"G\"[GB]2 | \"C\"[Gc]2 \"G\"[GB]2 \"D\"[FA]2 \"Em\"[EG]2 | \"D\"[A,DF]4 \"G\"[DG]2 \"C\"[Gc]2 | \"G\"[DGB]4 \"D7\"[FA]3G |\n[V:2] [G,,,G,,D,B,]4 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 | [C,,G,,E,A,]2 [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [E,,,E,,B,,D,G,]2 | [D,,A,,F,]4 [G,,,G,,D,]2 [C,,G,,E,]2 | [G,,,G,,D,B,]4 [D,,C,F,A,]4 |\n[V:1] \"G\"[B,DG]6 |]\n[V:2] [G,,D,G,]6 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=104\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] G2 | \"G\"[B,DG]4 [B,D]2 [DG]2 | \"D\"[DFA]4 [A,D]4 | \"G\"[GB]2 \"D\"[FA]2 \"G\"[GB]2 \"C\"[Gc]2 |\nw: O come, all ye faith-ful, joy-ful and tri-\n[V:2] z2 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 [C,,G,,E,A,]2 |\n[V:1] \"G\"[DGB]4 \"D\"[FA]2 \"G\"[DG]2 | \"Em\"[B,EG]4 \"D\"[DF]2 \"A\"[^CE]2 | \"D\"[DF]2 [DG]2 [FA]2 \"G\"[GB]2 | \"D\"[A,DF]4 \"A7\"[^CE]3D |\nw: um-phant, O come ye, O come * ye, to Beth-* le-\n[V:2] [G,,,G,,D,B,]4 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 | [E,,,E,,B,,D,G,]4 [D,,A,,F,]2 [A,,,A,,E,]2 | [D,,A,,F,B,]4 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 | [D,,A,,F,]4 [A,,,A,,G,]4 |\n[V:1] \"D\"[A,D]6 z2 | \"G\"[GBd]4 \"D7\"[Ac]2 \"G\"[GB]2 | \"C\"[EGc]4 \"G\"[DGB]4 | \"D\"[FA]2 \"G\"[GB]2 \"Em\"[EG]2 \"D\"[FA]2 |\nw: hem. Come and be-hold Him, born the King of\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [G,,,G,,D,B,E]4 [D,,C,F,A,]2 [G,,,G,,D,B,E]2 | [C,,G,,E,A,]4 [G,,,G,,D,B,]4 | [D,,A,,F,B,]2 [G,,,G,,D,B,]2 [E,,,E,,B,,D,G,]2 [D,,A,,F,B,]2 |\n[V:1] [DF]3E [A,D]2 \"G\"[DG]2 | [DG]2 \"D\"[DF]2 \"G\"[DG]2 \"D\"[FA]2 | \"G\"[B,DG]4 [B,D]2 [GB]2 | [GB]2 \"D\"[FA]2 \"G\"[GB]2 \"C\"[Gc]2 |\nw: an-* gels; O come, let us a-dore Him, O come, let us a-\n[V:2] [D,,A,,F,]4 [D,,A,,F,]2 [G,,,G,,D,]2 | [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 [D,,A,,F,B,]2 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [G,,,G,,D,B,E]2 [D,,A,,F,B,]2 [G,,,G,,D,B,E]2 [C,,G,,E,A,]2 |\n[V:1] \"G\"[DGB]4 \"D\"[FA]2 \"G\"[GB]2 | \"C\"[Gc]2 \"G\"[GB]2 \"D\"[FA]2 \"Em\"[EG]2 | \"D\"[A,DF]4 \"G\"[DG]2 \"C\"[Gc]2 | \"G\"[DGB]4 \"D7\"[FA]3G |\nw: dore Him, O come, let us a-dore Him, * Christ * the\n[V:2] [G,,,G,,D,B,]4 [D,,A,,F,B,]2 [G,,,G,,D,B,]2 | [C,,G,,E,A,]2 [G,,,G,,D,B,]2 [D,,A,,F,B,]2 [E,,,E,,B,,D,G,]2 | [D,,A,,F,]4 [G,,,G,,D,]2 [C,,G,,E,]2 | [G,,,G,,D,B,]4 [D,,C,F,A,]4 |\n[V:1] \"G\"[B,DG]6 |]\nw: Lord.\n[V:2] [G,,D,G,]6 |]",
      "key": "G",
      "bars": 20,
      "bpm": 104
     }
-   }
+   },
+   "verses": [
+    "True God of true God, Light from Light Eternal,\nLo, He shuns not the Virgin's womb; Son of the\nFather, begotten, not created;",
+    "Sing, choirs of angels, sing in exultation; O\nsing, all ye citizens of heav'n above! Glory to\nGod, glory in the highest;",
+    "See how the shepherds, summoned to His cradle,\nLeaving their flocks, draw nigh to gaze; We too will\nthither bend our joyful footsteps;",
+    "Lo! star led chieftains, Magi, Christ adoring,\nOffer Him incense, gold, and myrrh; We to the\nChrist Child bring our hearts' oblations."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "hark-the-herald",
@@ -742,24 +882,31 @@ window.SONGBOOK = {
    "featured": false,
    "levels": {
     "easy": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=92\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"C2 F2 F3E | F2 A2 A2 \"C\"G2 | \"F\"c2 c2 \"C7\"c3B | \"F\"A2 \"C\"G2 \"F\"A4 |\n[V:2] [F,,C,]8 | [F,,C,]6 C,2 | [F,,C,]4 [C,G,]4 | F,,2 C,2 [F,,C,]4 |\n[V:1] C2 F2 F3E | F2 A2 A2 \"C\"G2 | c2 G2 G3E | E2 \"G7\"D2 \"C\"C4 |\n[V:2] [F,,C,]8 | [F,,C,]6 C,2 | [C,G,]8 | C,2 G,,2 [C,G,]4 |\n[V:1] \"F\"c2 c2 c2 F2 | \"Bb\"B2 \"F\"A2 A2 \"C\"G2 | \"F\"c2 c2 c2 F2 | \"Bb\"B2 \"F\"A2 A2 \"C\"G2 |\n[V:2] [F,,C,]8 | B,,2 [F,,C,]4 C,2 | [F,,C,]8 | B,,2 [F,,C,]4 C,2 |\n[V:1] \"Bb\"d2 d2 d2 \"F\"c2 | \"Gm\"B2 \"D7\"A2 \"Gm\"B4 | \"C7\"G2 AB \"F\"c3F | F2 \"C\"G2 \"F\"A4 |\n[V:2] [B,,F,]6 F,,2 | G,,2 D,2 [G,,D,]4 | [C,G,]4 [F,,C,]4 | F,,2 C,2 [F,,C,]4 |\n[V:1] \"Bb\"d3d d2 \"F\"c2 | \"Gm\"B2 \"D7\"A2 \"Gm\"B4 | \"C7\"G2 AB \"F\"c3F | F2 \"C7\"G2 \"F\"F4 |]\n[V:2] [B,,F,]6 F,,2 | G,,2 D,2 [G,,D,]4 | [C,G,]4 [F,,C,]4 | F,,2 C,2 [F,,C,]4 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=92\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"C2 F2 F3E | F2 A2 A2 \"C\"G2 | \"F\"c2 c2 \"C7\"c3B | \"F\"A2 \"C\"G2 \"F\"A4 |\nw: Hark! The her-ald an-gels sing, * \"Glo-ry to the new-born King;\n[V:2] [F,,C,]8 | [F,,C,]6 C,2 | [F,,C,]4 [C,G,]4 | F,,2 C,2 [F,,C,]4 |\n[V:1] C2 F2 F3E | F2 A2 A2 \"C\"G2 | c2 G2 G3E | E2 \"G7\"D2 \"C\"C4 |\nw: Peace on earth, and mer-cy mild, * God and sin-ners re-con-ciled!\"\n[V:2] [F,,C,]8 | [F,,C,]6 C,2 | [C,G,]8 | C,2 G,,2 [C,G,]4 |\n[V:1] \"F\"c2 c2 c2 F2 | \"Bb\"B2 \"F\"A2 A2 \"C\"G2 | \"F\"c2 c2 c2 F2 | \"Bb\"B2 \"F\"A2 A2 \"C\"G2 |\nw: Joy-ful, all ye na-tions rise, * Join the tri-umph of the skies; *\n[V:2] [F,,C,]8 | B,,2 [F,,C,]4 C,2 | [F,,C,]8 | B,,2 [F,,C,]4 C,2 |\n[V:1] \"Bb\"d2 d2 d2 \"F\"c2 | \"Gm\"B2 \"D7\"A2 \"Gm\"B4 | \"C7\"G2 AB \"F\"c3F | F2 \"C\"G2 \"F\"A4 |\nw: With th'an-gel-ic host pro-claim, \"Christ is * born in Beth-le-hem!\"\n[V:2] [B,,F,]6 F,,2 | G,,2 D,2 [G,,D,]4 | [C,G,]4 [F,,C,]4 | F,,2 C,2 [F,,C,]4 |\n[V:1] \"Bb\"d3d d2 \"F\"c2 | \"Gm\"B2 \"D7\"A2 \"Gm\"B4 | \"C7\"G2 AB \"F\"c3F | F2 \"C7\"G2 \"F\"F4 |]\nw: Hark! the her-ald an-gels sing, \"Glo-ry * to the new-born King!\"\n[V:2] [B,,F,]6 F,,2 | G,,2 D,2 [G,,D,]4 | [C,G,]4 [F,,C,]4 | F,,2 C,2 [F,,C,]4 |]",
      "key": "F",
      "bars": 20,
      "bpm": 92
     },
     "inter": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=103\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[A,C]2 [CF]2 [CF]3E | [CF]2 [FA]2 [FA]2 \"C\"[EG]2 | \"F\"[Ac]2 [Ac]2 \"C7\"[Gc]3B | \"F\"[FA]2 \"C\"[EG]2 \"F\"[FA]4 |\n[V:2] [F,,C,]4 [F,,C,]4 | [F,,C,A,]4 [F,,C,A,]2 [C,,G,,E,]2 | [F,,C,A,]4 [C,,B,,E,]4 | [F,,C,A,]2 [C,,G,,E,]2 [F,,C,A,]4 |\n[V:1] [A,C]2 [CF]2 [CF]3E | [CF]2 [FA]2 [FA]2 \"C\"[EG]2 | [Gc]2 [EG]2 [EG]3E | [CE]2 \"G7\"[=B,D]2 \"C\"C4 |\n[V:2] [F,,C,]4 [F,,C,]4 | [F,,C,A,]4 [F,,C,A,]2 [C,,G,,E,]2 | [C,,G,,E,]4 [C,,G,,E,]4 | [C,,G,,E,]2 [G,,F,]2 [C,,G,,E,]4 |\n[V:1] \"F\"[Ac]2 [Ac]2 [Ac]2 [CF]2 | \"Bb\"[FB]2 \"F\"[FA]2 [FA]2 \"C\"[EG]2 | \"F\"[Ac]2 [Ac]2 [Ac]2 [CF]2 | \"Bb\"[FB]2 \"F\"[FA]2 [FA]2 \"C\"[EG]2 |\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]2 [F,,C,A,]4 [C,,G,,E,]2 | [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]2 [F,,C,A,]4 [C,,G,,E,]2 |\n[V:1] \"Bb\"[Bd]2 [Bd]2 [Bd]2 \"F\"[Ac]2 | \"Gm\"[GB]2 \"D7\"[^FA]2 \"Gm\"[GB]4 | \"C7\"[EG]2 AB \"F\"[Ac]3F | [CF]2 \"C\"[EG]2 \"F\"[FA]4 |\n[V:2] [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [G,,D,B,]2 [D,,C,^F,]2 [G,,D,B,]4 | [C,,B,,E,]4 [F,,C,A,]4 | [F,,C,A,]2 [C,,G,,E,]2 [F,,C,A,]4 |\n[V:1] \"Bb\"[Bd]3d [Bd]2 \"F\"[Ac]2 | \"Gm\"[GB]2 \"D7\"[^FA]2 \"Gm\"[GB]4 | \"C7\"[EG]2 AB \"F\"[Ac]3F | [CF]2 \"C7\"[EG]2 \"F\"[CF]4 |]\n[V:2] [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [G,,D,B,]2 [D,,C,^F,]2 [G,,D,B,]4 | [C,,B,,E,]4 [F,,C,A,]4 | [F,,C,A,]2 [C,,B,,E,]2 [F,,C,F,]4 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=103\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[A,C]2 [CF]2 [CF]3E | [CF]2 [FA]2 [FA]2 \"C\"[EG]2 | \"F\"[Ac]2 [Ac]2 \"C7\"[Gc]3B | \"F\"[FA]2 \"C\"[EG]2 \"F\"[FA]4 |\nw: Hark! The her-ald an-gels sing, * \"Glo-ry to the new-born King;\n[V:2] [F,,C,]4 [F,,C,]4 | [F,,C,A,]4 [F,,C,A,]2 [C,,G,,E,]2 | [F,,C,A,]4 [C,,B,,E,]4 | [F,,C,A,]2 [C,,G,,E,]2 [F,,C,A,]4 |\n[V:1] [A,C]2 [CF]2 [CF]3E | [CF]2 [FA]2 [FA]2 \"C\"[EG]2 | [Gc]2 [EG]2 [EG]3E | [CE]2 \"G7\"[=B,D]2 \"C\"C4 |\nw: Peace on earth, and mer-cy mild, * God and sin-ners re-con-ciled!\"\n[V:2] [F,,C,]4 [F,,C,]4 | [F,,C,A,]4 [F,,C,A,]2 [C,,G,,E,]2 | [C,,G,,E,]4 [C,,G,,E,]4 | [C,,G,,E,]2 [G,,F,]2 [C,,G,,E,]4 |\n[V:1] \"F\"[Ac]2 [Ac]2 [Ac]2 [CF]2 | \"Bb\"[FB]2 \"F\"[FA]2 [FA]2 \"C\"[EG]2 | \"F\"[Ac]2 [Ac]2 [Ac]2 [CF]2 | \"Bb\"[FB]2 \"F\"[FA]2 [FA]2 \"C\"[EG]2 |\nw: Joy-ful, all ye na-tions rise, * Join the tri-umph of the skies; *\n[V:2] [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]2 [F,,C,A,]4 [C,,G,,E,]2 | [F,,C,A,]4 [F,,C,A,]4 | [B,,,F,,D,]2 [F,,C,A,]4 [C,,G,,E,]2 |\n[V:1] \"Bb\"[Bd]2 [Bd]2 [Bd]2 \"F\"[Ac]2 | \"Gm\"[GB]2 \"D7\"[^FA]2 \"Gm\"[GB]4 | \"C7\"[EG]2 AB \"F\"[Ac]3F | [CF]2 \"C\"[EG]2 \"F\"[FA]4 |\nw: With th'an-gel-ic host pro-claim, \"Christ is * born in Beth-le-hem!\"\n[V:2] [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [G,,D,B,]2 [D,,C,^F,]2 [G,,D,B,]4 | [C,,B,,E,]4 [F,,C,A,]4 | [F,,C,A,]2 [C,,G,,E,]2 [F,,C,A,]4 |\n[V:1] \"Bb\"[Bd]3d [Bd]2 \"F\"[Ac]2 | \"Gm\"[GB]2 \"D7\"[^FA]2 \"Gm\"[GB]4 | \"C7\"[EG]2 AB \"F\"[Ac]3F | [CF]2 \"C7\"[EG]2 \"F\"[CF]4 |]\nw: Hark! the her-ald an-gels sing, \"Glo-ry * to the new-born King!\"\n[V:2] [B,,,F,,D,]4 [B,,,F,,D,]2 [F,,C,A,]2 | [G,,D,B,]2 [D,,C,^F,]2 [G,,D,B,]4 | [C,,B,,E,]4 [F,,C,A,]4 | [F,,C,A,]2 [C,,B,,E,]2 [F,,C,F,]4 |]",
      "key": "F",
      "bars": 20,
      "bpm": 103
     },
     "adv": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=108\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[A,C]2 [CF]2 [CF]3E | [CF]2 [FA]2 [FA]2 \"C\"[EG]2 | \"F\"[Ac]2 [Ac]2 \"C7\"[Gc]3B | \"F\"[FA]2 \"C\"[EG]2 \"F\"[CFA]4 |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]2 [C,,G,,E,A,]2 | [F,,,F,,C,A,D]4 [C,,B,,E,G,]4 | [F,,,F,,C,A,]2 [C,,G,,E,A,]2 [F,,,F,,C,A,]4 |\n[V:1] [A,C]2 [CF]2 [CF]3E | [CF]2 [FA]2 [FA]2 \"C\"[EG]2 | [Gc]2 [EG]2 [EG]3E | [CE]2 \"G7\"[=B,D]2 \"C\"C4 |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]2 [C,,G,,E,A,]2 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [C,,G,,E,A,]2 [G,,,G,,F,]2 [C,,G,,E,A,]4 |\n[V:1] \"F\"[Ac]2 [Ac]2 [Ac]2 [CF]2 | \"Bb\"[FB]2 \"F\"[FA]2 [FA]2 \"C\"[EG]2 | \"F\"[Ac]2 [Ac]2 [Ac]2 [CF]2 | \"Bb\"[FB]2 \"F\"[FA]2 [FA]2 \"C\"[EG]2 |\n[V:2] [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]2 [F,,,F,,C,A,D]4 [C,,G,,E,A,]2 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]2 [F,,,F,,C,A,D]4 [C,,G,,E,A,]2 |\n[V:1] \"Bb\"[Bd]2 [Bd]2 [Bd]2 \"F\"[Ac]2 | \"Gm\"[GB]2 \"D7\"[^FA]2 \"Gm\"[DGB]4 | \"C7\"[EG]2 AB \"F\"[Ac]3F | [CF]2 \"C\"[EG]2 \"F\"[CFA]4 |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,D]2 | [G,,,G,,D,F,B,]2 [D,,C,^F,A,]2 [G,,,G,,D,=F,B,]4 | [C,,B,,E,G,]4 [F,,,F,,C,A,D]4 | [F,,,F,,C,A,]2 [C,,G,,E,A,]2 [F,,,F,,C,A,]4 |\n[V:1] \"Bb\"[Bd]3d [Bd]2 \"F\"[Ac]2 | \"Gm\"[GB]2 \"D7\"[^FA]2 \"Gm\"[DGB]4 | \"C7\"[EG]2 AB \"F\"[Ac]3F | [CF]2 \"C7\"[EG]2 \"F\"[A,CF]4 |]\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,D]2 | [G,,,G,,D,F,B,]2 [D,,C,^F,A,]2 [G,,,G,,D,=F,B,]4 | [C,,B,,E,G,]4 [F,,,F,,C,A,D]4 | [F,,,F,,C,]2 [C,,B,,E,G,]2 [F,,C,F,]4 |]",
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=108\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[A,C]2 [CF]2 [CF]3E | [CF]2 [FA]2 [FA]2 \"C\"[EG]2 | \"F\"[Ac]2 [Ac]2 \"C7\"[Gc]3B | \"F\"[FA]2 \"C\"[EG]2 \"F\"[CFA]4 |\nw: Hark! The her-ald an-gels sing, * \"Glo-ry to the new-born King;\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]2 [C,,G,,E,A,]2 | [F,,,F,,C,A,D]4 [C,,B,,E,G,]4 | [F,,,F,,C,A,]2 [C,,G,,E,A,]2 [F,,,F,,C,A,]4 |\n[V:1] [A,C]2 [CF]2 [CF]3E | [CF]2 [FA]2 [FA]2 \"C\"[EG]2 | [Gc]2 [EG]2 [EG]3E | [CE]2 \"G7\"[=B,D]2 \"C\"C4 |\nw: Peace on earth, and mer-cy mild, * God and sin-ners re-con-ciled!\"\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]2 [C,,G,,E,A,]2 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [C,,G,,E,A,]2 [G,,,G,,F,]2 [C,,G,,E,A,]4 |\n[V:1] \"F\"[Ac]2 [Ac]2 [Ac]2 [CF]2 | \"Bb\"[FB]2 \"F\"[FA]2 [FA]2 \"C\"[EG]2 | \"F\"[Ac]2 [Ac]2 [Ac]2 [CF]2 | \"Bb\"[FB]2 \"F\"[FA]2 [FA]2 \"C\"[EG]2 |\nw: Joy-ful, all ye na-tions rise, * Join the tri-umph of the skies; *\n[V:2] [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]2 [F,,,F,,C,A,D]4 [C,,G,,E,A,]2 | [F,,,F,,C,A,]4 [F,,,F,,C,A,]4 | [B,,,F,,D,G,]2 [F,,,F,,C,A,D]4 [C,,G,,E,A,]2 |\n[V:1] \"Bb\"[Bd]2 [Bd]2 [Bd]2 \"F\"[Ac]2 | \"Gm\"[GB]2 \"D7\"[^FA]2 \"Gm\"[DGB]4 | \"C7\"[EG]2 AB \"F\"[Ac]3F | [CF]2 \"C\"[EG]2 \"F\"[CFA]4 |\nw: With th'an-gel-ic host pro-claim, \"Christ is * born in Beth-le-hem!\"\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,D]2 | [G,,,G,,D,F,B,]2 [D,,C,^F,A,]2 [G,,,G,,D,=F,B,]4 | [C,,B,,E,G,]4 [F,,,F,,C,A,D]4 | [F,,,F,,C,A,]2 [C,,G,,E,A,]2 [F,,,F,,C,A,]4 |\n[V:1] \"Bb\"[Bd]3d [Bd]2 \"F\"[Ac]2 | \"Gm\"[GB]2 \"D7\"[^FA]2 \"Gm\"[DGB]4 | \"C7\"[EG]2 AB \"F\"[Ac]3F | [CF]2 \"C7\"[EG]2 \"F\"[A,CF]4 |]\nw: Hark! the her-ald an-gels sing, \"Glo-ry * to the new-born King!\"\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]2 [F,,,F,,C,A,D]2 | [G,,,G,,D,F,B,]2 [D,,C,^F,A,]2 [G,,,G,,D,=F,B,]4 | [C,,B,,E,G,]4 [F,,,F,,C,A,D]4 | [F,,,F,,C,]2 [C,,B,,E,G,]2 [F,,C,F,]4 |]",
      "key": "F",
      "bars": 20,
      "bpm": 108
     }
-   }
+   },
+   "verses": [
+    "Christ, by highest Heav'n adored; Christ the everlasting Lord;\nLate in time, behold Him come, Offspring of a virgin's womb.\nVeiled in flesh the Godhead see; Hail th'incarnate Deity,\nPleased with us in flesh to dwell, Jesus our Emmanuel.",
+    "Hail the heav'nly Prince of Peace! Hail the Sun of Righteousness!\nLight and life to all He brings, Ris'n with healing in His wings.\nMild He lays His glory by, Born that man no more may die.\nBorn to raise the sons of earth, Born to give them second birth.",
+    "Come, Desire of nations, come, Fix in us Thy humble home;\nRise, the woman's conqu'ring Seed, Bruise in us the serpent's head.\nNow display Thy saving power, Ruined nature now restore;\nNow in mystic union join Thine to ours, and ours to Thine.",
+    "Adam's likeness, Lord, efface, Stamp Thine image in its place:\nSecond Adam from above, Reinstate us in Thy love.\nLet us Thee, though lost, regain, Thee, the Life, the inner man:\nO, to all Thyself impart, Formed in each believing heart."
+   ],
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
   },
   {
    "id": "jingle-bells",
@@ -790,7 +937,9 @@ window.SONGBOOK = {
      "bars": 32,
      "bpm": 132
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "deck-the-halls",
@@ -820,7 +969,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 112
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "carol-of-the-bells",
@@ -852,7 +1003,9 @@ window.SONGBOOK = {
      "bars": 24,
      "bpm": 150
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "o-holy-night",
@@ -884,7 +1037,9 @@ window.SONGBOOK = {
      "bars": 50,
      "bpm": 46
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "ode-to-joy",
@@ -916,7 +1071,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 108
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "brahms-lullaby",
@@ -948,7 +1105,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 76
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "fur-elise",
@@ -1292,7 +1451,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 66
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "greensleeves",
@@ -1322,7 +1483,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 56
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "shenandoah",
@@ -1352,7 +1515,9 @@ window.SONGBOOK = {
      "bars": 10,
      "bpm": 72
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "scarborough-fair",
@@ -1382,7 +1547,9 @@ window.SONGBOOK = {
      "bars": 19,
      "bpm": 108
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "when-the-saints",
@@ -1412,7 +1579,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 138
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "take-me-out",
@@ -1444,7 +1613,9 @@ window.SONGBOOK = {
      "bars": 32,
      "bpm": 160
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "daisy-bell",
@@ -1476,7 +1647,9 @@ window.SONGBOOK = {
      "bars": 32,
      "bpm": 152
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "let-me-call-you-sweetheart",
@@ -1508,7 +1681,9 @@ window.SONGBOOK = {
      "bars": 32,
      "bpm": 138
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "silvery-moon",
@@ -1540,7 +1715,9 @@ window.SONGBOOK = {
      "bars": 18,
      "bpm": 112
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "oh-susanna",
@@ -1570,7 +1747,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 126
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "camptown-races",
@@ -1600,7 +1779,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 132
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "old-folks-at-home",
@@ -1630,7 +1811,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 80
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "my-bonnie",
@@ -1661,7 +1844,9 @@ window.SONGBOOK = {
      "bars": 32,
      "bpm": 144
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "clementine",
@@ -1692,7 +1877,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 132
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "railroad",
@@ -1723,7 +1910,9 @@ window.SONGBOOK = {
      "bars": 24,
      "bpm": 116
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "coming-round-the-mountain",
@@ -1753,7 +1942,9 @@ window.SONGBOOK = {
      "bars": 8,
      "bpm": 100
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "auld-lang-syne",
@@ -1783,7 +1974,9 @@ window.SONGBOOK = {
      "bars": 16,
      "bpm": 92
     }
-   }
+   },
+   "verses": [],
+   "wsrc": ""
   },
   {
    "id": "pending-home-on-the-range",

@@ -26,6 +26,15 @@
   var levelPref = store.get('levels', {}) || {};
   var tempoPref = store.get('tempo', {}) || {};
   var ui = { cat: 'All', q: '', libScroll: 0 };
+  var lyricsOn = store.get('lyrics', true) !== false;
+  function hasWords(a) { return !!(a && /\nw:/.test(a.abc)); }
+  function abcOf(a) { return lyricsOn ? a.abc : a.abc.replace(/^w:.*(\n|$)/gm, ''); }
+  function versesHtml(s) {
+    if (!lyricsOn || !s.verses || !s.verses.length) return '';
+    return '<div class="verses">' + s.verses.map(function (v, i) {
+      return '<p><b>' + (i + 2) + '.</b> ' + esc(v).replace(/\n/g, ' ') + '</p>';
+    }).join('') + (s.wsrc ? '<p class="wsrc">' + esc(s.wsrc) + '</p>' : '') + '</div>';
+  }
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -155,6 +164,7 @@
   function draw(target, abc, width, opts) {
     opts = opts || {};
     var narrow = width < 560;
+    var words = /\nw:/.test(abc);
     var pad = narrow ? 4 : 12;
     var staff = Math.max(220, Math.floor(width) - 2 * pad - 2);
     var res, tries = 0;
@@ -164,7 +174,7 @@
         oneSvgPerLine: !!opts.print,
         staffwidth: staff,
         paddingleft: pad, paddingright: pad, paddingtop: 8, paddingbottom: 8,
-        wrap: { minSpacing: 1.5, maxSpacing: 2.6, preferredMeasuresPerLine: narrow ? 2 : 4 },
+        wrap: words ? { minSpacing: 2.2, maxSpacing: 3.4, preferredMeasuresPerLine: narrow ? 2 : 3 } : { minSpacing: 1.5, maxSpacing: 2.6, preferredMeasuresPerLine: narrow ? 2 : 4 },
         format: { gchordfont: 'Georgia 13 bold', annotationfont: 'Georgia 12 italic', vocalfont: 'Georgia 12' }
       });
       var svg = target.querySelector ? target.querySelector('svg') : null;
@@ -206,7 +216,7 @@
       var w = paper.clientWidth - 8;
       this.width = w;
       try {
-        this.vis = draw(paper, arr.abc, w);
+        this.vis = draw(paper, abcOf(arr), w);
       } catch (e) {
         paper.innerHTML = '<p style="padding:1rem">Sorry — this score could not be drawn.</p>'; this.vis = null;
         if (window.console) console.error(e);
@@ -412,7 +422,9 @@
       '<p class="info" id="info"></p>' +
       chartHtml(s) +
       (s.chart ? '<h3 class="subh no-print">The chords, written out</h3>' : '') +
+      ((s.verses && s.verses.length) || hasWords(s.levels[level]) ? '<p class="no-print lyr"><button class="btn btn-small" id="lyrbtn" aria-pressed="' + (lyricsOn ? 'true' : 'false') + '">' + (lyricsOn ? 'Hide words' : 'Show words') + '</button></p>' : '') +
       '<div class="paper" id="paper"></div>' +
+      '<div id="verses">' + versesHtml(s) + '</div>' +
       '</main>' +
       '<div class="status" id="status"></div>' +
       '<div class="transport" id="transport"><div class="wrap">' +
@@ -463,6 +475,14 @@
       info(); Player.render();
     });
     document.getElementById('print').addEventListener('click', printSong);
+    var lb = document.getElementById('lyrbtn');
+    if (lb) lb.addEventListener('click', function () {
+      lyricsOn = !lyricsOn; store.set('lyrics', lyricsOn);
+      lb.setAttribute('aria-pressed', lyricsOn ? 'true' : 'false');
+      lb.textContent = lyricsOn ? 'Hide words' : 'Show words';
+      document.getElementById('verses').innerHTML = versesHtml(s);
+      Player.stop(true); Player.render();
+    });
   }
 
   /* ---------------------------------------------------------------- printing */
@@ -476,7 +496,7 @@
     var paper = document.getElementById('paper');
     if (!paper || !Player.song) return;
     Player.printing = true;
-    try { draw(paper, Player.song.levels[Player.level].abc, PRINT_W, { print: true }); } catch (e) {}
+    try { draw(paper, abcOf(Player.song.levels[Player.level]), PRINT_W, { print: true }); } catch (e) {}
   });
   window.addEventListener('afterprint', function () {
     if (!Player.printing) return;
@@ -514,7 +534,7 @@
         sec.innerHTML = '<h2>' + esc(s.title) + '</h2><p class="by"><span>' + esc(s.composer || '') + '</span><span>' +
           esc(LEVEL_NAME[lv] + ((s.badges || []).length ? ' · ' + s.badges.join(' · ') : '')) + '</span></p><div class="bk"></div>';
         book.appendChild(sec);
-        try { draw(sec.querySelector('.bk'), a.abc, PRINT_W, { print: true }); } catch (e) { sec.querySelector('.bk').textContent = 'Could not draw this score.'; }
+        try { draw(sec.querySelector('.bk'), abcOf(a), PRINT_W, { print: true }); } catch (e) { sec.querySelector('.bk').textContent = 'Could not draw this score.'; }
       }
       var btn = document.getElementById('bookprint');
       if (i < list.length) { btn.textContent = 'Preparing… ' + i + ' / ' + list.length; setTimeout(next, 0); }

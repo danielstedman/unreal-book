@@ -83,12 +83,13 @@ def interval(src, dst):
 
 
 class Ev:
-    __slots__ = ('pitches', 'dur', 'wdur', 'tie', 'sym', 'tup', 'pre')
+    __slots__ = ('pitches', 'dur', 'wdur', 'tie', 'sym', 'tup', 'pre', 'lyr')
 
     def __init__(s, pitches, dur, tie=False, sym=None, tup=None, wdur=None):
         s.pitches, s.dur, s.tie, s.sym, s.tup = pitches, dur, tie, sym, tup
         s.wdur = dur if wdur is None else wdur
         s.pre = ''
+        s.lyr = None
 
 
 TOK = re.compile(r'''
@@ -418,6 +419,13 @@ def emit(v1, v2, key, M, L, Q, per_line=4):
     for i in range(0, n, per_line):
         end = ' |]' if i + per_line >= n else ' |'
         lines.append('[V:1] ' + ' | '.join(b1[i:i + per_line]) + end)
+        notes = [e for b in v1[i:i + per_line] for e in b[0] if e.pitches]
+        if any(e.lyr for e in notes):
+            out = ''
+            for e in notes:
+                tk = e.lyr or '*'
+                out += tk if (not out or out.endswith('-')) else ' ' + tk
+            lines.append('w: ' + out)
         lines.append('[V:2] ' + ' | '.join(b2[i:i + per_line]) + end)
     return '\n'.join(head + lines)
 
@@ -840,6 +848,24 @@ PATS = {
 LEVELS = ['easy', 'inter', 'adv']
 
 
+def set_lyrics(bars, w, label='?'):
+    """Attach one lyric token to each melody note (tied continuations are skipped; * = none)."""
+    toks = w.split()
+    notes, prev_tie = [], False
+    for bar in bars:
+        for e in bar[0]:
+            if e.pitches:
+                if not prev_tie:
+                    notes.append(e)
+                prev_tie = e.tie
+            else:
+                prev_tie = False
+    if len(toks) != len(notes):
+        raise ValueError('%s: %d lyric syllables for %d melody notes' % (label, len(toks), len(notes)))
+    for e, tk in zip(notes, toks):
+        e.lyr = None if tk == '*' else tk
+
+
 def arrange(t, level):
     """t: tune dict.  Returns dict(abc=..., key=..., bars=..., bpm=...)."""
     M = t['M']
@@ -853,6 +879,8 @@ def arrange(t, level):
         raise ValueError('\n'.join(errs))
     if bdur(bars[0]) < blen and bdur(bars[0]) + bdur(bars[-1]) != blen:
         raise ValueError('%s: pickup + last bar != full bar' % t['id'])
+    if t.get('w'):
+        set_lyrics(bars, t['w'], t['id'])
     segs = chord_segments(bars, blen, t.get('chords'))
     opt = dict(t.get(level, {}))
     rng = opt.get('bars')

@@ -21,7 +21,8 @@ for t in T:
         except Exception as e:
             problems.append('%s/%s: %s' % (t['id'], level, e))
     songs.append(dict(id=t['id'], title=t['title'], composer=t['composer'], cat=t['cat'], kind='song', badges=t.get('badges', []),
-                      note=t.get('note', ''), featured=bool(t.get('featured')), levels=lv))
+                      note=t.get('note', ''), featured=bool(t.get('featured')), levels=lv,
+                      verses=t.get('verses', []), wsrc=t.get('wsrc', '') if t.get('w') else ''))
 
 for s in SPECIALS + STUDIES:
     lv = {}

@@ -4,7 +4,7 @@
 # The arrangements are original: the engine builds the accompaniment from the
 # chord symbols, and the "special" pieces further down are written out by hand.
 from fractions import Fraction as Fr
-from tunes_hymnal import HYMNAL
+from tunes_hymnal import HYMNAL, HYMNAL_WORDS
 
 T = []  # melody + chords tunes (three levels generated)
 
@@ -17,6 +17,10 @@ def tune(id, title, composer, cat, M, key, mel, chords, style='ballad', tempo=90
 
 def hymnal(id, title, composer, cat, chords, style='hymn', tempo=90, **kw):
     h = HYMNAL[id]
+    if id in HYMNAL_WORDS and not kw.pop('nowords', False):
+        kw.setdefault('w', HYMNAL_WORDS[id]['w'])
+        kw.setdefault('verses', HYMNAL_WORDS[id]['verses'])
+        kw.setdefault('wsrc', 'Words: public domain, as given in the Open Hymnal Project')
     tune(id, title, composer, cat, kw.pop('M', h['M']), kw.pop('key', h['key']), kw.pop('mel', h['mel']), chords, style, tempo, **kw)
 
 
