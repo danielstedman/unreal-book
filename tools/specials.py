@@ -94,11 +94,11 @@ MOON_R = [T1, T1, 'A,CE A,CE A,=DF A,=DF', 'G,^B,F G,CE G,CD F,^B,D',
 MOON_L = ['[C,,C,]12', '[B,,,B,,]12', '[A,,,A,,]6 [F,,,F,,]6', '[G,,,G,,]6 [G,,,G,,]6', '[C,,C,]12',
           '[^B,,,^B,,]12', '[C,,C,]6 [F,,,F,,]6', '[B,,,B,,]6 [B,,,B,,]6', '[E,,E,]12']
 special('moonlight-sonata', 'Moonlight Sonata (1st movement)', 'Ludwig van Beethoven, Op. 27 No. 2 (1801)', 'Classical', dict(
-    easy=dict(M='12/8', K='C#m', to='Am', Q='3/8=44', v1=J(*MOON_R), v2=J(*MOON_L), first_layer=True, thin2='bottom',
-              note='The rolling triplets alone, in A minor'),
-    inter=dict(M='12/8', K='C#m', to='Am', Q='3/8=48', v1=J(*MOON_R), v2=J(*MOON_L), thin2='bottom',
-               note='Triplets and melody, moved to A minor'),
-    adv=dict(M='12/8', K='C#m', Q='3/8=52', v1=J(*MOON_R), v2=J(*MOON_L), note='Original key, left-hand octaves'),
+    easy=dict(M='12/8', K='C#m', Q='3/8=44', v1=J(*MOON_R), v2=J(*MOON_L), first_layer=True, thin2='bottom',
+              note='The rolling triplets alone'),
+    inter=dict(M='12/8', K='C#m', Q='3/8=48', v1=J(*MOON_R), v2=J(*MOON_L), thin2='bottom',
+               note='Triplets and melody'),
+    adv=dict(M='12/8', K='C#m', Q='3/8=52', v1=J(*MOON_R), v2=J(*MOON_L), note='Triplets, melody and left-hand octaves'),
 ), badges=['Excerpt', 'Simplified'],
     note='Bars 1–9. Written in 12/8 so the triplets read as plain eighth notes; the short melody note is lined up with the third triplet note.')
 
@@ -163,7 +163,7 @@ KLB = ['F,,2C,2 F,,2C,2', 'F,,2C,2 F,,2C,2', 'F,,2C,2 F,,2C,2', 'F,,2C,2 F,,4']
 KLA8 = ['[B,,,B,,]2F,2 [B,,,B,,]2F,2', '[C,,C,]2^G,2 [=C,,=C,]2=G,2', '[B,,,B,,]2F,2 [B,,,B,,]2F,2', '[D,,D,]2A,2 [D,,D,]4']
 KA8 = [octs(b, False) for b in ['B,CDE FDF2', '^ECE2 =E=CE2', 'B,CDE FDFB', 'AFDF A4']]
 special('mountain-king', 'In the Hall of the Mountain King', 'Edvard Grieg, Peer Gynt (1875)', 'Classical', dict(
-    easy=dict(M='4/4', K='Bm', to='Am', oct=1, Q='1/4=92', v1=J(*(KA + KA)), v2=J(*(KLA + KLA)), note='The theme, twice, in A minor'),
+    easy=dict(M='4/4', K='Bm', Q='1/4=92', v1=J(*(KA + KA)), v2=J(*(KLA + KLA)), note='The theme, twice'),
     inter=dict(M='4/4', K='Bm', Q='1/4=116', v1=J(*(KA + KA + KB + KB + KA + KA)), v2=J(*(KLA * 2 + KLB * 2 + KLA * 2)),
                note='Both strains of the theme'),
     adv=dict(M='4/4', K='Bm', Q='1/4=138', v1=J(*(KA + KA + KB + KB + KA8 + KA8)), v2=J(*(KLA * 2 + KLB * 2 + KLA8 * 2)),
@@ -212,20 +212,20 @@ MAP_L_I = [MAP_L[i] for i in MI]
 MAP_L_I[9] = MAP_L_I[9].replace('[K:clef=bass]', '')
 MAP_E_L = ['E,2', 'A,,4 E,4', 'E,,4 E,4', 'A,,4 E,4', 'E,,4 E,4', '=D,8', 'E,8', '_F,4 E,4', 'E,2 E,2 A,,2']
 special('maple-leaf-rag', 'Maple Leaf Rag', 'Scott Joplin, 1899', 'Ragtime', dict(
-    easy=dict(M='4/4', L=S16, scale=2, Lout=Fr(1, 8), K='Ab', to='G', Q='1/4=108', v1=J(*[MAP_R[i] for i in ME]), v2=J(*MAP_E_L),
-              thin1='oct_hi', note='Opening and closing bars of the first strain, in G, with one bass note at a time'),
-    inter=dict(M='2/4', L=S16, K='Ab', to='G', Q='1/4=66', v1=J(*[MAP_R[i] for i in MI]), v2=J(*MAP_L_I),
-               thin1='oct_hi', thin2='oct_lo', note='First strain without the high middle phrase, in G, octaves removed'),
-    adv=dict(M='2/4', L=S16, K='Ab', Q='1/4=80', v1=J(*MAP_R), v2=J(*MAP_L), note="First strain as Joplin wrote it, in A-flat"),
+    easy=dict(M='4/4', L=S16, scale=2, Lout=Fr(1, 8), K='Ab', Q='1/4=108', v1=J(*[MAP_R[i] for i in ME]), v2=J(*MAP_E_L),
+              thin1='oct_hi', note='Opening and closing bars of the first strain, one bass note at a time'),
+    inter=dict(M='2/4', L=S16, K='Ab', Q='1/4=66', v1=J(*[MAP_R[i] for i in MI]), v2=J(*MAP_L_I),
+               thin1='oct_hi', thin2='oct_lo', note='First strain without the high middle phrase, octaves removed'),
+    adv=dict(M='2/4', L=S16, K='Ab', Q='1/4=80', v1=J(*MAP_R), v2=J(*MAP_L), note="First strain as Joplin wrote it"),
 ), badges=['Excerpt'], note='The first strain (16 bars) of the rag. Tempo di marcia: steady, never rushed.')
 
 # ============================================================ Practice exercises (original)
 special('practice-triplets', 'Even Triplets', 'Practice exercise', 'Practice', dict(
-    easy=dict(M='12/8', K='Am', Q='3/8=50', v1=J('EAc EAc EAc EAc', 'EAc EAc EAc EAc', 'FAc FAc FAc FAc', 'DFA DFA E^GB E^GB', 'EAc EAc [EAc]6'),
+    easy=dict(M='12/8', K='Am', to='C#m', oct=-1, Q='3/8=50', v1=J('EAc EAc EAc EAc', 'EAc EAc EAc EAc', 'FAc FAc FAc FAc', 'DFA DFA E^GB E^GB', 'EAc EAc [EAc]6'),
               v2=J('A,12', 'G,12', 'F,12', 'D,6 E,6', 'A,12'), note='Right hand stays in one place; left hand holds one note per bar'),
     inter=dict(M='12/8', K='Am', to='C#m', oct=-1, Q='3/8=50',
                v1=J('EAc EAc EAc EAc', 'EAc EAc EAc EAc', 'FAc FAc FAd FAd', 'E^Gd EAc EAB D^GB', 'EAc EAc [EAc]6'),
-               v2=J('A,12', 'G,12', 'F,6 D,6', 'E,6 E,6', 'A,12'), note='The Moonlight shapes in C-sharp minor'),
+               v2=J('A,12', 'G,12', 'F,6 D,6', 'E,6 E,6', 'A,12'), note='Moving the chord shapes'),
     adv=dict(M='12/8', K='Am', to='C#m', oct=-1, Q='3/8=54',
              v1=J('EAc EAc EAc EAc & e12', 'EAc EAc EAc EAc & e9 e3', 'FAc FAc FAd FAd & f6 f6', 'E^Gd EAc EAB D^GB & e6 e3 d3', 'EAc EAc [EAc]6 & e12'),
              v2=J('[A,,A,]12', '[G,,G,]12', '[F,,F,]6 [D,,D,]6', '[E,,E,]6 [E,,E,]6', '[A,,A,]12'),

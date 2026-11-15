@@ -512,11 +512,91 @@ FLOWC = {1: [0], 2: [0, 2], 3: [0, 1, 2], 4: [0, 1, 2, 1], 5: [0, 1, 2, 3, 2], 6
          12: [0, 1, 2, 3, 2, 1, 0, 1, 2, 3, 2, 1]}
 
 
-def lh_segment(pat, c, d, ceil, compound, first):
+def _pc(tc):
+    return (BASE[tc[0]] + tc[1]) % 12
+
+
+def _clash(tc, mel):
+    """True if tone class tc is a semitone from any melody pitch class."""
+    p = _pc(tc)
+    return any((p - m) % 12 in (1, 11) for m in mel)
+
+
+def voicing(c, ceil, rich=False, mel=()):
+    """Open, pianistic left-hand voicing (no arpeggio): bass + 5th/7th + 10th,
+    with octave bass and a colour tone when rich.  Everything stays <= ceil."""
+    tones, bass = chord_tones(c)
+    q = CH.match(c).group(2)
+    b = place(bass, 36)
+    if b.midi > 45:
+        b = b.tr(-7, -12)
+    plain = q not in ('dim', 'dim7', 'aug', '+', 'm7b5')
+    slash = _pc(bass) != _pc(tones[0])
+    if not plain or slash:
+        lad = ladder(c, b.midi)
+        ups = lad[1:4] if (rich or not slash) else lad[1:3]
+    else:
+        third, fifth = tones[1], tones[2]
+        sev = tones[3] if len(tones) > 3 else None
+        tcs = [sev, third] if sev else [fifth, third]
+        if rich:
+            if sev:
+                tcs.append(fifth)                        # C2 Bb2 E3 G3
+            elif q == 'm':
+                tcs = [fifth, third]                     # A2 E3 G3 C4 (m7 colour)
+                seventh = P(tones[0][0], tones[0][1], 4).tr(6, 10)
+                st = (seventh.l, seventh.a)
+                if not _clash(st, mel):
+                    tcs = [fifth, st, third]
+            elif q == '':
+                sixth = P(tones[0][0], tones[0][1], 4).tr(5, 9)
+                st = (sixth.l, sixth.a)
+                if not _clash(st, mel):
+                    tcs.append(st)                       # C2 G2 E3 A3 (6th colour)
+        ups, cur = [], b.midi
+        for tc in tcs:
+            p = place(tc, cur + 1)
+            ups.append(p)
+            cur = p.midi
+    ps = [b] + [p for p in ups if p.midi <= ceil]
+    if rich and b.midi - 12 >= 28:
+        ps.insert(0, b.tr(-7, -12))
+    return list({p.midi: p for p in ps}.values())
+
+
+def upper_chord(c, ceil, lo=48, n=3):
+    """Closed chord (3 notes, keeping 3rd and 7th) just under the melody."""
+    tones, _ = chord_tones(c.split('/')[0])
+    ceil = min(ceil, 66)
+    pits = []
+    for o in range(2, 7):
+        for tc in tones:
+            p = P(tc[0], tc[1], o)
+            if lo <= p.midi <= ceil:
+                pits.append(p)
+    pits.sort(key=lambda p: p.midi)
+    need = {_pc(tones[1])} | ({_pc(tones[3])} if len(tones) > 3 else set())
+    for i in range(len(pits) - n, -1, -1):
+        win = pits[i:i + n]
+        if need <= {p.midi % 12 for p in win}:
+            return win
+    return pits[-n:] if len(pits) >= 2 else None
+
+
+def lh_segment(pat, c, d, ceil, compound, first, mel=(), blen=Fr(1)):
     """-> list of Ev filling duration d for chord c."""
     n8 = d / E8
     tones, bass = chord_tones(c)
     plain = len(tones) >= 3 and CH.match(c).group(2) not in ('dim', 'dim7', 'aug', '+', 'm7b5')
+    if pat in ('pad', 'padx'):
+        ps = voicing(c, ceil, pat == 'padx', mel)
+        strike = blen / 2 if blen in (Fr(1), Fr(3, 2)) else blen
+        out, left = [], d
+        while left > 0:
+            ch = min(strike, left)
+            out += held(ps, ch)
+            left -= ch
+        return out
     if n8.denominator != 1:
         pat = 'hold'
     n = int(n8) if n8.denominator == 1 else 0
@@ -565,6 +645,9 @@ def lh_segment(pat, c, d, ceil, compound, first):
         alt = lad[2].tr(-7, -12)
         if alt.midi < 36:
             alt = b
+        uc = upper_chord(c, ceil, 48)
+        if uc and uc[0].midi > b.midi + 4:
+            dy = uc
         out = []
         for i in range(q):
             if pat == 'waltz':
@@ -586,6 +669,9 @@ def lh_segment(pat, c, d, ceil, compound, first):
         up = ladder(c.split('/')[0], 50)
         tri = fit(up, [0, 1, 2], min(ceil, 64))
         tri = list({p.midi: p for p in tri if p.midi > b.midi + 4}.values())
+        uc = upper_chord(c, min(ceil, 64), 50)
+        if uc and uc[0].midi > b.midi + 4:
+            tri = uc
         if not tri:
             tri = [b]
         out = []
@@ -614,7 +700,12 @@ def make_lh(bars, segs, pat, blen, compound):
             elif last and j == len(s) - 1 and pat != 'hold':
                 lay += lh_segment('end', c, d, ceil, compound, True)
             else:
-                lay += lh_segment(pat, c, d, ceil, compound, j == 0)
+                mel, tt = set(), Fr(0)
+                for e in bar[0]:
+                    if tt < t + d and tt + e.dur > t:
+                        mel |= {p.midi % 12 for p in e.pitches}
+                    tt += e.dur
+                lay += lh_segment(pat, c, d, ceil, compound, j == 0, mel, blen)
         out.append([lay])
     return out
 
@@ -656,6 +747,9 @@ def add_harmony(bars, segs, thresh=Fr(1, 4), mode='third'):
                     a1 = [p for p in cands if 3 <= mel.midi - p.midi <= 9 and p.midi >= 57]
                     if a1:
                         add.append(a1[0])
+                        if mode == 'one':
+                            a1 = []
+                    if a1:
                         final = (bi == nb - 1 and k == len(evs) - 1) or (bi == nb - 2 and e.tie and k == len(evs) - 1)
                         if e.dur >= Fr(1, 2) or final:
                             a2 = [p for p in cands if p.midi <= a1[0].midi - 3 and mel.midi - p.midi <= 12 and p.midi >= 57]
@@ -736,11 +830,12 @@ SIMPLER = {'Ab': 'G', 'Db': 'C', 'E': 'Eb', 'B': 'Bb', 'F#': 'F', 'Gb': 'G', 'Fm
            'Bbm': 'Am', 'G#m': 'Am', 'Ebm': 'Em'}
 
 PATS = {
-    # style: {metre class: (easy, inter, adv)}
-    'hymn': {'4': ('hold', 'quarters', 'flow'), '3': ('hold', 'flowc', 'flow'), 'c': ('hold', 'flowc', 'flow')},
-    'ballad': {'4': ('hold', 'alberti', 'flow'), '3': ('hold', 'flowc', 'flow'), 'c': ('hold', 'flowc', 'flow')},
-    'lively': {'4': ('hold', 'boom', 'stride'), '3': ('hold', 'waltz', 'waltzA'), 'c': ('hold', 'flowc', 'flow')},
-    'waltz': {'4': ('hold', 'boom', 'stride'), '3': ('hold', 'waltz', 'waltzA'), 'c': ('hold', 'flowc', 'flow')},
+    # style: {metre class: (easy, inter, adv)}.  Same key at every level; richer
+    # voicings (not arpeggios) as the level goes up.
+    'hymn': {'4': ('hold', 'pad', 'padx'), '3': ('hold', 'pad', 'padx'), 'c': ('hold', 'pad', 'padx')},
+    'ballad': {'4': ('hold', 'pad', 'padx'), '3': ('hold', 'pad', 'padx'), 'c': ('hold', 'pad', 'padx')},
+    'lively': {'4': ('hold', 'boom', 'stride'), '3': ('hold', 'waltz', 'waltzA'), 'c': ('hold', 'pad', 'padx')},
+    'waltz': {'4': ('hold', 'boom', 'stride'), '3': ('hold', 'waltz', 'waltzA'), 'c': ('hold', 'pad', 'padx')},
 }
 LEVELS = ['easy', 'inter', 'adv']
 
@@ -771,29 +866,20 @@ def arrange(t, level):
             if blen - pd - cut > 0:
                 bars[-1][0] += held([], blen - pd - cut)
             segs[-1] = [(t, min(d, blen - pd - t), c) for (t, d, c) in segs[-1] if t < blen - pd]
-    minor = t['key'].endswith('m')
-    if 'key' in opt:
-        dst = opt['key']
-    elif level == 'easy':
-        cands = []
-        for i, k in enumerate(EASY_MIN if minor else EASY_MAJ):
-            dl, ds, o, pen = best_shift(bars, t['key'], k, 60, 77)
-            cands.append((pen + i * 0.5, k))
-        dst = min(cands)[1]
-    elif level == 'inter':
-        dst = SIMPLER.get(t['key'], t['key'])
-    else:
-        dst = t['key']
-    lo, hi = (60, 77) if level == 'easy' else (60, 81) if level == 'inter' else (65, 88)
+    # One key for every level: the song's key, or a friendlier neighbour for awkward keys.
+    dst = t.get('home') or SIMPLER.get(t['key'], t['key'])
+    lo, hi = 60, 81
     dl, ds, o, pen = best_shift(bars, t['key'], dst, lo, hi)
-    o += opt.get('oct', 0)
     bars = transpose(bars, dl, ds, o)
     segs = [[(a, b, tr_chord(c, dl, ds) if c else None) for (a, b, c) in s] for s in segs]
     style = t.get('style', 'ballad')
     pat = opt.get('pat') or PATS[style][cls][LEVELS.index(level)]
     attach_syms(bars, segs)
-    if level == 'adv' and opt.get('harm', t.get('harm', 'third')) != 'none':
-        add_harmony(bars, segs, mode=opt.get('harm', t.get('harm', 'third')))
+    hm = opt.get('harm', t.get('harm', 'third'))
+    if level == 'adv' and hm != 'none':
+        add_harmony(bars, segs, mode=hm)
+    elif level == 'inter' and hm != 'none':
+        add_harmony(bars, segs, mode='one')
     lh = make_lh(bars, segs, pat, blen, compound)
     bpm = int(round(t.get('tempo', 90) * {'easy': 0.85, 'inter': 0.95, 'adv': 1.0}[level]))
     bpm = opt.get('tempo', bpm)
