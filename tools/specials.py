@@ -500,7 +500,7 @@ REQUESTS = [
 # Public-domain songs that were asked for but are not notated yet (melody not verified against a score).
 PENDING = [
     ('In the Garden', 'C. Austin Miles, 1912', 'Hymns'), ('Softly and Tenderly', 'Will L. Thompson, 1880', 'Hymns'),
+    ('When Irish Eyes Are Smiling', 'Ernest R. Ball, 1912', 'Singalongs'),
     ('Home on the Range', 'Traditional American', 'Singalongs'), ('Shine On, Harvest Moon', 'Nora Bayes and Jack Norworth, 1908', 'Singalongs'),
-    ('In the Good Old Summertime', 'George Evans, 1902', 'Singalongs'), ('When Irish Eyes Are Smiling', 'Ernest R. Ball, 1912', 'Singalongs'),
     ('Down by the Old Mill Stream', 'Tell Taylor, 1908', 'Singalongs'), ("Alexander's Ragtime Band", 'Irving Berlin, 1911', 'Singalongs'),
 ]
