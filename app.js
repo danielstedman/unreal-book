@@ -41,6 +41,7 @@
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
+  function inCat(s, c) { return s.cat === c || (s.also && s.also.indexOf(c) >= 0); }
   function levelsOf(s) { return LEVELS.filter(function (l) { return s.levels && s.levels[l[0]]; }); }
   function playable(s) { return levelsOf(s).length > 0; }
   function toast(msg) {
@@ -95,18 +96,26 @@
   }
   function matches(s) {
     if (ui.cat === 'Favorites') { if (!favs[s.id]) return false; }
-    else if (ui.cat !== 'All' && s.cat !== ui.cat) return false;
+    else if (ui.cat === 'I can play') { if (s.status !== 'play') return false; }
+    else if (ui.cat === 'Learning') { if (s.status !== 'learn') return false; }
+    else if (ui.cat !== 'All' && !inCat(s, ui.cat)) return false;
     var q = ui.q.trim().toLowerCase();
     if (!q) return true;
     var hay = (s.title + ' ' + (s.composer || '') + ' ' + s.cat + ' ' + (s.badges || []).join(' ')).toLowerCase();
     return q.split(/\s+/).every(function (w) { return hay.indexOf(w) >= 0; });
   }
+  function statusPill(s) {
+    if (s.status === 'play') return '<span class="pill play">★ I can play</span>';
+    if (s.status === 'learn') return '<span class="pill learn">Learning</span>';
+    return '';
+  }
   function cardHtml(s) {
     var lv = levelsOf(s);
     var pills = '<span class="pill cat">' + esc(s.cat) + '</span>';
     if (s.featured) pills += '<span class="pill feat">Danny\'s song</span>';
+    pills += statusPill(s);
     (s.badges || []).forEach(function (b) { pills += '<span class="pill warn">' + esc(b) + '</span>'; });
-    if (lv.length && s.kind !== 'chart') pills += '<span class="pill">' + lv.map(function (l) { return l[1]; }).join(' · ') + '</span>';
+    if (lv.length) pills += '<span class="pill">' + lv.map(function (l) { return l[1]; }).join(' · ') + '</span>';
     var inner = '<span class="t">' + esc(s.title) + '</span><span class="c">' + esc(s.composer || '') + '</span><span class="m">' + pills + '</span>';
     if (s.kind === 'request' || s.kind === 'chart') inner += '<span class="rq">' + esc(s.rq || REQUEST_NOTE) + '</span>';
     if (!lv.length) return '<div class="card req"><div class="open">' + inner + '</div></div>';
@@ -116,7 +125,7 @@
   function renderLibrary() {
     document.title = "Library — Danny's Unreal Book";
     var st = stats();
-    var cats = ['All', 'Favorites'].concat(DATA.categories);
+    var cats = ['All', 'Favorites', 'I can play', 'Learning'].concat(DATA.categories);
     app.innerHTML = topbar('<a class="btn btn-small" href="#/">Cover</a>') +
       '<main class="wrap">' +
       '<div class="lib-head"><h2>The Songbook</h2><p>' + st.songs + ' songs · ' + st.arr + ' arrangements. Pick one and play.</p>' +
@@ -129,16 +138,23 @@
 
     function drawChips() {
       document.getElementById('chips').innerHTML = cats.map(function (c) {
-        var n = c === 'All' ? SONGS.length : c === 'Favorites' ? Object.keys(favs).length : SONGS.filter(function (s) { return s.cat === c; }).length;
-        return '<button class="chip" data-cat="' + esc(c) + '" aria-pressed="' + (ui.cat === c ? 'true' : 'false') + '">' + (c === 'Favorites' ? '★ ' : '') + esc(c) + '<span class="n">' + n + '</span></button>';
+        var n = c === 'All' ? SONGS.length : c === 'Favorites' ? Object.keys(favs).length :
+          c === 'I can play' ? SONGS.filter(function (s) { return s.status === 'play'; }).length :
+          c === 'Learning' ? SONGS.filter(function (s) { return s.status === 'learn'; }).length :
+          SONGS.filter(function (s) { return inCat(s, c); }).length;
+        return '<button class="chip" data-cat="' + esc(c) + '" aria-pressed="' + (ui.cat === c ? 'true' : 'false') + '">' + (c === 'Favorites' || c === 'I can play' ? '★ ' : '') + esc(c) + '<span class="n">' + n + '</span></button>';
       }).join('');
     }
     function drawGrid() {
       var list = SONGS.filter(matches);
-      if (ui.cat === 'All' && !ui.q.trim()) list = list.filter(function (s) { return s.featured; }).concat(list.filter(function (s) { return !s.featured; }));
+      if (ui.cat === 'All' && !ui.q.trim()) {
+        list = list.filter(function (s) { return s.status === 'learn'; })
+          .concat(list.filter(function (s) { return s.status !== 'learn' && s.featured; }))
+          .concat(list.filter(function (s) { return s.status !== 'learn' && !s.featured; }));
+      }
       document.getElementById('count').textContent = list.length + (list.length === 1 ? ' song' : ' songs') + (ui.cat !== 'All' ? ' in ' + ui.cat : '') + (ui.q.trim() ? ' matching “' + ui.q.trim() + '”' : '');
       document.getElementById('grid').innerHTML = list.length ? list.map(cardHtml).join('') :
-        '<p class="empty">' + (ui.cat === 'Favorites' ? 'No favorites yet. Tap the ☆ on any song to keep it here.' : 'Nothing matches. Try a different word or category.') + '</p>';
+        '<p class="empty">' + (ui.cat === 'Favorites' ? 'No favorites yet. Tap the ☆ on any song to keep it here.' : ui.cat === 'I can play' || ui.cat === 'Learning' ? 'Nothing is tagged here yet.' : 'Nothing matches. Try a different word or category.') + '</p>';
     }
     drawChips(); drawGrid();
     document.getElementById('q').addEventListener('input', function (e) { ui.q = e.target.value; drawGrid(); });
@@ -393,7 +409,7 @@
         return '<div class="bar' + (u.length > 2 ? ' tight' : '') + '">' + u.map(function (x) { return '<span>' + esc(x) + '</span>'; }).join('') + '</div>';
       }).join('') + '</div>';
     });
-    h += '<p class="disc">Chord chart from memory: check against your own sheet music. Chords only — no melody. ' + REQUEST_NOTE + '.</p></section>';
+    h += '<p class="disc">Chord chart: check against your own sheet music. Chords only — no melody. ' + REQUEST_NOTE + '.</p></section>';
     return h;
   }
   function renderSong(s) {
@@ -407,6 +423,7 @@
     document.title = s.title + " — Danny's Unreal Book";
     var pills = '<span class="pill cat">' + esc(s.cat) + '</span>';
     if (s.featured) pills += '<span class="pill feat">Danny\'s song</span>';
+    pills += statusPill(s);
     (s.badges || []).forEach(function (b) { pills += '<span class="pill warn">' + esc(b) + '</span>'; });
     app.innerHTML = topbar(
       '<a class="btn btn-small" href="#/library" id="back">‹ Songs</a>' +

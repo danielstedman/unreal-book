@@ -2,11 +2,15 @@
 """Build songs.js from the tune sources.   Usage:  python3 tools/build.py"""
 import json, os, sys, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from engine import arrange, raw, chart_abc, LEVELS
+from engine import arrange, raw, chart_levels, LEVELS
 from tunes import T
 from specials import SPECIALS, STUDIES, CHARTS, REQUESTS, PENDING
+import exercises  # noqa: F401  (adds practice exercises to SPECIALS)
+import seasonal  # noqa: F401  (adds seasonal public-domain tunes to T)
+import originals  # noqa: F401  (adds Claude's original pieces to T)
+import tags  # noqa: F401  (extra sections for existing songs)
 
-CATS = ['Hymns', 'Christmas', 'Classical', 'Ragtime', 'Traditional', 'Singalongs', 'Practice', 'Style Studies', 'Pop Requests']
+CATS = ['Hymns', 'Christmas', 'Winter', 'Spring', 'Summer', 'Autumn', 'Halloween', 'Originals', 'Classical', 'Ragtime', 'Traditional', 'Singalongs', 'Practice', 'Style Studies', 'Pop Requests']
 songs, problems = [], []
 
 for t in T:
@@ -21,7 +25,7 @@ for t in T:
         except Exception as e:
             problems.append('%s/%s: %s' % (t['id'], level, e))
     songs.append(dict(id=t['id'], title=t['title'], composer=t['composer'], cat=t['cat'], kind='song', badges=t.get('badges', []),
-                      note=t.get('note', ''), featured=bool(t.get('featured')), levels=lv,
+                      note=t.get('note', ''), featured=bool(t.get('featured')), levels=lv, also=t.get('also', []),
                       verses=t.get('verses', []), wsrc=t.get('wsrc', '') if t.get('w') else ''))
 
 for s in SPECIALS + STUDIES:
@@ -36,16 +40,16 @@ for s in SPECIALS + STUDIES:
         except Exception as e:
             problems.append('%s/%s: %s' % (s['id'], level, e))
     songs.append(dict(id=s['id'], title=s['title'], composer=s['composer'], cat=s['cat'], kind=s.get('kind', 'song'),
-                      badges=s.get('badges', []), note=s.get('note', ''), featured=False, levels=lv))
+                      badges=s.get('badges', []), note=s.get('note', ''), featured=False, levels=lv, also=s.get('also', [])))
 
 for c in CHARTS:
     try:
-        a = chart_abc(c, c['bpm'])
+        a = chart_levels(c, c['bpm'])
     except Exception as e:
         problems.append('%s: %s' % (c['id'], e))
         continue
     songs.append(dict(id=c['id'], title=c['title'], composer=c['artist'], cat='Pop Requests', kind='chart', badges=['Chord chart'], note='',
-                      featured=False, levels=dict(chords=a),
+                      featured=False, levels=a, status=c.get('status', ''),
                       chart=dict(key=c['key'], feel=c['feel'] + ', about %d BPM' % c['bpm'], sections=c['sections'])))
 for title, artist in REQUESTS:
     songs.append(dict(id='req-' + re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-'), title=title, composer=artist, cat='Pop Requests',
@@ -54,6 +58,12 @@ for title, who, cat in PENDING:
     songs.append(dict(id='pending-' + re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-'), title=title, composer=who, cat=cat,
                       kind='request', badges=[], note='', featured=False, levels={},
                       rq='Public domain, but not notated yet: the melody still needs checking against a printed score'))
+
+# Danny's status tags: 'play' = he can play it, 'learn' = he wants to learn it (charts carry their own).
+for s in songs:
+    if s['levels'] and (s['cat'] == 'Christmas' or s['id'] == 'auld-lang-syne'):
+        s['status'] = 'play'
+    s.setdefault('status', '')
 
 order = {c: i for i, c in enumerate(CATS)}
 songs.sort(key=lambda s: (order[s['cat']], 0 if s['levels'] else 1))

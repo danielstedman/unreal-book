@@ -3,6 +3,12 @@ window.SONGBOOK = {
  "categories": [
   "Hymns",
   "Christmas",
+  "Winter",
+  "Spring",
+  "Summer",
+  "Autumn",
+  "Halloween",
+  "Originals",
   "Classical",
   "Ragtime",
   "Traditional",
@@ -41,13 +47,15 @@ window.SONGBOOK = {
      "bpm": 84
     }
    },
+   "also": [],
    "verses": [
     "'Twas grace that taught my heart to fear, And\ngrace my fears relieved; How precious did that\ngrace appear The hour I first believed.",
     "Through many dangers, toils and snares, I\nhave already come; 'Tis grace hath brought me\nsafe thus far, And grace will lead me home.",
     "The Lord has promised good to me, His\nWord my hope secures; He will my Shield and\nPortion be, As long as life endures.",
     "Yea, when this flesh and heart shall fail, And\nmortal life shall cease, I shall possess, with\nin the veil, A life of joy and peace."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "be-thou-my-vision",
@@ -78,13 +86,15 @@ window.SONGBOOK = {
      "bpm": 96
     }
    },
+   "also": [],
    "verses": [
     "Be Thou my Wisdom, and Thou my true Word;\nI ever with Thee and Thou with me, Lord;\nThou my great Father, and I Thy true son;\nThou in me dwelling, and I with Thee one.",
     "Be Thou my battle Shield, Sword for the fight;\nBe Thou my Dignity, Thou my Delight;\nThou my soul's Shelter, Thou my high Tower:\nRaise Thou me heav'nward, O Pow'r of my pow'r.",
     "Riches I heed not, nor man's empty praise,\nThou mine Inheritance, now and always:\nThou and Thou only, be first in my heart,\nHigh King of Heaven, my Treasure Thou art.",
     "High King of Heaven, my victory won,\nMay I reach Heav'ns joys, O bright Heaven's Sun!\nHeart of my own heart, whatever befall,\nStill be my Vision, O Ruler of all."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "abide-with-me",
@@ -115,13 +125,15 @@ window.SONGBOOK = {
      "bpm": 72
     }
    },
+   "also": [],
    "verses": [
     "Swift to its close ebbs out life's little day; Earth's joys grow\ndim; its glories pass away; Change and decay in\nall around I see; O Thou who changest not, abide with me.",
     "Not a brief glance I beg, a passing word; But as Thou\ndwell'st with Thy disciples, Lord, Familiar, condes\ncending, patient, free. Come not to sojourn, but abide with me.",
     "Come not in terrors, as the King of kings, But kind and\ngood, with healing in Thy wings, Tears for all woes, a\nheart for every plea? Come, Friend of sinners, and thus bide with me.",
     "Thou on my head in early youth didst smile; And, though re\nbellious and perverse meanwhile, Thou hast not left me,\noft as I left Thee, On to the close, O Lord, abide with me."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "what-a-friend",
@@ -152,12 +164,14 @@ window.SONGBOOK = {
      "bpm": 88
     }
    },
+   "also": [],
    "verses": [
     "Have we trials and temptations? Is there trouble anywhere?\nWe should never be discouraged; take it to the Lord in prayer.\nCan we find a friend so faithful who will all our sorrows share?\nJesus knows our every weakness; take it to the Lord in prayer.",
     "Are we weak and heavy laden, cumbered with a load of care?\nPrecious Savior, still our refuge, take it to the Lord in prayer.\nDo your friends despise, forsake you? Take it to the Lord in prayer!\nIn His arms He'll take and shield you; you will find a solace there.",
     "Blessed Savior, Thou hast promised Thou wilt all our burdens bear\nMay we ever, Lord, be bringing all to Thee in earnest prayer.\nSoon in glory bright unclouded there will be no need for prayer\nRapture, praise and endless worship will be our sweet portion there."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "it-is-well",
@@ -189,13 +203,15 @@ window.SONGBOOK = {
      "bpm": 80
     }
    },
+   "also": [],
    "verses": [
     "Though Satan should buffet, though trials should come, Let this blest\nassurance control, That Christ has regarded my helpless es\ntate, And hath shed His own blood for my soul.",
     "My sin, oh, the bliss of this glorious thought! My sin, not\nin part but the whole, Is nailed to the cross, and I bear it no\nmore, Praise the Lord, praise the Lord, O my soul!",
     "For me, be it Christ, be it Christ hence to live: If Jordan\nabove me shall roll, No pang shall be mine, for in death as in\nlife Thou wilt whisper Thy peace to my soul.",
     "But, Lord, 'tis for Thee, for Thy coming we wait, The sky, not\nthe grave, is our goal; Oh trump of the angel! Oh voice of the\nLord! Blessèd hope, blessèd rest of my soul!"
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "holy-holy-holy",
@@ -226,12 +242,14 @@ window.SONGBOOK = {
      "bpm": 96
     }
    },
+   "also": [],
    "verses": [
     "Holy, holy, holy! All the saints adore Thee, Casting down their\ngolden crowns around the glassy sea; Cherubim and seraphim\nfalling down before Thee, Who was, and is, and evermore shall be.",
     "Holy, holy, holy! though the darkness hide Thee, Though the eye of\nsinful man Thy glory may not see; Only Thou art holy;\nthere is none beside Thee, Perfect in pow'r, in love, and purity.",
     "Holy, holy, holy! Lord God Almighty! All Thy works shall\npraise Thy Name, in earth, and sky, and sea; Holy, holy, holy;\nmerciful and mighty! God in three Persons, blessed Trinity!"
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "come-thou-fount",
@@ -262,13 +280,15 @@ window.SONGBOOK = {
      "bpm": 100
     }
    },
+   "also": [],
    "verses": [
     "Sorr'wing I shall be in spirit, Till released from flesh and sin,\nYet from what I do inherit, Here Thy praises I'll begin;\nHere I raise my Ebenezer; Here by Thy great help I've come;\nAnd I hope, by Thy good pleasure, Safely to arrive at home.",
     "Jesus sought me when a stranger, Wand'ring from the fold of God;\nHe, to rescue me from danger, Interposed His precious blood;\nHow His kindness yet pursues me Mortal tongue can never tell,\nClothed in flesh, till death shall loose me I cannot proclaim it well.",
     "O to grace how great a debtor Daily I'm constrained to be!\nLet Thy goodness, like a fetter, Bind my wand'ring heart to Thee.\nProne to wander, Lord, I feel it, Prone to leave the God I love;\nHere's my heart, O take and seal it, Seal it for Thy courts above.",
     "O that day when freed from sinning, I shall see Thy lovely face;\nClothèd then in blood washed linen How I'll sing Thy sovereign grace;\nCome, my Lord, no longer tarry, Take my ransomed soul away;\nSend thine angels now to carry Me to realms of endless day."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "great-is-thy-faithfulness",
@@ -300,11 +320,13 @@ window.SONGBOOK = {
      "bpm": 88
     }
    },
+   "also": [],
    "verses": [
     "Summer and winter and springtime and harvest, Sun, moon and\nstars in their courses above Join with all nature in\nmanifold witness To Thy great faithfulness, mercy and love.",
     "Pardon for sin and a peace that endureth Thine own dear\npresence to cheer and to guide; Strength for today and bright\nhope for tomorrow, Blessings all mine, with ten thousand beside!"
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "blessed-assurance",
@@ -336,11 +358,13 @@ window.SONGBOOK = {
      "bpm": 56
     }
    },
+   "also": [],
    "verses": [
     "Perfect submission, perfect delight, Visions of rapture now burst on my sight;\nAngels descending bring from above Echoes of mercy, whispers of love.",
     "Perfect submission, all is at rest I in my Savior am happy and blest,\nWatching and waiting, looking above, Filled with His goodness, lost in His love."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "rock-of-ages",
@@ -371,12 +395,14 @@ window.SONGBOOK = {
      "bpm": 80
     }
    },
+   "also": [],
    "verses": [
     "Not the labor of my hands Can fulfill Thy law's demands;\nCould my zeal no respite know, Could my tears forever flow,\nAll for sin could not atone; Thou must save, and Thou alone.",
     "Nothing in my hand I bring, Simply to the cross I cling;\nNaked, come to Thee for dress; Helpless look to Thee for grace;\nFoul, I to the fountain fly; Wash me, Savior, or I die.",
     "While I draw this fleeting breath, When mine eyes shall close in death,\nWhen I soar to worlds unknown, See Thee on Thy judgment throne,\nRock of Ages, cleft for me, Let me hide myself in Thee."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "nearer-my-god",
@@ -407,13 +433,15 @@ window.SONGBOOK = {
      "bpm": 52
     }
    },
+   "also": [],
    "verses": [
     "Though like the wanderer, the sun gone down,\nDarkness be over me, my rest a stone.\nYet in my dreams I'd be nearer, my God to Thee.\nThen evermore to be Nearer to Thee!",
     "Nearer, my Lord, to thee, Nearer to thee!\nWho to the cross didst come, Dying for me!\nStrengthen my willing feet, Hold me in service sweet",
     "Nearer, O Comforter, Nearer to thee!\nWho with my loving Lord Dwellest with me!\nGrant me thy fellowship! Help me each day to keep",
     "But to be nearer still, Bring me, O God,\nNot by the visioned steeps Angels have trod.\nHere where thy cross I see, Jesus, I wait for thee,"
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "be-still-my-soul",
@@ -444,13 +472,15 @@ window.SONGBOOK = {
      "bpm": 76
     }
    },
+   "also": [],
    "verses": [
     "Be still, my soul: thy God doth undertake To guide the fu\nture, as He has the past. Thy hope, thy confidence let nothing shake;\nAll now mysterious shall be bright at last. Be still, my soul: the waves\nand winds still know His voice Who ruled them while He dwelt below.",
     "Be still, my soul: when dearest friends depart, And all is dark\nened in the vale of tears, Then shalt thou better know His love, His heart,\nWho comes to soothe thy sorrow and thy fears. Be still, my soul: thy Je\nsus can repay From His own fullness all He takes away.",
     "Be still, my soul: the hour is hast'ning on When we shall be\nforever with the Lord. When disappointment, grief and fear are gone,\nSorrow forgot, love's purest joys restored. Be still, my soul: when change\nand tears are past All safe and blessèd we shall meet at last.",
     "Be still, my soul: begin the song of praise On earth, believ\ning, to Thy Lord on high; Acknowledge Him in all thy words and ways,\nSo shall He view thee with a well pleased eye. Be still, my soul: the Sun\nof life divine Through passing clouds shall but more brightly shine."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "a-mighty-fortress",
@@ -481,12 +511,14 @@ window.SONGBOOK = {
      "bpm": 92
     }
    },
+   "also": [],
    "verses": [
     "Did we in our own strength confide, our striving would be losing;\nWere not the right Man on our side, the Man of God's own choosing:\nDost ask who that may be? Christ Jesus, it is He; Lord Sabaoth, His name,\nfrom age to age the same, And He must win the battle.",
     "And though this world, with devils filled, should threaten to undo us,\nWe will not fear, for God hath willed His truth to triumph through us:\nThe Prince of Darkness grim, we tremble not for him; His rage we can endure,\nfor lo, his doom is sure, One little word shall fell him.",
     "That word above all earthly pow'rs, no thanks to them, abideth;\nThe Spirit and the gifts are ours through Him who with us sideth:\nLet goods and kindred go, this mortal life also; The body they may kill:\nGod's truth abideth still, His kingdom is forever."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "old-rugged-cross",
@@ -518,12 +550,14 @@ window.SONGBOOK = {
      "bpm": 54
     }
    },
+   "also": [],
    "verses": [
     "O that old rugged cross, so despised by the world, Has a wondrous\nattraction for me; For the dear Lamb of God left His glory\nabove To bear it to dark Calvary.",
     "In that old rugged cross, stained with blood so divine, A won\ndrous beauty I see, For 'twas on that old cross Jesus suffered\nand died, To pardon and sanctify me.",
     "To the old rugged cross I will ever be true; Its shame and\nreproach gladly bear; Then He'll call me some day to my home far\naway, Where His glory forever I'll share."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "just-as-i-am",
@@ -554,13 +588,15 @@ window.SONGBOOK = {
      "bpm": 50
     }
    },
+   "also": [],
    "verses": [
     "Just as I am, and waiting not To rid my soul of one dark blot,\nTo Thee, Whose blood can cleanse each spot, O Lamb of God, I come, I come.",
     "Just as I am, though tossed about With many'a conflict, many'a doubt,\nFightings and fears within, without, O Lamb of God, I come, I come.",
     "Just as I am, poor, wretched, blind; Sight riches healing of the mind,\nYea, all I need, in Thee to find, O Lamb of God, I come, I come.",
     "Just as I am, Thou wilt receive, Wilt welcome, pardon, cleanse, relieve,\nBecause Thy promise I believe, O Lamb of God, I come, I come."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "crown-him",
@@ -591,13 +627,15 @@ window.SONGBOOK = {
      "bpm": 100
     }
    },
+   "also": [],
    "verses": [
     "Crown Him the virgin's Son, the God incarnate born,\nWhose arm those crimson trophies won which now His brow adorn;\nFruit of the mystic rose, as of that rose the stem;\nThe root whence mercy ever flows, the Babe of Bethlehem.",
     "Crown Him the Son of God, before the worlds began,\nAnd ye who tread where He hath trod, crown Him the Son of Man;\nWho every grief hath known that wrings the human breast,\nAnd takes and bears them for His own, that all in Him may rest.",
     "Crown Him the Lord of life, who triumphed o'er the grave,\nAnd rose victorious in the strife for those He came to save.\nHis glories now we sing, Who died, and rose on high,\nWho died eternal life to bring, and lives that death may die.",
     "Crown Him the Lord of peace, Whose pow'r a scepter sways\nFrom pole to pole, that wars may cease, and all be prayer and praise.\nHis reign shall know no end, and round His pierced feet\nFair flow'rs of paradise extend their fragrance ever sweet."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "all-creatures",
@@ -628,13 +666,17 @@ window.SONGBOOK = {
      "bpm": 120
     }
    },
+   "also": [
+    "Spring"
+   ],
    "verses": [
     "Thou rushing wind that art so strong Ye clouds that sail in Heaven along,\nO praise Him! Alleluia! Thou rising moon, in praise rejoice,\nYe lights of evening, find a voice!",
     "Thou flowing water, pure and clear, Make music for thy Lord to hear,\nO praise Him! Alleluia! Thou fire so masterful and bright,\nThat givest man both warmth and light.",
     "Dear mother earth, who day by day Unfoldest blessings on our way,\nO praise Him! Alleluia! The flowers and fruits that in thee grow,\nLet them His glory also show.",
     "And all ye men of tender heart, Forgiving others, take your part,\nO sing ye! Alleluia! Ye who long pain and sorrow bear,\nPraise God and on Him cast your care!"
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": ""
   },
   {
    "id": "doxology",
@@ -665,8 +707,12 @@ window.SONGBOOK = {
      "bpm": 88
     }
    },
+   "also": [
+    "Autumn"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "shall-we-gather",
@@ -698,8 +744,10 @@ window.SONGBOOK = {
      "bpm": 92
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "pending-in-the-garden",
@@ -711,7 +759,8 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {},
-   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score"
+   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score",
+   "status": ""
   },
   {
    "id": "pending-softly-and-tenderly",
@@ -723,7 +772,8 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {},
-   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score"
+   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score",
+   "status": ""
   },
   {
    "id": "silent-night",
@@ -754,12 +804,14 @@ window.SONGBOOK = {
      "bpm": 46
     }
    },
+   "also": [],
    "verses": [
     "Silent night, holy night, Shepherds quake at the sight;\nGlories stream from heaven afar, Heavenly hosts sing Allelu\nia! Christ the Savior is born, Christ the Savior is born!",
     "Silent night, holy night, Son of God, love's pure light;\nRadiant beams from Thy holy face With the dawn of redeeming\ngrace, Jesus, Lord, at Thy birth, Jesus, Lord, at Thy birth.",
     "Silent night, holy night Wondrous star, lend thy light;\nWith the angels let us sing, Alleluia to our\nKing; Christ the Savior is born, Christ the Savior is born!"
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": "play"
   },
   {
    "id": "joy-to-the-world",
@@ -790,12 +842,14 @@ window.SONGBOOK = {
      "bpm": 126
     }
    },
+   "also": [],
    "verses": [
     "Joy to the earth, the Savior reigns! Let men their songs employ;\nWhile fields and floods, rocks, hills and plains Repeat the sounding joy,\nRepeat the sounding joy, Repeat, repeat, the sounding joy.",
     "No more let sins and sorrows grow, Nor thorns infest the ground;\nHe comes to make His blessings flow Far as the curse is found,\nFar as the curse is found, Far as, far as, the curse is found.",
     "He rules the world with truth and grace, And makes the nations prove\nThe glories of His righteousness, And wonders of His love,\nAnd wonders of His love, And wonders, wonders, of His love."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": "play"
   },
   {
    "id": "god-rest-ye",
@@ -826,13 +880,15 @@ window.SONGBOOK = {
      "bpm": 116
     }
    },
+   "also": [],
    "verses": [
     "In Bethlehem, in Israel, this blessèd Babe was born,\nAnd laid within a manger upon this blessèd morn;\nThe which His mother Mary did nothing take in scorn.",
     "From God our heav'nly Father a blessèd angel came;\nAnd unto certain shepherds brought tidings of the same;\nHow that in Bethlehem was born the Son of God by name.",
     "\"Fear not, then,\" said the angel, \"Let nothing you afright\nThis day is born a Savior of a pure Virgin bright,\nTo free all those who trust in Him from Satan's pow'r and might.\"",
     "The shepherds at those tidings rejoiced much in mind,\nAnd left their flocks afeeding in tempest, storm and wind,\nAnd went to Bethl'em straightaway this blessèd Babe to find."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": "play"
   },
   {
    "id": "o-come-all-ye-faithful",
@@ -863,13 +919,15 @@ window.SONGBOOK = {
      "bpm": 104
     }
    },
+   "also": [],
    "verses": [
     "True God of true God, Light from Light Eternal,\nLo, He shuns not the Virgin's womb; Son of the\nFather, begotten, not created;",
     "Sing, choirs of angels, sing in exultation; O\nsing, all ye citizens of heav'n above! Glory to\nGod, glory in the highest;",
     "See how the shepherds, summoned to His cradle,\nLeaving their flocks, draw nigh to gaze; We too will\nthither bend our joyful footsteps;",
     "Lo! star led chieftains, Magi, Christ adoring,\nOffer Him incense, gold, and myrrh; We to the\nChrist Child bring our hearts' oblations."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": "play"
   },
   {
    "id": "hark-the-herald",
@@ -900,13 +958,15 @@ window.SONGBOOK = {
      "bpm": 108
     }
    },
+   "also": [],
    "verses": [
     "Christ, by highest Heav'n adored; Christ the everlasting Lord;\nLate in time, behold Him come, Offspring of a virgin's womb.\nVeiled in flesh the Godhead see; Hail th'incarnate Deity,\nPleased with us in flesh to dwell, Jesus our Emmanuel.",
     "Hail the heav'nly Prince of Peace! Hail the Sun of Righteousness!\nLight and life to all He brings, Ris'n with healing in His wings.\nMild He lays His glory by, Born that man no more may die.\nBorn to raise the sons of earth, Born to give them second birth.",
     "Come, Desire of nations, come, Fix in us Thy humble home;\nRise, the woman's conqu'ring Seed, Bruise in us the serpent's head.\nNow display Thy saving power, Ruined nature now restore;\nNow in mystic union join Thine to ours, and ours to Thine.",
     "Adam's likeness, Lord, efface, Stamp Thine image in its place:\nSecond Adam from above, Reinstate us in Thy love.\nLet us Thee, though lost, regain, Thee, the Life, the inner man:\nO, to all Thyself impart, Formed in each believing heart."
    ],
-   "wsrc": "Words: public domain, as given in the Open Hymnal Project"
+   "wsrc": "Words: public domain, as given in the Open Hymnal Project",
+   "status": "play"
   },
   {
    "id": "jingle-bells",
@@ -938,8 +998,12 @@ window.SONGBOOK = {
      "bpm": 132
     }
    },
+   "also": [
+    "Winter"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": "play"
   },
   {
    "id": "deck-the-halls",
@@ -970,8 +1034,10 @@ window.SONGBOOK = {
      "bpm": 112
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": "play"
   },
   {
    "id": "carol-of-the-bells",
@@ -1004,8 +1070,10 @@ window.SONGBOOK = {
      "bpm": 150
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": "play"
   },
   {
    "id": "o-holy-night",
@@ -1038,8 +1106,224 @@ window.SONGBOOK = {
      "bpm": 46
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": "play"
+  },
+  {
+   "id": "dannys-ballad",
+   "title": "Danny's Ballad",
+   "composer": "Claude, written for this book (2026)",
+   "cat": "Originals",
+   "kind": "song",
+   "badges": [],
+   "note": "A gospel-tinged piano ballad with a walking-down bass (G, D/F#, Em, C): the kind of changes Elton loves.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=61\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"B3A G2 D2 | \"D/F#\"A3G F2 D2 | \"Em\"G2 B2 e2 d2 | \"C\"c4 B2 A2 |\n[V:2] [G,,D,]8 | [F,,D,]8 | [E,B,]8 | [C,G,]8 |\n[V:1] \"G/B\"B3A G2 B2 | \"Am7\"c2 B2 \"D\"A2 F2 | \"G\"G6 z2 | \"Dsus4\"A4 \"D\"F4 |\n[V:2] [B,,G,]8 | [A,,E,]4 [D,A,]4 | [G,,D,]8 | [D,A,]4 [D,A,]4 |\n[V:1] \"Em\"e3d B2 G2 | \"C\"c3B A2 G2 | \"G/D\"d3B G2 B2 | \"D\"A6 F2 |\n[V:2] [E,B,]8 | [C,G,]8 | [D,B,]8 | [D,A,]8 |\n[V:1] \"C\"E2 G2 c2 e2 | \"G/B\"d4 B2 G2 | \"Am7\"A2 c2 \"D7\"B2 A2 | \"G\"G8 |]\n[V:2] [C,G,]8 | [B,,G,]8 | [A,,E,]4 [D,A,]4 | [G,,D,]8 |]",
+     "key": "G",
+     "bars": 16,
+     "bpm": 61
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"[GB]3A [DG]2 [B,D]2 | \"D/F#\"[FA]3G [DF]2 [A,D]2 | \"Em\"[EG]2 [GB]2 [Be]2 [Bd]2 | \"C\"[Gc]4 [GB]2 [EA]2 |\n[V:2] [G,,D,]4 [G,,D,]4 | [F,,A,,D,]4 [F,,A,,D,]4 | [E,,B,,G,]4 [E,,B,,G,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"G/B\"[GB]3A [DG]2 [GB]2 | \"Am7\"[Ac]2 [GB]2 \"D\"[FA]2 [DF]2 | \"G\"[DG]6 z2 | \"Dsus4\"[DA]4 \"D\"[DF]4 |\n[V:2] [B,,,D,,G,,]4 [B,,,D,,G,,]4 | [A,,G,C]4 [D,,A,,F,]4 | [G,,D,B,]4 [G,,D,B,]4 | [D,,A,,D,A,]4 [D,,A,,F,]4 |\n[V:1] \"Em\"[Be]3d [GB]2 [EG]2 | \"C\"[Gc]3B [EA]2 [EG]2 | \"G/D\"[Bd]3B [DG]2 [GB]2 | \"D\"[FA]6 [DF]2 |\n[V:2] [E,,B,,G,]4 [E,,B,,G,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [D,,G,,B,,]4 [D,,G,,B,,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"C\"[CE]2 [EG]2 [Gc]2 [ce]2 | \"G/B\"[Bd]4 [GB]2 [DG]2 | \"Am7\"[EA]2 [Ac]2 \"D7\"[FB]2 [FA]2 | \"G\"[DG]8 |]\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [B,,,D,,G,,]4 [B,,,D,,G,,]4 | [A,,G,C]4 [D,,C,F,]4 | [G,,D,G,]8 |]",
+     "key": "G",
+     "bars": 16,
+     "bpm": 68
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"[GB]3A [DG]2 [B,D]2 | \"D/F#\"[FA]3G [DF]2 [A,D]2 | \"Em\"[EG]2 [GB]2 [Be]2 [Bd]2 | \"C\"[EGc]4 [GB]2 [EA]2 |\n[V:2] [G,,,G,,D,]4 [G,,,G,,D,]4 | [F,,,F,,A,,D,F,]4 [F,,,F,,A,,D,F,]4 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"G/B\"[GB]3A [DG]2 [GB]2 | \"Am7\"[Ac]2 [GB]2 \"D\"[FA]2 [DF]2 | \"G\"[B,DG]6 z2 | \"Dsus4\"[A,DA]4 \"D\"[A,DF]4 |\n[V:2] [B,,,D,,G,,B,,]4 [B,,,D,,G,,B,,]4 | [A,,,A,,G,C]4 [D,,A,,F,B,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [D,,A,,D,]4 [D,,A,,F,]4 |\n[V:1] \"Em\"[Be]3d [GB]2 [EG]2 | \"C\"[Gc]3B [EA]2 [EG]2 | \"G/D\"[Bd]3B [DG]2 [GB]2 | \"D\"[DFA]6 [DF]2 |\n[V:2] [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [D,,G,,B,,D,]4 [D,,G,,B,,D,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] \"C\"[CE]2 [EG]2 [Gc]2 [ce]2 | \"G/B\"[GBd]4 [GB]2 [DG]2 | \"Am7\"[EA]2 [Ac]2 \"D7\"[FB]2 [FA]2 | \"G\"[B,DG]8 |]\n[V:2] [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [B,,,D,,G,,B,,]4 [B,,,D,,G,,B,,]4 | [A,,,A,,G,C]4 [D,,C,F,A,]4 | [G,,D,G,]8 |]",
+     "key": "G",
+     "bars": 16,
+     "bpm": 72
+    }
+   },
+   "also": [],
+   "verses": [],
+   "wsrc": "",
+   "status": ""
+  },
+  {
+   "id": "lantern-light",
+   "title": "Lantern Light",
+   "composer": "Claude, written for this book (2026)",
+   "cat": "Originals",
+   "kind": "song",
+   "badges": [],
+   "note": "A quiet winter hymn tune in three: play it like a carol by candlelight.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=75\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] A2 | \"D\"d4 c2 | \"G\"B4 A2 | \"D\"A2 F2 A2 |\n[V:2] z2 | [D,A,]6 | [G,,D,]6 | [D,A,]6 |\n[V:1] \"A\"E6 | \"D\"F4 G2 | \"Bm\"A2 B2 d2 | \"E7\"e4 d2 |\n[V:2] [A,,E,]6 | [D,A,]6 | [B,,F,]6 | [E,B,]6 |\n[V:1] \"A\"c4 A2 | \"D\"d4 c2 | \"G\"B4 G2 | \"D/A\"F4 A2 |\n[V:2] [A,,E,]6 | [D,A,]6 | [G,,D,]6 | [A,,F,]6 |\n[V:1] \"Bm\"d4 B2 | \"G\"B2 A2 G2 | \"A7\"G2 F2 E2 | \"D\"D4 |]\n[V:2] [B,,F,]6 | [G,,D,]6 | [A,,E,]6 | [D,A,]4 |]",
+     "key": "D",
+     "bars": 15,
+     "bpm": 75
+    },
+    "inter": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] A2 | \"D\"[Ad]4 [Ac]2 | \"G\"[GB]4 [DA]2 | \"D\"[FA]2 [DF]2 [FA]2 |\n[V:2] z2 | [D,,A,,F,]6 | [G,,D,B,]6 | [D,,A,,F,]6 |\n[V:1] \"A\"[CE]6 | \"D\"[DF]4 [DG]2 | \"Bm\"[FA]2 [FB]2 [Bd]2 | \"E7\"[Be]4 [Bd]2 |\n[V:2] [A,,E,]6 | [D,,A,,F,]6 | [B,,,F,,D,]6 | [E,,D,^G,]6 |\n[V:1] \"A\"[Ac]4 [EA]2 | \"D\"[Ad]4 [Ac]2 | \"G\"[GB]4 [DG]2 | \"D/A\"[DF]4 [FA]2 |\n[V:2] [A,,E,C]6 | [D,,A,,F,]6 | [G,,D,B,]6 | [A,,D,F,]6 |\n[V:1] \"Bm\"[Bd]4 [FB]2 | \"G\"[GB]2 [DA]2 [DG]2 | \"A7\"[EG]2 [CF]2 [CE]2 | \"D\"[A,D]4 |]\n[V:2] [B,,,F,,D,]6 | [G,,D,B,]6 | [A,,G,]6 | [D,,A,,D,]4 |]",
+     "key": "D",
+     "bars": 15,
+     "bpm": 84
+    },
+    "adv": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=88\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] A2 | \"D\"[FAd]4 [Ac]2 | \"G\"[DGB]4 [DA]2 | \"D\"[FA]2 [DF]2 [FA]2 |\n[V:2] z2 | [D,,A,,F,B,]6 | [G,,,G,,D,B,]6 | [D,,A,,F,B,]6 |\n[V:1] \"A\"[A,CE]6 | \"D\"[A,DF]4 [DG]2 | \"Bm\"[FA]2 [FB]2 [Bd]2 | \"E7\"[^GBe]4 [Bd]2 |\n[V:2] [A,,,A,,E,]6 | [D,,A,,F,]6 | [B,,,F,,A,,D,]6 | [E,,,E,,D,^G,B,]6 |\n[V:1] \"A\"[EAc]4 [EA]2 | \"D\"[FAd]4 [Ac]2 | \"G\"[DGB]4 [DG]2 | \"D/A\"[A,DF]4 [FA]2 |\n[V:2] [A,,,A,,E,C]6 | [D,,A,,F,B,]6 | [G,,,G,,D,B,]6 | [A,,,A,,D,F,]6 |\n[V:1] \"Bm\"[FBd]4 [FB]2 | \"G\"[GB]2 [DA]2 [DG]2 | \"A7\"[EG]2 [CF]2 [CE]2 | \"D\"[A,D]4 |]\n[V:2] [B,,,F,,A,,D,]6 | [G,,,G,,D,B,]6 | [A,,,A,,G,]6 | [D,,A,,D,]4 |]",
+     "key": "D",
+     "bars": 15,
+     "bpm": 88
+    }
+   },
+   "also": [
+    "Winter"
+   ],
+   "verses": [],
+   "wsrc": "",
+   "status": ""
+  },
+  {
+   "id": "back-porch-waltz",
+   "title": "Back Porch Waltz",
+   "composer": "Claude, written for this book (2026)",
+   "cat": "Originals",
+   "kind": "song",
+   "badges": [],
+   "note": "A lazy summer-evening waltz: oom-pah-pah in the left hand, tune on top.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=112\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"E2 G2 c2 | e4 d2 | \"F\"c2 A2 F2 | \"C\"G6 |\n[V:2] [C,G,]6 | [C,G,]6 | [F,,C,]6 | [C,G,]6 |\n[V:1] \"G7\"F2 G2 B2 | d4 B2 | \"C\"c2 G2 E2 | G6 |\n[V:2] [G,,D,]6 | [G,,D,]6 | [C,G,]6 | [C,G,]6 |\n[V:1] \"Am\"A2 c2 e2 | e4 c2 | \"F\"f2 e2 d2 | \"C\"c6 |\n[V:2] [A,,E,]6 | [A,,E,]6 | [F,,C,]6 | [C,G,]6 |\n[V:1] \"D7\"A2 d2 ^f2 | \"G7\"g4 f2 | e2 d2 B2 | \"C\"c6 |]\n[V:2] [D,A,]6 | [G,,D,]6 | [G,,D,]6 | [C,G,]6 |]",
+     "key": "C",
+     "bars": 16,
+     "bpm": 112
+    },
+    "inter": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=125\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[CE]2 [EG]2 [Gc]2 | [ce]4 [Gd]2 | \"F\"[Ac]2 [FA]2 [CF]2 | \"C\"[EG]6 |\n[V:2] C,2 [E,G,]2 [E,G,]2 | C,2 [G,CE]2 [G,CE]2 | F,2 [F,A,]2 [F,A,]2 | C,2 [E,G,]2 [E,G,]2 |\n[V:1] \"G7\"[DF]2 [DG]2 [GB]2 | [Bd]4 [GB]2 | \"C\"[Gc]2 [EG]2 [CE]2 | [EG]6 |\n[V:2] G,,2 [F,G,B,]2 [F,G,B,]2 | G,,2 [F,G,B,]2 [F,G,B,]2 | C,2 [E,G,]2 [E,G,]2 | C,2 [E,G,]2 [E,G,]2 |\n[V:1] \"Am\"[EA]2 [Ac]2 [ce]2 | [ce]4 [Ac]2 | \"F\"[cf]2 [ce]2 [Ad]2 | \"C\"[Gc]6 |\n[V:2] A,,2 [E,A,C]2 [E,A,C]2 | A,,2 [A,CE]2 [A,CE]2 | F,2 [A,C]2 [A,C]2 | C,2 [G,CE]2 [G,CE]2 |\n[V:1] \"D7\"[^FA]2 [Ad]2 [d^f]2 | \"G7\"[dg]4 [df]2 | [Be]2 [Bd]2 [GB]2 | \"C\"[Gc]6 |]\n[V:2] D,2 [^F,A,]2 [F,A,]2 | G,,2 [F,G,B,]2 [F,G,B,]2 | G,,2 [F,G,B,]2 [F,G,B,]2 | [C,,G,,C,]6 |]",
+     "key": "C",
+     "bars": 16,
+     "bpm": 125
+    },
+    "adv": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=132\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[CE]2 [EG]2 [Gc]2 | [Gce]4 [Gd]2 | \"F\"[Ac]2 [FA]2 [CF]2 | \"C\"[CEG]6 |\n[V:2] C,,2 [E,G,]2 [E,G,]2 | C,,2 [G,CE]2 [G,CE]2 | F,,2 [F,A,]2 [F,A,]2 | C,,2 [E,G,]2 [E,G,]2 |\n[V:1] \"G7\"[DF]2 [DG]2 [GB]2 | [GBd]4 [GB]2 | \"C\"[Gc]2 [EG]2 [CE]2 | [CEG]6 |\n[V:2] G,,2 [F,G,B,]2 [F,G,B,]2 | G,,2 [F,G,B,]2 [F,G,B,]2 | C,,2 [E,G,]2 [E,G,]2 | C,,2 [E,G,]2 [E,G,]2 |\n[V:1] \"Am\"[EA]2 [Ac]2 [ce]2 | [Ace]4 [Ac]2 | \"F\"[cf]2 [ce]2 [Ad]2 | \"C\"[EGc]6 |\n[V:2] A,,2 [E,A,C]2 [E,A,C]2 | A,,2 [A,CE]2 [A,CE]2 | F,,2 [F,A,C]2 [F,A,C]2 | C,,2 [E,G,C]2 [E,G,C]2 |\n[V:1] \"D7\"[^FA]2 [Ad]2 [d^f]2 | \"G7\"[Bdg]4 [df]2 | [Be]2 [Bd]2 [GB]2 | \"C\"[EGc]6 |]\n[V:2] D,,2 [^F,A,C]2 [F,A,C]2 | G,,2 [F,G,B,]2 [F,G,B,]2 | G,,2 [F,G,B,]2 [F,G,B,]2 | [C,,G,,C,]6 |]",
+     "key": "C",
+     "bars": 16,
+     "bpm": 132
+    }
+   },
+   "also": [
+    "Summer"
+   ],
+   "verses": [],
+   "wsrc": "",
+   "status": ""
+  },
+  {
+   "id": "hollow-hill",
+   "title": "Hollow Hill",
+   "composer": "Claude, written for this book (2026)",
+   "cat": "Originals",
+   "kind": "song",
+   "badges": [],
+   "note": "A slow, shadowy minor ballad for October nights. Lean on the low notes.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=65\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Dm\n[V:1] \"Dm\"D2 F2 A2 d2 | \"Bb\"d3c B2 F2 | \"Gm\"G2 B2 d2 B2 | \"A7\"^c4 A4 |\n[V:2] [D,A,]8 | [B,,F,]8 | [G,,D,]8 | [A,,E,]8 |\n[V:1] \"Dm\"A3G F2 D2 | \"Bb\"F3E D2 B,2 | \"Gm6\"G2 B2 \"A7\"A2 ^C2 | \"Dm\"D8 |\n[V:2] [D,A,]8 | [B,,F,]8 | [G,,D,]4 [A,,E,]4 | [D,A,]8 |\n[V:1] d2 d2 e2 f2 | \"C\"e3d c2 G2 | \"Bb\"d2 B2 F2 B2 | \"A\"^c4 e4 |\n[V:2] [D,A,]8 | [C,G,]8 | [B,,F,]8 | [A,,E,]8 |\n[V:1] \"Dm\"f3e d2 A2 | \"Bb\"B3A G2 F2 | \"Gm\"G2 B2 \"A7\"A2 ^c2 | \"Dm\"d8 |]\n[V:2] [D,A,]8 | [B,,F,]8 | [G,,D,]4 [A,,E,]4 | [D,A,]8 |]",
+     "key": "Dm",
+     "bars": 16,
+     "bpm": 65
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Dm\n[V:1] \"Dm\"[A,D]2 [DF]2 [FA]2 [Ad]2 | \"Bb\"[Bd]3c [FB]2 [DF]2 | \"Gm\"[DG]2 [GB]2 [Bd]2 [GB]2 | \"A7\"[A^c]4 [EA]4 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [G,,D,B,]4 [G,,D,B,]4 | [A,,G,^C]4 [A,,G,C]4 |\n[V:1] \"Dm\"[FA]3G [DF]2 [A,D]2 | \"Bb\"[DF]3E [B,D]2 B,2 | \"Gm6\"[EG]2 [GB]2 \"A7\"[EA]2 [A,^C]2 | \"Dm\"[A,D]8 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [G,,E,]4 [A,,G,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] [Ad]2 [Ad]2 [Ae]2 [df]2 | \"C\"[ce]3d [Gc]2 [EG]2 | \"Bb\"[Bd]2 [FB]2 [DF]2 [FB]2 | \"A\"[A^c]4 [ce]4 |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [A,,E,^C]4 [A,,E,C]4 |\n[V:1] \"Dm\"[df]3e [Ad]2 [FA]2 | \"Bb\"[FB]3A [DG]2 [DF]2 | \"Gm\"[DG]2 [GB]2 \"A7\"[EA]2 [A^c]2 | \"Dm\"[Ad]8 |]\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [B,,,F,,D,]4 [B,,,F,,D,]4 | [G,,D,B,]4 [A,,G,^C]4 | [D,,A,,D,]8 |]",
+     "key": "Dm",
+     "bars": 16,
+     "bpm": 72
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Dm\n[V:1] \"Dm\"[A,D]2 [DF]2 [FA]2 [Ad]2 | \"Bb\"[Bd]3c [FB]2 [DF]2 | \"Gm\"[DG]2 [GB]2 [Bd]2 [GB]2 | \"A7\"[EA^c]4 [^CEA]4 |\n[V:2] [D,,A,,C,F,]4 [D,,A,,C,F,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [G,,,G,,D,F,B,]4 [G,,,G,,D,F,B,]4 | [A,,,A,,G,]4 [A,,,A,,G,]4 |\n[V:1] \"Dm\"[FA]3G [DF]2 [A,D]2 | \"Bb\"[DF]3E [B,D]2 B,2 | \"Gm6\"[EG]2 [GB]2 \"A7\"[EA]2 [A,^C]2 | \"Dm\"[A,D]8 |\n[V:2] [D,,A,,C,F,]4 [D,,A,,C,F,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [G,,,G,,E,]4 [A,,,A,,G,]4 | [D,,A,,C,F,]4 [D,,A,,C,F,]4 |\n[V:1] [Ad]2 [Ad]2 [Ae]2 [df]2 | \"C\"[ce]3d [Gc]2 [EG]2 | \"Bb\"[Bd]2 [FB]2 [DF]2 [FB]2 | \"A\"[EA^c]4 [Ace]4 |\n[V:2] [D,,A,,C,F,]4 [D,,A,,C,F,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [A,,,A,,E,^C]4 [A,,,A,,E,C]4 |\n[V:1] \"Dm\"[df]3e [Ad]2 [FA]2 | \"Bb\"[FB]3A [DG]2 [DF]2 | \"Gm\"[DG]2 [GB]2 \"A7\"[EA]2 [A^c]2 | \"Dm\"[FAd]8 |]\n[V:2] [D,,A,,C,F,]4 [D,,A,,C,F,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [G,,,G,,D,F,B,]4 [A,,,A,,G,^C]4 | [D,,A,,D,]8 |]",
+     "key": "Dm",
+     "bars": 16,
+     "bpm": 76
+    }
+   },
+   "also": [
+    "Halloween"
+   ],
+   "verses": [],
+   "wsrc": "",
+   "status": ""
+  },
+  {
+   "id": "first-thaw",
+   "title": "First Thaw",
+   "composer": "Claude, written for this book (2026)",
+   "cat": "Originals",
+   "kind": "song",
+   "badges": [],
+   "note": "A bright spring tune with a bouncing left hand: ice melting, windows open.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=99\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"c2 A2 F2 A2 | c3d c2 A2 | \"Bb\"d2 f2 d2 B2 | \"F\"c6 z2 |\n[V:2] [F,,C,]8 | [F,,C,]8 | [B,,F,]8 | [F,,C,]8 |\n[V:1] \"C7\"G2 A2 B2 c2 | \"F\"A2 G2 F2 A2 | \"G7\"G2 A2 =B2 d2 | \"C7\"c4 G4 |\n[V:2] [C,G,]8 | [F,,C,]8 | [G,,D,]8 | [C,G,]8 |\n[V:1] \"F\"f3e f2 c2 | \"Dm\"d3c d2 A2 | \"Bb\"B2 d2 c2 B2 | \"F\"A6 z2 |\n[V:2] [F,,C,]8 | [D,A,]8 | [B,,F,]8 | [F,,C,]8 |\n[V:1] \"Bb\"B2 B2 d2 f2 | \"F/C\"c2 A2 F2 A2 | \"C7\"G2 c2 e2 B2 | \"F\"F8 |]\n[V:2] [B,,F,]8 | [C,A,]8 | [C,G,]8 | [F,,C,]8 |]",
+     "key": "F",
+     "bars": 16,
+     "bpm": 99
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=110\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[Ac]2 [FA]2 [CF]2 [FA]2 | [Ac]3d [Ac]2 [FA]2 | \"Bb\"[Bd]2 [df]2 [Bd]2 [FB]2 | \"F\"[Ac]6 z2 |\n[V:2] F,2 [F,A,]2 C,2 [F,A,]2 | F,2 [A,C]2 C,2 [A,C]2 | B,,2 [F,B,D]2 F,,2 [F,B,D]2 | F,2 [A,C]2 C,2 [A,C]2 |\n[V:1] \"C7\"[EG]2 [EA]2 [GB]2 [Gc]2 | \"F\"[FA]2 [CG]2 [CF]2 [FA]2 | \"G7\"[DG]2 [FA]2 [G=B]2 [Bd]2 | \"C7\"[Gc]4 [EG]4 |\n[V:2] C,2 [E,G,]2 G,,2 [E,G,]2 | F,2 [F,A,]2 C,2 [F,A,]2 | G,,2 [F,G,=B,]2 D,,2 [F,G,B,]2 | C,2 [E,G,]2 G,,2 [E,G,]2 |\n[V:1] \"F\"[cf]3e [cf]2 [Ac]2 | \"Dm\"[Ad]3c [Ad]2 [FA]2 | \"Bb\"[FB]2 [Bd]2 [Fc]2 [FB]2 | \"F\"[FA]6 z2 |\n[V:2] F,2 [A,C]2 C,2 [A,C]2 | D,2 [F,A,]2 A,,2 [F,A,]2 | B,,2 [F,B,D]2 F,,2 [F,B,D]2 | F,2 [A,C]2 C,2 [A,C]2 |\n[V:1] \"Bb\"[FB]2 [FB]2 [Bd]2 [df]2 | \"F/C\"[Ac]2 [FA]2 [CF]2 [FA]2 | \"C7\"[EG]2 [Gc]2 [ce]2 [GB]2 | \"F\"[CF]8 |]\n[V:2] B,,2 [F,B,D]2 F,,2 [F,B,D]2 | C,2 [F,A,]2 A,,2 [F,A,]2 | C,2 [E,G,]2 G,,2 [E,G,]2 | [F,,C,F,]8 |]",
+     "key": "F",
+     "bars": 16,
+     "bpm": 110
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=116\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[Ac]2 [FA]2 [CF]2 [FA]2 | [Ac]3d [Ac]2 [FA]2 | \"Bb\"[Bd]2 [df]2 [Bd]2 [FB]2 | \"F\"[FAc]6 z2 |\n[V:2] F,,2 [F,A,]2 C,,2 [F,A,]2 | F,,2 [F,A,C]2 C,,2 [F,A,C]2 | B,,2 [F,B,D]2 F,,2 [F,B,D]2 | F,,2 [F,A,C]2 C,,2 [F,A,C]2 |\n[V:1] \"C7\"[EG]2 [EA]2 [GB]2 [Gc]2 | \"F\"[FA]2 [CG]2 [CF]2 [FA]2 | \"G7\"[DG]2 [FA]2 [G=B]2 [Bd]2 | \"C7\"[EGc]4 [CEG]4 |\n[V:2] C,,2 [E,G,B,]2 G,,2 [E,G,B,]2 | F,,2 [F,A,]2 C,,2 [F,A,]2 | G,,2 [F,G,=B,]2 D,,2 [F,G,B,]2 | C,,2 [E,G,B,]2 G,,2 [E,G,B,]2 |\n[V:1] \"F\"[cf]3e [cf]2 [Ac]2 | \"Dm\"[Ad]3c [Ad]2 [FA]2 | \"Bb\"[FB]2 [Bd]2 [Fc]2 [FB]2 | \"F\"[CFA]6 z2 |\n[V:2] F,,2 [F,A,C]2 C,,2 [F,A,C]2 | D,,2 [F,A,D]2 A,,2 [F,A,D]2 | B,,2 [F,B,D]2 F,,2 [F,B,D]2 | F,,2 [F,A,]2 C,,2 [F,A,]2 |\n[V:1] \"Bb\"[FB]2 [FB]2 [Bd]2 [df]2 | \"F/C\"[Ac]2 [FA]2 [CF]2 [FA]2 | \"C7\"[EG]2 [Gc]2 [ce]2 [GB]2 | \"F\"[A,CF]8 |]\n[V:2] B,,2 [F,B,D]2 F,,2 [F,B,D]2 | C,,2 [F,A,]2 C,,2 [F,A,]2 | C,,2 [E,G,B,]2 G,,2 [E,G,B,]2 | [F,,C,F,]8 |]",
+     "key": "F",
+     "bars": 16,
+     "bpm": 116
+    }
+   },
+   "also": [
+    "Spring"
+   ],
+   "verses": [],
+   "wsrc": "",
+   "status": ""
+  },
+  {
+   "id": "october-road",
+   "title": "October Road",
+   "composer": "Claude, written for this book (2026)",
+   "cat": "Originals",
+   "kind": "song",
+   "badges": [],
+   "note": "A plain-spoken folk song for the drive home, in the spirit of Townes Van Zandt.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=71\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"Em\"B2 B2 A2 G2 | \"C\"E4 G4 | \"G\"D2 G2 B2 d2 | \"D\"A6 z2 |\n[V:2] [E,B,]8 | [C,G,]8 | [G,,D,]8 | [D,A,]8 |\n[V:1] \"Em\"B3A G2 E2 | \"C\"G3E C2 E2 | \"Am7\"A2 c2 B2 A2 | \"D\"F6 z2 |\n[V:2] [E,B,]8 | [C,G,]8 | [A,,E,]8 | [D,A,]8 |\n[V:1] \"C\"c3B A2 G2 | \"G\"B4 G4 | \"C\"c2 e2 d2 c2 | \"D\"d6 z2 |\n[V:2] [C,G,]8 | [G,,D,]8 | [C,G,]8 | [D,A,]8 |\n[V:1] \"Em\"e2 d2 B2 G2 | \"C\"c2 B2 A2 G2 | \"Am7\"A2 B2 \"D\"A2 F2 | \"G\"G8 |]\n[V:2] [E,B,]8 | [C,G,]8 | [A,,E,]4 [D,A,]4 | [G,,D,]8 |]",
+     "key": "G",
+     "bars": 16,
+     "bpm": 71
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"Em\"[GB]2 [GB]2 [EA]2 [EG]2 | \"C\"[CE]4 [EG]4 | \"G\"[B,D]2 [DG]2 [GB]2 [Bd]2 | \"D\"[FA]6 z2 |\n[V:2] [E,,B,,G,]4 [E,,B,,G,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [G,,D,]4 [G,,D,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"Em\"[GB]3A [EG]2 [B,E]2 | \"C\"[EG]3E C2 [CE]2 | \"Am7\"[EA]2 [Ac]2 [GB]2 [EA]2 | \"D\"[DF]6 z2 |\n[V:2] [E,,B,,G,]4 [E,,B,,G,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [A,,G,C]4 [A,,G,C]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"C\"[Gc]3B [EA]2 [EG]2 | \"G\"[GB]4 [DG]4 | \"C\"[Gc]2 [ce]2 [Gd]2 [Gc]2 | \"D\"[Ad]6 z2 |\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [G,,D,B,]4 [G,,D,B,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"Em\"[Be]2 [Bd]2 [GB]2 [EG]2 | \"C\"[Gc]2 [GB]2 [EA]2 [EG]2 | \"Am7\"[EA]2 [GB]2 \"D\"[FA]2 [DF]2 | \"G\"[DG]8 |]\n[V:2] [E,,B,,G,]4 [E,,B,,G,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [A,,G,C]4 [D,,A,,F,]4 | [G,,D,G,]8 |]",
+     "key": "G",
+     "bars": 16,
+     "bpm": 80
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"Em\"[GB]2 [GB]2 [EA]2 [EG]2 | \"C\"[CE]4 [CEG]4 | \"G\"[B,D]2 [DG]2 [GB]2 [Bd]2 | \"D\"[DFA]6 z2 |\n[V:2] [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] \"Em\"[GB]3A [EG]2 [B,E]2 | \"C\"[EG]3E C2 [CE]2 | \"Am7\"[EA]2 [Ac]2 [GB]2 [EA]2 | \"D\"[A,DF]6 z2 |\n[V:2] [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [A,,,A,,G,C]4 [A,,,A,,G,C]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"C\"[Gc]3B [EA]2 [EG]2 | \"G\"[DGB]4 [B,DG]4 | \"C\"[Gc]2 [ce]2 [Gd]2 [Gc]2 | \"D\"[FAd]6 z2 |\n[V:2] [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [D,,A,,F,B,]4 [D,,A,,F,B,]4 |\n[V:1] \"Em\"[Be]2 [Bd]2 [GB]2 [EG]2 | \"C\"[Gc]2 [GB]2 [EA]2 [EG]2 | \"Am7\"[EA]2 [GB]2 \"D\"[FA]2 [DF]2 | \"G\"[B,DG]8 |]\n[V:2] [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 | [A,,,A,,G,C]4 [D,,A,,F,B,]4 | [G,,D,G,]8 |]",
+     "key": "G",
+     "bars": 16,
+     "bpm": 84
+    }
+   },
+   "also": [
+    "Autumn"
+   ],
+   "verses": [],
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "ode-to-joy",
@@ -1072,8 +1356,10 @@ window.SONGBOOK = {
      "bpm": 108
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "brahms-lullaby",
@@ -1106,8 +1392,12 @@ window.SONGBOOK = {
      "bpm": 76
     }
    },
+   "also": [
+    "Spring"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "fur-elise",
@@ -1142,7 +1432,9 @@ window.SONGBOOK = {
      "bpm": 44,
      "note": "Complete first section"
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "minuet-in-g",
@@ -1175,7 +1467,9 @@ window.SONGBOOK = {
      "bpm": 120,
      "note": "Complete minuet"
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "prelude-in-c",
@@ -1210,7 +1504,9 @@ window.SONGBOOK = {
      "bpm": 66,
      "note": "Bach's text, bars 1–19, then a closing chord"
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "moonlight-sonata",
@@ -1246,7 +1542,11 @@ window.SONGBOOK = {
      "bpm": 52,
      "note": "Triplets, melody and left-hand octaves"
     }
-   }
+   },
+   "also": [
+    "Halloween"
+   ],
+   "status": ""
   },
   {
    "id": "canon-in-d",
@@ -1281,7 +1581,11 @@ window.SONGBOOK = {
      "bpm": 56,
      "note": "Includes the well-known running sixteenth-note variation"
     }
-   }
+   },
+   "also": [
+    "Spring"
+   ],
+   "status": ""
   },
   {
    "id": "gymnopedie-1",
@@ -1316,7 +1620,11 @@ window.SONGBOOK = {
      "bpm": 72,
      "note": "Satie's left hand: sustained bass with a chord on beat two"
     }
-   }
+   },
+   "also": [
+    "Winter"
+   ],
+   "status": ""
   },
   {
    "id": "mountain-king",
@@ -1351,7 +1659,11 @@ window.SONGBOOK = {
      "bpm": 138,
      "note": "Ends with the theme in octaves"
     }
-   }
+   },
+   "also": [
+    "Halloween"
+   ],
+   "status": ""
   },
   {
    "id": "the-entertainer",
@@ -1386,7 +1698,11 @@ window.SONGBOOK = {
      "bpm": 76,
      "note": "Introduction and first strain, octaves and stride bass"
     }
-   }
+   },
+   "also": [
+    "Summer"
+   ],
+   "status": ""
   },
   {
    "id": "maple-leaf-rag",
@@ -1421,7 +1737,9 @@ window.SONGBOOK = {
      "bpm": 80,
      "note": "First strain as Joplin wrote it"
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "danny-boy",
@@ -1452,8 +1770,12 @@ window.SONGBOOK = {
      "bpm": 66
     }
    },
+   "also": [
+    "Autumn"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "greensleeves",
@@ -1484,8 +1806,12 @@ window.SONGBOOK = {
      "bpm": 56
     }
    },
+   "also": [
+    "Winter"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "shenandoah",
@@ -1516,8 +1842,12 @@ window.SONGBOOK = {
      "bpm": 72
     }
    },
+   "also": [
+    "Autumn"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "scarborough-fair",
@@ -1548,8 +1878,12 @@ window.SONGBOOK = {
      "bpm": 108
     }
    },
+   "also": [
+    "Autumn"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "when-the-saints",
@@ -1580,8 +1914,10 @@ window.SONGBOOK = {
      "bpm": 138
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "take-me-out",
@@ -1614,8 +1950,12 @@ window.SONGBOOK = {
      "bpm": 160
     }
    },
+   "also": [
+    "Summer"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "daisy-bell",
@@ -1648,8 +1988,12 @@ window.SONGBOOK = {
      "bpm": 152
     }
    },
+   "also": [
+    "Summer"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "let-me-call-you-sweetheart",
@@ -1682,8 +2026,10 @@ window.SONGBOOK = {
      "bpm": 138
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "silvery-moon",
@@ -1716,8 +2062,12 @@ window.SONGBOOK = {
      "bpm": 112
     }
    },
+   "also": [
+    "Summer"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "oh-susanna",
@@ -1748,8 +2098,12 @@ window.SONGBOOK = {
      "bpm": 126
     }
    },
+   "also": [
+    "Summer"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "camptown-races",
@@ -1780,8 +2134,12 @@ window.SONGBOOK = {
      "bpm": 132
     }
    },
+   "also": [
+    "Summer"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "old-folks-at-home",
@@ -1812,8 +2170,10 @@ window.SONGBOOK = {
      "bpm": 80
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "my-bonnie",
@@ -1845,8 +2205,10 @@ window.SONGBOOK = {
      "bpm": 144
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "clementine",
@@ -1878,8 +2240,10 @@ window.SONGBOOK = {
      "bpm": 132
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "railroad",
@@ -1911,8 +2275,10 @@ window.SONGBOOK = {
      "bpm": 116
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "coming-round-the-mountain",
@@ -1943,8 +2309,10 @@ window.SONGBOOK = {
      "bpm": 100
     }
    },
+   "also": [],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": ""
   },
   {
    "id": "auld-lang-syne",
@@ -1975,8 +2343,12 @@ window.SONGBOOK = {
      "bpm": 92
     }
    },
+   "also": [
+    "Winter"
+   ],
    "verses": [],
-   "wsrc": ""
+   "wsrc": "",
+   "status": "play"
   },
   {
    "id": "pending-home-on-the-range",
@@ -1988,7 +2360,8 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {},
-   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score"
+   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score",
+   "status": ""
   },
   {
    "id": "pending-shine-on-harvest-moon",
@@ -2000,7 +2373,8 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {},
-   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score"
+   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score",
+   "status": ""
   },
   {
    "id": "pending-in-the-good-old-summertime",
@@ -2012,7 +2386,8 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {},
-   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score"
+   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score",
+   "status": ""
   },
   {
    "id": "pending-when-irish-eyes-are-smiling",
@@ -2024,7 +2399,8 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {},
-   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score"
+   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score",
+   "status": ""
   },
   {
    "id": "pending-down-by-the-old-mill-stream",
@@ -2036,7 +2412,8 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {},
-   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score"
+   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score",
+   "status": ""
   },
   {
    "id": "pending-alexander-s-ragtime-band",
@@ -2048,7 +2425,8 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {},
-   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score"
+   "rq": "Public domain, but not notated yet: the melody still needs checking against a printed score",
+   "status": ""
   },
   {
    "id": "practice-triplets",
@@ -2081,7 +2459,9 @@ window.SONGBOOK = {
      "bpm": 54,
      "note": "Add a singing top note and left-hand octaves"
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "practice-broken-chords",
@@ -2114,7 +2494,9 @@ window.SONGBOOK = {
      "bpm": 80,
      "note": "Wide left-hand arpeggios (use the pedal)"
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "practice-descending-bass",
@@ -2147,7 +2529,9 @@ window.SONGBOOK = {
      "bpm": 84,
      "note": "Right-hand arpeggios over left-hand octaves"
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "practice-five-finger",
@@ -2180,7 +2564,305 @@ window.SONGBOOK = {
      "bpm": 92,
      "note": "Broken thirds in the C, G and D hand positions"
     }
-   }
+   },
+   "also": [],
+   "status": ""
+  },
+  {
+   "id": "hanon-1",
+   "title": "Hanon No. 1: Finger Strength",
+   "composer": "Charles-Louis Hanon, The Virtuoso Pianist (1873)",
+   "cat": "Practice",
+   "kind": "song",
+   "badges": [
+    "Finger strength"
+   ],
+   "note": "The classic finger workout. Keep the wrist loose and quiet; let the fingers do the work.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] CE FG AG FE | DF GA BA GF | EG AB cB AG | FA Bc dc BA |\n[V:2] z8 | z8 | z8 | z8 |\n[V:1] z8 | z8 | z8 | z8 |\n[V:2] C,E, F,G, A,G, F,E, | D,F, G,A, B,A, G,F, | E,G, A,B, CB, A,G, | F,A, B,C DC B,A, |\n[V:1] C8 |]\n[V:2] C,8 |]",
+     "key": "C",
+     "bars": 9,
+     "bpm": 72,
+     "note": "Hands separately: right hand climbs four steps, then the left hand"
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] CE FG AG FE | DF GA BA GF | EG AB cB AG | FA Bc dc BA |\n[V:2] C,E, F,G, A,G, F,E, | D,F, G,A, B,A, G,F, | E,G, A,B, CB, A,G, | F,A, B,C DC B,A, |\n[V:1] GB cd ed cB | Ac de fe dc | Bd ef gf ed | ge dc Bc de |\n[V:2] G,B, CD ED CB, | A,C DE FE DC | B,D EF GF ED | GE DC B,C DE |\n[V:1] fd cB AB cd | ec BA GA Bc | dB AG FG AB | cA GF EF GA |\n[V:2] FD CB, A,B, CD | EC B,A, G,A, B,C | DB, A,G, F,G, A,B, | CA, G,F, E,F, G,A, |\n[V:1] BG FE DE FG | AF ED CD EF | C8 |]\n[V:2] B,G, F,E, D,E, F,G, | A,F, E,D, C,D, E,F, | C,8 |]",
+     "key": "C",
+     "bars": 15,
+     "bpm": 80,
+     "note": "Hands together, one octave up and back; lift each finger high"
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] CEFG AGFE DFGA BAGF | EGAB cBAG FABc dcBA | GBcd edcB Acde fedc | Bdef gfed cefg agfe |\n[V:2] C,E,F,G, A,G,F,E, D,F,G,A, B,A,G,F, | E,G,A,B, CB,A,G, F,A,B,C DCB,A, | G,B,CD EDCB, A,CDE FEDC | B,DEF GFED CEFG AGFE |\n[V:1] dfga bagf egab c'bag | fabc' d'c'ba gbc'd' e'd'c'b | ac'd'e' f'e'd'c' bd'e'f' g'f'e'd' | g'e'd'c' bc'd'e' f'd'c'b abc'd' |\n[V:2] DFGA BAGF EGAB cBAG | FABc dcBA GBcd edcB | Acde fedc Bdef gfed | gedc Bcde fdcB ABcd |\n[V:1] e'c'ba gabc' d'bag fgab | c'agf efga bgfe defg | afed cdef gedc Bcde | fdcB ABcd ecBA GABc |\n[V:2] ecBA GABc dBAG FGAB | cAGF EFGA BGFE DEFG | AFED CDEF GEDC B,CDE | FDCB, A,B,CD ECB,A, G,A,B,C |\n[V:1] dBAG FGAB cAGF EFGA | BGFE DEFG AFED CDEF | C16 |]\n[V:2] DB,A,G, F,G,A,B, CA,G,F, E,F,G,A, | B,G,F,E, D,E,F,G, A,F,E,D, C,D,E,F, | C,16 |]",
+     "key": "C",
+     "bars": 15,
+     "bpm": 72,
+     "note": "Sixteenth notes over two octaves; raise the tempo only when every note is even"
+    }
+   },
+   "also": [],
+   "status": ""
+  },
+  {
+   "id": "hold-and-lift",
+   "title": "Hold and Lift",
+   "composer": "Practice exercise",
+   "cat": "Practice",
+   "kind": "song",
+   "badges": [
+    "Finger strength"
+   ],
+   "note": "Builds independence: held fingers stay down and relaxed, moving fingers lift and drop cleanly.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=60\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] D2 E2 D2 E2 & C8 | E2 F2 E2 F2 & C8 | F2 G2 F2 G2 & C8 | D2 E2 F2 G2 & C8 |\n[V:2] z8 | z8 | z8 | z8 |\n[V:1] z8 | z8 | z8 | z8 |\n[V:2] F,2 E,2 F,2 E,2 & G,8 | E,2 D,2 E,2 D,2 & G,8 | D,2 C,2 D,2 C,2 & G,8 | F,2 E,2 D,2 C,2 & G,8 |\n[V:1] [CEG]8 |]\n[V:2] [C,G,]8 |]",
+     "key": "C",
+     "bars": 9,
+     "bpm": 60,
+     "note": "Thumb holds its key down the whole bar while the other fingers play"
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] DE FE DE FE & C8 | EF GF EF GF & C8 | DF EG DF EG & C8 | GF ED GF ED & C8 |\n[V:2] F,E, D,E, F,E, D,E, & G,8 | E,D, C,D, E,D, C,D, & G,8 | F,D, E,C, F,D, E,C, & G,8 | C,D, E,F, C,D, E,F, & G,8 |\n[V:1] [CEG]8 |]\n[V:2] [C,G,]8 |]",
+     "key": "C",
+     "bars": 5,
+     "bpm": 72,
+     "note": "Hands together, thumbs held"
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] DF DF DG DG & [CE]8 | FG FG DF DG & [CE]8 | GF DF GF DF & [CE]8 | DF GF DF GF & [CE]8 |\n[V:2] F,D, F,D, F,C, F,C, & [E,G,]8 | D,C, D,C, F,D, F,C, & [E,G,]8 | C,D, F,D, C,D, F,D, & [E,G,]8 | F,D, C,D, F,D, C,D, & [E,G,]8 |\n[V:1] [CEG]8 |]\n[V:2] [C,G,]8 |]",
+     "key": "C",
+     "bars": 5,
+     "bpm": 80,
+     "note": "Hold two fingers (1 and 3) while 2, 4 and 5 play"
+    }
+   },
+   "also": [],
+   "status": ""
+  },
+  {
+   "id": "trill-builders",
+   "title": "Trill Builders (Fingers 3, 4, 5)",
+   "composer": "Practice exercise",
+   "cat": "Practice",
+   "kind": "song",
+   "badges": [
+    "Finger strength"
+   ],
+   "note": "Strengthens the weaker outer fingers. Keep the hand arched; stop if anything aches.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=60\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] EF EF EF EF | E8 | FG FG FG FG | F8 |\n[V:2] C,8 | C,8 | C,8 | C,8 |\n[V:1] DE DE EF EF | FG FG G4 | EF GF ED CD | C8 |]\n[V:2] C,8 | G,,8 | G,,8 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 60,
+     "note": "Right hand only: slow, even pairs"
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=56\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] EFEF EFEF EFEF E4 | FGFG FGFG FGFG F4 | DEDE DEDE EFEF E4 | FGFG FGFG G8 |\n[V:2] [C,G,]16 | [C,G,]16 | [C,G,]16 | [C,G,]16 |\n[V:1] G16 | G16 | E16 | C16 |]\n[V:2] E,D,E,D, E,D,E,D, E,D,E,D, E,4 | D,C,D,C, D,C,D,C, D,C,D,C, D,4 | F,E,F,E, F,E,F,E, E,D,E,D, D,4 | D,C,D,C, D,C,D,C, C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 56,
+     "note": "Right hand trills, then the left hand"
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/16\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] EFEF EFEF FGFG FGFG | DEDE DEDE EFEF EFEF | GFGF GFGF FEFE FEFE | DCDC DCDC EDED EDED |\n[V:2] E,D,E,D, E,D,E,D, D,C,D,C, D,C,D,C, | F,E,F,E, F,E,F,E, E,D,E,D, E,D,E,D, | C,D,C,D, C,D,C,D, D,E,D,E, D,E,D,E, | G,F,G,F, G,F,G,F, F,E,F,E, F,E,F,E, |\n[V:1] FGFG EFEF DEDE CDCD | C16 |]\n[V:2] D,C,D,C, E,D,E,D, F,E,F,E, G,F,G,F, | C,16 |]",
+     "key": "C",
+     "bars": 6,
+     "bpm": 66,
+     "note": "Hands together in sixteenths"
+    }
+   },
+   "also": [],
+   "status": ""
+  },
+  {
+   "id": "reading-landmarks",
+   "title": "Reading: Landmark Notes",
+   "composer": "Practice exercise",
+   "cat": "Practice",
+   "kind": "song",
+   "badges": [
+    "Reading"
+   ],
+   "note": "Find the landmark notes first (Middle C, Treble G, Bass F, High C), then read by step and skip.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] C2 D2 E2 D2 | C2 E2 G2 E2 | G2 A2 G2 F2 | E2 D2 C4 |\n[V:2] C,8 | C,8 | F,8 | G,8 |\n[V:1] G2 F2 E2 F2 | G2 c2 G4 | E2 G2 F2 D2 | C8 |]\n[V:2] C,8 | E,8 | F,4 G,4 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 72,
+     "note": "Steps out from Middle C, Treble G and Bass C"
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] c2 G2 E2 C2 | D2 F2 A2 c2 | B2 G2 D2 G2 | c4 C4 |\n[V:2] C,2 E,2 G,2 E,2 | F,2 A,2 F,2 C,2 | G,,2 B,,2 D,2 G,2 | C,4 C,,4 |\n[V:1] e2 c2 A2 F2 | G2 B2 d2 g2 | f2 d2 B2 G2 | c8 |]\n[V:2] A,,2 C,2 E,2 A,2 | G,,2 D,2 G,2 B,2 | G,,2 B,,2 D,2 F,2 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 76,
+     "note": "Skips (line to line, space to space)"
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] C2 E2 G2 c2 | e2 g2 c'4 | b2 g2 d2 B2 | c4 G4 |\n[V:2] C,,2 G,,2 C,2 E,2 | G,2 C2 E4 | G,,8 | C,4 E,4 |\n[V:1] A,2 C2 F2 A2 | c2 f2 a2 f2 | d2 B2 G2 D2 | C8 |]\n[V:2] F,,2 C,2 F,2 A,2 | F,,8 | G,,2 D,2 G,2 B,2 | C,,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 84,
+     "note": "Leaps and ledger lines above and below both staves"
+    }
+   },
+   "also": [],
+   "status": ""
+  },
+  {
+   "id": "reading-rhythm",
+   "title": "Reading: Rhythm",
+   "composer": "Practice exercise",
+   "cat": "Practice",
+   "kind": "song",
+   "badges": [
+    "Reading"
+   ],
+   "note": "One note per hand, so all your attention goes to the rhythm.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] C2 C2 C4 | C2 C2 C2 C2 | C4 C4 | C8 |\n[V:2] C,8 | C,8 | C,8 | C,8 |\n[V:1] E2 E2 E4 | E2 z2 E2 z2 | D4 D4 | C8 |]\n[V:2] C,8 | C,8 | G,,8 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 72,
+     "note": "Quarter, half and whole notes; count “1 2 3 4” aloud"
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] C2 CC C2 CC | C3C C2 C2 | E2 EE E4 | E3E E2 z2 |\n[V:2] C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 |\n[V:1] G2 G2 GG G2 | G3G G4 | E2 D2 C3C | C8 |]\n[V:2] C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | G,,2 G,,2 G,,2 G,,2 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 80,
+     "note": "Eighth notes and dotted rhythms over a steady left hand; count “1 & 2 &”"
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=88\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] C2 (3CCC C2 C2 | CC2C C2 C2 | zC2C C2 C2 | (3EEE (3EEE E4 |\n[V:2] C,2 G,,2 C,2 G,,2 | C,2 G,,2 C,2 G,,2 | C,2 G,,2 C,2 G,,2 | C,2 G,,2 C,2 G,,2 |\n[V:1] E3E zE3 | GC2G C2 G2 | E3D3 C2 | C8 |]\n[V:2] C,2 G,,2 C,2 G,,2 | C,2 G,,2 C,2 G,,2 | G,,2 D,2 G,,2 D,2 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 88,
+     "note": "Triplets and syncopation against a steady bass"
+    }
+   },
+   "also": [],
+   "status": ""
+  },
+  {
+   "id": "reading-intervals",
+   "title": "Reading: Intervals",
+   "composer": "Practice exercise",
+   "cat": "Practice",
+   "kind": "song",
+   "badges": [
+    "Reading"
+   ],
+   "note": "Read the distance between notes instead of naming every note: a 3rd is line-to-line or space-to-space.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] C2 D2 C2 E2 | C2 F2 C2 G2 | G2 F2 G2 E2 | G2 D2 G2 C2 |\n[V:2] C,8 | C,8 | G,,8 | G,,8 |\n[V:1] [CD]4 [CE]4 | [CF]4 [CG]4 | [CE]4 [DF]4 | [CEG]8 |]\n[V:2] C,8 | C,8 | G,,8 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 66,
+     "note": "2nds, 3rds, 4ths and 5ths, first one note at a time, then together"
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] C2 A2 C2 c2 | D2 B2 D2 d2 | E2 c2 E2 e2 | [Ec]4 [Cc]4 |\n[V:2] [C,E,]8 | [B,,D,]8 | [C,E,]8 | [A,,C,]8 |\n[V:1] [CA]4 [DB]4 | [Ec]4 [Fd]4 | [Ge]4 [Gg]4 | [Cc]8 |]\n[V:2] [F,,A,,]8 | [C,E,]8 | [G,,B,,]8 | [C,,C,]8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 72,
+     "note": "6ths and octaves in the right hand, 3rds in the left"
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] [CE]2 [DF]2 [EG]2 [FA]2 | [GB]2 [Ac]2 [Bd]2 [ce]2 | [ce]2 [Ac]2 [FA]2 [DF]2 | [CE]4 [B,D]4 |\n[V:2] [C,G,]4 [D,A,]4 | [E,B,]4 [F,C]4 | [A,,E,]4 [F,,C,]4 | [C,G,]4 [G,,D,]4 |\n[V:1] [CA]2 [DB]2 [Ec]2 [Fd]2 | [Ge]4 [^Fd]4 | [Gd]2 [Fd]2 [Ec]2 [DB]2 | [Ec]8 |]\n[V:2] [A,,E,]4 [G,,D,]4 | [C,G,]4 [D,A,]4 | [G,,D,]4 [G,,D,]4 | [C,G,]8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 80,
+     "note": "Moving 3rds and 6ths over open 5ths"
+    }
+   },
+   "also": [],
+   "status": ""
+  },
+  {
+   "id": "reading-bass-clef",
+   "title": "Reading: Bass Clef",
+   "composer": "Practice exercise",
+   "cat": "Practice",
+   "kind": "song",
+   "badges": [
+    "Reading"
+   ],
+   "note": "Bass clef landmarks: F is the line between the two dots; Bass C is in the second space.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] G8 | G8 | F8 | F8 |\n[V:2] C,2 D,2 E,2 F,2 | G,4 G,4 | A,2 G,2 F,2 E,2 | D,8 |\n[V:1] G8 | G8 | F8 | E8 |]\n[V:2] G,2 F,2 E,2 D,2 | C,4 E,4 | D,2 E,2 D,2 B,,2 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 66,
+     "note": "The tune is in the left hand; the right hand just holds"
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] [EG]8 | [DG]8 | [CE]8 | [DF]8 |\n[V:2] C,2 E,2 G,2 C2 | B,2 G,2 D,2 G,,2 | A,,2 C,2 E,2 A,2 | F,3E, D,4 |\n[V:1] [DG]8 | [EG]8 | [FA]4 [DG]4 | [EG]8 |]\n[V:2] G,,2 B,,2 D,2 G,2 | C2 G,2 E,2 C,2 | F,2 A,2 G,2 B,,2 | C,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 72,
+     "note": "Skips across the whole bass staff"
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=80\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] [EGc]8 | [DGB]8 | [EGc]8 | [FAc]8 |\n[V:2] C,D, E,F, G,A, B,C | DC B,A, G,F, E,D, | C,E, G,C EC G,E, | F,A, CF A,F, C,A,, |\n[V:1] [DGB]8 | [EGc]8 | [FAc]4 [DFB]4 | [EGc]8 |]\n[V:2] G,,B,, D,G, B,G, D,B,, | C,E, G,E, C,G,, E,,G,, | F,,A,, C,F, G,,B,, D,F, | C,,8 |]",
+     "key": "C",
+     "bars": 8,
+     "bpm": 80,
+     "note": "Running eighths, including ledger lines above the bass staff"
+    }
+   },
+   "also": [],
+   "status": ""
+  },
+  {
+   "id": "reading-key-signatures",
+   "title": "Reading: Key Signatures",
+   "composer": "Practice exercise",
+   "cat": "Practice",
+   "kind": "song",
+   "badges": [
+    "Reading"
+   ],
+   "note": "Each level is in a different key on purpose: the point is reading the key signature.",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] G2 A2 B2 c2 | d4 B4 | c2 A2 F2 A2 | G8 |\n[V:2] G,8 | G,8 | D,8 | G,8 |\n[V:1] B2 A2 G2 F2 | E2 F2 G4 | A2 F2 D2 F2 | G8 |]\n[V:2] G,8 | E,8 | D,8 | G,8 |]",
+     "key": "G",
+     "bars": 8,
+     "bpm": 72,
+     "note": "G major: every F is F-sharp"
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] F2 G2 A2 B2 | c4 A4 | B2 G2 E2 G2 | F8 |\n[V:2] [F,,C,]8 | [F,,C,]8 | [C,G,]8 | [F,,C,]8 |\n[V:1] A2 c2 f2 c2 | d2 B2 G2 E2 | F2 A2 G2 E2 | F8 |]\n[V:2] [F,,C,]8 | [B,,F,]8 | [C,G,]8 | [F,,C,]8 |]",
+     "key": "F",
+     "bars": 8,
+     "bpm": 76,
+     "note": "F major: every B is B-flat"
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] D2 F2 A2 d2 | c2 e2 A4 | B2 ^G2 E2 G2 | A3B =c2 B2 |\n[V:2] [D,A,]8 | [A,,E,]8 | [E,B,]8 | [A,,E,]8 |\n[V:1] F2 A2 d2 f2 | e2 d2 B2 ^G2 | A2 B2 c2 e2 | d8 |]\n[V:2] [D,A,]8 | [E,B,]8 | [A,,G,]8 | [D,A,]8 |]",
+     "key": "D",
+     "bars": 8,
+     "bpm": 84,
+     "note": "D major (F-sharp and C-sharp) plus accidentals that last to the end of the bar"
+    }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "study-gospel-ballad",
@@ -2200,7 +2882,9 @@ window.SONGBOOK = {
      "bars": 8,
      "bpm": 72
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "study-descending-bass",
@@ -2220,7 +2904,9 @@ window.SONGBOOK = {
      "bars": 8,
      "bpm": 76
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "study-piano-waltz",
@@ -2240,7 +2926,9 @@ window.SONGBOOK = {
      "bars": 9,
      "bpm": 152
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "study-rock-and-roll",
@@ -2260,7 +2948,9 @@ window.SONGBOOK = {
      "bars": 12,
      "bpm": 126
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "study-power-ballad",
@@ -2280,7 +2970,9 @@ window.SONGBOOK = {
      "bars": 9,
      "bpm": 66
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "study-folk-strum",
@@ -2300,7 +2992,9 @@ window.SONGBOOK = {
      "bars": 8,
      "bpm": 104
     }
-   }
+   },
+   "also": [],
+   "status": ""
   },
   {
    "id": "chart-let-it-be",
@@ -2314,45 +3008,102 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[CEG]8 | \"G\"[G,B,D]8 | \"Am\"[A,CE]8 | \"F\"[FAc]8 |\n[V:2] C,,8 | G,,8 | A,,8 | F,,8 |\n[V:1] \"C\"[CEG]8 | \"G\"[G,B,D]8 | \"F\"[FAc]2 \"F\"[FAc]2 \"C/E\"[CEG]2 \"Dm7\"[DFAc]2 | \"C\"[CEG]8 |\n[V:2] C,,8 | G,,8 | F,,2 F,,2 E,,2 D,,2 | C,,8 |\n[V:1] \"Am\"[A,CE]8 | \"G\"[G,B,D]8 | \"F\"[FAc]8 | \"C\"[CEG]8 |\n[V:2] A,,8 | G,,8 | F,,8 | C,,8 |\n[V:1] \"C\"[CEG]8 | \"G\"[G,B,D]8 | \"F\"[FAc]2 \"F\"[FAc]2 \"C/E\"[CEG]2 \"Dm7\"[DFAc]2 | \"C\"[CEG]8 |]\n[V:2] C,,8 | G,,8 | F,,2 F,,2 E,,2 D,,2 | C,,8 |]",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 \"G\"[DGB]4 | \"Am\"[EAc]4 \"F\"[FAc]4 | \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]4 |\n[V:2] C,,4 G,,4 | A,,4 F,,4 | C,,4 G,,4 | F,,2 E,,D,, C,,4 |\n[V:1] \"C\"[EGc]4 \"G\"[DGB]4 | \"Am\"[EAc]4 \"F\"[FAc]4 | \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]4 |\n[V:2] C,,4 G,,4 | A,,4 F,,4 | C,,4 G,,4 | F,,2 E,,D,, C,,4 |\n[V:1] \"C\"[EGc]4 \"G\"[DGB]4 | \"Am\"[EAc]4 \"F\"[FAc]4 | \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]4 |\n[V:2] C,,4 G,,4 | A,,4 F,,4 | C,,4 G,,4 | F,,2 E,,D,, C,,4 |\n[V:1] \"Am\"[EAc]4 \"G\"[DGB]4 | \"F\"[FAc]4 \"C\"[EGc]4 | \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]4 |]\n[V:2] A,,4 G,,4 | F,,4 C,,4 | C,,4 G,,4 | F,,2 E,,D,, C,,4 |]",
+     "key": "C major",
+     "bars": 16,
+     "bpm": 72
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 \"G\"[DGB]4 | \"Am\"[EAc]4 \"F\"[FAc]4 | \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]4 |\n[V:2] [C,,G,,E,]4 [G,,D,]4 | [A,,E,]4 [F,,C,]4 | [C,,G,,E,]4 [G,,D,]4 | [F,,C,]2 [E,,G,,C,][D,,C,F,] [C,,G,,E,]4 |\n[V:1] \"C\"[EGc]4 \"G\"[DGB]4 | \"Am\"[EAc]4 \"F\"[FAc]4 | \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]4 |\n[V:2] [C,,G,,E,]4 [G,,D,]4 | [A,,E,]4 [F,,C,]4 | [C,,G,,E,]4 [G,,D,]4 | [F,,C,]2 [E,,G,,C,][D,,C,F,] [C,,G,,E,]4 |\n[V:1] \"C\"[EGc]4 \"G\"[DGB]4 | \"Am\"[EAc]4 \"F\"[FAc]4 | \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]4 |\n[V:2] [C,,G,,E,]4 [G,,D,]4 | [A,,E,]4 [F,,C,]4 | [C,,G,,E,]4 [G,,D,]4 | [F,,C,]2 [E,,G,,C,][D,,C,F,] [C,,G,,E,]4 |\n[V:1] \"Am\"[EAc]4 \"G\"[DGB]4 | \"F\"[FAc]4 \"C\"[EGc]4 | \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]4 |]\n[V:2] [A,,E,]4 [G,,D,]4 | [F,,C,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [G,,D,]4 | [F,,C,]2 [E,,G,,C,][D,,C,F,] [C,,G,,E,]4 |]",
+     "key": "C major",
+     "bars": 16,
+     "bpm": 72
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][EAc] | \"Am\"[EAc]2 [EAc][EAc] \"F\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]2 [EGc][EGc] |\n[V:2] [C,,G,,E,]4 [G,,,G,,D,]4 | [A,,,A,,E,G,]4 [F,,,F,,C,]4 | [C,,G,,E,]4 [G,,,G,,D,]4 | [F,,,F,,C,]2 [E,,,E,,G,,C,E,][D,,C,F,] [C,,G,,E,]4 |\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][EAc] | \"Am\"[EAc]2 [EAc][EAc] \"F\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]2 [EGc][EGc] |\n[V:2] [C,,G,,E,]4 [G,,,G,,D,]4 | [A,,,A,,E,G,]4 [F,,,F,,C,]4 | [C,,G,,E,]4 [G,,,G,,D,]4 | [F,,,F,,C,]2 [E,,,E,,G,,C,E,][D,,C,F,] [C,,G,,E,]4 |\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][EAc] | \"Am\"[EAc]2 [EAc][EAc] \"F\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]2 [EGc][EAc] |\n[V:2] [C,,G,,E,]4 [G,,,G,,D,]4 | [A,,,A,,E,G,]4 [F,,,F,,C,]4 | [C,,G,,E,]4 [G,,,G,,D,]4 | [F,,,F,,C,]2 [E,,,E,,G,,C,E,][D,,C,F,] [C,,G,,E,]4 |\n[V:1] \"Am\"[EAc]2 [EAc][EAc] \"G\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 [FAc][FAc] \"C\"[EGc]2 [EGc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 \"C/E\"[EGc]\"Dm7\"[FAc] \"C\"[EGc]2 [EGc][EGc] |]\n[V:2] [A,,,A,,E,G,]4 [G,,,G,,D,]4 | [F,,,F,,C,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [G,,,G,,D,]4 | [F,,,F,,C,]2 [E,,,E,,G,,C,E,][D,,C,F,] [C,,G,,E,]4 |]",
      "key": "C major",
      "bars": 16,
      "bpm": 72
     }
    },
+   "status": "",
    "chart": {
     "key": "C major",
     "feel": "Slow gospel ballad, 4/4, about 72 BPM",
     "sections": [
      {
-      "name": "Verse",
+      "name": "Intro",
       "bars": [
        [
-        "C"
-       ],
-       [
+        "C",
         "G"
        ],
        [
-        "Am"
-       ],
-       [
+        "Am",
         "F"
        ],
        [
-        "C"
-       ],
-       [
+        "C",
         "G"
        ],
        [
         "F",
         "F",
         "C/E",
-        "Dm7"
+        "Dm7",
+        "C",
+        "C",
+        "C",
+        "C"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "C",
+        "G"
        ],
        [
+        "Am",
+        "F"
+       ],
+       [
+        "C",
+        "G"
+       ],
+       [
+        "F",
+        "F",
+        "C/E",
+        "Dm7",
+        "C",
+        "C",
+        "C",
+        "C"
+       ],
+       [
+        "C",
+        "G"
+       ],
+       [
+        "Am",
+        "F"
+       ],
+       [
+        "C",
+        "G"
+       ],
+       [
+        "F",
+        "F",
+        "C/E",
+        "Dm7",
+        "C",
+        "C",
+        "C",
         "C"
        ]
       ]
@@ -2361,30 +3112,25 @@ window.SONGBOOK = {
       "name": "Chorus",
       "bars": [
        [
-        "Am"
-       ],
-       [
+        "Am",
         "G"
        ],
        [
-        "F"
-       ],
-       [
+        "F",
         "C"
        ],
        [
-        "C"
-       ],
-       [
+        "C",
         "G"
        ],
        [
         "F",
         "F",
         "C/E",
-        "Dm7"
-       ],
-       [
+        "Dm7",
+        "C",
+        "C",
+        "C",
         "C"
        ]
       ]
@@ -2404,13 +3150,26 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"F\"[FAc]8 | \"Em7\"[EGBd]4 \"A7\"[A,^CEG]4 | \"Dm\"[DFA]4 \"Dm/C\"[DFA]4 | \"Bb\"[_B,DF]4 \"C7\"[CEG_B]4 |\n[V:2] F,,8 | E,,4 A,,4 | D,,4 C,,4 | _B,,4 C,,4 |\n[V:1] \"F\"[FAc]4 \"C/E\"[CEG]4 | \"Dm7\"[DFAc]4 \"G7\"[G,B,DF]4 | \"Bb\"[_B,DF]4 \"F\"[FAc]4 | \"Em7\"[EGBd]4 \"A7\"[A,^CEG]4 |\n[V:2] F,,4 E,,4 | D,,4 G,,4 | _B,,4 F,,4 | E,,4 A,,4 |\n[V:1] \"Dm\"[DFA]2 \"C\"[CEG]2 \"Bb\"[_B,DF]2 \"Bb\"[B,DF]2 | \"Gm\"[G,_B,D]4 \"C7\"[CEG_B]4 | \"F\"[FAc]8 |]\n[V:2] D,,2 C,,2 _B,,2 B,,2 | G,,4 C,,4 | F,,8 |]",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]8 | \"Em7\"[DEG]4 \"A7\"[^CEG]4 | \"Dm\"[DFA]4 \"Dm/C\"[DFA]4 | \"Bb\"[DFB]4 \"C7\"[EGB]4 |\n[V:2] F,,8 | E,,4 A,,4 | D,,4 C,,4 | B,,,4 C,,4 |\n[V:1] \"F\"[FAc]4 \"C/E\"[EGc]4 | \"Dm7\"[FAc]4 \"G7\"[FG=B]4 | \"Bb\"[DFB]4 \"F\"[FAc]4 | \"Em7\"[DEG]4 \"A7\"[^CEG]4 |\n[V:2] F,,4 E,,4 | D,,4 G,,4 | B,,,4 F,,4 | E,,4 A,,4 |\n[V:1] \"Dm\"[DFA]2 \"Dm/C\"[DFA]2 \"Bb\"[DFB]4 | \"Gm\"[DGB]4 \"C7\"[EGB]4 | \"F\"[FAc]8 | \"Em7\"[DEG]4 \"A7\"[^CEG]4 |\n[V:2] D,,2 C,,2 B,,,4 | G,,4 C,,4 | F,,8 | E,,4 A,,4 |\n[V:1] \"Dm\"[DFA]2 \"Dm/C\"[DFA]2 \"Bb\"[DFB]4 | \"Gm\"[DGB]4 \"C7\"[EGB]4 | \"F\"[FAc]8 |]\n[V:2] D,,2 C,,2 B,,,4 | G,,4 C,,4 | F,,8 |]",
      "key": "F major",
-     "bars": 11,
+     "bars": 15,
+     "bpm": 96
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]4 [FAc]4 | \"Em7\"[DEG]4 \"A7\"[^CEG]4 | \"Dm\"[DFA]4 \"Dm/C\"[DFA]4 | \"Bb\"[DFB]4 \"C7\"[EGB]4 |\n[V:2] [F,,C,]8 | [E,,D,G,]4 [A,,G,]4 | [D,,A,,F,]4 [C,,D,,F,,]4 | [B,,,F,,D,]4 [C,,B,,E,]4 |\n[V:1] \"F\"[FAc]4 \"C/E\"[EGc]4 | \"Dm7\"[FAc]4 \"G7\"[FG=B]4 | \"Bb\"[DFB]4 \"F\"[FAc]4 | \"Em7\"[DEG]4 \"A7\"[^CEG]4 |\n[V:2] [F,,C,]4 [E,,G,,C,]4 | [D,,C,F,]4 [G,,F,]4 | [B,,,F,,D,]4 [F,,C,]4 | [E,,D,G,]4 [A,,G,]4 |\n[V:1] \"Dm\"[DFA]2 \"Dm/C\"[DFA]2 \"Bb\"[DFB]4 | \"Gm\"[DGB]4 \"C7\"[EGB]4 | \"F\"[FAc]4 [FAc]4 | \"Em7\"[DEG]4 \"A7\"[^CEG]4 |\n[V:2] [D,,A,,F,]2 [C,,D,,F,,]2 [B,,,F,,D,]4 | [G,,D,]4 [C,,B,,E,]4 | [F,,C,]8 | [E,,D,G,]4 [A,,G,]4 |\n[V:1] \"Dm\"[DFA]2 \"Dm/C\"[DFA]2 \"Bb\"[DFB]4 | \"Gm\"[DGB]4 \"C7\"[EGB]4 | \"F\"[FAc]4 [FAc]4 |]\n[V:2] [D,,A,,F,]2 [C,,D,,F,,]2 [B,,,F,,D,]4 | [G,,D,]4 [C,,B,,E,]4 | [F,,C,]8 |]",
+     "key": "F major",
+     "bars": 15,
+     "bpm": 96
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DEG] | \"Em7\"[DEG]2 [DEG][DEG] \"A7\"[^CEG]2 [CEG][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"Dm/C\"[DFA]2 [DFA][DFB] | \"Bb\"[DFB]2 [DFB][DFB] \"C7\"[EGB]2 [EGB][FAc] |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [E,,,E,,D,G,]4 [A,,,A,,G,]4 | [D,,A,,C,F,]4 [C,,D,,F,,A,,]4 | [B,,,F,,D,G,]4 [C,,B,,E,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"C/E\"[EGc]2 [EGc][FAc] | \"Dm7\"[FAc]2 [FAc][FAc] \"G7\"[FG=B]2 [FGB][DF_B] | \"Bb\"[DFB]2 [DFB][DFB] \"F\"[FAc]2 [FAc][DEG] | \"Em7\"[DEG]2 [DEG][DEG] \"A7\"[^CEG]2 [CEG][DFA] |\n[V:2] [F,,,F,,C,]4 [E,,,E,,G,,C,E,]4 | [D,,C,F,]4 [G,,,G,,F,]4 | [B,,,F,,D,G,]4 [F,,,F,,C,]4 | [E,,,E,,D,G,]4 [A,,,A,,G,]4 |\n[V:1] \"Dm\"[DFA]2 \"Dm/C\"[DFA][DFA] \"Bb\"[DFB]2 [DFB][DGB] | \"Gm\"[DGB]2 [DGB][DGB] \"C7\"[EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DEG] | \"Em7\"[DEG]2 [DEG][DEG] \"A7\"[^CEG]2 [CEG][DFA] |\n[V:2] [D,,A,,C,F,]2 [C,,D,,F,,A,,]2 [B,,,F,,D,G,]4 | [G,,,G,,D,F,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [E,,,E,,D,G,]4 [A,,,A,,G,]4 |\n[V:1] \"Dm\"[DFA]2 \"Dm/C\"[DFA][DFA] \"Bb\"[DFB]2 [DFB][DGB] | \"Gm\"[DGB]2 [DGB][DGB] \"C7\"[EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][FAc] |]\n[V:2] [D,,A,,C,F,]2 [C,,D,,F,,A,,]2 [B,,,F,,D,G,]4 | [G,,,G,,D,F,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |]",
+     "key": "F major",
+     "bars": 15,
      "bpm": 96
     }
    },
+   "status": "",
    "chart": {
     "key": "F major",
     "feel": "Gentle ballad, 4/4, about 96 BPM",
@@ -2456,7 +3215,24 @@ window.SONGBOOK = {
        ],
        [
         "Dm",
-        "C",
+        "Dm/C",
+        "Bb",
+        "Bb"
+       ],
+       [
+        "Gm",
+        "C7"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Em7",
+        "A7"
+       ],
+       [
+        "Dm",
+        "Dm/C",
         "Bb",
         "Bb"
        ],
@@ -2484,13 +3260,26 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=74\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"F\"[FAc]8 | \"C\"[CEG]8 | \"C7\"[CEG_B]8 | \"F\"[FAc]8 |\n[V:2] F,,8 | C,,8 | C,,8 | F,,8 |\n[V:1] \"Bb\"[_B,DF]8 | \"F\"[FAc]8 | \"C7\"[CEG_B]8 | \"F\"[FAc]8 |\n[V:2] _B,,8 | F,,8 | C,,8 | F,,8 |\n[V:1] \"F7\"[FAc_e]8 | \"Bb\"[_B,DF]4 \"Bb/A\"[B,DF]4 | \"Gm\"[G,_B,D]4 \"Gm/F\"[G,B,D]4 | \"C7/E\"[CEG_B]4 \"C7\"[CEGB]4 |\n[V:2] F,,8 | _B,,4 A,,4 | G,,4 F,,4 | E,,4 C,,4 |\n[V:1] \"F\"[FAc]8 | \"F\"[FAc]8 | \"Eb\"[_EG_B]8 | \"Bb\"[_B,DF]8 |\n[V:2] F,,8 | F,,8 | _E,,8 | _B,,8 |\n[V:1] \"F\"[FAc]8 |]\n[V:2] F,,8 |]",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=74\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]8 | \"C\"[EGc]8 | \"C7\"[EGB]8 | \"F\"[FAc]8 |\n[V:2] F,,8 | C,,8 | C,,8 | F,,8 |\n[V:1] \"Bb\"[DFB]8 | \"F\"[FAc]8 | \"C7\"[EGB]8 | \"F\"[FAc]8 |\n[V:2] B,,,8 | F,,8 | C,,8 | F,,8 |\n[V:1] \"F7\"[_EFA]8 | \"Bb\"[DFB]4 \"Bb/A\"[DFB]4 | \"Gm\"[DGB]4 \"Gm/F\"[DGB]4 | \"C7/E\"[EGB]4 \"C7\"[EGB]4 |\n[V:2] F,,8 | B,,,4 A,,4 | G,,4 F,,4 | E,,4 C,,4 |\n[V:1] \"F\"[FAc]8 | \"F\"[FAc]8 | \"Eb\"[_EGB]8 | \"Bb\"[DFB]8 |\n[V:2] F,,8 | F,,8 | _E,,8 | B,,,8 |\n[V:1] \"F\"[FAc]8 |]\n[V:2] F,,8 |]",
+     "key": "F major",
+     "bars": 17,
+     "bpm": 74
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=74\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]4 [FAc]4 | \"C\"[EGc]4 [EGc]4 | \"C7\"[EGB]4 [EGB]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [F,,C,]8 | [C,,G,,E,]8 | [C,,B,,E,]8 | [F,,C,]8 |\n[V:1] \"Bb\"[DFB]4 [DFB]4 | \"F\"[FAc]4 [FAc]4 | \"C7\"[EGB]4 [EGB]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [B,,,F,,D,]8 | [F,,C,]8 | [C,,B,,E,]8 | [F,,C,]8 |\n[V:1] \"F7\"[_EFA]4 [EFA]4 | \"Bb\"[DFB]4 \"Bb/A\"[DFB]4 | \"Gm\"[DGB]4 \"Gm/F\"[DGB]4 | \"C7/E\"[EGB]4 \"C7\"[EGB]4 |\n[V:2] [F,,_E,]8 | [B,,,F,,D,]4 [A,,B,,D,]4 | [G,,D,]4 [F,,G,,B,,]4 | [E,,G,,B,,]4 [C,,B,,E,]4 |\n[V:1] \"F\"[FAc]4 [FAc]4 | \"F\"[FAc]4 [FAc]4 | \"Eb\"[_EGB]4 [EGB]4 | \"Bb\"[DFB]4 [DFB]4 |\n[V:2] [F,,C,]8 | [F,,C,]8 | [_E,,B,,G,]8 | [B,,,F,,D,]8 |\n[V:1] \"F\"[FAc]4 [FAc]4 |]\n[V:2] [F,,C,]8 |]",
+     "key": "F major",
+     "bars": 17,
+     "bpm": 74
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=74\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGB] | \"C7\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DFB] |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [C,,B,,E,G,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][EGB] | \"C7\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][_EFA] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [C,,B,,E,G,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"F7\"[_EFA]2 [EFA][EFA] [EFA]2 [EFA][DFB] | \"Bb\"[DFB]2 [DFB][DFB] \"Bb/A\"[DFB]2 [DFB][DGB] | \"Gm\"[DGB]2 [DGB][DGB] \"Gm/F\"[DGB]2 [DGB][EGB] | \"C7/E\"[EGB]2 [EGB][EGB] \"C7\"[EGB]2 [EGB][FAc] |\n[V:2] [F,,,F,,_E,]4 [F,,,F,,E,]4 | [B,,,F,,D,G,]4 [A,,,A,,B,,D,F,]4 | [G,,,G,,D,F,]4 [F,,,F,,G,,B,,D,]4 | [E,,,E,,G,,B,,C,]4 [C,,B,,E,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][_EGB] | \"Eb\"[_EGB]2 [EGB][EGB] [EGB]2 [EGB][DFB] | \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][FAc] |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [_E,,B,,G,]4 [E,,B,,G,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][FAc] |]\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 |]",
      "key": "F major",
      "bars": 17,
      "bpm": 74
     }
    },
+   "status": "",
    "chart": {
     "key": "F major",
     "feel": "Broad ballad, 4/4, about 74 BPM",
@@ -2548,7 +3337,7 @@ window.SONGBOOK = {
       ]
      },
      {
-      "name": "Coda",
+      "name": "Outro",
       "bars": [
        [
         "F"
@@ -2579,17 +3368,47 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=104\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"A\"[A,^CE]4 \"E\"[E^GB]4 | \"F#m\"[^FA^c]4 \"A7/G\"[A,^CEG]4 | \"D\"[D^FA]4 \"Dm\"[D=FA]4 | \"A\"[A,^CE]8 |\n[V:2] A,,4 E,,4 | ^F,,4 G,,4 | D,,4 D,,4 | A,,8 |\n[V:1] \"A\"[A,^CE]4 \"E\"[E^GB]4 | \"F#m\"[^FA^c]4 \"A7/G\"[A,^CEG]4 | \"D\"[D^FA]4 \"Dm\"[D=FA]4 | \"A\"[A,^CE]8 |\n[V:2] A,,4 E,,4 | ^F,,4 G,,4 | D,,4 D,,4 | A,,8 |\n[V:1] \"F#m\"[^FA^c]8 | \"D\"[D^FA]8 | \"G\"[G,B,D]8 | \"A\"[A,^CE]8 |\n[V:2] ^F,,8 | D,,8 | G,,8 | A,,8 |\n[V:1] \"F#m\"[^FA^c]8 | \"B7\"[B,^D^FA]8 | \"Dm\"[DFA]8 | \"A\"[A,^CE]8 |]\n[V:2] ^F,,8 | B,,8 | D,,8 | A,,8 |]",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=104\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"[CEA]8 | \"E\"[EGB]8 | \"A\"[CEA]8 | \"E\"[EGB]8 |\n[V:2] A,,8 | E,,8 | A,,8 | E,,8 |\n[V:1] \"A\"[CEA]4 \"E\"[EGB]4 | \"F#m\"[CFA]4 \"A7/G\"[CE=G]4 | \"D\"[DFA]4 \"Dm\"[D=FA]4 | \"A\"[CEA]8 |\n[V:2] A,,4 E,,4 | F,,4 =G,,4 | D,,4 D,,4 | A,,8 |\n[V:1] \"A\"[CEA]4 \"E\"[EGB]4 | \"F#m\"[CFA]4 \"A7/G\"[CE=G]4 | \"D\"[DFA]4 \"Dm\"[D=FA]4 | \"A\"[CEA]8 |\n[V:2] A,,4 E,,4 | F,,4 =G,,4 | D,,4 D,,4 | A,,8 |\n[V:1] \"F#m\"[CFA]8 | \"D\"[DFA]8 | \"G\"[D=GB]8 | \"A\"[CEA]8 |\n[V:2] F,,8 | D,,8 | =G,,8 | A,,8 |\n[V:1] \"F#m\"[CFA]8 | \"B7\"[^DFA]8 | \"Dm\"[D=FA]8 | \"A\"[CEA]8 |]\n[V:2] F,,8 | B,,,8 | D,,8 | A,,8 |]",
      "key": "A major",
-     "bars": 16,
+     "bars": 20,
+     "bpm": 104
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=104\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"[CEA]4 [CEA]4 | \"E\"[EGB]4 [EGB]4 | \"A\"[CEA]4 [CEA]4 | \"E\"[EGB]4 [EGB]4 |\n[V:2] [A,,E,]8 | [E,,B,,G,]8 | [A,,E,]8 | [E,,B,,G,]8 |\n[V:1] \"A\"[CEA]4 \"E\"[EGB]4 | \"F#m\"[CFA]4 \"A7/G\"[CE=G]4 | \"D\"[DFA]4 \"Dm\"[D=FA]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [A,,E,]4 [E,,B,,G,]4 | [F,,C,]4 [=G,,A,,C,]4 | [D,,A,,F,]4 [D,,A,,=F,]4 | [A,,E,]8 |\n[V:1] \"A\"[CEA]4 \"E\"[EGB]4 | \"F#m\"[CFA]4 \"A7/G\"[CE=G]4 | \"D\"[DFA]4 \"Dm\"[D=FA]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [A,,E,]4 [E,,B,,G,]4 | [F,,C,]4 [=G,,A,,C,]4 | [D,,A,,F,]4 [D,,A,,=F,]4 | [A,,E,]8 |\n[V:1] \"F#m\"[CFA]4 [CFA]4 | \"D\"[DFA]4 [DFA]4 | \"G\"[D=GB]4 [DGB]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [F,,C,]8 | [D,,A,,F,]8 | [=G,,D,]8 | [A,,E,]8 |\n[V:1] \"F#m\"[CFA]4 [CFA]4 | \"B7\"[^DFA]4 [DFA]4 | \"Dm\"[D=FA]4 [DFA]4 | \"A\"[CEA]4 [CEA]4 |]\n[V:2] [F,,C,]8 | [B,,,A,,^D,]8 | [D,,A,,=F,]8 | [A,,E,]8 |]",
+     "key": "A major",
+     "bars": 20,
+     "bpm": 104
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=104\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CEA] |\n[V:2] [A,,,A,,E,]4 [A,,,A,,E,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 |\n[V:1] \"A\"[CEA]2 [CEA][CEA] \"E\"[EGB]2 [EGB][CFA] | \"F#m\"[CFA]2 [CFA][CFA] \"A7/G\"[CE=G]2 [CEG][DFA] | \"D\"[DFA]2 [DFA][DFA] \"Dm\"[D=FA]2 [DFA][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CEA] |\n[V:2] [A,,,A,,E,]4 [E,,,E,,B,,G,]4 | [F,,,F,,C,E,]4 [=G,,,=G,,A,,C,E,]4 | [D,,A,,F,]4 [D,,A,,=C,=F,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"A\"[CEA]2 [CEA][CEA] \"E\"[EGB]2 [EGB][CFA] | \"F#m\"[CFA]2 [CFA][CFA] \"A7/G\"[CE=G]2 [CEG][DFA] | \"D\"[DFA]2 [DFA][DFA] \"Dm\"[D=FA]2 [DFA][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CFA] |\n[V:2] [A,,,A,,E,]4 [E,,,E,,B,,G,]4 | [F,,,F,,C,E,]4 [=G,,,=G,,A,,C,E,]4 | [D,,A,,F,]4 [D,,A,,=C,=F,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"F#m\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][DFA] | \"D\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][D=GB] | \"G\"[D=GB]2 [DGB][DGB] [DGB]2 [DGB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CFA] |\n[V:2] [F,,,F,,C,E,]4 [F,,,F,,C,E,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [=G,,,=G,,D,]4 [G,,,G,,D,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"F#m\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][^DFA] | \"B7\"[^DFA]2 [DFA][DFA] [DFA]2 [DFA][=D=FA] | \"Dm\"[D=FA]2 [DFA][DFA] [DFA]2 [DFA][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CEA] |]\n[V:2] [F,,,F,,C,E,]4 [F,,,F,,C,E,]4 | [B,,,A,,^D,F,]4 [B,,,A,,D,F,]4 | [D,,A,,=C,=F,]4 [D,,A,,C,F,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |]",
+     "key": "A major",
+     "bars": 20,
      "bpm": 104
     }
    },
+   "status": "",
    "chart": {
     "key": "A major",
     "feel": "Moderate, 4/4, about 104 BPM",
     "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "A"
+       ],
+       [
+        "E"
+       ],
+       [
+        "A"
+       ],
+       [
+        "E"
+       ]
+      ]
+     },
      {
       "name": "Verse",
       "bars": [
@@ -2669,19 +3488,32 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[CEG]4 \"Cmaj7\"[CEGB]4 | \"F\"[FAc]8 | \"C\"[CEG]4 \"Cmaj7\"[CEGB]4 | \"F\"[FAc]8 |\n[V:2] C,,4 C,,4 | F,,8 | C,,4 C,,4 | F,,8 |\n[V:1] \"F\"[FAc]4 \"Am/E\"[A,CE]4 | \"Dm7\"[DFAc]4 \"F/C\"[FAc]4 | \"G\"[G,B,D]8 | \"G7\"[G,B,DF]8 |\n[V:2] F,,4 E,,4 | D,,4 C,,4 | G,,8 | G,,8 |\n[V:1] \"F\"[FAc]4 \"G\"[G,B,D]4 | \"C\"[CEG]4 \"E7\"[E^GBd]4 | \"F\"[FAc]4 \"G\"[G,B,D]4 | \"C\"[CEG]4 \"E7\"[E^GBd]4 |\n[V:2] F,,4 G,,4 | C,,4 E,,4 | F,,4 G,,4 | C,,4 E,,4 |\n[V:1] \"F\"[FAc]4 \"G\"[G,B,D]4 | \"C\"[CEG]8 |]\n[V:2] F,,4 G,,4 | C,,8 |]",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 \"Cmaj7\"[EGB]4 | \"F\"[FAc]8 | \"C\"[EGc]4 \"Cmaj7\"[EGB]4 | \"F\"[FAc]8 |\n[V:2] C,,4 C,,4 | F,,8 | C,,4 C,,4 | F,,8 |\n[V:1] \"F\"[FAc]4 \"Am/E\"[EAc]4 | \"Dm7\"[FAc]4 \"F/C\"[FAc]4 | \"G\"[DGB]8 | \"G7\"[FGB]8 |\n[V:2] F,,4 E,,4 | D,,4 C,,4 | G,,8 | G,,8 |\n[V:1] \"F\"[FAc]4 \"G\"[DGB]4 | \"C\"[EGc]2 \"Cmaj7\"[EGB]2 \"E\"[E^GB]2 \"E7\"[DEG]2 | \"F\"[FAc]4 \"G\"[DGB]4 | \"C\"[EGc]2 \"Cmaj7\"[EGB]2 \"E\"[E^GB]2 \"E7\"[DEG]2 |\n[V:2] F,,4 G,,4 | C,,2 C,,2 E,,2 E,,2 | F,,4 G,,4 | C,,2 C,,2 E,,2 E,,2 |\n[V:1] \"F\"[FAc]4 \"G\"[DGB]4 | \"C\"[EGc]8 |]\n[V:2] F,,4 G,,4 | C,,8 |]",
+     "key": "C major",
+     "bars": 14,
+     "bpm": 76
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 \"Cmaj7\"[EGB]4 | \"F\"[FAc]4 [FAc]4 | \"C\"[EGc]4 \"Cmaj7\"[EGB]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [C,,G,,E,]4 [C,,B,,E,]4 | [F,,C,]8 | [C,,G,,E,]4 [C,,B,,E,]4 | [F,,C,]8 |\n[V:1] \"F\"[FAc]4 \"Am/E\"[EAc]4 | \"Dm7\"[FAc]4 \"F/C\"[FAc]4 | \"G\"[DGB]4 [DGB]4 | \"G7\"[FGB]4 [FGB]4 |\n[V:2] [F,,C,]4 [E,,A,,C,]4 | [D,,C,F,]4 [C,,F,,A,,]4 | [G,,D,]8 | [G,,F,]8 |\n[V:1] \"F\"[FAc]4 \"G\"[DGB]4 | \"C\"[EGc]2 \"Cmaj7\"[EGB]2 \"E\"[E^GB]2 \"E7\"[DEG]2 | \"F\"[FAc]4 \"G\"[DGB]4 | \"C\"[EGc]2 \"Cmaj7\"[EGB]2 \"E\"[E^GB]2 \"E7\"[DEG]2 |\n[V:2] [F,,C,]4 [G,,D,]4 | [C,,G,,E,]2 [C,,B,,E,]2 [E,,B,,^G,]2 [E,,D,G,]2 | [F,,C,]4 [G,,D,]4 | [C,,G,,E,]2 [C,,B,,E,]2 [E,,B,,^G,]2 [E,,D,G,]2 |\n[V:1] \"F\"[FAc]4 \"G\"[DGB]4 | \"C\"[EGc]4 [EGc]4 |]\n[V:2] [F,,C,]4 [G,,D,]4 | [C,,G,,E,]8 |]",
+     "key": "C major",
+     "bars": 14,
+     "bpm": 76
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"Cmaj7\"[EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"Cmaj7\"[EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][FAc] |\n[V:2] [C,,G,,E,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [C,,G,,E,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"Am/E\"[EAc]2 [EAc][FAc] | \"Dm7\"[FAc]2 [FAc][FAc] \"F/C\"[FAc]2 [FAc][DGB] | \"G\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][FGB] | \"G7\"[FGB]2 [FGB][FGB] [FGB]2 [FGB][FAc] |\n[V:2] [F,,,F,,C,]4 [E,,,E,,A,,C,E,]4 | [D,,C,F,]4 [C,,F,,A,,C,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [G,,,G,,F,]4 [G,,,G,,F,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"G\"[DGB]2 [DGB][EGc] | \"C\"[EGc]2 \"Cmaj7\"[EGB][EGB] \"E\"[E^GB]2 \"E7\"[DEG][FAc] | \"F\"[FAc]2 [FAc][FAc] \"G\"[DGB]2 [DGB][EGc] | \"C\"[EGc]2 \"Cmaj7\"[EGB][EGB] \"E\"[E^GB]2 \"E7\"[DEG][FAc] |\n[V:2] [F,,,F,,C,]4 [G,,,G,,D,]4 | [C,,G,,E,]2 [C,,B,,E,G,]2 [E,,,E,,B,,^G,]2 [E,,,E,,D,G,]2 | [F,,,F,,C,]4 [G,,,G,,D,]4 | [C,,G,,E,]2 [C,,B,,E,G,]2 [E,,,E,,B,,^G,]2 [E,,,E,,D,G,]2 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"G\"[DGB]2 [DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGc] |]\n[V:2] [F,,,F,,C,]4 [G,,,G,,D,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |]",
      "key": "C major",
      "bars": 14,
      "bpm": 76
     }
    },
+   "status": "learn",
    "chart": {
     "key": "C major",
     "feel": "Slow piano ballad, 4/4, about 76 BPM",
     "sections": [
      {
-      "name": "Verse",
+      "name": "Intro / Verse",
       "bars": [
        [
         "C",
@@ -2700,7 +3532,7 @@ window.SONGBOOK = {
       ]
      },
      {
-      "name": "Pre-chorus",
+      "name": "Bridge",
       "bars": [
        [
         "F",
@@ -2727,6 +3559,8 @@ window.SONGBOOK = {
        ],
        [
         "C",
+        "Cmaj7",
+        "E",
         "E7"
        ],
        [
@@ -2735,6 +3569,8 @@ window.SONGBOOK = {
        ],
        [
         "C",
+        "Cmaj7",
+        "E",
         "E7"
        ],
        [
@@ -2761,66 +3597,113 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"Eb\"[_EG_B]8 | \"Abmaj7\"[_A,C_EG]8 | \"Bb/D\"[_B,DF]8 | \"Gm\"[G,_B,D]8 |\n[V:2] _E,,8 | _A,,8 | D,,8 | G,,8 |\n[V:1] \"Cm\"[C_EG]8 | \"Cm/Bb\"[C_EG]8 | \"Cm/A\"[C_EG]8 | \"Ab\"[_A,C_E]8 |\n[V:2] C,,8 | _B,,8 | A,,8 | _A,,8 |\n[V:1] \"Eb/Bb\"[_EG_B]8 | \"Bb\"[_B,DF]8 | \"G/B\"[G,B,D]8 | \"Cm\"[C_EG]8 |\n[V:2] _B,,8 | _B,,8 | B,,8 | C,,8 |\n[V:1] \"Eb\"[_EG_B]8 | \"Fm7\"[F_Ac_e]8 | \"Ab\"[_A,C_E]8 | \"Bb\"[_B,DF]8 |]\n[V:2] _E,,8 | F,,8 | _A,,8 | _B,,8 |]",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EGB]4 \"Ab/Eb\"[EAc]4 | \"Bb/Eb\"[DFB]4 \"Ab/Eb\"[EAc]4 | \"Eb\"[EGB]4 \"Abmaj7\"[GAc]4 | \"Bb/D\"[DFB]4 \"Gm\"[DGB]4 |\n[V:2] E,,4 E,,4 | E,,4 E,,4 | E,,4 A,,4 | D,,4 G,,4 |\n[V:1] \"Cm\"[EGc]4 \"Cm/Bb\"[EGc]4 | \"Cm/A\"[EGc]4 \"Abmaj7\"[GAc]4 | \"Eb\"[EGB]4 \"Bb\"[DFB]4 | \"G/B\"[DG=B]4 \"Cm\"[EGc]4 |\n[V:2] C,,4 B,,,4 | =A,,4 _A,,4 | E,,4 B,,,4 | =B,,,4 C,,4 |\n[V:1] \"Eb\"[EGB]4 \"Fm7\"[EFA]4 | \"Ab\"[EAc]4 \"Bb\"[DFB]4 | \"Bb/D\"[DFB]4 \"Cm\"[EGc]4 | \"Fm7\"[EFA]4 \"Ab\"[EAc]4 |\n[V:2] E,,4 F,,4 | A,,4 B,,,4 | D,,4 C,,4 | F,,4 A,,4 |\n[V:1] \"Bb/D\"[DFB]4 \"Cm\"[EGc]4 | \"Fm7\"[EFA]4 \"Ab\"[EAc]4 | \"Cm\"[EGc]4 \"Cm/Bb\"[EGc]4 | \"Cm/A\"[EGc]4 \"Ab\"[EAc]4 |\n[V:2] D,,4 C,,4 | F,,4 A,,4 | C,,4 B,,,4 | =A,,4 _A,,4 |\n[V:1] \"Eb/G\"[EGB]4 \"Fm7\"[EFA]4 | \"Ab\"[EAc]4 \"Bb\"[DFB]4 |]\n[V:2] G,,4 F,,4 | A,,4 B,,,4 |]",
      "key": "E♭ major",
-     "bars": 16,
+     "bars": 18,
+     "bpm": 66
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EGB]4 \"Ab/Eb\"[EAc]4 | \"Bb/Eb\"[DFB]4 \"Ab/Eb\"[EAc]4 | \"Eb\"[EGB]4 \"Abmaj7\"[GAc]4 | \"Bb/D\"[DFB]4 \"Gm\"[DGB]4 |\n[V:2] [E,,B,,G,]4 [E,,A,,C,]4 | [E,,B,,D,]4 [E,,A,,C,]4 | [E,,B,,G,]4 [A,,G,]4 | [D,,F,,B,,]4 [G,,D,]4 |\n[V:1] \"Cm\"[EGc]4 \"Cm/Bb\"[EGc]4 | \"Cm/A\"[EGc]4 \"Abmaj7\"[GAc]4 | \"Eb\"[EGB]4 \"Bb\"[DFB]4 | \"G/B\"[DG=B]4 \"Cm\"[EGc]4 |\n[V:2] [C,,G,,E,]4 [B,,,C,,E,,]4 | [=A,,C,E,]4 [_A,,G,]4 | [E,,B,,G,]4 [B,,,F,,D,]4 | [=B,,,D,,G,,]4 [C,,G,,E,]4 |\n[V:1] \"Eb\"[EGB]4 \"Fm7\"[EFA]4 | \"Ab\"[EAc]4 \"Bb\"[DFB]4 | \"Bb/D\"[DFB]4 \"Cm\"[EGc]4 | \"Fm7\"[EFA]4 \"Ab\"[EAc]4 |\n[V:2] [E,,B,,G,]4 [F,,E,A,]4 | [A,,E,]4 [B,,,F,,D,]4 | [D,,F,,B,,]4 [C,,G,,E,]4 | [F,,E,A,]4 [A,,E,]4 |\n[V:1] \"Bb/D\"[DFB]4 \"Cm\"[EGc]4 | \"Fm7\"[EFA]4 \"Ab\"[EAc]4 | \"Cm\"[EGc]4 \"Cm/Bb\"[EGc]4 | \"Cm/A\"[EGc]4 \"Ab\"[EAc]4 |\n[V:2] [D,,F,,B,,]4 [C,,G,,E,]4 | [F,,E,A,]4 [A,,E,]4 | [C,,G,,E,]4 [B,,,C,,E,,]4 | [=A,,C,E,]4 [_A,,E,]4 |\n[V:1] \"Eb/G\"[EGB]4 \"Fm7\"[EFA]4 | \"Ab\"[EAc]4 \"Bb\"[DFB]4 |]\n[V:2] [G,,B,,E,]4 [F,,E,A,]4 | [A,,E,]4 [B,,,F,,D,]4 |]",
+     "key": "E♭ major",
+     "bars": 18,
+     "bpm": 66
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Eb\"[EGB]2 [EGB][EGB] \"Ab/Eb\"[EAc]2 [EAc][DFB] | \"Bb/Eb\"[DFB]2 [DFB][DFB] \"Ab/Eb\"[EAc]2 [EAc][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Abmaj7\"[GAc]2 [GAc][DFB] | \"Bb/D\"[DFB]2 [DFB][DFB] \"Gm\"[DGB]2 [DGB][EGc] |\n[V:2] [E,,B,,G,]4 [E,,A,,C,E,]4 | [E,,B,,D,F,]4 [E,,A,,C,E,]4 | [E,,B,,G,]4 [A,,,A,,G,]4 | [D,,F,,B,,D,]4 [G,,,G,,D,F,]4 |\n[V:1] \"Cm\"[EGc]2 [EGc][EGc] \"Cm/Bb\"[EGc]2 [EGc][EGc] | \"Cm/A\"[EGc]2 [EGc][EGc] \"Abmaj7\"[GAc]2 [GAc][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Bb\"[DFB]2 [DFB][DG=B] | \"G/B\"[DG=B]2 [DGB][DGB] \"Cm\"[EGc]2 [EGc][EG_B] |\n[V:2] [C,,G,,B,,E,]4 [B,,,C,,E,,G,,]4 | [=A,,,=A,,C,E,G,]4 [_A,,,_A,,G,]4 | [E,,B,,G,]4 [B,,,F,,D,G,]4 | [=B,,,D,,G,,=B,,]4 [C,,G,,_B,,E,]4 |\n[V:1] \"Eb\"[EGB]2 [EGB][EGB] \"Fm7\"[EFA]2 [EFA][EAc] | \"Ab\"[EAc]2 [EAc][EAc] \"Bb\"[DFB]2 [DFB][DFB] | \"Bb/D\"[DFB]2 [DFB][DFB] \"Cm\"[EGc]2 [EGc][EFA] | \"Fm7\"[EFA]2 [EFA][EFA] \"Ab\"[EAc]2 [EAc][DFB] |\n[V:2] [E,,B,,G,]4 [F,,,F,,E,A,]4 | [A,,,A,,E,]4 [B,,,F,,D,G,]4 | [D,,F,,B,,D,]4 [C,,G,,B,,E,]4 | [F,,,F,,E,A,]4 [A,,,A,,E,]4 |\n[V:1] \"Bb/D\"[DFB]2 [DFB][DFB] \"Cm\"[EGc]2 [EGc][EFA] | \"Fm7\"[EFA]2 [EFA][EFA] \"Ab\"[EAc]2 [EAc][EGc] | \"Cm\"[EGc]2 [EGc][EGc] \"Cm/Bb\"[EGc]2 [EGc][EGc] | \"Cm/A\"[EGc]2 [EGc][EGc] \"Ab\"[EAc]2 [EAc][EGB] |\n[V:2] [D,,F,,B,,D,]4 [C,,G,,B,,E,]4 | [F,,,F,,E,A,]4 [A,,,A,,E,]4 | [C,,G,,B,,E,]4 [B,,,C,,E,,G,,]4 | [=A,,,=A,,C,E,G,]4 [_A,,,_A,,E,]4 |\n[V:1] \"Eb/G\"[EGB]2 [EGB][EGB] \"Fm7\"[EFA]2 [EFA][EAc] | \"Ab\"[EAc]2 [EAc][EAc] \"Bb\"[DFB]2 [DFB][DFB] |]\n[V:2] [G,,,G,,B,,E,G,]4 [F,,,F,,E,A,]4 | [A,,,A,,E,]4 [B,,,F,,D,G,]4 |]",
+     "key": "E♭ major",
+     "bars": 18,
      "bpm": 66
     }
    },
+   "status": "play",
    "chart": {
     "key": "E♭ major",
     "feel": "Flowing ballad, 4/4, about 66 BPM",
     "sections": [
      {
+      "name": "Intro",
+      "bars": [
+       [
+        "Eb",
+        "Ab/Eb"
+       ],
+       [
+        "Bb/Eb",
+        "Ab/Eb"
+       ]
+      ]
+     },
+     {
       "name": "Verse",
       "bars": [
        [
-        "Eb"
-       ],
-       [
+        "Eb",
         "Abmaj7"
        ],
        [
-        "Bb/D"
-       ],
-       [
+        "Bb/D",
         "Gm"
        ],
        [
-        "Cm"
-       ],
-       [
+        "Cm",
         "Cm/Bb"
        ],
        [
-        "Cm/A"
+        "Cm/A",
+        "Abmaj7"
        ],
        [
-        "Ab"
-       ],
-       [
-        "Eb/Bb"
-       ],
-       [
+        "Eb",
         "Bb"
        ],
        [
-        "G/B"
-       ],
-       [
+        "G/B",
         "Cm"
        ],
        [
-        "Eb"
-       ],
-       [
+        "Eb",
         "Fm7"
        ],
        [
+        "Ab",
+        "Bb"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "Bb/D",
+        "Cm"
+       ],
+       [
+        "Fm7",
         "Ab"
        ],
        [
+        "Bb/D",
+        "Cm"
+       ],
+       [
+        "Fm7",
+        "Ab"
+       ],
+       [
+        "Cm",
+        "Cm/Bb"
+       ],
+       [
+        "Cm/A",
+        "Ab"
+       ],
+       [
+        "Eb/G",
+        "Fm7"
+       ],
+       [
+        "Ab",
         "Bb"
        ]
       ]
@@ -2840,13 +3723,26 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=170\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[CEG]6 | \"G/B\"[G,B,D]6 | \"F/A\"[FAc]6 | \"C/G\"[CEG]6 |\n[V:2] C,,6 | B,,6 | A,,6 | G,,6 |\n[V:1] \"F\"[FAc]6 | \"C/E\"[CEG]6 | \"D7\"[D^FAc]6 | \"G\"[G,B,D]6 |\n[V:2] F,,6 | E,,6 | D,,6 | G,,6 |\n[V:1] \"C\"[CEG]6 | \"G/B\"[G,B,D]6 | \"F/A\"[FAc]6 | \"C/G\"[CEG]6 |\n[V:2] C,,6 | B,,6 | A,,6 | G,,6 |\n[V:1] \"F\"[FAc]6 | \"G\"[G,B,D]6 | \"C\"[CEG]6 | \"C\"[CEG]6 |\n[V:2] F,,6 | G,,6 | C,,6 | C,,6 |\n[V:1] \"Am\"[A,CE]6 | \"Am/G\"[A,CE]6 | \"D7/F#\"[D^FAc]6 | \"F\"[FAc]6 |\n[V:2] A,,6 | G,,6 | ^F,,6 | F,,6 |\n[V:1] \"Am\"[A,CE]6 | \"Am/G\"[A,CE]6 | \"D7/F#\"[D^FAc]6 | \"G\"[G,B,D]6 |]\n[V:2] A,,6 | G,,6 | ^F,,6 | G,,6 |]",
+    "easy": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=170\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]6 | \"G/B\"[DGB]6 | \"F/A\"[FAc]6 | \"C/G\"[EGc]6 |\n[V:2] C,,6 | B,,,6 | A,,6 | G,,6 |\n[V:1] \"F\"[FAc]6 | \"C/E\"[EGc]6 | \"D7\"[^FAc]6 | \"G\"[DGB]6 |\n[V:2] F,,6 | E,,6 | D,,6 | G,,6 |\n[V:1] \"C\"[EGc]6 | \"G/B\"[DGB]6 | \"F/A\"[FAc]6 | \"C/G\"[EGc]6 |\n[V:2] C,,6 | B,,,6 | A,,6 | G,,6 |\n[V:1] \"F\"[FAc]6 | \"G\"[DGB]6 | \"C\"[EGc]6 | \"C\"[EGc]6 |\n[V:2] F,,6 | G,,6 | C,,6 | C,,6 |\n[V:1] \"Am\"[EAc]6 | \"Am/G\"[EAc]6 | \"D7/F#\"[^FAc]6 | \"F\"[FAc]6 |\n[V:2] A,,6 | G,,6 | ^F,,6 | F,,6 |\n[V:1] \"Am\"[EAc]6 | \"Am/G\"[EAc]6 | \"D7/F#\"[^FAc]6 | \"G\"[DGB]6 |]\n[V:2] A,,6 | G,,6 | ^F,,6 | G,,6 |]",
+     "key": "C major",
+     "bars": 24,
+     "bpm": 170
+    },
+    "inter": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=170\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]2 [EGc]4 | \"G/B\"[DGB]2 [DGB]4 | \"F/A\"[FAc]2 [FAc]4 | \"C/G\"[EGc]2 [EGc]4 |\n[V:2] [C,,G,,E,]6 | [B,,,D,,G,,]6 | [A,,C,F,]6 | [G,,C,E,]6 |\n[V:1] \"F\"[FAc]2 [FAc]4 | \"C/E\"[EGc]2 [EGc]4 | \"D7\"[^FAc]2 [FAc]4 | \"G\"[DGB]2 [DGB]4 |\n[V:2] [F,,C,]6 | [E,,G,,C,]6 | [D,,C,^F,]6 | [G,,D,]6 |\n[V:1] \"C\"[EGc]2 [EGc]4 | \"G/B\"[DGB]2 [DGB]4 | \"F/A\"[FAc]2 [FAc]4 | \"C/G\"[EGc]2 [EGc]4 |\n[V:2] [C,,G,,E,]6 | [B,,,D,,G,,]6 | [A,,C,F,]6 | [G,,C,E,]6 |\n[V:1] \"F\"[FAc]2 [FAc]4 | \"G\"[DGB]2 [DGB]4 | \"C\"[EGc]2 [EGc]4 | \"C\"[EGc]2 [EGc]4 |\n[V:2] [F,,C,]6 | [G,,D,]6 | [C,,G,,E,]6 | [C,,G,,E,]6 |\n[V:1] \"Am\"[EAc]2 [EAc]4 | \"Am/G\"[EAc]2 [EAc]4 | \"D7/F#\"[^FAc]2 [FAc]4 | \"F\"[FAc]2 [FAc]4 |\n[V:2] [A,,E,]6 | [G,,A,,C,]6 | [^F,,A,,C,]6 | [F,,C,]6 |\n[V:1] \"Am\"[EAc]2 [EAc]4 | \"Am/G\"[EAc]2 [EAc]4 | \"D7/F#\"[^FAc]2 [FAc]4 | \"G\"[DGB]2 [DGB]4 |]\n[V:2] [A,,E,]6 | [G,,A,,C,]6 | [^F,,A,,C,]6 | [G,,D,]6 |]",
+     "key": "C major",
+     "bars": 24,
+     "bpm": 170
+    },
+    "adv": {
+     "abc": "X:1\nM:3/4\nL:1/8\nQ:1/4=170\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"z2 [EGc]2 [EGc][EGc] | \"G/B\"z2 [DGB]2 [DGB][DGB] | \"F/A\"z2 [FAc]2 [FAc][FAc] | \"C/G\"z2 [EGc]2 [EGc][EGc] |\n[V:2] [C,,G,,E,]6 | [B,,,D,,G,,B,,]6 | [A,,,A,,C,F,]6 | [G,,,G,,C,E,G,]6 |\n[V:1] \"F\"z2 [FAc]2 [FAc][FAc] | \"C/E\"z2 [EGc]2 [EGc][EGc] | \"D7\"z2 [^FAc]2 [FAc][FAc] | \"G\"z2 [DGB]2 [DGB][DGB] |\n[V:2] [F,,,F,,C,]6 | [E,,,E,,G,,C,E,]6 | [D,,C,^F,]6 | [G,,,G,,D,]6 |\n[V:1] \"C\"z2 [EGc]2 [EGc][EGc] | \"G/B\"z2 [DGB]2 [DGB][DGB] | \"F/A\"z2 [FAc]2 [FAc][FAc] | \"C/G\"z2 [EGc]2 [EGc][EGc] |\n[V:2] [C,,G,,E,]6 | [B,,,D,,G,,B,,]6 | [A,,,A,,C,F,]6 | [G,,,G,,C,E,G,]6 |\n[V:1] \"F\"z2 [FAc]2 [FAc][FAc] | \"G\"z2 [DGB]2 [DGB][DGB] | \"C\"z2 [EGc]2 [EGc][EGc] | \"C\"z2 [EGc]2 [EGc][EGc] |\n[V:2] [F,,,F,,C,]6 | [G,,,G,,D,]6 | [C,,G,,E,]6 | [C,,G,,E,]6 |\n[V:1] \"Am\"z2 [EAc]2 [EAc][EAc] | \"Am/G\"z2 [EAc]2 [EAc][EAc] | \"D7/F#\"z2 [^FAc]2 [FAc][FAc] | \"F\"z2 [FAc]2 [FAc][FAc] |\n[V:2] [A,,,A,,E,G,]6 | [G,,,G,,A,,C,E,]6 | [^F,,,^F,,A,,C,D,]6 | [F,,,F,,C,]6 |\n[V:1] \"Am\"z2 [EAc]2 [EAc][EAc] | \"Am/G\"z2 [EAc]2 [EAc][EAc] | \"D7/F#\"z2 [^FAc]2 [FAc][FAc] | \"G\"z2 [DGB]2 [DGB][DGB] |]\n[V:2] [A,,,A,,E,G,]6 | [G,,,G,,A,,C,E,]6 | [^F,,,^F,,A,,C,D,]6 | [G,,,G,,D,]6 |]",
      "key": "C major",
      "bars": 24,
      "bpm": 170
     }
    },
+   "status": "",
    "chart": {
     "key": "C major",
     "feel": "Waltz, 3/4 (felt in one), about 170 BPM",
@@ -2948,13 +3844,26 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=124\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"F#\"[^F^A^c]8 | \"F#\"[^F^A^c]8 | \"B\"[B,^D^F]8 | \"B\"[B,^D^F]8 |\n[V:2] ^F,,8 | ^F,,8 | B,,8 | B,,8 |\n[V:1] \"C#\"[^C^E^G]8 | \"C#\"[^C^E^G]8 | \"F#\"[^F^A^c]8 | \"F#\"[^F^A^c]8 |]\n[V:2] ^C,,8 | ^C,,8 | ^F,,8 | ^F,,8 |]",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=124\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F#\n[V:1] \"F#\"[CFA]8 | \"F#\"[CFA]8 | \"B\"[DFB]8 | \"B\"[DFB]8 |\n[V:2] F,,8 | F,,8 | B,,,8 | B,,,8 |\n[V:1] \"C#\"[CEG]8 | \"C#\"[CEG]8 | \"F#\"[CFA]8 | \"F#\"[CFA]8 |]\n[V:2] C,,8 | C,,8 | F,,8 | F,,8 |]",
+     "key": "F♯ major (I – IV – V)",
+     "bars": 8,
+     "bpm": 124
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=124\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F#\n[V:1] \"F#\"[CFA]4 [CFA]4 | \"F#\"[CFA]4 [CFA]4 | \"B\"[DFB]4 [DFB]4 | \"B\"[DFB]4 [DFB]4 |\n[V:2] [F,,C,]8 | [F,,C,]8 | [B,,,F,,D,]8 | [B,,,F,,D,]8 |\n[V:1] \"C#\"[CEG]4 [CEG]4 | \"C#\"[CEG]4 [CEG]4 | \"F#\"[CFA]4 [CFA]4 | \"F#\"[CFA]4 [CFA]4 |]\n[V:2] [C,,G,,E,]8 | [C,,G,,E,]8 | [F,,C,]8 | [F,,C,]8 |]",
+     "key": "F♯ major (I – IV – V)",
+     "bars": 8,
+     "bpm": 124
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=124\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F#\n[V:1] \"F#\"z[CFA] z[CFA] z[CFA] z[CFA] | \"F#\"z[CFA] z[CFA] z[CFA] z[CFA] | \"B\"z[DFB] z[DFB] z[DFB] z[DFB] | \"B\"z[DFB] z[DFB] z[DFB] z[DFB] |\n[V:2] [F,,,F,,]2 C,2 [F,,,F,,]2 C,2 | [F,,,F,,]2 C,2 [F,,,F,,]2 C,2 | B,,,2 [F,,D,G,]2 B,,,2 [F,,D,G,]2 | B,,,2 [F,,D,G,]2 B,,,2 [F,,D,G,]2 |\n[V:1] \"C#\"z[CEG] z[CEG] z[CEG] z[CEG] | \"C#\"z[CEG] z[CEG] z[CEG] z[CEG] | \"F#\"z[CFA] z[CFA] z[CFA] z[CFA] | \"F#\"z[CFA] z[CFA] z[CFA] z[CFA] |]\n[V:2] C,,2 [G,,E,]2 C,,2 [G,,E,]2 | C,,2 [G,,E,]2 C,,2 [G,,E,]2 | [F,,,F,,]2 C,2 [F,,,F,,]2 C,2 | [F,,,F,,]2 C,2 [F,,,F,,]2 C,2 |]",
      "key": "F♯ major (I – IV – V)",
      "bars": 8,
      "bpm": 124
     }
    },
+   "status": "",
    "chart": {
     "key": "F♯ major (I – IV – V)",
     "feel": "Driving rock and roll, 4/4, about 124 BPM",
@@ -3003,13 +3912,26 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"Em\"[EGB]8 | \"Em\"[EGB]8 | \"D\"[D^FA]8 | \"D\"[D^FA]8 |\n[V:2] E,,8 | E,,8 | D,,8 | D,,8 |\n[V:1] \"A\"[A,^CE]8 | \"A\"[A,^CE]8 | \"Em\"[EGB]8 | \"Em\"[EGB]8 |]\n[V:2] A,,8 | A,,8 | E,,8 | E,,8 |]",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] \"Em\"[EGB]8 | \"Em\"[EGB]8 | \"D\"[DFA]8 | \"D\"[DFA]8 |\n[V:2] E,,8 | E,,8 | D,,8 | D,,8 |\n[V:1] \"A\"[^CEA]8 | \"A\"[^CEA]8 | \"Em\"[EGB]8 | \"Em\"[EGB]8 |\n[V:2] A,,8 | A,,8 | E,,8 | E,,8 |\n[V:1] \"D\"[DFA]8 | \"Em\"[EGB]8 | \"D\"[DFA]8 | \"Em\"[EGB]8 |\n[V:2] D,,8 | E,,8 | D,,8 | E,,8 |\n[V:1] \"D\"[DFA]8 | \"A\"[^CEA]8 | \"C\"[EGc]4 \"D\"[DFA]4 | \"Em\"[EGB]8 |]\n[V:2] D,,8 | A,,8 | C,,4 D,,4 | E,,8 |]",
      "key": "E minor",
-     "bars": 8,
+     "bars": 16,
+     "bpm": 70
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] \"Em\"[EGB]4 [EGB]4 | \"Em\"[EGB]4 [EGB]4 | \"D\"[DFA]4 [DFA]4 | \"D\"[DFA]4 [DFA]4 |\n[V:2] [E,,B,,G,]8 | [E,,B,,G,]8 | [D,,A,,F,]8 | [D,,A,,F,]8 |\n[V:1] \"A\"[^CEA]4 [CEA]4 | \"A\"[^CEA]4 [CEA]4 | \"Em\"[EGB]4 [EGB]4 | \"Em\"[EGB]4 [EGB]4 |\n[V:2] [A,,E,]8 | [A,,E,]8 | [E,,B,,G,]8 | [E,,B,,G,]8 |\n[V:1] \"D\"[DFA]4 [DFA]4 | \"Em\"[EGB]4 [EGB]4 | \"D\"[DFA]4 [DFA]4 | \"Em\"[EGB]4 [EGB]4 |\n[V:2] [D,,A,,F,]8 | [E,,B,,G,]8 | [D,,A,,F,]8 | [E,,B,,G,]8 |\n[V:1] \"D\"[DFA]4 [DFA]4 | \"A\"[^CEA]4 [CEA]4 | \"C\"[EGc]4 \"D\"[DFA]4 | \"Em\"[EGB]4 [EGB]4 |]\n[V:2] [D,,A,,F,]8 | [A,,E,]8 | [C,,G,,E,]4 [D,,A,,F,]4 | [E,,B,,G,]8 |]",
+     "key": "E minor",
+     "bars": 16,
+     "bpm": 70
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Em\n[V:1] \"Em\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"Em\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFA] | \"D\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][DFA] | \"D\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][^CEA] |\n[V:2] [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [D,,A,,F,]4 [D,,A,,F,]4 |\n[V:1] \"A\"[^CEA]2 [CEA][CEA] [CEA]2 [CEA][CEA] | \"A\"[^CEA]2 [CEA][CEA] [CEA]2 [CEA][EGB] | \"Em\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"Em\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFA] |\n[V:2] [A,,,A,,E,]4 [A,,,A,,E,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 |\n[V:1] \"D\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][EGB] | \"Em\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFA] | \"D\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][EGB] | \"Em\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFA] |\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [D,,A,,F,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 |\n[V:1] \"D\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][^CEA] | \"A\"[^CEA]2 [CEA][CEA] [CEA]2 [CEA][EGc] | \"C\"[EGc]2 [EGc][EGc] \"D\"[DFA]2 [DFA][EGB] | \"Em\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] |]\n[V:2] [D,,A,,F,]4 [D,,A,,F,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [C,,G,,E,]4 [D,,A,,F,]4 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 |]",
+     "key": "E minor",
+     "bars": 16,
      "bpm": 70
     }
    },
+   "status": "",
    "chart": {
     "key": "E minor",
     "feel": "Slow rock ballad, 4/4, about 70 BPM",
@@ -3042,6 +3964,36 @@ window.SONGBOOK = {
         "Em"
        ]
       ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "D"
+       ],
+       [
+        "Em"
+       ],
+       [
+        "D"
+       ],
+       [
+        "Em"
+       ],
+       [
+        "D"
+       ],
+       [
+        "A"
+       ],
+       [
+        "C",
+        "D"
+       ],
+       [
+        "Em"
+       ]
+      ]
      }
     ]
    }
@@ -3058,68 +4010,81 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=100\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[CEG]8 | \"Am\"[A,CE]8 | \"F\"[FAc]8 | \"G\"[G,B,D]8 |\n[V:2] C,,8 | A,,8 | F,,8 | G,,8 |\n[V:1] \"C\"[CEG]8 | \"Am\"[A,CE]8 | \"F\"[FAc]8 | \"G\"[G,B,D]8 |\n[V:2] C,,8 | A,,8 | F,,8 | G,,8 |\n[V:1] \"C\"[CEG]8 | \"Am\"[A,CE]8 | \"F\"[FAc]8 | \"G\"[G,B,D]8 |\n[V:2] C,,8 | A,,8 | F,,8 | G,,8 |\n[V:1] \"F\"[FAc]8 | \"C\"[CEG]8 | \"F\"[FAc]4 \"G\"[G,B,D]4 | \"C\"[CEG]8 |]\n[V:2] F,,8 | C,,8 | F,,4 G,,4 | C,,8 |]",
-     "key": "C major",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=100\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"[CEA]8 | \"F#m\"[CFA]8 | \"D\"[DFA]8 | \"E\"[EGB]8 |\n[V:2] A,,8 | F,,8 | D,,8 | E,,8 |\n[V:1] \"A\"[CEA]8 | \"F#m\"[CFA]8 | \"Bm\"[DFB]8 | \"E7\"[DEG]8 |\n[V:2] A,,8 | F,,8 | B,,,8 | E,,8 |\n[V:1] \"A\"[CEA]8 | \"F#m\"[CFA]8 | \"D\"[DFA]8 | \"E\"[EGB]8 |\n[V:2] A,,8 | F,,8 | D,,8 | E,,8 |\n[V:1] \"D\"[DFA]8 | \"A\"[CEA]8 | \"D\"[DFA]4 \"E\"[EGB]4 | \"A\"[CEA]8 |]\n[V:2] D,,8 | A,,8 | D,,4 E,,4 | A,,8 |]",
+     "key": "A major",
+     "bars": 16,
+     "bpm": 100
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=100\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"[CEA]4 [CEA]4 | \"F#m\"[CFA]4 [CFA]4 | \"D\"[DFA]4 [DFA]4 | \"E\"[EGB]4 [EGB]4 |\n[V:2] [A,,E,]8 | [F,,C,]8 | [D,,A,,F,]8 | [E,,B,,G,]8 |\n[V:1] \"A\"[CEA]4 [CEA]4 | \"F#m\"[CFA]4 [CFA]4 | \"Bm\"[DFB]4 [DFB]4 | \"E7\"[DEG]4 [DEG]4 |\n[V:2] [A,,E,]8 | [F,,C,]8 | [B,,,F,,D,]8 | [E,,D,G,]8 |\n[V:1] \"A\"[CEA]4 [CEA]4 | \"F#m\"[CFA]4 [CFA]4 | \"D\"[DFA]4 [DFA]4 | \"E\"[EGB]4 [EGB]4 |\n[V:2] [A,,E,]8 | [F,,C,]8 | [D,,A,,F,]8 | [E,,B,,G,]8 |\n[V:1] \"D\"[DFA]4 [DFA]4 | \"A\"[CEA]4 [CEA]4 | \"D\"[DFA]4 \"E\"[EGB]4 | \"A\"[CEA]4 [CEA]4 |]\n[V:2] [D,,A,,F,]8 | [A,,E,]8 | [D,,A,,F,]4 [E,,B,,G,]4 | [A,,E,]8 |]",
+     "key": "A major",
+     "bars": 16,
+     "bpm": 100
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=100\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"F#m\"z2 [CFA][CFA] z2 [CFA][CFA] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"E\"z2 [EGB][EGB] z2 [EGB][EGB] |\n[V:2] [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | [F,,,F,,]2 [C,E,]2 [F,,,F,,]2 [C,E,]2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [E,,,E,,]2 [B,,G,]2 [E,,,E,,]2 [B,,G,]2 |\n[V:1] \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"F#m\"z2 [CFA][CFA] z2 [CFA][CFA] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] | \"E7\"z2 [DEG][DEG] z2 [DEG][DEG] |\n[V:2] [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | [F,,,F,,]2 [C,E,]2 [F,,,F,,]2 [C,E,]2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 | [E,,,E,,]2 [D,G,]2 [E,,,E,,]2 [D,G,]2 |\n[V:1] \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"F#m\"z2 [CFA][CFA] z2 [CFA][CFA] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"E\"z2 [EGB][EGB] z2 [EGB][EGB] |\n[V:2] [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | [F,,,F,,]2 [C,E,]2 [F,,,F,,]2 [C,E,]2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [E,,,E,,]2 [B,,G,]2 [E,,,E,,]2 [B,,G,]2 |\n[V:1] \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"D\"z2 [DFA][DFA] \"E\"z2 [EGB][EGB] | \"A\"z2 [CEA][CEA] z2 [CEA][CEA] |]\n[V:2] D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | D,,2 [A,,F,]2 [E,,,E,,]2 [B,,G,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 |]",
+     "key": "A major",
      "bars": 16,
      "bpm": 100
     }
    },
+   "status": "",
    "chart": {
-    "key": "C major",
+    "key": "A major",
     "feel": "Gentle folk, 4/4, about 100 BPM",
     "sections": [
      {
       "name": "Verse",
       "bars": [
        [
-        "C"
+        "A"
        ],
        [
-        "Am"
+        "F#m"
        ],
        [
-        "F"
+        "D"
        ],
        [
-        "G"
+        "E"
        ],
        [
-        "C"
+        "A"
        ],
        [
-        "Am"
+        "F#m"
        ],
        [
-        "F"
+        "Bm"
        ],
        [
-        "G"
+        "E7"
        ],
        [
-        "C"
+        "A"
        ],
        [
-        "Am"
+        "F#m"
        ],
        [
-        "F"
+        "D"
        ],
        [
-        "G"
+        "E"
        ],
        [
-        "F"
+        "D"
        ],
        [
-        "C"
+        "A"
        ],
        [
-        "F",
-        "G"
+        "D",
+        "E"
        ],
        [
-        "C"
+        "A"
        ]
       ]
      }
@@ -3138,31 +4103,895 @@ window.SONGBOOK = {
    "note": "",
    "featured": false,
    "levels": {
-    "chords": {
-     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=112\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[CEG]8 | \"G\"[G,B,D]8 | \"D7\"[D^FAc]8 | \"G\"[G,B,D]8 |\n[V:2] C,,8 | G,,8 | D,,8 | G,,8 |\n[V:1] \"C\"[CEG]8 | \"G\"[G,B,D]8 | \"D7\"[D^FAc]8 | \"G\"[G,B,D]8 |]\n[V:2] C,,8 | G,,8 | D,,8 | G,,8 |]",
-     "key": "G major",
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=112\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"G\"[DGB]8 | \"D\"[DFA]8 | \"A7\"[CEG]8 | \"D\"[DFA]8 |\n[V:2] G,,8 | D,,8 | A,,8 | D,,8 |\n[V:1] \"G\"[DGB]8 | \"D\"[DFA]8 | \"A7\"[CEG]8 | \"D\"[DFA]8 |]\n[V:2] G,,8 | D,,8 | A,,8 | D,,8 |]",
+     "key": "D major",
+     "bars": 8,
+     "bpm": 112
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=112\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"G\"[DGB]4 [DGB]4 | \"D\"[DFA]4 [DFA]4 | \"A7\"[CEG]4 [CEG]4 | \"D\"[DFA]4 [DFA]4 |\n[V:2] [G,,D,]8 | [D,,A,,F,]8 | [A,,G,]8 | [D,,A,,F,]8 |\n[V:1] \"G\"[DGB]4 [DGB]4 | \"D\"[DFA]4 [DFA]4 | \"A7\"[CEG]4 [CEG]4 | \"D\"[DFA]4 [DFA]4 |]\n[V:2] [G,,D,]8 | [D,,A,,F,]8 | [A,,G,]8 | [D,,A,,F,]8 |]",
+     "key": "D major",
+     "bars": 8,
+     "bpm": 112
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=112\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"A7\"z2 [CEG][CEG] z2 [CEG][CEG] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] |\n[V:2] [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [A,,,A,,]2 G,2 [A,,,A,,]2 G,2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 |\n[V:1] \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"A7\"z2 [CEG][CEG] z2 [CEG][CEG] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] |]\n[V:2] [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [A,,,A,,]2 G,2 [A,,,A,,]2 G,2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 |]",
+     "key": "D major",
      "bars": 8,
      "bpm": 112
     }
    },
+   "status": "",
    "chart": {
-    "key": "G major",
+    "key": "D major",
     "feel": "Easy folk two-step, 4/4, about 112 BPM",
     "sections": [
      {
       "name": "Verse / Chorus",
       "bars": [
        [
+        "G"
+       ],
+       [
+        "D"
+       ],
+       [
+        "A7"
+       ],
+       [
+        "D"
+       ],
+       [
+        "G"
+       ],
+       [
+        "D"
+       ],
+       [
+        "A7"
+       ],
+       [
+        "D"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-the-long-and-winding-road",
+   "title": "The Long and Winding Road",
+   "composer": "The Beatles",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Cm\"[EGc]8 | \"Ab/Bb\"[EAc]8 | \"Eb\"[EGB]4 \"Eb7\"[_DEG]4 | \"Ab\"[EAc]8 |\n[V:2] C,,8 | B,,,8 | E,,4 E,,4 | A,,8 |\n[V:1] \"Gm\"[DGB]4 \"Cm\"[EGc]4 | \"Fm7\"[EFA]4 \"Bb7\"[DFA]4 | \"Eb\"[EGB]4 \"Eb7\"[_DEG]4 | \"Ab\"[EAc]8 |\n[V:2] G,,4 C,,4 | F,,4 B,,,4 | E,,4 E,,4 | A,,8 |\n[V:1] \"Gm\"[DGB]4 \"Cm\"[EGc]4 | \"Fm7\"[EFA]4 \"Bb7\"[DFA]4 | \"Eb\"[EGB]8 | \"Eb\"[EGB]4 \"Ab\"[EAc]4 |\n[V:2] G,,4 C,,4 | F,,4 B,,,4 | E,,8 | E,,4 A,,4 |\n[V:1] \"Gm\"[DGB]2 \"Fm7\"[EFA]2 \"Bb7\"[DFA]4 | \"Eb\"[EGB]4 \"Ab\"[EAc]4 | \"Gm\"[DGB]2 \"Fm7\"[EFA]2 \"Bb7\"[DFA]4 |]\n[V:2] G,,2 F,,2 B,,,4 | E,,4 A,,4 | G,,2 F,,2 B,,,4 |]",
+     "key": "E♭ major (starts on C minor)",
+     "bars": 15,
+     "bpm": 66
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Cm\"[EGc]4 [EGc]4 | \"Ab/Bb\"[EAc]4 [EAc]4 | \"Eb\"[EGB]4 \"Eb7\"[_DEG]4 | \"Ab\"[EAc]4 [EAc]4 |\n[V:2] [C,,G,,E,]8 | [B,,,A,,C,]8 | [E,,B,,G,]4 [E,,_D,G,]4 | [A,,E,]8 |\n[V:1] \"Gm\"[DGB]4 \"Cm\"[EGc]4 | \"Fm7\"[EFA]4 \"Bb7\"[DFA]4 | \"Eb\"[EGB]4 \"Eb7\"[_DEG]4 | \"Ab\"[EAc]4 [EAc]4 |\n[V:2] [G,,D,]4 [C,,G,,E,]4 | [F,,E,A,]4 [B,,,A,,D,]4 | [E,,B,,G,]4 [E,,_D,G,]4 | [A,,E,]8 |\n[V:1] \"Gm\"[DGB]4 \"Cm\"[EGc]4 | \"Fm7\"[EFA]4 \"Bb7\"[DFA]4 | \"Eb\"[EGB]4 [EGB]4 | \"Eb\"[EGB]4 \"Ab\"[EAc]4 |\n[V:2] [G,,D,]4 [C,,G,,E,]4 | [F,,E,A,]4 [B,,,A,,D,]4 | [E,,B,,G,]8 | [E,,B,,G,]4 [A,,E,]4 |\n[V:1] \"Gm\"[DGB]2 \"Fm7\"[EFA]2 \"Bb7\"[DFA]4 | \"Eb\"[EGB]4 \"Ab\"[EAc]4 | \"Gm\"[DGB]2 \"Fm7\"[EFA]2 \"Bb7\"[DFA]4 |]\n[V:2] [G,,D,]2 [F,,E,A,]2 [B,,,A,,D,]4 | [E,,B,,G,]4 [A,,E,]4 | [G,,D,]2 [F,,E,A,]2 [B,,,A,,D,]4 |]",
+     "key": "E♭ major (starts on C minor)",
+     "bars": 15,
+     "bpm": 66
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=66\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Cm\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EAc] | \"Ab/Bb\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Eb7\"[_DEG]2 [DEG][EAc] | \"Ab\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][DGB] |\n[V:2] [C,,G,,B,,E,]4 [C,,G,,B,,E,]4 | [B,,,A,,C,E,]4 [B,,,A,,C,E,]4 | [E,,B,,G,]4 [E,,_D,G,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"Gm\"[DGB]2 [DGB][DGB] \"Cm\"[EGc]2 [EGc][EFA] | \"Fm7\"[EFA]2 [EFA][EFA] \"Bb7\"[DFA]2 [DFA][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Eb7\"[_DEG]2 [DEG][EAc] | \"Ab\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][DGB] |\n[V:2] [G,,,G,,D,F,]4 [C,,G,,B,,E,]4 | [F,,,F,,E,A,]4 [B,,,A,,D,F,]4 | [E,,B,,G,]4 [E,,_D,G,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"Gm\"[DGB]2 [DGB][DGB] \"Cm\"[EGc]2 [EGc][EFA] | \"Fm7\"[EFA]2 [EFA][EFA] \"Bb7\"[DFA]2 [DFA][EGB] | \"Eb\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Ab\"[EAc]2 [EAc][DGB] |\n[V:2] [G,,,G,,D,F,]4 [C,,G,,B,,E,]4 | [F,,,F,,E,A,]4 [B,,,A,,D,F,]4 | [E,,B,,G,]4 [E,,B,,G,]4 | [E,,B,,G,]4 [A,,,A,,E,]4 |\n[V:1] \"Gm\"[DGB]2 \"Fm7\"[EFA][EFA] \"Bb7\"[DFA]2 [DFA][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Ab\"[EAc]2 [EAc][DGB] | \"Gm\"[DGB]2 \"Fm7\"[EFA][EFA] \"Bb7\"[DFA]2 [DFA][DFA] |]\n[V:2] [G,,,G,,D,F,]2 [F,,,F,,E,A,]2 [B,,,A,,D,F,]4 | [E,,B,,G,]4 [A,,,A,,E,]4 | [G,,,G,,D,F,]2 [F,,,F,,E,A,]2 [B,,,A,,D,F,]4 |]",
+     "key": "E♭ major (starts on C minor)",
+     "bars": 15,
+     "bpm": 66
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "E♭ major (starts on C minor)",
+    "feel": "Slow ballad, 4/4, about 66 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "Cm"
+       ],
+       [
+        "Ab/Bb"
+       ],
+       [
+        "Eb",
+        "Eb7"
+       ],
+       [
+        "Ab"
+       ],
+       [
+        "Gm",
+        "Cm"
+       ],
+       [
+        "Fm7",
+        "Bb7"
+       ],
+       [
+        "Eb",
+        "Eb7"
+       ],
+       [
+        "Ab"
+       ],
+       [
+        "Gm",
+        "Cm"
+       ],
+       [
+        "Fm7",
+        "Bb7"
+       ],
+       [
+        "Eb"
+       ]
+      ]
+     },
+     {
+      "name": "Bridge",
+      "bars": [
+       [
+        "Eb",
+        "Ab"
+       ],
+       [
+        "Gm",
+        "Fm7",
+        "Bb7",
+        "Bb7"
+       ],
+       [
+        "Eb",
+        "Ab"
+       ],
+       [
+        "Gm",
+        "Fm7",
+        "Bb7",
+        "Bb7"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-tiny-dancer",
+   "title": "Tiny Dancer",
+   "composer": "Elton John",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 |\n[V:2] C,,4 C,,4 | C,,4 C,,4 | C,,4 C,,4 | C,,4 C,,4 |\n[V:1] \"C\"[EGc]4 \"F/A\"[FAc]4 | \"G/B\"[DGB]4 \"G\"[DGB]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 |\n[V:2] C,,4 A,,4 | B,,,4 G,,4 | C,,4 C,,4 | C,,4 C,,4 |\n[V:1] \"C\"[EGc]4 \"F/A\"[FAc]4 | \"G\"[DGB]8 | \"F\"[FAc]4 \"Em7\"[DEG]4 | \"Am7\"[GAc]4 \"D7/F#\"[^FAc]4 |\n[V:2] C,,4 A,,4 | G,,8 | F,,4 E,,4 | A,,4 ^F,,4 |\n[V:1] \"Dm7\"[FAc]4 \"E7\"[DE^G]4 | \"Am\"[EAc]4 \"G7\"[FGB]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 |\n[V:2] D,,4 E,,4 | A,,4 G,,4 | C,,4 C,,4 | C,,4 C,,4 |\n[V:1] \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"Em7\"[DEG]2 \"Dm7\"[FAc]4 | \"Ab\"[_E_Ac]4 \"Bb\"[DF_B]4 | \"Gm\"[DG_B]4 \"Cm\"[_EGc]4 |\n[V:2] C,,4 G,,4 | F,,2 E,,2 D,,4 | _A,,4 _B,,,4 | G,,4 C,,4 |\n[V:1] \"Ab\"[_E_Ac]4 \"Bb\"[DF_B]4 | \"G/B\"[DGB]4 \"G/D\"[DGB]4 | \"F\"[FAc]4 \"C/E\"[EGc]4 | \"Dm\"[DFA]4 \"C\"[EGc]4 |\n[V:2] _A,,4 _B,,,4 | B,,,4 D,,4 | F,,4 E,,4 | D,,4 C,,4 |\n[V:1] \"F\"[FAc]4 \"C/E\"[EGc]4 | \"A7sus4\"[EGA]8 | \"F\"[FAc]4 \"C/E\"[EGc]4 | \"Dm\"[DFA]4 \"C\"[EGc]4 |\n[V:2] F,,4 E,,4 | A,,8 | F,,4 E,,4 | D,,4 C,,4 |\n[V:1] \"F\"[FAc]4 \"C/E\"[EGc]4 | \"A7sus4\"[EGA]8 |]\n[V:2] F,,4 E,,4 | A,,8 |]",
+     "key": "C major (Danny's printed copy is in G: read C as G, F as C, G as D)",
+     "bars": 30,
+     "bpm": 72
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 |\n[V:2] [C,,G,,E,]4 [C,,F,,A,,]4 | [C,,G,,E,]4 [C,,F,,A,,]4 | [C,,G,,E,]4 [C,,F,,A,,]4 | [C,,G,,E,]4 [C,,F,,A,,]4 |\n[V:1] \"C\"[EGc]4 \"F/A\"[FAc]4 | \"G/B\"[DGB]4 \"G\"[DGB]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 |\n[V:2] [C,,G,,E,]4 [A,,C,F,]4 | [B,,,D,,G,,]4 [G,,D,]4 | [C,,G,,E,]4 [C,,F,,A,,]4 | [C,,G,,E,]4 [C,,F,,A,,]4 |\n[V:1] \"C\"[EGc]4 \"F/A\"[FAc]4 | \"G\"[DGB]4 [DGB]4 | \"F\"[FAc]4 \"Em7\"[DEG]4 | \"Am7\"[GAc]4 \"D7/F#\"[^FAc]4 |\n[V:2] [C,,G,,E,]4 [A,,C,F,]4 | [G,,D,]8 | [F,,C,]4 [E,,D,G,]4 | [A,,G,]4 [^F,,A,,C,]4 |\n[V:1] \"Dm7\"[FAc]4 \"E7\"[DE^G]4 | \"Am\"[EAc]4 \"G7\"[FGB]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 | \"C\"[EGc]4 \"F/C\"[FAc]4 |\n[V:2] [D,,C,F,]4 [E,,D,^G,]4 | [A,,E,]4 [G,,F,]4 | [C,,G,,E,]4 [C,,F,,A,,]4 | [C,,G,,E,]4 [C,,F,,A,,]4 |\n[V:1] \"C\"[EGc]4 \"G\"[DGB]4 | \"F\"[FAc]2 \"Em7\"[DEG]2 \"Dm7\"[FAc]4 | \"Ab\"[_E_Ac]4 \"Bb\"[DF_B]4 | \"Gm\"[DG_B]4 \"Cm\"[_EGc]4 |\n[V:2] [C,,G,,E,]4 [G,,D,]4 | [F,,C,]2 [E,,D,G,]2 [D,,C,F,]4 | [_A,,_E,]4 [_B,,,F,,D,]4 | [G,,D,]4 [C,,G,,_E,]4 |\n[V:1] \"Ab\"[_E_Ac]4 \"Bb\"[DF_B]4 | \"G/B\"[DGB]4 \"G/D\"[DGB]4 | \"F\"[FAc]4 \"C/E\"[EGc]4 | \"Dm\"[DFA]4 \"C\"[EGc]4 |\n[V:2] [_A,,_E,]4 [_B,,,F,,D,]4 | [B,,,D,,G,,]4 [D,,G,,B,,]4 | [F,,C,]4 [E,,G,,C,]4 | [D,,A,,F,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[FAc]4 \"C/E\"[EGc]4 | \"A7sus4\"[EGA]4 [EGA]4 | \"F\"[FAc]4 \"C/E\"[EGc]4 | \"Dm\"[DFA]4 \"C\"[EGc]4 |\n[V:2] [F,,C,]4 [E,,G,,C,]4 | [A,,E,]8 | [F,,C,]4 [E,,G,,C,]4 | [D,,A,,F,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[FAc]4 \"C/E\"[EGc]4 | \"A7sus4\"[EGA]4 [EGA]4 |]\n[V:2] [F,,C,]4 [E,,G,,C,]4 | [A,,E,]8 |]",
+     "key": "C major (Danny's printed copy is in G: read C as G, F as C, G as D)",
+     "bars": 30,
+     "bpm": 72
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"F/C\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F/C\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F/C\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F/C\"[FAc]2 [FAc][EGc] |\n[V:2] [C,,G,,E,]4 [C,,F,,A,,C,]4 | [C,,G,,E,]4 [C,,F,,A,,C,]4 | [C,,G,,E,]4 [C,,F,,A,,C,]4 | [C,,G,,E,]4 [C,,F,,A,,C,]4 |\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"F/A\"[FAc]2 [FAc][DGB] | \"G/B\"[DGB]2 [DGB][DGB] \"G\"[DGB]2 [DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F/C\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F/C\"[FAc]2 [FAc][EGc] |\n[V:2] [C,,G,,E,]4 [A,,,A,,C,F,]4 | [B,,,D,,G,,B,,]4 [G,,,G,,D,]4 | [C,,G,,E,]4 [C,,F,,A,,C,]4 | [C,,G,,E,]4 [C,,F,,A,,C,]4 |\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"F/A\"[FAc]2 [FAc][DGB] | \"G\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][FAc] | \"F\"[FAc]2 [FAc][FAc] \"Em7\"[DEG]2 [DEG][GAc] | \"Am7\"[GAc]2 [GAc][GAc] \"D7/F#\"[^FAc]2 [FAc][=FAc] |\n[V:2] [C,,G,,E,]4 [A,,,A,,C,F,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [F,,,F,,C,]4 [E,,,E,,D,G,]4 | [A,,,A,,G,]4 [^F,,,^F,,A,,C,D,]4 |\n[V:1] \"Dm7\"[FAc]2 [FAc][FAc] \"E7\"[DE^G]2 [DEG][EAc] | \"Am\"[EAc]2 [EAc][EAc] \"G7\"[FGB]2 [FGB][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F/C\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F/C\"[FAc]2 [FAc][EGc] |\n[V:2] [D,,C,F,]4 [E,,,E,,D,^G,]4 | [A,,,A,,E,G,]4 [G,,,G,,F,]4 | [C,,G,,E,]4 [C,,F,,A,,C,]4 | [C,,G,,E,]4 [C,,F,,A,,C,]4 |\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 \"Em7\"[DEG][DEG] \"Dm7\"[FAc]2 [FAc][_E_Ac] | \"Ab\"[_E_Ac]2 [EAc][EAc] \"Bb\"[DF_B]2 [DFB][DGB] | \"Gm\"[DG_B]2 [DGB][DGB] \"Cm\"[_EGc]2 [EGc][E_Ac] |\n[V:2] [C,,G,,E,]4 [G,,,G,,D,]4 | [F,,,F,,C,]2 [E,,,E,,D,G,]2 [D,,C,F,]4 | [_A,,,_A,,_E,]4 [_B,,,F,,D,G,]4 | [G,,,G,,D,F,]4 [C,,G,,_B,,_E,]4 |\n[V:1] \"Ab\"[_E_Ac]2 [EAc][EAc] \"Bb\"[DF_B]2 [DFB][DG=B] | \"G/B\"[DGB]2 [DGB][DGB] \"G/D\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 [FAc][FAc] \"C/E\"[EGc]2 [EGc][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"C\"[EGc]2 [EGc][FAc] |\n[V:2] [_A,,,_A,,_E,]4 [_B,,,F,,D,G,]4 | [B,,,D,,G,,B,,]4 [D,,G,,B,,D,]4 | [F,,,F,,C,]4 [E,,,E,,G,,C,E,]4 | [D,,A,,C,F,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"C/E\"[EGc]2 [EGc][EGA] | \"A7sus4\"[EGA]2 [EGA][EGA] [EGA]2 [EGA][FAc] | \"F\"[FAc]2 [FAc][FAc] \"C/E\"[EGc]2 [EGc][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"C\"[EGc]2 [EGc][FAc] |\n[V:2] [F,,,F,,C,]4 [E,,,E,,G,,C,E,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [F,,,F,,C,]4 [E,,,E,,G,,C,E,]4 | [D,,A,,C,F,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"C/E\"[EGc]2 [EGc][EGA] | \"A7sus4\"[EGA]2 [EGA][EGA] [EGA]2 [EGA][EGA] |]\n[V:2] [F,,,F,,C,]4 [E,,,E,,G,,C,E,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |]",
+     "key": "C major (Danny's printed copy is in G: read C as G, F as C, G as D)",
+     "bars": 30,
+     "bpm": 72
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "C major (Danny's printed copy is in G: read C as G, F as C, G as D)",
+    "feel": "Rolling piano ballad, 4/4, about 72 BPM",
+    "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "C",
+        "F/C"
+       ],
+       [
+        "C",
+        "F/C"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "C",
+        "F/C"
+       ],
+       [
+        "C",
+        "F/C"
+       ],
+       [
+        "C",
+        "F/A"
+       ],
+       [
+        "G/B",
+        "G"
+       ],
+       [
+        "C",
+        "F/C"
+       ],
+       [
+        "C",
+        "F/C"
+       ],
+       [
+        "C",
+        "F/A"
+       ],
+       [
+        "G"
+       ],
+       [
+        "F",
+        "Em7"
+       ],
+       [
+        "Am7",
+        "D7/F#"
+       ],
+       [
+        "Dm7",
+        "E7"
+       ],
+       [
+        "Am",
+        "G7"
+       ],
+       [
+        "C",
+        "F/C"
+       ],
+       [
+        "C",
+        "F/C"
+       ],
+       [
+        "C",
+        "G"
+       ],
+       [
+        "F",
+        "Em7",
+        "Dm7",
+        "Dm7"
+       ]
+      ]
+     },
+     {
+      "name": "Pre-chorus",
+      "bars": [
+       [
+        "Ab",
+        "Bb"
+       ],
+       [
+        "Gm",
+        "Cm"
+       ],
+       [
+        "Ab",
+        "Bb"
+       ],
+       [
+        "G/B",
+        "G/D"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "F",
+        "C/E"
+       ],
+       [
+        "Dm",
+        "C"
+       ],
+       [
+        "F",
+        "C/E"
+       ],
+       [
+        "A7sus4"
+       ],
+       [
+        "F",
+        "C/E"
+       ],
+       [
+        "Dm",
+        "C"
+       ],
+       [
+        "F",
+        "C/E"
+       ],
+       [
+        "A7sus4"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-rocket-man",
+   "title": "Rocket Man",
+   "composer": "Elton John",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Gm7\"[FGB]8 | \"C9\"[=EGB]8 | \"Gm7\"[FGB]8 | \"C9\"[=EGB]8 |\n[V:2] G,,8 | C,,8 | G,,8 | C,,8 |\n[V:1] \"Eb\"[EGB]4 \"Bb/D\"[DFB]4 | \"Cm\"[EGc]4 \"Cm/Bb\"[EGc]4 | \"F/A\"[FAc]8 | \"F\"[FAc]8 |\n[V:2] E,,4 D,,4 | C,,4 B,,,4 | A,,8 | F,,8 |\n[V:1] \"Bb\"[DFB]8 | \"Eb\"[EGB]8 | \"Bb\"[DFB]8 | \"Eb\"[EGB]8 |\n[V:2] B,,,8 | E,,8 | B,,,8 | E,,8 |\n[V:1] \"Bb/D\"[DFB]8 | \"C9\"[=EGB]8 | \"Eb\"[EGB]8 | \"Bb\"[DFB]4 \"Eb\"[EGB]4 |]\n[V:2] D,,8 | C,,8 | E,,8 | B,,,4 E,,4 |]",
+     "key": "B♭ major (verse starts on G minor)",
+     "bars": 16,
+     "bpm": 70
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Gm7\"[FGB]4 [FGB]4 | \"C9\"[=EGB]4 [EGB]4 | \"Gm7\"[FGB]4 [FGB]4 | \"C9\"[=EGB]4 [EGB]4 |\n[V:2] [G,,F,]8 | [C,,B,,=E,]8 | [G,,F,]8 | [C,,B,,=E,]8 |\n[V:1] \"Eb\"[EGB]4 \"Bb/D\"[DFB]4 | \"Cm\"[EGc]4 \"Cm/Bb\"[EGc]4 | \"F/A\"[FAc]4 [FAc]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [E,,B,,G,]4 [D,,F,,B,,]4 | [C,,G,,E,]4 [B,,,C,,E,,]4 | [A,,C,F,]8 | [F,,C,]8 |\n[V:1] \"Bb\"[DFB]4 [DFB]4 | \"Eb\"[EGB]4 [EGB]4 | \"Bb\"[DFB]4 [DFB]4 | \"Eb\"[EGB]4 [EGB]4 |\n[V:2] [B,,,F,,D,]8 | [E,,B,,G,]8 | [B,,,F,,D,]8 | [E,,B,,G,]8 |\n[V:1] \"Bb/D\"[DFB]4 [DFB]4 | \"C9\"[=EGB]4 [EGB]4 | \"Eb\"[EGB]4 [EGB]4 | \"Bb\"[DFB]4 \"Eb\"[EGB]4 |]\n[V:2] [D,,F,,B,,]8 | [C,,B,,=E,]8 | [E,,B,,G,]8 | [B,,,F,,D,]4 [E,,B,,G,]4 |]",
+     "key": "B♭ major (verse starts on G minor)",
+     "bars": 16,
+     "bpm": 70
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bb\n[V:1] \"Gm7\"[FGB]2 [FGB][FGB] [FGB]2 [FGB][=EGB] | \"C9\"[=EGB]2 [EGB][EGB] [EGB]2 [EGB][FGB] | \"Gm7\"[FGB]2 [FGB][FGB] [FGB]2 [FGB][=EGB] | \"C9\"[=EGB]2 [EGB][EGB] [EGB]2 [EGB][_EGB] |\n[V:2] [G,,,G,,F,]4 [G,,,G,,F,]4 | [C,,B,,=E,G,]4 [C,,B,,E,G,]4 | [G,,,G,,F,]4 [G,,,G,,F,]4 | [C,,B,,=E,G,]4 [C,,B,,E,G,]4 |\n[V:1] \"Eb\"[EGB]2 [EGB][EGB] \"Bb/D\"[DFB]2 [DFB][EGc] | \"Cm\"[EGc]2 [EGc][EGc] \"Cm/Bb\"[EGc]2 [EGc][FAc] | \"F/A\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DFB] |\n[V:2] [E,,B,,G,]4 [D,,F,,B,,D,]4 | [C,,G,,B,,E,]4 [B,,,C,,E,,G,,]4 | [A,,,A,,C,F,]4 [A,,,A,,C,F,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][EGB] | \"Eb\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFB] | \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][EGB] | \"Eb\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFB] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [E,,B,,G,]4 [E,,B,,G,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [E,,B,,G,]4 [E,,B,,G,]4 |\n[V:1] \"Bb/D\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][=EGB] | \"C9\"[=EGB]2 [EGB][EGB] [EGB]2 [EGB][_EGB] | \"Eb\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFB] | \"Bb\"[DFB]2 [DFB][DFB] \"Eb\"[EGB]2 [EGB][EGB] |]\n[V:2] [D,,F,,B,,D,]4 [D,,F,,B,,D,]4 | [C,,B,,=E,G,]4 [C,,B,,E,G,]4 | [E,,B,,G,]4 [E,,B,,G,]4 | [B,,,F,,D,G,]4 [E,,B,,G,]4 |]",
+     "key": "B♭ major (verse starts on G minor)",
+     "bars": 16,
+     "bpm": 70
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "B♭ major (verse starts on G minor)",
+    "feel": "Spacious ballad, 4/4, about 70 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "Gm7"
+       ],
+       [
+        "C9"
+       ],
+       [
+        "Gm7"
+       ],
+       [
+        "C9"
+       ],
+       [
+        "Eb",
+        "Bb/D"
+       ],
+       [
+        "Cm",
+        "Cm/Bb"
+       ],
+       [
+        "F/A"
+       ],
+       [
+        "F"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "Bb"
+       ],
+       [
+        "Eb"
+       ],
+       [
+        "Bb"
+       ],
+       [
+        "Eb"
+       ],
+       [
+        "Bb/D"
+       ],
+       [
+        "C9"
+       ],
+       [
+        "Eb"
+       ],
+       [
+        "Bb",
+        "Eb"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-candle-in-the-wind",
+   "title": "Candle in the Wind",
+   "composer": "Elton John",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:E\n[V:1] \"E\"[EGB]8 | \"E\"[EGB]8 | \"A\"[CEA]8 | \"A\"[CEA]8 |\n[V:2] E,,8 | E,,8 | A,,8 | A,,8 |\n[V:1] \"E\"[EGB]8 | \"E\"[EGB]8 | \"A\"[CEA]8 | \"A\"[CEA]8 |\n[V:2] E,,8 | E,,8 | A,,8 | A,,8 |\n[V:1] \"B\"[DFB]8 | \"B7\"[DFA]8 | \"E\"[EGB]8 | \"A\"[CEA]8 |\n[V:2] B,,,8 | B,,,8 | E,,8 | A,,8 |\n[V:1] \"E\"[EGB]8 | \"B\"[DFB]8 | \"A\"[CEA]8 | \"C#m\"[CEG]8 |\n[V:2] E,,8 | B,,,8 | A,,8 | C,,8 |\n[V:1] \"B\"[DFB]8 | \"A\"[CEA]8 | \"E\"[EGB]8 |]\n[V:2] B,,,8 | A,,8 | E,,8 |]",
+     "key": "E major",
+     "bars": 19,
+     "bpm": 84
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:E\n[V:1] \"E\"[EGB]4 [EGB]4 | \"E\"[EGB]4 [EGB]4 | \"A\"[CEA]4 [CEA]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [E,,B,,G,]8 | [E,,B,,G,]8 | [A,,E,]8 | [A,,E,]8 |\n[V:1] \"E\"[EGB]4 [EGB]4 | \"E\"[EGB]4 [EGB]4 | \"A\"[CEA]4 [CEA]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [E,,B,,G,]8 | [E,,B,,G,]8 | [A,,E,]8 | [A,,E,]8 |\n[V:1] \"B\"[DFB]4 [DFB]4 | \"B7\"[DFA]4 [DFA]4 | \"E\"[EGB]4 [EGB]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [B,,,F,,D,]8 | [B,,,A,,D,]8 | [E,,B,,G,]8 | [A,,E,]8 |\n[V:1] \"E\"[EGB]4 [EGB]4 | \"B\"[DFB]4 [DFB]4 | \"A\"[CEA]4 [CEA]4 | \"C#m\"[CEG]4 [CEG]4 |\n[V:2] [E,,B,,G,]8 | [B,,,F,,D,]8 | [A,,E,]8 | [C,,G,,E,]8 |\n[V:1] \"B\"[DFB]4 [DFB]4 | \"A\"[CEA]4 [CEA]4 | \"E\"[EGB]4 [EGB]4 |]\n[V:2] [B,,,F,,D,]8 | [A,,E,]8 | [E,,B,,G,]8 |]",
+     "key": "E major",
+     "bars": 19,
+     "bpm": 84
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=84\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:E\n[V:1] \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][EGB] |\n[V:2] [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][DFB] |\n[V:2] [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][DFA] | \"B7\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][EGB] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [B,,,A,,D,F,]4 [B,,,A,,D,F,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFB] | \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CEG] | \"C#m\"[CEG]2 [CEG][CEG] [CEG]2 [CEG][DFB] |\n[V:2] [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [C,,G,,B,,E,]4 [C,,G,,B,,E,]4 |\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] |]\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 |]",
+     "key": "E major",
+     "bars": 19,
+     "bpm": 84
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "E major",
+    "feel": "Gentle ballad, 4/4, about 84 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "E"
+       ],
+       [
+        "E"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "E"
+       ],
+       [
+        "E"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "B"
+       ],
+       [
+        "B7"
+       ],
+       [
+        "E"
+       ],
+       [
+        "A"
+       ],
+       [
+        "E"
+       ],
+       [
+        "B"
+       ],
+       [
+        "A"
+       ],
+       [
+        "C#m"
+       ],
+       [
+        "B"
+       ],
+       [
+        "A"
+       ],
+       [
+        "E"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-don-t-let-the-sun-go-down-on-me",
+   "title": "Don't Let the Sun Go Down on Me",
+   "composer": "Elton John",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]8 | \"C/Bb\"[EGc]8 | \"F\"[FAc]4 \"C\"[EGc]4 | \"F\"[FAc]8 |\n[V:2] C,,8 | _B,,,8 | F,,4 C,,4 | F,,8 |\n[V:1] \"G\"[DGB]2 \"C/G\"[EGc]2 \"G\"[DGB]4 | \"F\"[FAc]8 | \"C\"[EGc]2 \"F/C\"[FAc]2 \"C\"[EGc]2 \"C/E\"[EGc]2 | \"F\"[FAc]2 \"Bb/F\"[DF_B]2 \"F\"[FAc]4 |\n[V:2] G,,2 G,,2 G,,4 | F,,8 | C,,2 C,,2 C,,2 E,,2 | F,,2 F,,2 F,,4 |\n[V:1] \"G\"[DGB]2 \"C/G\"[EGc]2 \"G\"[DGB]4 | \"G\"[DGB]8 | \"C\"[EGc]8 | \"C/Bb\"[EGc]8 |\n[V:2] G,,2 G,,2 G,,4 | G,,8 | C,,8 | _B,,,8 |\n[V:1] \"F/A\"[FAc]8 | \"D7/F#\"[^FAc]8 | \"C/G\"[EGc]8 | \"F/G\"[FAc]4 \"G\"[DGB]4 |\n[V:2] A,,8 | ^F,,8 | G,,8 | G,,4 G,,4 |\n[V:1] \"C\"[EGc]8 | \"C/Bb\"[EGc]8 | \"F/A\"[FAc]8 | \"Dm\"[DFA]4 \"C/E\"[EGc]4 |\n[V:2] C,,8 | _B,,,8 | A,,8 | D,,4 E,,4 |\n[V:1] \"F\"[FAc]8 | \"C/G\"[EGc]4 \"G\"[DGB]4 |]\n[V:2] F,,8 | G,,4 G,,4 |]",
+     "key": "C major",
+     "bars": 22,
+     "bpm": 68
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 [EGc]4 | \"C/Bb\"[EGc]4 [EGc]4 | \"F\"[FAc]4 \"C\"[EGc]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [C,,G,,E,]8 | [_B,,,C,,E,,]8 | [F,,C,]4 [C,,G,,E,]4 | [F,,C,]8 |\n[V:1] \"G\"[DGB]2 \"C/G\"[EGc]2 \"G\"[DGB]4 | \"F\"[FAc]4 [FAc]4 | \"C\"[EGc]2 \"F/C\"[FAc]2 \"C\"[EGc]2 \"C/E\"[EGc]2 | \"F\"[FAc]2 \"Bb/F\"[DF_B]2 \"F\"[FAc]4 |\n[V:2] [G,,D,]2 [G,,C,E,]2 [G,,D,]4 | [F,,C,]8 | [C,,G,,E,]2 [C,,F,,A,,]2 [C,,G,,E,]2 [E,,G,,C,]2 | [F,,C,]2 [F,,_B,,D,]2 [F,,C,]4 |\n[V:1] \"G\"[DGB]2 \"C/G\"[EGc]2 \"G\"[DGB]4 | \"G\"[DGB]4 [DGB]4 | \"C\"[EGc]4 [EGc]4 | \"C/Bb\"[EGc]4 [EGc]4 |\n[V:2] [G,,D,]2 [G,,C,E,]2 [G,,D,]4 | [G,,D,]8 | [C,,G,,E,]8 | [_B,,,C,,E,,]8 |\n[V:1] \"F/A\"[FAc]4 [FAc]4 | \"D7/F#\"[^FAc]4 [FAc]4 | \"C/G\"[EGc]4 [EGc]4 | \"F/G\"[FAc]4 \"G\"[DGB]4 |\n[V:2] [A,,C,F,]8 | [^F,,A,,C,]8 | [G,,C,E,]8 | [G,,F,]4 [G,,D,]4 |\n[V:1] \"C\"[EGc]4 [EGc]4 | \"C/Bb\"[EGc]4 [EGc]4 | \"F/A\"[FAc]4 [FAc]4 | \"Dm\"[DFA]4 \"C/E\"[EGc]4 |\n[V:2] [C,,G,,E,]8 | [_B,,,C,,E,,]8 | [A,,C,F,]8 | [D,,A,,F,]4 [E,,G,,C,]4 |\n[V:1] \"F\"[FAc]4 [FAc]4 | \"C/G\"[EGc]4 \"G\"[DGB]4 |]\n[V:2] [F,,C,]8 | [G,,C,E,]4 [G,,D,]4 |]",
+     "key": "C major",
+     "bars": 22,
+     "bpm": 68
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=68\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGc] | \"C/Bb\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][FAc] | \"F\"[FAc]2 [FAc][FAc] \"C\"[EGc]2 [EGc][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DGB] |\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [_B,,,C,,E,,G,,]4 [B,,,C,,E,,G,,]4 | [F,,,F,,C,]4 [C,,G,,E,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"G\"[DGB]2 \"C/G\"[EGc][EGc] \"G\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][EGc] | \"C\"[EGc]2 \"F/C\"[FAc][FAc] \"C\"[EGc]2 \"C/E\"[EGc][FAc] | \"F\"[FAc]2 \"Bb/F\"[DF_B][DFB] \"F\"[FAc]2 [FAc][DG=B] |\n[V:2] [G,,,G,,D,]2 [G,,,G,,C,E,G,]2 [G,,,G,,D,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [C,,G,,E,]2 [C,,F,,A,,C,]2 [C,,G,,E,]2 [E,,,E,,G,,C,E,]2 | [F,,,F,,C,]2 [F,,,F,,_B,,D,F,]2 [F,,,F,,C,]4 |\n[V:1] \"G\"[DGB]2 \"C/G\"[EGc][EGc] \"G\"[DGB]2 [DGB][DGB] | \"G\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGc] | \"C/Bb\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][FAc] |\n[V:2] [G,,,G,,D,]2 [G,,,G,,C,E,G,]2 [G,,,G,,D,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [_B,,,C,,E,,G,,]4 [B,,,C,,E,,G,,]4 |\n[V:1] \"F/A\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][^FAc] | \"D7/F#\"[^FAc]2 [FAc][FAc] [FAc]2 [FAc][EGc] | \"C/G\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][FAc] | \"F/G\"[FAc]2 [FAc][FAc] \"G\"[DGB]2 [DGB][EGc] |\n[V:2] [A,,,A,,C,F,]4 [A,,,A,,C,F,]4 | [^F,,,^F,,A,,C,D,]4 [F,,,F,,A,,C,D,]4 | [G,,,G,,C,E,G,]4 [G,,,G,,C,E,G,]4 | [G,,,G,,F,]4 [G,,,G,,D,]4 |\n[V:1] \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGc] | \"C/Bb\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][FAc] | \"F/A\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"C/E\"[EGc]2 [EGc][FAc] |\n[V:2] [C,,G,,E,]4 [C,,G,,E,]4 | [_B,,,C,,E,,G,,]4 [B,,,C,,E,,G,,]4 | [A,,,A,,C,F,]4 [A,,,A,,C,F,]4 | [D,,A,,C,F,]4 [E,,,E,,G,,C,E,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][EGc] | \"C/G\"[EGc]2 [EGc][EGc] \"G\"[DGB]2 [DGB][DGB] |]\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [G,,,G,,C,E,G,]4 [G,,,G,,D,]4 |]",
+     "key": "C major",
+     "bars": 22,
+     "bpm": 68
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "C major",
+    "feel": "Slow, broad ballad, 4/4, about 68 BPM",
+    "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "C"
+       ],
+       [
+        "C/Bb"
+       ],
+       [
+        "F",
+        "C"
+       ],
+       [
+        "F"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "G",
+        "C/G",
+        "G",
+        "G"
+       ],
+       [
+        "F"
+       ],
+       [
+        "C",
+        "F/C",
+        "C",
+        "C/E"
+       ],
+       [
+        "F",
+        "Bb/F",
+        "F",
+        "F"
+       ],
+       [
+        "G",
+        "C/G",
+        "G",
+        "G"
+       ],
+       [
+        "G"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "C"
+       ],
+       [
+        "C/Bb"
+       ],
+       [
+        "F/A"
+       ],
+       [
+        "D7/F#"
+       ],
+       [
+        "C/G"
+       ],
+       [
+        "F/G",
+        "G"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C/Bb"
+       ],
+       [
+        "F/A"
+       ],
+       [
+        "Dm",
+        "C/E"
+       ],
+       [
+        "F"
+       ],
+       [
+        "C/G",
+        "G"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-night-moves",
+   "title": "Night Moves",
+   "composer": "Bob Seger",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=118\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Ab\n[V:1] \"Ab\"[EAc]4 \"Gb\"[D_GB]4 | \"Db\"[DFA]4 \"Gb\"[D_GB]4 | \"Ab\"[EAc]4 \"Gb\"[D_GB]4 | \"Db\"[DFA]4 \"Gb\"[D_GB]4 |\n[V:2] A,,4 _G,,4 | D,,4 _G,,4 | A,,4 _G,,4 | D,,4 _G,,4 |\n[V:1] \"Db\"[DFA]4 \"Eb\"[EGB]4 | \"Fm\"[FAc]4 \"Eb\"[EGB]4 | \"Db\"[DFA]8 | \"Db\"[DFA]8 |\n[V:2] D,,4 E,,4 | F,,4 E,,4 | D,,8 | D,,8 |\n[V:1] \"Db\"[DFA]4 \"Eb\"[EGB]4 | \"Fm\"[FAc]4 \"Eb\"[EGB]4 | \"Db\"[DFA]8 | \"Db\"[DFA]8 |\n[V:2] D,,4 E,,4 | F,,4 E,,4 | D,,8 | D,,8 |\n[V:1] \"Ab\"[EAc]4 \"Gb\"[D_GB]4 | \"Db\"[DFA]4 \"Gb\"[D_GB]4 | \"Dbmaj7\"[FAc]8 | \"Ab\"[EAc]8 |\n[V:2] A,,4 _G,,4 | D,,4 _G,,4 | D,,8 | A,,8 |\n[V:1] \"Dbmaj7\"[FAc]8 | \"Ab\"[EAc]8 | \"Gb\"[D_GB]8 | \"Eb\"[EGB]8 |\n[V:2] D,,8 | A,,8 | _G,,8 | E,,8 |\n[V:1] \"Ab\"[EAc]8 | \"Ab\"[EAc]8 |]\n[V:2] A,,8 | A,,8 |]",
+     "key": "A♭ major",
+     "bars": 22,
+     "bpm": 118
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=118\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Ab\n[V:1] \"Ab\"[EAc]4 \"Gb\"[D_GB]4 | \"Db\"[DFA]4 \"Gb\"[D_GB]4 | \"Ab\"[EAc]4 \"Gb\"[D_GB]4 | \"Db\"[DFA]4 \"Gb\"[D_GB]4 |\n[V:2] [A,,E,]4 [_G,,D,]4 | [D,,A,,F,]4 [_G,,D,]4 | [A,,E,]4 [_G,,D,]4 | [D,,A,,F,]4 [_G,,D,]4 |\n[V:1] \"Db\"[DFA]4 \"Eb\"[EGB]4 | \"Fm\"[FAc]4 \"Eb\"[EGB]4 | \"Db\"[DFA]4 [DFA]4 | \"Db\"[DFA]4 [DFA]4 |\n[V:2] [D,,A,,F,]4 [E,,B,,G,]4 | [F,,C,A,]4 [E,,B,,G,]4 | [D,,A,,F,]8 | [D,,A,,F,]8 |\n[V:1] \"Db\"[DFA]4 \"Eb\"[EGB]4 | \"Fm\"[FAc]4 \"Eb\"[EGB]4 | \"Db\"[DFA]4 [DFA]4 | \"Db\"[DFA]4 [DFA]4 |\n[V:2] [D,,A,,F,]4 [E,,B,,G,]4 | [F,,C,A,]4 [E,,B,,G,]4 | [D,,A,,F,]8 | [D,,A,,F,]8 |\n[V:1] \"Ab\"[EAc]4 \"Gb\"[D_GB]4 | \"Db\"[DFA]4 \"Gb\"[D_GB]4 | \"Dbmaj7\"[FAc]4 [FAc]4 | \"Ab\"[EAc]4 [EAc]4 |\n[V:2] [A,,E,]4 [_G,,D,]4 | [D,,A,,F,]4 [_G,,D,]4 | [D,,C,F,]8 | [A,,E,]8 |\n[V:1] \"Dbmaj7\"[FAc]4 [FAc]4 | \"Ab\"[EAc]4 [EAc]4 | \"Gb\"[D_GB]4 [DGB]4 | \"Eb\"[EGB]4 [EGB]4 |\n[V:2] [D,,C,F,]8 | [A,,E,]8 | [_G,,D,]8 | [E,,B,,G,]8 |\n[V:1] \"Ab\"[EAc]4 [EAc]4 | \"Ab\"[EAc]4 [EAc]4 |]\n[V:2] [A,,E,]8 | [A,,E,]8 |]",
+     "key": "A♭ major",
+     "bars": 22,
+     "bpm": 118
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=118\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Ab\n[V:1] \"Ab\"z2 [EAc][EAc] \"Gb\"z2 [D_GB][DGB] | \"Db\"z2 [DFA][DFA] \"Gb\"z2 [D_GB][DGB] | \"Ab\"z2 [EAc][EAc] \"Gb\"z2 [D_GB][DGB] | \"Db\"z2 [DFA][DFA] \"Gb\"z2 [D_GB][DGB] |\n[V:2] [A,,,A,,]2 E,2 [_G,,,_G,,]2 D,2 | D,,2 [A,,F,]2 [_G,,,_G,,]2 D,2 | [A,,,A,,]2 E,2 [_G,,,_G,,]2 D,2 | D,,2 [A,,F,]2 [_G,,,_G,,]2 D,2 |\n[V:1] \"Db\"z2 [DFA][DFA] \"Eb\"z2 [EGB][EGB] | \"Fm\"z2 [FAc][FAc] \"Eb\"z2 [EGB][EGB] | \"Db\"z2 [DFA][DFA] z2 [DFA][DFA] | \"Db\"z2 [DFA][DFA] z2 [DFA][DFA] |\n[V:2] D,,2 [A,,F,]2 E,,2 [B,,G,]2 | [F,,,F,,]2 [C,E,A,]2 E,,2 [B,,G,]2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 |\n[V:1] \"Db\"z2 [DFA][DFA] \"Eb\"z2 [EGB][EGB] | \"Fm\"z2 [FAc][FAc] \"Eb\"z2 [EGB][EGB] | \"Db\"z2 [DFA][DFA] z2 [DFA][DFA] | \"Db\"z2 [DFA][DFA] z2 [DFA][DFA] |\n[V:2] D,,2 [A,,F,]2 E,,2 [B,,G,]2 | [F,,,F,,]2 [C,E,A,]2 E,,2 [B,,G,]2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 |\n[V:1] \"Ab\"z2 [EAc][EAc] \"Gb\"z2 [D_GB][DGB] | \"Db\"z2 [DFA][DFA] \"Gb\"z2 [D_GB][DGB] | \"Dbmaj7\"z2 [FAc][FAc] z2 [FAc][FAc] | \"Ab\"z2 [EAc][EAc] z2 [EAc][EAc] |\n[V:2] [A,,,A,,]2 E,2 [_G,,,_G,,]2 D,2 | D,,2 [A,,F,]2 [_G,,,_G,,]2 D,2 | D,,2 [C,F,A,]2 D,,2 [C,F,A,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 |\n[V:1] \"Dbmaj7\"z2 [FAc][FAc] z2 [FAc][FAc] | \"Ab\"z2 [EAc][EAc] z2 [EAc][EAc] | \"Gb\"z2 [D_GB][DGB] z2 [DGB][DGB] | \"Eb\"z2 [EGB][EGB] z2 [EGB][EGB] |\n[V:2] D,,2 [C,F,A,]2 D,,2 [C,F,A,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | [_G,,,_G,,]2 D,2 [G,,,G,,]2 D,2 | E,,2 [B,,G,]2 E,,2 [B,,G,]2 |\n[V:1] \"Ab\"z2 [EAc][EAc] z2 [EAc][EAc] | \"Ab\"z2 [EAc][EAc] z2 [EAc][EAc] |]\n[V:2] [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 |]",
+     "key": "A♭ major",
+     "bars": 22,
+     "bpm": 118
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "A♭ major",
+    "feel": "Loose, strummed rock, 4/4, about 118 BPM",
+    "sections": [
+     {
+      "name": "Intro / Verse",
+      "bars": [
+       [
+        "Ab",
+        "Gb"
+       ],
+       [
+        "Db",
+        "Gb"
+       ],
+       [
+        "Ab",
+        "Gb"
+       ],
+       [
+        "Db",
+        "Gb"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "Db",
+        "Eb"
+       ],
+       [
+        "Fm",
+        "Eb"
+       ],
+       [
+        "Db"
+       ],
+       [
+        "Db"
+       ],
+       [
+        "Db",
+        "Eb"
+       ],
+       [
+        "Fm",
+        "Eb"
+       ],
+       [
+        "Db"
+       ],
+       [
+        "Db"
+       ],
+       [
+        "Ab",
+        "Gb"
+       ],
+       [
+        "Db",
+        "Gb"
+       ]
+      ]
+     },
+     {
+      "name": "Bridge",
+      "bars": [
+       [
+        "Dbmaj7"
+       ],
+       [
+        "Ab"
+       ],
+       [
+        "Dbmaj7"
+       ],
+       [
+        "Ab"
+       ],
+       [
+        "Gb"
+       ],
+       [
+        "Eb"
+       ],
+       [
+        "Ab"
+       ],
+       [
+        "Ab"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-against-the-wind",
+   "title": "Against the Wind",
+   "composer": "Bob Seger",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=108\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"[DGB]8 | \"G\"[DGB]8 | \"Bm\"[DFB]8 | \"Bm\"[DFB]8 |\n[V:2] G,,8 | G,,8 | B,,,8 | B,,,8 |\n[V:1] \"C\"[EGc]8 | \"G\"[DGB]8 | \"D\"[DFA]4 \"C\"[EGc]4 | \"G\"[DGB]8 |\n[V:2] C,,8 | G,,8 | D,,4 C,,4 | G,,8 |\n[V:1] \"G\"[DGB]8 | \"G\"[DGB]8 | \"Bm\"[DFB]8 | \"Bm\"[DFB]8 |\n[V:2] G,,8 | G,,8 | B,,,8 | B,,,8 |\n[V:1] \"C\"[EGc]8 | \"G\"[DGB]8 | \"C\"[EGc]8 | \"D\"[DFA]8 |\n[V:2] C,,8 | G,,8 | C,,8 | D,,8 |\n[V:1] \"Em\"[EGB]4 \"D\"[DFA]4 | \"G\"[DGB]8 | \"Em\"[EGB]4 \"C\"[EGc]4 | \"G\"[DGB]8 |\n[V:2] E,,4 D,,4 | G,,8 | E,,4 C,,4 | G,,8 |\n[V:1] \"Em\"[EGB]4 \"D\"[DFA]4 | \"C\"[EGc]8 | \"C\"[EGc]8 | \"D\"[DFA]8 |\n[V:2] E,,4 D,,4 | C,,8 | C,,8 | D,,8 |\n[V:1] \"G\"[DGB]8 | \"Bm\"[DFB]8 | \"C\"[EGc]8 | \"G\"[DGB]8 |\n[V:2] G,,8 | B,,,8 | C,,8 | G,,8 |\n[V:1] \"C\"[EGc]4 \"Bm\"[DFB]4 | \"Am\"[EAc]8 | \"C\"[EGc]8 | \"G\"[DGB]8 |]\n[V:2] C,,4 B,,,4 | A,,8 | C,,8 | G,,8 |]",
+     "key": "G major",
+     "bars": 32,
+     "bpm": 108
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=108\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"[DGB]4 [DGB]4 | \"G\"[DGB]4 [DGB]4 | \"Bm\"[DFB]4 [DFB]4 | \"Bm\"[DFB]4 [DFB]4 |\n[V:2] [G,,D,]8 | [G,,D,]8 | [B,,,F,,D,]8 | [B,,,F,,D,]8 |\n[V:1] \"C\"[EGc]4 [EGc]4 | \"G\"[DGB]4 [DGB]4 | \"D\"[DFA]4 \"C\"[EGc]4 | \"G\"[DGB]4 [DGB]4 |\n[V:2] [C,,G,,E,]8 | [G,,D,]8 | [D,,A,,F,]4 [C,,G,,E,]4 | [G,,D,]8 |\n[V:1] \"G\"[DGB]4 [DGB]4 | \"G\"[DGB]4 [DGB]4 | \"Bm\"[DFB]4 [DFB]4 | \"Bm\"[DFB]4 [DFB]4 |\n[V:2] [G,,D,]8 | [G,,D,]8 | [B,,,F,,D,]8 | [B,,,F,,D,]8 |\n[V:1] \"C\"[EGc]4 [EGc]4 | \"G\"[DGB]4 [DGB]4 | \"C\"[EGc]4 [EGc]4 | \"D\"[DFA]4 [DFA]4 |\n[V:2] [C,,G,,E,]8 | [G,,D,]8 | [C,,G,,E,]8 | [D,,A,,F,]8 |\n[V:1] \"Em\"[EGB]4 \"D\"[DFA]4 | \"G\"[DGB]4 [DGB]4 | \"Em\"[EGB]4 \"C\"[EGc]4 | \"G\"[DGB]4 [DGB]4 |\n[V:2] [E,,B,,G,]4 [D,,A,,F,]4 | [G,,D,]8 | [E,,B,,G,]4 [C,,G,,E,]4 | [G,,D,]8 |\n[V:1] \"Em\"[EGB]4 \"D\"[DFA]4 | \"C\"[EGc]4 [EGc]4 | \"C\"[EGc]4 [EGc]4 | \"D\"[DFA]4 [DFA]4 |\n[V:2] [E,,B,,G,]4 [D,,A,,F,]4 | [C,,G,,E,]8 | [C,,G,,E,]8 | [D,,A,,F,]8 |\n[V:1] \"G\"[DGB]4 [DGB]4 | \"Bm\"[DFB]4 [DFB]4 | \"C\"[EGc]4 [EGc]4 | \"G\"[DGB]4 [DGB]4 |\n[V:2] [G,,D,]8 | [B,,,F,,D,]8 | [C,,G,,E,]8 | [G,,D,]8 |\n[V:1] \"C\"[EGc]4 \"Bm\"[DFB]4 | \"Am\"[EAc]4 [EAc]4 | \"C\"[EGc]4 [EGc]4 | \"G\"[DGB]4 [DGB]4 |]\n[V:2] [C,,G,,E,]4 [B,,,F,,D,]4 | [A,,E,]8 | [C,,G,,E,]8 | [G,,D,]8 |]",
+     "key": "G major",
+     "bars": 32,
+     "bpm": 108
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=108\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:G\n[V:1] \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] |\n[V:2] [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 |\n[V:1] \"C\"z2 [EGc][EGc] z2 [EGc][EGc] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"D\"z2 [DFA][DFA] \"C\"z2 [EGc][EGc] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] |\n[V:2] C,,2 [G,,E,]2 C,,2 [G,,E,]2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | D,,2 [A,,F,]2 C,,2 [G,,E,]2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 |\n[V:1] \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] |\n[V:2] [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 |\n[V:1] \"C\"z2 [EGc][EGc] z2 [EGc][EGc] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"C\"z2 [EGc][EGc] z2 [EGc][EGc] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] |\n[V:2] C,,2 [G,,E,]2 C,,2 [G,,E,]2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | C,,2 [G,,E,]2 C,,2 [G,,E,]2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 |\n[V:1] \"Em\"z2 [EGB][EGB] \"D\"z2 [DFA][DFA] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"Em\"z2 [EGB][EGB] \"C\"z2 [EGc][EGc] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] |\n[V:2] [E,,,E,,]2 [B,,D,G,]2 D,,2 [A,,F,]2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | [E,,,E,,]2 [B,,D,G,]2 C,,2 [G,,E,]2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 |\n[V:1] \"Em\"z2 [EGB][EGB] \"D\"z2 [DFA][DFA] | \"C\"z2 [EGc][EGc] z2 [EGc][EGc] | \"C\"z2 [EGc][EGc] z2 [EGc][EGc] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] |\n[V:2] [E,,,E,,]2 [B,,D,G,]2 D,,2 [A,,F,]2 | C,,2 [G,,E,]2 C,,2 [G,,E,]2 | C,,2 [G,,E,]2 C,,2 [G,,E,]2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 |\n[V:1] \"G\"z2 [DGB][DGB] z2 [DGB][DGB] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] | \"C\"z2 [EGc][EGc] z2 [EGc][EGc] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] |\n[V:2] [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 | C,,2 [G,,E,]2 C,,2 [G,,E,]2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 |\n[V:1] \"C\"z2 [EGc][EGc] \"Bm\"z2 [DFB][DFB] | \"Am\"z2 [EAc][EAc] z2 [EAc][EAc] | \"C\"z2 [EGc][EGc] z2 [EGc][EGc] | \"G\"z2 [DGB][DGB] z2 [DGB][DGB] |]\n[V:2] C,,2 [G,,E,]2 B,,,2 [F,,A,,D,]2 | [A,,,A,,]2 [E,G,]2 [A,,,A,,]2 [E,G,]2 | C,,2 [G,,E,]2 C,,2 [G,,E,]2 | [G,,,G,,]2 D,2 [G,,,G,,]2 D,2 |]",
+     "key": "G major",
+     "bars": 32,
+     "bpm": 108
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "G major",
+    "feel": "Easy country rock, 4/4, about 108 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "Bm"
+       ],
+       [
+        "Bm"
+       ],
+       [
         "C"
        ],
        [
         "G"
        ],
        [
-        "D7"
+        "D",
+        "C"
        ],
        [
         "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "G"
+       ],
+       [
+        "Bm"
+       ],
+       [
+        "Bm"
        ],
        [
         "C"
@@ -3171,7 +5000,69 @@ window.SONGBOOK = {
         "G"
        ],
        [
-        "D7"
+        "C"
+       ],
+       [
+        "D"
+       ]
+      ]
+     },
+     {
+      "name": "Pre-chorus",
+      "bars": [
+       [
+        "Em",
+        "D"
+       ],
+       [
+        "G"
+       ],
+       [
+        "Em",
+        "C"
+       ],
+       [
+        "G"
+       ],
+       [
+        "Em",
+        "D"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C"
+       ],
+       [
+        "D"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "G"
+       ],
+       [
+        "Bm"
+       ],
+       [
+        "C"
+       ],
+       [
+        "G"
+       ],
+       [
+        "C",
+        "Bm"
+       ],
+       [
+        "Am"
+       ],
+       [
+        "C"
        ],
        [
         "G"
@@ -3182,136 +5073,2026 @@ window.SONGBOOK = {
    }
   },
   {
-   "id": "req-the-long-and-winding-road",
-   "title": "The Long and Winding Road",
-   "composer": "The Beatles",
-   "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
-   "note": "",
-   "featured": false,
-   "levels": {}
-  },
-  {
-   "id": "req-tiny-dancer",
-   "title": "Tiny Dancer",
-   "composer": "Elton John",
-   "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
-   "note": "",
-   "featured": false,
-   "levels": {}
-  },
-  {
-   "id": "req-rocket-man",
-   "title": "Rocket Man",
-   "composer": "Elton John",
-   "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
-   "note": "",
-   "featured": false,
-   "levels": {}
-  },
-  {
-   "id": "req-candle-in-the-wind",
-   "title": "Candle in the Wind",
-   "composer": "Elton John",
-   "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
-   "note": "",
-   "featured": false,
-   "levels": {}
-  },
-  {
-   "id": "req-don-t-let-the-sun-go-down-on-me",
-   "title": "Don't Let the Sun Go Down on Me",
-   "composer": "Elton John",
-   "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
-   "note": "",
-   "featured": false,
-   "levels": {}
-  },
-  {
-   "id": "req-night-moves",
-   "title": "Night Moves",
-   "composer": "Bob Seger",
-   "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
-   "note": "",
-   "featured": false,
-   "levels": {}
-  },
-  {
-   "id": "req-against-the-wind",
-   "title": "Against the Wind",
-   "composer": "Bob Seger",
-   "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
-   "note": "",
-   "featured": false,
-   "levels": {}
-  },
-  {
-   "id": "req-we-ve-got-tonight",
+   "id": "chart-we-ve-got-tonight",
    "title": "We've Got Tonight",
    "composer": "Bob Seger",
    "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
    "note": "",
    "featured": false,
-   "levels": {}
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"B\"[DFB]4 \"F#/A#\"[CFA]4 | \"E\"[EGB]4 \"F#\"[CFA]4 | \"B\"[DFB]4 \"F#/A#\"[CFA]4 | \"E/G#\"[EGB]4 \"F#\"[CFA]4 |\n[V:2] B,,,4 A,,,4 | E,,4 F,,4 | B,,,4 A,,,4 | G,,4 F,,4 |\n[V:1] \"B/D#\"[DFB]4 \"Emaj7\"[DEG]4 | \"B\"[DFB]4 \"F#\"[CFA]4 | \"B\"[DFB]4 \"Emaj7\"[DEG]4 | \"E6\"[CEG]4 \"B\"[DFB]4 |\n[V:2] D,,4 E,,4 | B,,,4 F,,4 | B,,,4 E,,4 | E,,4 B,,,4 |\n[V:1] \"B/D#\"[DFB]4 \"Emaj7\"[DEG]4 | \"E6\"[CEG]4 \"B\"[DFB]4 |]\n[V:2] D,,4 E,,4 | E,,4 B,,,4 |]",
+     "key": "B major",
+     "bars": 10,
+     "bpm": 70
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"B\"[DFB]4 \"F#/A#\"[CFA]4 | \"E\"[EGB]4 \"F#\"[CFA]4 | \"B\"[DFB]4 \"F#/A#\"[CFA]4 | \"E/G#\"[EGB]4 \"F#\"[CFA]4 |\n[V:2] [B,,,F,,D,]4 [A,,,C,,F,,]4 | [E,,B,,G,]4 [F,,C,]4 | [B,,,F,,D,]4 [A,,,C,,F,,]4 | [G,,B,,E,]4 [F,,C,]4 |\n[V:1] \"B/D#\"[DFB]4 \"Emaj7\"[DEG]4 | \"B\"[DFB]4 \"F#\"[CFA]4 | \"B\"[DFB]4 \"Emaj7\"[DEG]4 | \"E6\"[CEG]4 \"B\"[DFB]4 |\n[V:2] [D,,F,,B,,]4 [E,,D,G,]4 | [B,,,F,,D,]4 [F,,C,]4 | [B,,,F,,D,]4 [E,,D,G,]4 | [E,,C,G,]4 [B,,,F,,D,]4 |\n[V:1] \"B/D#\"[DFB]4 \"Emaj7\"[DEG]4 | \"E6\"[CEG]4 \"B\"[DFB]4 |]\n[V:2] [D,,F,,B,,]4 [E,,D,G,]4 | [E,,C,G,]4 [B,,,F,,D,]4 |]",
+     "key": "B major",
+     "bars": 10,
+     "bpm": 70
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"B\"[DFB]2 [DFB][DFB] \"F#/A#\"[CFA]2 [CFA][EGB] | \"E\"[EGB]2 [EGB][EGB] \"F#\"[CFA]2 [CFA][DFB] | \"B\"[DFB]2 [DFB][DFB] \"F#/A#\"[CFA]2 [CFA][EGB] | \"E/G#\"[EGB]2 [EGB][EGB] \"F#\"[CFA]2 [CFA][DFB] |\n[V:2] [B,,,F,,D,G,]4 [A,,,C,,F,,A,,]4 | [E,,,E,,B,,G,]4 [F,,,F,,C,]4 | [B,,,F,,D,G,]4 [A,,,C,,F,,A,,]4 | [G,,,G,,B,,E,G,]4 [F,,,F,,C,]4 |\n[V:1] \"B/D#\"[DFB]2 [DFB][DFB] \"Emaj7\"[DEG]2 [DEG][DFB] | \"B\"[DFB]2 [DFB][DFB] \"F#\"[CFA]2 [CFA][DFB] | \"B\"[DFB]2 [DFB][DFB] \"Emaj7\"[DEG]2 [DEG][CEG] | \"E6\"[CEG]2 [CEG][CEG] \"B\"[DFB]2 [DFB][DFB] |\n[V:2] [D,,F,,B,,D,]4 [E,,,E,,D,G,]4 | [B,,,F,,D,G,]4 [F,,,F,,C,]4 | [B,,,F,,D,G,]4 [E,,,E,,D,G,]4 | [E,,,E,,C,G,]4 [B,,,F,,D,G,]4 |\n[V:1] \"B/D#\"[DFB]2 [DFB][DFB] \"Emaj7\"[DEG]2 [DEG][CEG] | \"E6\"[CEG]2 [CEG][CEG] \"B\"[DFB]2 [DFB][DFB] |]\n[V:2] [D,,F,,B,,D,]4 [E,,,E,,D,G,]4 | [E,,,E,,C,G,]4 [B,,,F,,D,G,]4 |]",
+     "key": "B major",
+     "bars": 10,
+     "bpm": 70
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "B major",
+    "feel": "Slow piano ballad, 4/4, about 70 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "B",
+        "F#/A#"
+       ],
+       [
+        "E",
+        "F#"
+       ],
+       [
+        "B",
+        "F#/A#"
+       ],
+       [
+        "E/G#",
+        "F#"
+       ],
+       [
+        "B/D#",
+        "Emaj7"
+       ],
+       [
+        "B",
+        "F#"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "B",
+        "Emaj7"
+       ],
+       [
+        "E6",
+        "B"
+       ],
+       [
+        "B/D#",
+        "Emaj7"
+       ],
+       [
+        "E6",
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
-   "id": "req-still-the-same",
+   "id": "chart-still-the-same",
    "title": "Still the Same",
    "composer": "Bob Seger",
    "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
    "note": "",
    "featured": false,
-   "levels": {}
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=112\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"Cmaj7\"[EGB]4 \"C\"[EGc]4 | \"Cmaj7\"[EGB]4 \"C\"[EGc]4 | \"Cadd9\"[DEG]8 | \"Em\"[EGB]4 \"G\"[DGB]4 |\n[V:2] C,,4 C,,4 | C,,4 C,,4 | C,,8 | E,,4 G,,4 |\n[V:1] \"Cmaj7\"[EGB]4 \"C\"[EGc]4 | \"Cmaj7\"[EGB]4 \"C\"[EGc]4 | \"Cadd9\"[DEG]8 | \"Em\"[EGB]4 \"G\"[DGB]4 |\n[V:2] C,,4 C,,4 | C,,4 C,,4 | C,,8 | E,,4 G,,4 |\n[V:1] \"F\"[FAc]4 \"G\"[DGB]4 | \"C\"[EGc]8 | \"E7\"[DE^G]8 | \"Am\"[EAc]8 |\n[V:2] F,,4 G,,4 | C,,8 | E,,8 | A,,8 |\n[V:1] \"Dm\"[DFA]8 | \"G\"[DGB]8 | \"C\"[EGc]8 | \"E\"[E^GB]8 |\n[V:2] D,,8 | G,,8 | C,,8 | E,,8 |\n[V:1] \"A\"[^CEA]8 | \"Dm\"[DFA]4 \"G\"[DGB]4 | \"C\"[EGc]8 | \"E\"[E^GB]8 |\n[V:2] A,,8 | D,,4 G,,4 | C,,8 | E,,8 |\n[V:1] \"A\"[^CEA]8 | \"Dm\"[DFA]4 \"G\"[DGB]4 |]\n[V:2] A,,8 | D,,4 G,,4 |]",
+     "key": "C major",
+     "bars": 22,
+     "bpm": 112
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=112\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"Cmaj7\"[EGB]4 \"C\"[EGc]4 | \"Cmaj7\"[EGB]4 \"C\"[EGc]4 | \"Cadd9\"[DEG]4 [DEG]4 | \"Em\"[EGB]4 \"G\"[DGB]4 |\n[V:2] [C,,B,,E,]4 [C,,G,,E,]4 | [C,,B,,E,]4 [C,,G,,E,]4 | [C,,D,,E,,]8 | [E,,B,,G,]4 [G,,D,]4 |\n[V:1] \"Cmaj7\"[EGB]4 \"C\"[EGc]4 | \"Cmaj7\"[EGB]4 \"C\"[EGc]4 | \"Cadd9\"[DEG]4 [DEG]4 | \"Em\"[EGB]4 \"G\"[DGB]4 |\n[V:2] [C,,B,,E,]4 [C,,G,,E,]4 | [C,,B,,E,]4 [C,,G,,E,]4 | [C,,D,,E,,]8 | [E,,B,,G,]4 [G,,D,]4 |\n[V:1] \"F\"[FAc]4 \"G\"[DGB]4 | \"C\"[EGc]4 [EGc]4 | \"E7\"[DE^G]4 [DEG]4 | \"Am\"[EAc]4 [EAc]4 |\n[V:2] [F,,C,]4 [G,,D,]4 | [C,,G,,E,]8 | [E,,D,^G,]8 | [A,,E,]8 |\n[V:1] \"Dm\"[DFA]4 [DFA]4 | \"G\"[DGB]4 [DGB]4 | \"C\"[EGc]4 [EGc]4 | \"E\"[E^GB]4 [EGB]4 |\n[V:2] [D,,A,,F,]8 | [G,,D,]8 | [C,,G,,E,]8 | [E,,B,,^G,]8 |\n[V:1] \"A\"[^CEA]4 [CEA]4 | \"Dm\"[DFA]4 \"G\"[DGB]4 | \"C\"[EGc]4 [EGc]4 | \"E\"[E^GB]4 [EGB]4 |\n[V:2] [A,,E,]8 | [D,,A,,F,]4 [G,,D,]4 | [C,,G,,E,]8 | [E,,B,,^G,]8 |\n[V:1] \"A\"[^CEA]4 [CEA]4 | \"Dm\"[DFA]4 \"G\"[DGB]4 |]\n[V:2] [A,,E,]8 | [D,,A,,F,]4 [G,,D,]4 |]",
+     "key": "C major",
+     "bars": 22,
+     "bpm": 112
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=112\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"Cmaj7\"[EGB]2 [EGB][EGB] \"C\"[EGc]2 [EGc][EGB] | \"Cmaj7\"[EGB]2 [EGB][EGB] \"C\"[EGc]2 [EGc][DEG] | \"Cadd9\"[DEG]2 [DEG][DEG] [DEG]2 [DEG][EGB] | \"Em\"[EGB]2 [EGB][EGB] \"G\"[DGB]2 [DGB][EGB] |\n[V:2] [C,,B,,E,G,]4 [C,,G,,E,]4 | [C,,B,,E,G,]4 [C,,G,,E,]4 | [C,,D,,E,,G,,]4 [C,,D,,E,,G,,]4 | [E,,,E,,B,,D,G,]4 [G,,,G,,D,]4 |\n[V:1] \"Cmaj7\"[EGB]2 [EGB][EGB] \"C\"[EGc]2 [EGc][EGB] | \"Cmaj7\"[EGB]2 [EGB][EGB] \"C\"[EGc]2 [EGc][DEG] | \"Cadd9\"[DEG]2 [DEG][DEG] [DEG]2 [DEG][EGB] | \"Em\"[EGB]2 [EGB][EGB] \"G\"[DGB]2 [DGB][FAc] |\n[V:2] [C,,B,,E,G,]4 [C,,G,,E,]4 | [C,,B,,E,G,]4 [C,,G,,E,]4 | [C,,D,,E,,G,,]4 [C,,D,,E,,G,,]4 | [E,,,E,,B,,D,G,]4 [G,,,G,,D,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"G\"[DGB]2 [DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][DE^G] | \"E7\"[DE^G]2 [DEG][DEG] [DEG]2 [DEG][EAc] | \"Am\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][DFA] |\n[V:2] [F,,,F,,C,]4 [G,,,G,,D,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [E,,,E,,D,^G,]4 [E,,,E,,D,G,]4 | [A,,,A,,E,G,]4 [A,,,A,,E,G,]4 |\n[V:1] \"Dm\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][DGB] | \"G\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][E^GB] | \"E\"[E^GB]2 [EGB][EGB] [EGB]2 [EGB][^CEA] |\n[V:2] [D,,A,,C,F,]4 [D,,A,,C,F,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [E,,,E,,B,,^G,]4 [E,,,E,,B,,G,]4 |\n[V:1] \"A\"[^CEA]2 [CEA][CEA] [CEA]2 [CEA][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"G\"[DGB]2 [DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][E^GB] | \"E\"[E^GB]2 [EGB][EGB] [EGB]2 [EGB][^CEA] |\n[V:2] [A,,,A,,E,]4 [A,,,A,,E,]4 | [D,,A,,C,F,]4 [G,,,G,,D,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [E,,,E,,B,,^G,]4 [E,,,E,,B,,G,]4 |\n[V:1] \"A\"[^CEA]2 [CEA][CEA] [CEA]2 [CEA][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"G\"[DGB]2 [DGB][DGB] |]\n[V:2] [A,,,A,,E,]4 [A,,,A,,E,]4 | [D,,A,,C,F,]4 [G,,,G,,D,]4 |]",
+     "key": "C major",
+     "bars": 22,
+     "bpm": 112
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "C major",
+    "feel": "Steady mid-tempo, 4/4, about 112 BPM",
+    "sections": [
+     {
+      "name": "Intro / Verse",
+      "bars": [
+       [
+        "Cmaj7",
+        "C"
+       ],
+       [
+        "Cmaj7",
+        "C"
+       ],
+       [
+        "Cadd9"
+       ],
+       [
+        "Em",
+        "G"
+       ],
+       [
+        "Cmaj7",
+        "C"
+       ],
+       [
+        "Cmaj7",
+        "C"
+       ],
+       [
+        "Cadd9"
+       ],
+       [
+        "Em",
+        "G"
+       ],
+       [
+        "F",
+        "G"
+       ],
+       [
+        "C"
+       ],
+       [
+        "E7"
+       ],
+       [
+        "Am"
+       ],
+       [
+        "Dm"
+       ],
+       [
+        "G"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "C"
+       ],
+       [
+        "E"
+       ],
+       [
+        "A"
+       ],
+       [
+        "Dm",
+        "G"
+       ],
+       [
+        "C"
+       ],
+       [
+        "E"
+       ],
+       [
+        "A"
+       ],
+       [
+        "Dm",
+        "G"
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
-   "id": "req-we-belong",
+   "id": "chart-we-belong",
    "title": "We Belong",
    "composer": "Pat Benatar",
    "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
    "note": "",
    "featured": false,
-   "levels": {}
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=132\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F5\"[CFc]8 | \"F5\"[CFc]8 | \"Bbsus2\"[FBc]8 | \"Bbsus2\"[FBc]8 |\n[V:2] F,,8 | F,,8 | B,,,8 | B,,,8 |\n[V:1] \"F5\"[CFc]8 | \"F5\"[CFc]8 | \"Bbsus2\"[FBc]8 | \"Bbsus2\"[FBc]8 |\n[V:2] F,,8 | F,,8 | B,,,8 | B,,,8 |\n[V:1] \"G5\"[DG]8 | \"G5\"[DG]8 | \"F/A\"[FAc]8 | \"Bb5\"[B,FB]8 |\n[V:2] G,,8 | G,,8 | A,,8 | B,,,8 |\n[V:1] \"G5\"[DG]8 | \"G5\"[DG]8 | \"C5\"[CGc]8 | \"C5\"[CGc]8 |\n[V:2] G,,8 | G,,8 | C,,8 | C,,8 |\n[V:1] \"F\"[FAc]8 | \"Bb\"[DFB]8 | \"C5\"[CGc]8 | \"C5\"[CGc]8 |\n[V:2] F,,8 | B,,,8 | C,,8 | C,,8 |\n[V:1] \"F\"[FAc]8 | \"Bb\"[DFB]8 | \"C5\"[CGc]8 | \"C5\"[CGc]8 |\n[V:2] F,,8 | B,,,8 | C,,8 | C,,8 |\n[V:1] \"F\"[FAc]8 | \"Bb\"[DFB]8 | \"C5\"[CGc]8 | \"C5\"[CGc]8 |\n[V:2] F,,8 | B,,,8 | C,,8 | C,,8 |\n[V:1] \"F\"[FAc]8 | \"Bb\"[DFB]8 | \"C5\"[CGc]8 | \"C5\"[CGc]8 |]\n[V:2] F,,8 | B,,,8 | C,,8 | C,,8 |]",
+     "key": "F major",
+     "bars": 32,
+     "bpm": 132
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=132\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F5\"[CFc]4 [CFc]4 | \"F5\"[CFc]4 [CFc]4 | \"Bbsus2\"[FBc]4 [FBc]4 | \"Bbsus2\"[FBc]4 [FBc]4 |\n[V:2] [F,,C,F,]8 | [F,,C,F,]8 | [B,,,F,,B,,F,]8 | [B,,,F,,B,,F,]8 |\n[V:1] \"F5\"[CFc]4 [CFc]4 | \"F5\"[CFc]4 [CFc]4 | \"Bbsus2\"[FBc]4 [FBc]4 | \"Bbsus2\"[FBc]4 [FBc]4 |\n[V:2] [F,,C,F,]8 | [F,,C,F,]8 | [B,,,F,,B,,F,]8 | [B,,,F,,B,,F,]8 |\n[V:1] \"G5\"[DG]4 [DG]4 | \"G5\"[DG]4 [DG]4 | \"F/A\"[FAc]4 [FAc]4 | \"Bb5\"[B,FB]4 [B,FB]4 |\n[V:2] [G,,D,G,]8 | [G,,D,G,]8 | [A,,C,F,]8 | [B,,,F,,B,,F,]8 |\n[V:1] \"G5\"[DG]4 [DG]4 | \"G5\"[DG]4 [DG]4 | \"C5\"[CGc]4 [CGc]4 | \"C5\"[CGc]4 [CGc]4 |\n[V:2] [G,,D,G,]8 | [G,,D,G,]8 | [C,,G,,C,G,]8 | [C,,G,,C,G,]8 |\n[V:1] \"F\"[FAc]4 [FAc]4 | \"Bb\"[DFB]4 [DFB]4 | \"C5\"[CGc]4 [CGc]4 | \"C5\"[CGc]4 [CGc]4 |\n[V:2] [F,,C,]8 | [B,,,F,,D,]8 | [C,,G,,C,G,]8 | [C,,G,,C,G,]8 |\n[V:1] \"F\"[FAc]4 [FAc]4 | \"Bb\"[DFB]4 [DFB]4 | \"C5\"[CGc]4 [CGc]4 | \"C5\"[CGc]4 [CGc]4 |\n[V:2] [F,,C,]8 | [B,,,F,,D,]8 | [C,,G,,C,G,]8 | [C,,G,,C,G,]8 |\n[V:1] \"F\"[FAc]4 [FAc]4 | \"Bb\"[DFB]4 [DFB]4 | \"C5\"[CGc]4 [CGc]4 | \"C5\"[CGc]4 [CGc]4 |\n[V:2] [F,,C,]8 | [B,,,F,,D,]8 | [C,,G,,C,G,]8 | [C,,G,,C,G,]8 |\n[V:1] \"F\"[FAc]4 [FAc]4 | \"Bb\"[DFB]4 [DFB]4 | \"C5\"[CGc]4 [CGc]4 | \"C5\"[CGc]4 [CGc]4 |]\n[V:2] [F,,C,]8 | [B,,,F,,D,]8 | [C,,G,,C,G,]8 | [C,,G,,C,G,]8 |]",
+     "key": "F major",
+     "bars": 32,
+     "bpm": 132
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=132\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F5\"[CFc]2 [CFc][CFc] [CFc]2 [CFc][CFc] | \"F5\"[CFc]2 [CFc][CFc] [CFc]2 [CFc][FBc] | \"Bbsus2\"[FBc]2 [FBc][FBc] [FBc]2 [FBc][FBc] | \"Bbsus2\"[FBc]2 [FBc][FBc] [FBc]2 [FBc][CFc] |\n[V:2] [F,,,F,,C,F,]4 [F,,,F,,C,F,]4 | [F,,,F,,C,F,]4 [F,,,F,,C,F,]4 | [B,,,F,,B,,F,]4 [B,,,F,,B,,F,]4 | [B,,,F,,B,,F,]4 [B,,,F,,B,,F,]4 |\n[V:1] \"F5\"[CFc]2 [CFc][CFc] [CFc]2 [CFc][CFc] | \"F5\"[CFc]2 [CFc][CFc] [CFc]2 [CFc][FBc] | \"Bbsus2\"[FBc]2 [FBc][FBc] [FBc]2 [FBc][FBc] | \"Bbsus2\"[FBc]2 [FBc][FBc] [FBc]2 [FBc][DG] |\n[V:2] [F,,,F,,C,F,]4 [F,,,F,,C,F,]4 | [F,,,F,,C,F,]4 [F,,,F,,C,F,]4 | [B,,,F,,B,,F,]4 [B,,,F,,B,,F,]4 | [B,,,F,,B,,F,]4 [B,,,F,,B,,F,]4 |\n[V:1] \"G5\"[DG]2 [DG][DG] [DG]2 [DG][DG] | \"G5\"[DG]2 [DG][DG] [DG]2 [DG][FAc] | \"F/A\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][B,FB] | \"Bb5\"[B,FB]2 [B,FB][B,FB] [B,FB]2 [B,FB][DG] |\n[V:2] [G,,,G,,D,G,]4 [G,,,G,,D,G,]4 | [G,,,G,,D,G,]4 [G,,,G,,D,G,]4 | [A,,,A,,C,F,]4 [A,,,A,,C,F,]4 | [B,,,F,,B,,F,]4 [B,,,F,,B,,F,]4 |\n[V:1] \"G5\"[DG]2 [DG][DG] [DG]2 [DG][DG] | \"G5\"[DG]2 [DG][DG] [DG]2 [DG][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][FAc] |\n[V:2] [G,,,G,,D,G,]4 [G,,,G,,D,G,]4 | [G,,,G,,D,G,]4 [G,,,G,,D,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DFB] | \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][FAc] |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DFB] | \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][FAc] |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DFB] | \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][FAc] |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DFB] | \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][CGc] | \"C5\"[CGc]2 [CGc][CGc] [CGc]2 [CGc][CGc] |]\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 | [C,,G,,C,G,]4 [C,,G,,C,G,]4 |]",
+     "key": "F major",
+     "bars": 32,
+     "bpm": 132
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "F major",
+    "feel": "Moderate, pulsing eighths, 4/4, about 132 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "F5"
+       ],
+       [
+        "F5"
+       ],
+       [
+        "Bbsus2"
+       ],
+       [
+        "Bbsus2"
+       ],
+       [
+        "F5"
+       ],
+       [
+        "F5"
+       ],
+       [
+        "Bbsus2"
+       ],
+       [
+        "Bbsus2"
+       ]
+      ]
+     },
+     {
+      "name": "Pre-chorus",
+      "bars": [
+       [
+        "G5"
+       ],
+       [
+        "G5"
+       ],
+       [
+        "F/A"
+       ],
+       [
+        "Bb5"
+       ],
+       [
+        "G5"
+       ],
+       [
+        "G5"
+       ],
+       [
+        "C5"
+       ],
+       [
+        "C5"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "F"
+       ],
+       [
+        "Bb"
+       ],
+       [
+        "C5"
+       ],
+       [
+        "C5"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Bb"
+       ],
+       [
+        "C5"
+       ],
+       [
+        "C5"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Bb"
+       ],
+       [
+        "C5"
+       ],
+       [
+        "C5"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Bb"
+       ],
+       [
+        "C5"
+       ],
+       [
+        "C5"
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
-   "id": "req-i-want-to-know-what-love-is",
+   "id": "chart-i-want-to-know-what-love-is",
    "title": "I Want to Know What Love Is",
    "composer": "Foreigner",
    "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
    "note": "",
    "featured": false,
-   "levels": {}
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Ebm\n[V:1] \"Ebm\"[EGB]8 | \"Ebm\"[EGB]6 \"Db\"[DFA]2 | \"Gb\"[DGB]8 | \"Cb\"[EGc]8 |\n[V:2] E,,8 | E,,6 D,,2 | G,,8 | C,,8 |\n[V:1] \"Ebm\"[EGB]8 | \"Ebm\"[EGB]6 \"Db\"[DFA]2 | \"Gb\"[DGB]8 | \"Cb\"[EGc]8 |\n[V:2] E,,8 | E,,6 D,,2 | G,,8 | C,,8 |\n[V:1] \"Ebm\"[EGB]8 | \"Abm7\"[GAc]8 | \"Db/Ab\"[DFA]4 \"Abm7\"[GAc]4 | \"Db/Ab\"[DFA]4 \"Abm7\"[GAc]4 |\n[V:2] E,,8 | A,,8 | A,,4 A,,4 | A,,4 A,,4 |\n[V:1] \"Abm7\"[GAc]8 | \"Cb\"[EGc]4 \"Gb/Bb\"[DGB]4 | \"Abm7\"[GAc]4 \"Gb\"[DGB]4 | \"Cb/Db\"[EGc]8 |\n[V:2] A,,8 | C,,4 B,,,4 | A,,4 G,,4 | D,,8 |\n[V:1] \"Gb\"[DGB]8 | \"Ebm\"[EGB]4 \"Db\"[DFA]4 | \"Abm\"[EAc]8 | \"Ebm\"[EGB]4 \"Db\"[DFA]4 |\n[V:2] G,,8 | E,,4 D,,4 | A,,8 | E,,4 D,,4 |\n[V:1] \"Gb\"[DGB]8 | \"Ebm\"[EGB]4 \"Db\"[DFA]4 | \"Abm\"[EAc]8 | \"Ebm\"[EGB]4 \"Db\"[DFA]4 |]\n[V:2] G,,8 | E,,4 D,,4 | A,,8 | E,,4 D,,4 |]",
+     "key": "E♭ minor (chorus in G♭ major)",
+     "bars": 24,
+     "bpm": 76
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Ebm\n[V:1] \"Ebm\"[EGB]4 [EGB]4 | \"Ebm\"[EGB]4 [EGB]2 \"Db\"[DFA]2 | \"Gb\"[DGB]4 [DGB]4 | \"Cb\"[EGc]4 [EGc]4 |\n[V:2] [E,,B,,G,]8 | [E,,B,,G,]6 [D,,A,,F,]2 | [G,,D,]8 | [C,,G,,E,]8 |\n[V:1] \"Ebm\"[EGB]4 [EGB]4 | \"Ebm\"[EGB]4 [EGB]2 \"Db\"[DFA]2 | \"Gb\"[DGB]4 [DGB]4 | \"Cb\"[EGc]4 [EGc]4 |\n[V:2] [E,,B,,G,]8 | [E,,B,,G,]6 [D,,A,,F,]2 | [G,,D,]8 | [C,,G,,E,]8 |\n[V:1] \"Ebm\"[EGB]4 [EGB]4 | \"Abm7\"[GAc]4 [GAc]4 | \"Db/Ab\"[DFA]4 \"Abm7\"[GAc]4 | \"Db/Ab\"[DFA]4 \"Abm7\"[GAc]4 |\n[V:2] [E,,B,,G,]8 | [A,,G,]8 | [A,,D,F,]4 [A,,G,]4 | [A,,D,F,]4 [A,,G,]4 |\n[V:1] \"Abm7\"[GAc]4 [GAc]4 | \"Cb\"[EGc]4 \"Gb/Bb\"[DGB]4 | \"Abm7\"[GAc]4 \"Gb\"[DGB]4 | \"Cb/Db\"[EGc]4 [EGc]4 |\n[V:2] [A,,G,]8 | [C,,G,,E,]4 [B,,,D,,G,,]4 | [A,,G,]4 [G,,D,]4 | [D,,C,E,]8 |\n[V:1] \"Gb\"[DGB]4 [DGB]4 | \"Ebm\"[EGB]4 \"Db\"[DFA]4 | \"Abm\"[EAc]4 [EAc]4 | \"Ebm\"[EGB]4 \"Db\"[DFA]4 |\n[V:2] [G,,D,]8 | [E,,B,,G,]4 [D,,A,,F,]4 | [A,,E,]8 | [E,,B,,G,]4 [D,,A,,F,]4 |\n[V:1] \"Gb\"[DGB]4 [DGB]4 | \"Ebm\"[EGB]4 \"Db\"[DFA]4 | \"Abm\"[EAc]4 [EAc]4 | \"Ebm\"[EGB]4 \"Db\"[DFA]4 |]\n[V:2] [G,,D,]8 | [E,,B,,G,]4 [D,,A,,F,]4 | [A,,E,]8 | [E,,B,,G,]4 [D,,A,,F,]4 |]",
+     "key": "E♭ minor (chorus in G♭ major)",
+     "bars": 24,
+     "bpm": 76
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Ebm\n[V:1] \"Ebm\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"Ebm\"[EGB]2 [EGB][EGB] [EGB]2 \"Db\"[DFA][DGB] | \"Gb\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][EGc] | \"Cb\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGB] |\n[V:2] [E,,B,,D,G,]4 [E,,B,,D,G,]4 | [E,,B,,D,G,]4 [E,,B,,D,G,]2 [D,,A,,F,]2 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"Ebm\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"Ebm\"[EGB]2 [EGB][EGB] [EGB]2 \"Db\"[DFA][DGB] | \"Gb\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][EGc] | \"Cb\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGB] |\n[V:2] [E,,B,,D,G,]4 [E,,B,,D,G,]4 | [E,,B,,D,G,]4 [E,,B,,D,G,]2 [D,,A,,F,]2 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [C,,G,,E,A,]4 [C,,G,,E,A,]4 |\n[V:1] \"Ebm\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][GAc] | \"Abm7\"[GAc]2 [GAc][GAc] [GAc]2 [GAc][DFA] | \"Db/Ab\"[DFA]2 [DFA][DFA] \"Abm7\"[GAc]2 [GAc][DFA] | \"Db/Ab\"[DFA]2 [DFA][DFA] \"Abm7\"[GAc]2 [GAc][GAc] |\n[V:2] [E,,B,,D,G,]4 [E,,B,,D,G,]4 | [A,,,A,,G,]4 [A,,,A,,G,]4 | [A,,,A,,D,F,A,]4 [A,,,A,,G,]4 | [A,,,A,,D,F,A,]4 [A,,,A,,G,]4 |\n[V:1] \"Abm7\"[GAc]2 [GAc][GAc] [GAc]2 [GAc][EGc] | \"Cb\"[EGc]2 [EGc][EGc] \"Gb/Bb\"[DGB]2 [DGB][GAc] | \"Abm7\"[GAc]2 [GAc][GAc] \"Gb\"[DGB]2 [DGB][EGc] | \"Cb/Db\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][DGB] |\n[V:2] [A,,,A,,G,]4 [A,,,A,,G,]4 | [C,,G,,E,A,]4 [B,,,D,,G,,B,,]4 | [A,,,A,,G,]4 [G,,,G,,D,]4 | [D,,C,E,G,]4 [D,,C,E,G,]4 |\n[V:1] \"Gb\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][EGB] | \"Ebm\"[EGB]2 [EGB][EGB] \"Db\"[DFA]2 [DFA][EAc] | \"Abm\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][EGB] | \"Ebm\"[EGB]2 [EGB][EGB] \"Db\"[DFA]2 [DFA][DGB] |\n[V:2] [G,,,G,,D,]4 [G,,,G,,D,]4 | [E,,B,,D,G,]4 [D,,A,,F,]4 | [A,,,A,,E,G,]4 [A,,,A,,E,G,]4 | [E,,B,,D,G,]4 [D,,A,,F,]4 |\n[V:1] \"Gb\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][EGB] | \"Ebm\"[EGB]2 [EGB][EGB] \"Db\"[DFA]2 [DFA][EAc] | \"Abm\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][EGB] | \"Ebm\"[EGB]2 [EGB][EGB] \"Db\"[DFA]2 [DFA][DFA] |]\n[V:2] [G,,,G,,D,]4 [G,,,G,,D,]4 | [E,,B,,D,G,]4 [D,,A,,F,]4 | [A,,,A,,E,G,]4 [A,,,A,,E,G,]4 | [E,,B,,D,G,]4 [D,,A,,F,]4 |]",
+     "key": "E♭ minor (chorus in G♭ major)",
+     "bars": 24,
+     "bpm": 76
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "E♭ minor (chorus in G♭ major)",
+    "feel": "Power ballad, 4/4, about 76 BPM",
+    "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "Ebm"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "Ebm",
+        "Ebm",
+        "Ebm",
+        "Db"
+       ],
+       [
+        "Gb"
+       ],
+       [
+        "Cb"
+       ],
+       [
+        "Ebm"
+       ],
+       [
+        "Ebm",
+        "Ebm",
+        "Ebm",
+        "Db"
+       ],
+       [
+        "Gb"
+       ],
+       [
+        "Cb"
+       ],
+       [
+        "Ebm"
+       ]
+      ]
+     },
+     {
+      "name": "Pre-chorus",
+      "bars": [
+       [
+        "Abm7"
+       ],
+       [
+        "Db/Ab",
+        "Abm7"
+       ],
+       [
+        "Db/Ab",
+        "Abm7"
+       ],
+       [
+        "Abm7"
+       ],
+       [
+        "Cb",
+        "Gb/Bb"
+       ],
+       [
+        "Abm7",
+        "Gb"
+       ],
+       [
+        "Cb/Db"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus (one source)",
+      "bars": [
+       [
+        "Gb"
+       ],
+       [
+        "Ebm",
+        "Db"
+       ],
+       [
+        "Abm"
+       ],
+       [
+        "Ebm",
+        "Db"
+       ],
+       [
+        "Gb"
+       ],
+       [
+        "Ebm",
+        "Db"
+       ],
+       [
+        "Abm"
+       ],
+       [
+        "Ebm",
+        "Db"
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
-   "id": "req-turn-turn-turn",
+   "id": "chart-turn-turn-turn",
    "title": "Turn! Turn! Turn!",
-   "composer": "Pete Seeger",
+   "composer": "Pete Seeger (as recorded by The Byrds)",
    "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
    "note": "",
    "featured": false,
-   "levels": {}
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=124\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[DFA]4 \"G\"[DGB]4 | \"F#m\"[CFA]4 \"A\"[CEA]4 | \"D\"[DFA]4 \"G\"[DGB]4 | \"F#m\"[CFA]4 \"A\"[CEA]4 |\n[V:2] D,,4 G,,4 | F,,4 A,,4 | D,,4 G,,4 | F,,4 A,,4 |\n[V:1] \"G\"[DGB]4 \"F#m\"[CFA]4 | \"Em\"[EGB]4 \"A\"[CEA]4 | \"D\"[DFA]8 | \"A\"[CEA]8 |\n[V:2] G,,4 F,,4 | E,,4 A,,4 | D,,8 | A,,8 |\n[V:1] \"D\"[DFA]8 | \"A\"[CEA]8 | \"D\"[DFA]8 | \"A\"[CEA]8 |\n[V:2] D,,8 | A,,8 | D,,8 | A,,8 |\n[V:1] \"D\"[DFA]8 | \"G\"[DGB]4 \"F#m\"[CFA]4 | \"Em\"[EGB]4 \"A\"[CEA]4 | \"D\"[DFA]8 |]\n[V:2] D,,8 | G,,4 F,,4 | E,,4 A,,4 | D,,8 |]",
+     "key": "D major",
+     "bars": 16,
+     "bpm": 124
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=124\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"[DFA]4 \"G\"[DGB]4 | \"F#m\"[CFA]4 \"A\"[CEA]4 | \"D\"[DFA]4 \"G\"[DGB]4 | \"F#m\"[CFA]4 \"A\"[CEA]4 |\n[V:2] [D,,A,,F,]4 [G,,D,]4 | [F,,C,]4 [A,,E,]4 | [D,,A,,F,]4 [G,,D,]4 | [F,,C,]4 [A,,E,]4 |\n[V:1] \"G\"[DGB]4 \"F#m\"[CFA]4 | \"Em\"[EGB]4 \"A\"[CEA]4 | \"D\"[DFA]4 [DFA]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [G,,D,]4 [F,,C,]4 | [E,,B,,G,]4 [A,,E,]4 | [D,,A,,F,]8 | [A,,E,]8 |\n[V:1] \"D\"[DFA]4 [DFA]4 | \"A\"[CEA]4 [CEA]4 | \"D\"[DFA]4 [DFA]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [D,,A,,F,]8 | [A,,E,]8 | [D,,A,,F,]8 | [A,,E,]8 |\n[V:1] \"D\"[DFA]4 [DFA]4 | \"G\"[DGB]4 \"F#m\"[CFA]4 | \"Em\"[EGB]4 \"A\"[CEA]4 | \"D\"[DFA]4 [DFA]4 |]\n[V:2] [D,,A,,F,]8 | [G,,D,]4 [F,,C,]4 | [E,,B,,G,]4 [A,,E,]4 | [D,,A,,F,]8 |]",
+     "key": "D major",
+     "bars": 16,
+     "bpm": 124
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=124\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:D\n[V:1] \"D\"z2 [DFA][DFA] \"G\"z2 [DGB][DGB] | \"F#m\"z2 [CFA][CFA] \"A\"z2 [CEA][CEA] | \"D\"z2 [DFA][DFA] \"G\"z2 [DGB][DGB] | \"F#m\"z2 [CFA][CFA] \"A\"z2 [CEA][CEA] |\n[V:2] D,,2 [A,,F,]2 [G,,,G,,]2 D,2 | [F,,,F,,]2 [C,E,]2 [A,,,A,,]2 E,2 | D,,2 [A,,F,]2 [G,,,G,,]2 D,2 | [F,,,F,,]2 [C,E,]2 [A,,,A,,]2 E,2 |\n[V:1] \"G\"z2 [DGB][DGB] \"F#m\"z2 [CFA][CFA] | \"Em\"z2 [EGB][EGB] \"A\"z2 [CEA][CEA] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"A\"z2 [CEA][CEA] z2 [CEA][CEA] |\n[V:2] [G,,,G,,]2 D,2 [F,,,F,,]2 [C,E,]2 | [E,,,E,,]2 [B,,D,G,]2 [A,,,A,,]2 E,2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 |\n[V:1] \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"A\"z2 [CEA][CEA] z2 [CEA][CEA] |\n[V:2] D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 |\n[V:1] \"D\"z2 [DFA][DFA] z2 [DFA][DFA] | \"G\"z2 [DGB][DGB] \"F#m\"z2 [CFA][CFA] | \"Em\"z2 [EGB][EGB] \"A\"z2 [CEA][CEA] | \"D\"z2 [DFA][DFA] z2 [DFA][DFA] |]\n[V:2] D,,2 [A,,F,]2 D,,2 [A,,F,]2 | [G,,,G,,]2 D,2 [F,,,F,,]2 [C,E,]2 | [E,,,E,,]2 [B,,D,G,]2 [A,,,A,,]2 E,2 | D,,2 [A,,F,]2 D,,2 [A,,F,]2 |]",
+     "key": "D major",
+     "bars": 16,
+     "bpm": 124
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "D major",
+    "feel": "Bright folk rock, 4/4, about 124 BPM",
+    "sections": [
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "D",
+        "G"
+       ],
+       [
+        "F#m",
+        "A"
+       ],
+       [
+        "D",
+        "G"
+       ],
+       [
+        "F#m",
+        "A"
+       ],
+       [
+        "G",
+        "F#m"
+       ],
+       [
+        "Em",
+        "A"
+       ],
+       [
+        "D"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "A"
+       ],
+       [
+        "D"
+       ],
+       [
+        "A"
+       ],
+       [
+        "D"
+       ],
+       [
+        "A"
+       ],
+       [
+        "D"
+       ],
+       [
+        "G",
+        "F#m"
+       ],
+       [
+        "Em",
+        "A"
+       ],
+       [
+        "D"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-we-shall-overcome",
+   "title": "We Shall Overcome",
+   "composer": "Traditional / Pete Seeger",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 \"F\"[FAc]4 | \"C\"[EGc]8 | \"C\"[EGc]4 \"F\"[FAc]4 | \"C\"[EGc]8 |\n[V:2] C,,4 F,,4 | C,,8 | C,,4 F,,4 | C,,8 |\n[V:1] \"C\"[EGc]2 \"F\"[FAc]2 \"G\"[DGB]2 \"Am\"[EAc]2 | \"D\"[D^FA]2 \"G\"[DGB]2 \"D\"[DFA]2 \"G\"[DGB]2 | \"C\"[EGc]4 \"F\"[FAc]4 | \"C\"[EGc]8 |\n[V:2] C,,2 F,,2 G,,2 A,,2 | D,,2 G,,2 D,,2 G,,2 | C,,4 F,,4 | C,,8 |\n[V:1] \"F\"[FAc]4 \"G\"[DGB]4 | \"Am\"[EAc]8 | \"C\"[EGc]2 \"F\"[FAc]2 \"C\"[EGc]2 \"G\"[DGB]2 | \"C\"[EGc]8 |]\n[V:2] F,,4 G,,4 | A,,8 | C,,2 F,,2 C,,2 G,,2 | C,,8 |]",
+     "key": "C major",
+     "bars": 12,
+     "bpm": 72
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]4 \"F\"[FAc]4 | \"C\"[EGc]4 [EGc]4 | \"C\"[EGc]4 \"F\"[FAc]4 | \"C\"[EGc]4 [EGc]4 |\n[V:2] [C,,G,,E,]4 [F,,C,]4 | [C,,G,,E,]8 | [C,,G,,E,]4 [F,,C,]4 | [C,,G,,E,]8 |\n[V:1] \"C\"[EGc]2 \"F\"[FAc]2 \"G\"[DGB]2 \"Am\"[EAc]2 | \"D\"[D^FA]2 \"G\"[DGB]2 \"D\"[DFA]2 \"G\"[DGB]2 | \"C\"[EGc]4 \"F\"[FAc]4 | \"C\"[EGc]4 [EGc]4 |\n[V:2] [C,,G,,E,]2 [F,,C,]2 [G,,D,]2 [A,,E,]2 | [D,,A,,^F,]2 [G,,D,]2 [D,,A,,F,]2 [G,,D,]2 | [C,,G,,E,]4 [F,,C,]4 | [C,,G,,E,]8 |\n[V:1] \"F\"[FAc]4 \"G\"[DGB]4 | \"Am\"[EAc]4 [EAc]4 | \"C\"[EGc]2 \"F\"[FAc]2 \"C\"[EGc]2 \"G\"[DGB]2 | \"C\"[EGc]4 [EGc]4 |]\n[V:2] [F,,C,]4 [G,,D,]4 | [A,,E,]8 | [C,,G,,E,]2 [F,,C,]2 [C,,G,,E,]2 [G,,D,]2 | [C,,G,,E,]8 |]",
+     "key": "C major",
+     "bars": 12,
+     "bpm": 72
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]2 [EGc][EGc] \"F\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGc] |\n[V:2] [C,,G,,E,]4 [F,,,F,,C,]4 | [C,,G,,E,]4 [C,,G,,E,]4 | [C,,G,,E,]4 [F,,,F,,C,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"C\"[EGc]2 \"F\"[FAc][FAc] \"G\"[DGB]2 \"Am\"[EAc][D^FA] | \"D\"[D^FA]2 \"G\"[DGB][DGB] \"D\"[DFA]2 \"G\"[DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F\"[FAc]2 [FAc][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][FAc] |\n[V:2] [C,,G,,E,]2 [F,,,F,,C,]2 [G,,,G,,D,]2 [A,,,A,,E,G,]2 | [D,,A,,^F,]2 [G,,,G,,D,]2 [D,,A,,F,]2 [G,,,G,,D,]2 | [C,,G,,E,]4 [F,,,F,,C,]4 | [C,,G,,E,]4 [C,,G,,E,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"G\"[DGB]2 [DGB][EAc] | \"Am\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][EGc] | \"C\"[EGc]2 \"F\"[FAc][FAc] \"C\"[EGc]2 \"G\"[DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EGc] |]\n[V:2] [F,,,F,,C,]4 [G,,,G,,D,]4 | [A,,,A,,E,G,]4 [A,,,A,,E,G,]4 | [C,,G,,E,]2 [F,,,F,,C,]2 [C,,G,,E,]2 [G,,,G,,D,]2 | [C,,G,,E,]4 [C,,G,,E,]4 |]",
+     "key": "C major",
+     "bars": 12,
+     "bpm": 72
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "C major",
+    "feel": "Slow and steady, 4/4, about 72 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "C",
+        "F"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C",
+        "F"
+       ],
+       [
+        "C"
+       ],
+       [
+        "C",
+        "F",
+        "G",
+        "Am"
+       ],
+       [
+        "D",
+        "G",
+        "D",
+        "G"
+       ],
+       [
+        "C",
+        "F"
+       ],
+       [
+        "C"
+       ],
+       [
+        "F",
+        "G"
+       ],
+       [
+        "Am"
+       ],
+       [
+        "C",
+        "F",
+        "C",
+        "G"
+       ],
+       [
+        "C"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-goodbye-yellow-brick-road",
+   "title": "Goodbye Yellow Brick Road",
+   "composer": "Elton John",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=62\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]4 \"C/E\"[EGc]4 | \"Dm\"[DFA]4 \"Dm/C\"[DFA]4 | \"Bb\"[DFB]4 \"C\"[EGc]4 | \"F\"[FAc]8 |\n[V:2] F,,4 E,,4 | D,,4 C,,4 | B,,,4 C,,4 | F,,8 |\n[V:1] \"Gm\"[DGB]4 \"C\"[EGc]4 | \"F\"[FAc]4 \"Bb\"[DFB]4 | \"Eb\"[_EGB]4 \"C\"[=EGc]4 | \"F\"[FAc]8 |\n[V:2] G,,4 C,,4 | F,,4 B,,,4 | _E,,4 C,,4 | F,,8 |\n[V:1] \"Gm\"[DGB]4 \"C\"[EGc]4 | \"F\"[FAc]4 \"Bb\"[DFB]4 | \"Eb\"[_EGB]4 \"C\"[=EGc]4 | \"F\"[FAc]8 |\n[V:2] G,,4 C,,4 | F,,4 B,,,4 | _E,,4 C,,4 | F,,8 |\n[V:1] \"Db\"[_DF_A]4 \"Eb\"[_EGB]4 | \"Ab\"[_E_Ac]4 \"Db\"[_DFA]4 | \"Bbm\"[_DFB]8 | \"C7\"[EGB]8 |\n[V:2] _D,,4 _E,,4 | _A,,4 _D,,4 | B,,,8 | C,,8 |\n[V:1] \"F\"[FAc]4 \"A7\"[^CEG]4 | \"Bb\"[DFB]4 \"F\"[FAc]4 | \"D7\"[^FAc]4 \"Gm\"[DGB]4 | \"C\"[EGc]4 \"F\"[FAc]4 |\n[V:2] F,,4 A,,4 | B,,,4 F,,4 | D,,4 G,,4 | C,,4 F,,4 |\n[V:1] \"Dm\"[DFA]4 \"A\"[^CEA]4 | \"Bb\"[DFB]4 \"Db\"[_DF_A]4 | \"Db\"[_DF_A]4 \"Eb\"[_EGB]4 | \"F\"[FAc]4 \"C/E\"[EGc]4 |\n[V:2] D,,4 A,,4 | B,,,4 _D,,4 | _D,,4 _E,,4 | F,,4 E,,4 |\n[V:1] \"Dm\"[DFA]4 \"Dm/C\"[DFA]4 | \"Bb\"[DFB]4 \"C\"[EGc]4 | \"Db\"[_DF_A]4 \"Eb\"[_EGB]4 | \"Ab\"[_E_Ac]4 \"Db\"[_DFA]4 |\n[V:2] D,,4 C,,4 | B,,,4 C,,4 | _D,,4 _E,,4 | _A,,4 _D,,4 |\n[V:1] \"Bbm\"[_DFB]4 \"C7\"[EGB]4 | \"F\"[FAc]8 |]\n[V:2] B,,,4 C,,4 | F,,8 |]",
+     "key": "F major",
+     "bars": 30,
+     "bpm": 62
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=62\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]4 \"C/E\"[EGc]4 | \"Dm\"[DFA]4 \"Dm/C\"[DFA]4 | \"Bb\"[DFB]4 \"C\"[EGc]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [F,,C,]4 [E,,G,,C,]4 | [D,,A,,F,]4 [C,,D,,F,,]4 | [B,,,F,,D,]4 [C,,G,,E,]4 | [F,,C,]8 |\n[V:1] \"Gm\"[DGB]4 \"C\"[EGc]4 | \"F\"[FAc]4 \"Bb\"[DFB]4 | \"Eb\"[_EGB]4 \"C\"[=EGc]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [G,,D,]4 [C,,G,,E,]4 | [F,,C,]4 [B,,,F,,D,]4 | [_E,,B,,G,]4 [C,,G,,E,]4 | [F,,C,]8 |\n[V:1] \"Gm\"[DGB]4 \"C\"[EGc]4 | \"F\"[FAc]4 \"Bb\"[DFB]4 | \"Eb\"[_EGB]4 \"C\"[=EGc]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [G,,D,]4 [C,,G,,E,]4 | [F,,C,]4 [B,,,F,,D,]4 | [_E,,B,,G,]4 [C,,G,,E,]4 | [F,,C,]8 |\n[V:1] \"Db\"[_DF_A]4 \"Eb\"[_EGB]4 | \"Ab\"[_E_Ac]4 \"Db\"[_DFA]4 | \"Bbm\"[_DFB]4 [DFB]4 | \"C7\"[EGB]4 [EGB]4 |\n[V:2] [_D,,_A,,F,]4 [_E,,B,,G,]4 | [_A,,_E,]4 [_D,,A,,F,]4 | [B,,,F,,_D,]8 | [C,,B,,E,]8 |\n[V:1] \"F\"[FAc]4 \"A7\"[^CEG]4 | \"Bb\"[DFB]4 \"F\"[FAc]4 | \"D7\"[^FAc]4 \"Gm\"[DGB]4 | \"C\"[EGc]4 \"F\"[FAc]4 |\n[V:2] [F,,C,]4 [A,,G,]4 | [B,,,F,,D,]4 [F,,C,]4 | [D,,C,^F,]4 [G,,D,]4 | [C,,G,,E,]4 [F,,C,]4 |\n[V:1] \"Dm\"[DFA]4 \"A\"[^CEA]4 | \"Bb\"[DFB]4 \"Db\"[_DF_A]4 | \"Db\"[_DF_A]4 \"Eb\"[_EGB]4 | \"F\"[FAc]4 \"C/E\"[EGc]4 |\n[V:2] [D,,A,,F,]4 [A,,E,]4 | [B,,,F,,D,]4 [_D,,_A,,F,]4 | [_D,,_A,,F,]4 [_E,,B,,G,]4 | [F,,C,]4 [E,,G,,C,]4 |\n[V:1] \"Dm\"[DFA]4 \"Dm/C\"[DFA]4 | \"Bb\"[DFB]4 \"C\"[EGc]4 | \"Db\"[_DF_A]4 \"Eb\"[_EGB]4 | \"Ab\"[_E_Ac]4 \"Db\"[_DFA]4 |\n[V:2] [D,,A,,F,]4 [C,,D,,F,,]4 | [B,,,F,,D,]4 [C,,G,,E,]4 | [_D,,_A,,F,]4 [_E,,B,,G,]4 | [_A,,_E,]4 [_D,,A,,F,]4 |\n[V:1] \"Bbm\"[_DFB]4 \"C7\"[EGB]4 | \"F\"[FAc]4 [FAc]4 |]\n[V:2] [B,,,F,,_D,]4 [C,,B,,E,]4 | [F,,C,]8 |]",
+     "key": "F major",
+     "bars": 30,
+     "bpm": 62
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=62\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"C/E\"[EGc]2 [EGc][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"Dm/C\"[DFA]2 [DFA][DFB] | \"Bb\"[DFB]2 [DFB][DFB] \"C\"[EGc]2 [EGc][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DGB] |\n[V:2] [F,,,F,,C,]4 [E,,,E,,G,,C,E,]4 | [D,,A,,C,F,]4 [C,,D,,F,,A,,]4 | [B,,,F,,D,G,]4 [C,,G,,E,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"Gm\"[DGB]2 [DGB][DGB] \"C\"[EGc]2 [EGc][FAc] | \"F\"[FAc]2 [FAc][FAc] \"Bb\"[DFB]2 [DFB][_EGB] | \"Eb\"[_EGB]2 [EGB][EGB] \"C\"[=EGc]2 [EGc][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DGB] |\n[V:2] [G,,,G,,D,F,]4 [C,,G,,E,]4 | [F,,,F,,C,]4 [B,,,F,,D,G,]4 | [_E,,B,,G,]4 [C,,G,,E,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"Gm\"[DGB]2 [DGB][DGB] \"C\"[EGc]2 [EGc][FAc] | \"F\"[FAc]2 [FAc][FAc] \"Bb\"[DFB]2 [DFB][_EGB] | \"Eb\"[_EGB]2 [EGB][EGB] \"C\"[=EGc]2 [EGc][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][_DF_A] |\n[V:2] [G,,,G,,D,F,]4 [C,,G,,E,]4 | [F,,,F,,C,]4 [B,,,F,,D,G,]4 | [_E,,B,,G,]4 [C,,G,,E,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"Db\"[_DF_A]2 [DFA][DFA] \"Eb\"[_EGB]2 [EGB][EAc] | \"Ab\"[_E_Ac]2 [EAc][EAc] \"Db\"[_DFA]2 [DFA][DFB] | \"Bbm\"[_DFB]2 [DFB][DFB] [DFB]2 [DFB][EGB] | \"C7\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FAc] |\n[V:2] [_D,,_A,,F,]4 [_E,,B,,G,]4 | [_A,,,_A,,_E,]4 [_D,,A,,F,]4 | [B,,,F,,_A,,_D,]4 [B,,,F,,A,,D,]4 | [C,,B,,E,G,]4 [C,,B,,E,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"A7\"[^CEG]2 [CEG][DFB] | \"Bb\"[DFB]2 [DFB][DFB] \"F\"[FAc]2 [FAc][^FAc] | \"D7\"[^FAc]2 [FAc][FAc] \"Gm\"[DGB]2 [DGB][EGc] | \"C\"[EGc]2 [EGc][EGc] \"F\"[FAc]2 [FAc][DFA] |\n[V:2] [F,,,F,,C,]4 [A,,,A,,G,]4 | [B,,,F,,D,G,]4 [F,,,F,,C,]4 | [D,,C,^F,]4 [G,,,G,,D,=F,]4 | [C,,G,,E,]4 [F,,,F,,C,]4 |\n[V:1] \"Dm\"[DFA]2 [DFA][DFA] \"A\"[^CEA]2 [CEA][DFB] | \"Bb\"[DFB]2 [DFB][DFB] \"Db\"[_DF_A]2 [DFA][DFA] | \"Db\"[_DF_A]2 [DFA][DFA] \"Eb\"[_EGB]2 [EGB][F=Ac] | \"F\"[FAc]2 [FAc][FAc] \"C/E\"[EGc]2 [EGc][DFA] |\n[V:2] [D,,A,,C,F,]4 [A,,,A,,E,]4 | [B,,,F,,D,G,]4 [_D,,_A,,F,]4 | [_D,,_A,,F,]4 [_E,,B,,G,]4 | [F,,,F,,C,]4 [E,,,E,,G,,C,E,]4 |\n[V:1] \"Dm\"[DFA]2 [DFA][DFA] \"Dm/C\"[DFA]2 [DFA][DFB] | \"Bb\"[DFB]2 [DFB][DFB] \"C\"[EGc]2 [EGc][_DF_A] | \"Db\"[_DF_A]2 [DFA][DFA] \"Eb\"[_EGB]2 [EGB][EAc] | \"Ab\"[_E_Ac]2 [EAc][EAc] \"Db\"[_DFA]2 [DFA][DFB] |\n[V:2] [D,,A,,C,F,]4 [C,,D,,F,,A,,]4 | [B,,,F,,D,G,]4 [C,,G,,E,]4 | [_D,,_A,,F,]4 [_E,,B,,G,]4 | [_A,,,_A,,_E,]4 [_D,,A,,F,]4 |\n[V:1] \"Bbm\"[_DFB]2 [DFB][DFB] \"C7\"[EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][FAc] |]\n[V:2] [B,,,F,,_A,,_D,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |]",
+     "key": "F major",
+     "bars": 30,
+     "bpm": 62
+    }
+   },
+   "status": "learn",
+   "chart": {
+    "key": "F major",
+    "feel": "Slow, stately ballad, 4/4, about 62 BPM",
+    "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "F",
+        "C/E"
+       ],
+       [
+        "Dm",
+        "Dm/C"
+       ],
+       [
+        "Bb",
+        "C"
+       ],
+       [
+        "F"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "Gm",
+        "C"
+       ],
+       [
+        "F",
+        "Bb"
+       ],
+       [
+        "Eb",
+        "C"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Gm",
+        "C"
+       ],
+       [
+        "F",
+        "Bb"
+       ],
+       [
+        "Eb",
+        "C"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Db",
+        "Eb"
+       ],
+       [
+        "Ab",
+        "Db"
+       ],
+       [
+        "Bbm"
+       ],
+       [
+        "C7"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "F",
+        "A7"
+       ],
+       [
+        "Bb",
+        "F"
+       ],
+       [
+        "D7",
+        "Gm"
+       ],
+       [
+        "C",
+        "F"
+       ],
+       [
+        "Dm",
+        "A"
+       ],
+       [
+        "Bb",
+        "Db"
+       ],
+       [
+        "Db",
+        "Eb"
+       ],
+       [
+        "F",
+        "C/E"
+       ],
+       [
+        "Dm",
+        "Dm/C"
+       ],
+       [
+        "Bb",
+        "C"
+       ],
+       [
+        "Db",
+        "Eb"
+       ],
+       [
+        "Ab",
+        "Db"
+       ],
+       [
+        "Bbm",
+        "C7"
+       ],
+       [
+        "F"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-pure-imagination",
+   "title": "Pure Imagination",
+   "composer": "Leslie Bricusse and Anthony Newley, 1971",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"Cmaj7\"[EGB]8 | \"Dm7\"[FAc]4 \"G7\"[FGB]4 | \"Cmaj7\"[EGB]4 \"Am7\"[GAc]4 | \"Dm7\"[FAc]4 \"G7\"[FGB]4 |\n[V:2] C,,8 | D,,4 G,,4 | C,,4 A,,4 | D,,4 G,,4 |\n[V:1] \"Cmaj7\"[EGB]8 | \"Dm9\"[FAc]4 \"G13\"[FGB]4 | \"Cmaj7\"[EGB]4 \"Am7\"[GAc]4 | \"Dm9\"[FAc]4 \"Db7#9\"[F_A_c]4 |\n[V:2] C,,8 | D,,4 G,,4 | C,,4 A,,4 | D,,4 _D,,4 |\n[V:1] \"E\"[E^GB]8 | \"Fmaj7\"[EFA]4 \"Em7\"[DEG]4 | \"Dm7\"[FAc]4 \"G7\"[FGB]4 | \"Cmaj7\"[EGB]4 \"Dm7\"[FAc]4 |\n[V:2] E,,8 | F,,4 E,,4 | D,,4 G,,4 | C,,4 D,,4 |\n[V:1] \"D#dim\"[^D^FA]4 \"Em7\"[=DEG]4 | \"F#m7b5\"[E^FA]4 \"B7b9\"[^DFA]4 | \"Em\"[EGB]8 | \"A7sus4\"[EGA]4 \"A7\"[^CEG]4 |\n[V:2] ^D,,4 E,,4 | ^F,,4 B,,,4 | E,,8 | A,,4 A,,4 |\n[V:1] \"Dm7\"[FAc]4 \"G7\"[FGB]4 | \"Dm9\"[FAc]4 \"G13\"[FGB]4 | \"Cmaj7\"[EGB]4 \"Am7\"[GAc]4 | \"Dm9\"[FAc]4 \"G13\"[FGB]4 |\n[V:2] D,,4 G,,4 | D,,4 G,,4 | C,,4 A,,4 | D,,4 G,,4 |\n[V:1] \"C6\"[EGA]8 |]\n[V:2] C,,8 |]",
+     "key": "C major (as charted; not checked against the film key)",
+     "bars": 21,
+     "bpm": 70
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"Cmaj7\"[EGB]4 [EGB]4 | \"Dm7\"[FAc]4 \"G7\"[FGB]4 | \"Cmaj7\"[EGB]4 \"Am7\"[GAc]4 | \"Dm7\"[FAc]4 \"G7\"[FGB]4 |\n[V:2] [C,,B,,E,]8 | [D,,C,F,]4 [G,,F,]4 | [C,,B,,E,]4 [A,,G,]4 | [D,,C,F,]4 [G,,F,]4 |\n[V:1] \"Cmaj7\"[EGB]4 [EGB]4 | \"Dm9\"[FAc]4 \"G13\"[FGB]4 | \"Cmaj7\"[EGB]4 \"Am7\"[GAc]4 | \"Dm9\"[FAc]4 \"Db7#9\"[F_A_c]4 |\n[V:2] [C,,B,,E,]8 | [D,,C,F,]4 [G,,F,]4 | [C,,B,,E,]4 [A,,G,]4 | [D,,C,F,]4 [_D,,_C,F,]4 |\n[V:1] \"E\"[E^GB]4 [EGB]4 | \"Fmaj7\"[EFA]4 \"Em7\"[DEG]4 | \"Dm7\"[FAc]4 \"G7\"[FGB]4 | \"Cmaj7\"[EGB]4 \"Dm7\"[FAc]4 |\n[V:2] [E,,B,,^G,]8 | [F,,E,]4 [E,,D,G,]4 | [D,,C,F,]4 [G,,F,]4 | [C,,B,,E,]4 [D,,C,F,]4 |\n[V:1] \"D#dim\"[^D^FA]4 \"Em7\"[=DEG]4 | \"F#m7b5\"[E^FA]4 \"B7b9\"[^DFA]4 | \"Em\"[EGB]4 [EGB]4 | \"A7sus4\"[EGA]4 \"A7\"[^CEG]4 |\n[V:2] [^D,,^F,,A,,^D,]4 [E,,=D,G,]4 | [^F,,A,,C,E,]4 [B,,,A,,^D,]4 | [E,,B,,G,]8 | [A,,E,]4 [A,,G,]4 |\n[V:1] \"Dm7\"[FAc]4 \"G7\"[FGB]4 | \"Dm9\"[FAc]4 \"G13\"[FGB]4 | \"Cmaj7\"[EGB]4 \"Am7\"[GAc]4 | \"Dm9\"[FAc]4 \"G13\"[FGB]4 |\n[V:2] [D,,C,F,]4 [G,,F,]4 | [D,,C,F,]4 [G,,F,]4 | [C,,B,,E,]4 [A,,G,]4 | [D,,C,F,]4 [G,,F,]4 |\n[V:1] \"C6\"[EGA]4 [EGA]4 |]\n[V:2] [C,,A,,E,]8 |]",
+     "key": "C major (as charted; not checked against the film key)",
+     "bars": 21,
+     "bpm": 70
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=70\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"Cmaj7\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FAc] | \"Dm7\"[FAc]2 [FAc][FAc] \"G7\"[FGB]2 [FGB][EGB] | \"Cmaj7\"[EGB]2 [EGB][EGB] \"Am7\"[GAc]2 [GAc][FAc] | \"Dm7\"[FAc]2 [FAc][FAc] \"G7\"[FGB]2 [FGB][EGB] |\n[V:2] [C,,B,,E,G,]4 [C,,B,,E,G,]4 | [D,,C,F,]4 [G,,,G,,F,]4 | [C,,B,,E,G,]4 [A,,,A,,G,]4 | [D,,C,F,]4 [G,,,G,,F,]4 |\n[V:1] \"Cmaj7\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FAc] | \"Dm9\"[FAc]2 [FAc][FAc] \"G13\"[FGB]2 [FGB][EGB] | \"Cmaj7\"[EGB]2 [EGB][EGB] \"Am7\"[GAc]2 [GAc][FAc] | \"Dm9\"[FAc]2 [FAc][FAc] \"Db7#9\"[F_A_c]2 [FAc][E^GB] |\n[V:2] [C,,B,,E,G,]4 [C,,B,,E,G,]4 | [D,,C,F,]4 [G,,,G,,F,]4 | [C,,B,,E,G,]4 [A,,,A,,G,]4 | [D,,C,F,]4 [_D,,_C,F,_A,]4 |\n[V:1] \"E\"[E^GB]2 [EGB][EGB] [EGB]2 [EGB][EFA] | \"Fmaj7\"[EFA]2 [EFA][EFA] \"Em7\"[DEG]2 [DEG][FAc] | \"Dm7\"[FAc]2 [FAc][FAc] \"G7\"[FGB]2 [FGB][EGB] | \"Cmaj7\"[EGB]2 [EGB][EGB] \"Dm7\"[FAc]2 [FAc][^D^FA] |\n[V:2] [E,,,E,,B,,^G,]4 [E,,,E,,B,,G,]4 | [F,,,F,,E,]4 [E,,,E,,D,G,]4 | [D,,C,F,]4 [G,,,G,,F,]4 | [C,,B,,E,G,]4 [D,,C,F,]4 |\n[V:1] \"D#dim\"[^D^FA]2 [DFA][DFA] \"Em7\"[=DEG]2 [DEG][EFA] | \"F#m7b5\"[E^FA]2 [EFA][EFA] \"B7b9\"[^DFA]2 [DFA][EGB] | \"Em\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGA] | \"A7sus4\"[EGA]2 [EGA][EGA] \"A7\"[^CEG]2 [CEG][FAc] |\n[V:2] [^D,,^F,,A,,^D,]4 [E,,,E,,=D,G,]4 | [^F,,,^F,,A,,C,E,]4 [B,,,A,,^D,^F,]4 | [E,,,E,,B,,D,G,]4 [E,,,E,,B,,D,G,]4 | [A,,,A,,E,]4 [A,,,A,,G,]4 |\n[V:1] \"Dm7\"[FAc]2 [FAc][FAc] \"G7\"[FGB]2 [FGB][FAc] | \"Dm9\"[FAc]2 [FAc][FAc] \"G13\"[FGB]2 [FGB][EGB] | \"Cmaj7\"[EGB]2 [EGB][EGB] \"Am7\"[GAc]2 [GAc][FAc] | \"Dm9\"[FAc]2 [FAc][FAc] \"G13\"[FGB]2 [FGB][EGA] |\n[V:2] [D,,C,F,]4 [G,,,G,,F,]4 | [D,,C,F,]4 [G,,,G,,F,]4 | [C,,B,,E,G,]4 [A,,,A,,G,]4 | [D,,C,F,]4 [G,,,G,,F,]4 |\n[V:1] \"C6\"[EGA]2 [EGA][EGA] [EGA]2 [EGA][EGA] |]\n[V:2] [C,,A,,E,G,]4 [C,,A,,E,G,]4 |]",
+     "key": "C major (as charted; not checked against the film key)",
+     "bars": 21,
+     "bpm": 70
+    }
+   },
+   "status": "",
+   "chart": {
+    "key": "C major (as charted; not checked against the film key)",
+    "feel": "Dreamy ballad, 4/4, about 70 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "Cmaj7"
+       ],
+       [
+        "Dm7",
+        "G7"
+       ],
+       [
+        "Cmaj7",
+        "Am7"
+       ],
+       [
+        "Dm7",
+        "G7"
+       ],
+       [
+        "Cmaj7"
+       ],
+       [
+        "Dm9",
+        "G13"
+       ],
+       [
+        "Cmaj7",
+        "Am7"
+       ],
+       [
+        "Dm9",
+        "Db7#9"
+       ],
+       [
+        "E"
+       ]
+      ]
+     },
+     {
+      "name": "Bridge",
+      "bars": [
+       [
+        "Fmaj7",
+        "Em7"
+       ],
+       [
+        "Dm7",
+        "G7"
+       ],
+       [
+        "Cmaj7",
+        "Dm7"
+       ],
+       [
+        "D#dim",
+        "Em7"
+       ],
+       [
+        "F#m7b5",
+        "B7b9"
+       ],
+       [
+        "Em"
+       ],
+       [
+        "A7sus4",
+        "A7"
+       ],
+       [
+        "Dm7",
+        "G7"
+       ]
+      ]
+     },
+     {
+      "name": "Last verse",
+      "bars": [
+       [
+        "Dm9",
+        "G13"
+       ],
+       [
+        "Cmaj7",
+        "Am7"
+       ],
+       [
+        "Dm9",
+        "G13"
+       ],
+       [
+        "C6"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-don-t-dream-it-s-over",
+   "title": "Don't Dream It's Over",
+   "composer": "Crowded House",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=82\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Ebsus2\"[EFB]8 | \"Ebsus2\"[EFB]8 | \"Ebsus2\"[EFB]8 | \"Cm\"[EGc]8 |\n[V:2] E,,8 | E,,8 | E,,8 | C,,8 |\n[V:1] \"Ab\"[EAc]8 | \"G\"[DG=B]8 | \"Ebsus2\"[EFB]8 | \"Cm\"[EGc]8 |\n[V:2] A,,8 | G,,8 | E,,8 | C,,8 |\n[V:1] \"Ab\"[EAc]8 | \"G\"[DG=B]8 | \"Ab\"[EAc]4 \"Bb\"[DFB]4 | \"Eb\"[EGB]4 \"Cm\"[EGc]4 |\n[V:2] A,,8 | G,,8 | A,,4 B,,,4 | E,,4 C,,4 |\n[V:1] \"Ab\"[EAc]4 \"Bb\"[DFB]4 | \"Eb\"[EGB]4 \"Cm\"[EGc]4 | \"Ab\"[EAc]4 \"Bb\"[DFB]4 | \"Eb\"[EGB]4 \"Cm\"[EGc]4 |\n[V:2] A,,4 B,,,4 | E,,4 C,,4 | A,,4 B,,,4 | E,,4 C,,4 |\n[V:1] \"Ab\"[EAc]8 | \"Bb\"[DFB]8 |]\n[V:2] A,,8 | B,,,8 |]",
+     "key": "E♭ major",
+     "bars": 18,
+     "bpm": 82
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=82\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Ebsus2\"[EFB]4 [EFB]4 | \"Ebsus2\"[EFB]4 [EFB]4 | \"Ebsus2\"[EFB]4 [EFB]4 | \"Cm\"[EGc]4 [EGc]4 |\n[V:2] [E,,B,,E,]8 | [E,,B,,E,]8 | [E,,B,,E,]8 | [C,,G,,E,]8 |\n[V:1] \"Ab\"[EAc]4 [EAc]4 | \"G\"[DG=B]4 [DGB]4 | \"Ebsus2\"[EFB]4 [EFB]4 | \"Cm\"[EGc]4 [EGc]4 |\n[V:2] [A,,E,]8 | [G,,D,]8 | [E,,B,,E,]8 | [C,,G,,E,]8 |\n[V:1] \"Ab\"[EAc]4 [EAc]4 | \"G\"[DG=B]4 [DGB]4 | \"Ab\"[EAc]4 \"Bb\"[DFB]4 | \"Eb\"[EGB]4 \"Cm\"[EGc]4 |\n[V:2] [A,,E,]8 | [G,,D,]8 | [A,,E,]4 [B,,,F,,D,]4 | [E,,B,,G,]4 [C,,G,,E,]4 |\n[V:1] \"Ab\"[EAc]4 \"Bb\"[DFB]4 | \"Eb\"[EGB]4 \"Cm\"[EGc]4 | \"Ab\"[EAc]4 \"Bb\"[DFB]4 | \"Eb\"[EGB]4 \"Cm\"[EGc]4 |\n[V:2] [A,,E,]4 [B,,,F,,D,]4 | [E,,B,,G,]4 [C,,G,,E,]4 | [A,,E,]4 [B,,,F,,D,]4 | [E,,B,,G,]4 [C,,G,,E,]4 |\n[V:1] \"Ab\"[EAc]4 [EAc]4 | \"Bb\"[DFB]4 [DFB]4 |]\n[V:2] [A,,E,]8 | [B,,,F,,D,]8 |]",
+     "key": "E♭ major",
+     "bars": 18,
+     "bpm": 82
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=82\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Eb\n[V:1] \"Ebsus2\"[EFB]2 [EFB][EFB] [EFB]2 [EFB][EFB] | \"Ebsus2\"[EFB]2 [EFB][EFB] [EFB]2 [EFB][EFB] | \"Ebsus2\"[EFB]2 [EFB][EFB] [EFB]2 [EFB][EGc] | \"Cm\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EAc] |\n[V:2] [E,,B,,E,]4 [E,,B,,E,]4 | [E,,B,,E,]4 [E,,B,,E,]4 | [E,,B,,E,]4 [E,,B,,E,]4 | [C,,G,,B,,E,]4 [C,,G,,B,,E,]4 |\n[V:1] \"Ab\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][DG=B] | \"G\"[DG=B]2 [DGB][DGB] [DGB]2 [DGB][EF_B] | \"Ebsus2\"[EFB]2 [EFB][EFB] [EFB]2 [EFB][EGc] | \"Cm\"[EGc]2 [EGc][EGc] [EGc]2 [EGc][EAc] |\n[V:2] [A,,,A,,E,]4 [A,,,A,,E,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [E,,B,,E,]4 [E,,B,,E,]4 | [C,,G,,B,,E,]4 [C,,G,,B,,E,]4 |\n[V:1] \"Ab\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][DG=B] | \"G\"[DG=B]2 [DGB][DGB] [DGB]2 [DGB][EAc] | \"Ab\"[EAc]2 [EAc][EAc] \"Bb\"[DFB]2 [DFB][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Cm\"[EGc]2 [EGc][EAc] |\n[V:2] [A,,,A,,E,]4 [A,,,A,,E,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [A,,,A,,E,]4 [B,,,F,,D,G,]4 | [E,,B,,G,]4 [C,,G,,B,,E,]4 |\n[V:1] \"Ab\"[EAc]2 [EAc][EAc] \"Bb\"[DFB]2 [DFB][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Cm\"[EGc]2 [EGc][EAc] | \"Ab\"[EAc]2 [EAc][EAc] \"Bb\"[DFB]2 [DFB][EGB] | \"Eb\"[EGB]2 [EGB][EGB] \"Cm\"[EGc]2 [EGc][EAc] |\n[V:2] [A,,,A,,E,]4 [B,,,F,,D,G,]4 | [E,,B,,G,]4 [C,,G,,B,,E,]4 | [A,,,A,,E,]4 [B,,,F,,D,G,]4 | [E,,B,,G,]4 [C,,G,,B,,E,]4 |\n[V:1] \"Ab\"[EAc]2 [EAc][EAc] [EAc]2 [EAc][DFB] | \"Bb\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][DFB] |]\n[V:2] [A,,,A,,E,]4 [A,,,A,,E,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 |]",
+     "key": "E♭ major",
+     "bars": 18,
+     "bpm": 82
+    }
+   },
+   "status": "learn",
+   "chart": {
+    "key": "E♭ major",
+    "feel": "Laid-back pop ballad, 4/4, about 82 BPM",
+    "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "Ebsus2"
+       ],
+       [
+        "Ebsus2"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "Ebsus2"
+       ],
+       [
+        "Cm"
+       ],
+       [
+        "Ab"
+       ],
+       [
+        "G"
+       ],
+       [
+        "Ebsus2"
+       ],
+       [
+        "Cm"
+       ],
+       [
+        "Ab"
+       ],
+       [
+        "G"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "Ab",
+        "Bb"
+       ],
+       [
+        "Eb",
+        "Cm"
+       ],
+       [
+        "Ab",
+        "Bb"
+       ],
+       [
+        "Eb",
+        "Cm"
+       ],
+       [
+        "Ab",
+        "Bb"
+       ],
+       [
+        "Eb",
+        "Cm"
+       ],
+       [
+        "Ab"
+       ],
+       [
+        "Bb"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-i-shall-be-released",
+   "title": "I Shall Be Released",
+   "composer": "Bob Dylan",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"[CEA]8 | \"Bm\"[DFB]8 | \"C#m\"[CEG]4 \"Bm\"[DFB]4 | \"A\"[CEA]8 |\n[V:2] A,,8 | B,,,8 | C,,4 B,,,4 | A,,8 |\n[V:1] \"A\"[CEA]8 | \"Bm\"[DFB]8 | \"C#m\"[CEG]4 \"Bm\"[DFB]4 | \"A\"[CEA]4 \"E7\"[DEG]4 |\n[V:2] A,,8 | B,,,8 | C,,4 B,,,4 | A,,4 E,,4 |\n[V:1] \"A\"[CEA]8 | \"Bm\"[DFB]8 | \"C#m\"[CEG]4 \"Bm\"[DFB]4 | \"A\"[CEA]8 |\n[V:2] A,,8 | B,,,8 | C,,4 B,,,4 | A,,8 |\n[V:1] \"A\"[CEA]8 | \"Bm\"[DFB]8 | \"C#m\"[CEG]4 \"Bm\"[DFB]4 | \"A\"[CEA]8 |]\n[V:2] A,,8 | B,,,8 | C,,4 B,,,4 | A,,8 |]",
+     "key": "A major",
+     "bars": 16,
+     "bpm": 76
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"[CEA]4 [CEA]4 | \"Bm\"[DFB]4 [DFB]4 | \"C#m\"[CEG]4 \"Bm\"[DFB]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [A,,E,]8 | [B,,,F,,D,]8 | [C,,G,,E,]4 [B,,,F,,D,]4 | [A,,E,]8 |\n[V:1] \"A\"[CEA]4 [CEA]4 | \"Bm\"[DFB]4 [DFB]4 | \"C#m\"[CEG]4 \"Bm\"[DFB]4 | \"A\"[CEA]4 \"E7\"[DEG]4 |\n[V:2] [A,,E,]8 | [B,,,F,,D,]8 | [C,,G,,E,]4 [B,,,F,,D,]4 | [A,,E,]4 [E,,D,G,]4 |\n[V:1] \"A\"[CEA]4 [CEA]4 | \"Bm\"[DFB]4 [DFB]4 | \"C#m\"[CEG]4 \"Bm\"[DFB]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [A,,E,]8 | [B,,,F,,D,]8 | [C,,G,,E,]4 [B,,,F,,D,]4 | [A,,E,]8 |\n[V:1] \"A\"[CEA]4 [CEA]4 | \"Bm\"[DFB]4 [DFB]4 | \"C#m\"[CEG]4 \"Bm\"[DFB]4 | \"A\"[CEA]4 [CEA]4 |]\n[V:2] [A,,E,]8 | [B,,,F,,D,]8 | [C,,G,,E,]4 [B,,,F,,D,]4 | [A,,E,]8 |]",
+     "key": "A major",
+     "bars": 16,
+     "bpm": 76
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=76\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:A\n[V:1] \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] | \"C#m\"z2 [CEG][CEG] \"Bm\"z2 [DFB][DFB] | \"A\"z2 [CEA][CEA] z2 [CEA][CEA] |\n[V:2] [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 | C,,2 [G,,B,,E,]2 B,,,2 [F,,A,,D,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 |\n[V:1] \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] | \"C#m\"z2 [CEG][CEG] \"Bm\"z2 [DFB][DFB] | \"A\"z2 [CEA][CEA] \"E7\"z2 [DEG][DEG] |\n[V:2] [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 | C,,2 [G,,B,,E,]2 B,,,2 [F,,A,,D,]2 | [A,,,A,,]2 E,2 [E,,,E,,]2 [D,G,]2 |\n[V:1] \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] | \"C#m\"z2 [CEG][CEG] \"Bm\"z2 [DFB][DFB] | \"A\"z2 [CEA][CEA] z2 [CEA][CEA] |\n[V:2] [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 | C,,2 [G,,B,,E,]2 B,,,2 [F,,A,,D,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 |\n[V:1] \"A\"z2 [CEA][CEA] z2 [CEA][CEA] | \"Bm\"z2 [DFB][DFB] z2 [DFB][DFB] | \"C#m\"z2 [CEG][CEG] \"Bm\"z2 [DFB][DFB] | \"A\"z2 [CEA][CEA] z2 [CEA][CEA] |]\n[V:2] [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 | B,,,2 [F,,A,,D,]2 B,,,2 [F,,A,,D,]2 | C,,2 [G,,B,,E,]2 B,,,2 [F,,A,,D,]2 | [A,,,A,,]2 E,2 [A,,,A,,]2 E,2 |]",
+     "key": "A major",
+     "bars": 16,
+     "bpm": 76
+    }
+   },
+   "status": "learn",
+   "chart": {
+    "key": "A major",
+    "feel": "Slow gospel-folk, 4/4, about 76 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "A"
+       ],
+       [
+        "Bm"
+       ],
+       [
+        "C#m",
+        "Bm"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "Bm"
+       ],
+       [
+        "C#m",
+        "Bm"
+       ],
+       [
+        "A",
+        "E7"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "A"
+       ],
+       [
+        "Bm"
+       ],
+       [
+        "C#m",
+        "Bm"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A"
+       ],
+       [
+        "Bm"
+       ],
+       [
+        "C#m",
+        "Bm"
+       ],
+       [
+        "A"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-perfect-day",
+   "title": "Perfect Day",
+   "composer": "Lou Reed",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bbm\n[V:1] \"F\"[F=Ac]4 \"Bbm\"[DFB]4 | \"F\"[F=Ac]4 \"Bbm\"[DFB]4 | \"Bbm\"[DFB]4 \"Eb\"[E=GB]4 | \"Ab\"[EAc]4 \"Db\"[DFA]4 |\n[V:2] F,,4 B,,,4 | F,,4 B,,,4 | B,,,4 E,,4 | A,,4 D,,4 |\n[V:1] \"Gb\"[DGB]4 \"Ebm\"[EGB]4 | \"F\"[F=Ac]8 | \"Bbm\"[DFB]4 \"Eb\"[E=GB]4 | \"Ab\"[EAc]4 \"Db\"[DFA]4 |\n[V:2] G,,4 E,,4 | F,,8 | B,,,4 E,,4 | A,,4 D,,4 |\n[V:1] \"Gb\"[DGB]4 \"Ebm\"[EGB]4 | \"F\"[F=Ac]8 | \"Bb\"[=DFB]4 \"Eb\"[E=GB]4 | \"Dm\"[=DF=A]4 \"Eb\"[E=GB]4 |\n[V:2] G,,4 E,,4 | F,,8 | B,,,4 E,,4 | =D,,4 E,,4 |\n[V:1] \"Bb\"[=DFB]4 \"F\"[F=Ac]4 | \"Gm\"[=D=GB]2 \"F\"[F=Ac]2 \"Eb\"[EGB]4 | \"Bb\"[=DFB]4 \"Eb\"[E=GB]4 | \"Dm\"[=DF=A]4 \"Eb\"[E=GB]4 |\n[V:2] B,,,4 F,,4 | =G,,2 F,,2 E,,4 | B,,,4 E,,4 | =D,,4 E,,4 |\n[V:1] \"Bb\"[=DFB]4 \"F\"[F=Ac]4 | \"Gm\"[=D=GB]2 \"F\"[F=Ac]2 \"Eb\"[EGB]4 |]\n[V:2] B,,,4 F,,4 | =G,,2 F,,2 E,,4 |]",
+     "key": "B♭ minor (chorus in B♭ major)",
+     "bars": 18,
+     "bpm": 72
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bbm\n[V:1] \"F\"[F=Ac]4 \"Bbm\"[DFB]4 | \"F\"[F=Ac]4 \"Bbm\"[DFB]4 | \"Bbm\"[DFB]4 \"Eb\"[E=GB]4 | \"Ab\"[EAc]4 \"Db\"[DFA]4 |\n[V:2] [F,,C,]4 [B,,,F,,D,]4 | [F,,C,]4 [B,,,F,,D,]4 | [B,,,F,,D,]4 [E,,B,,=G,]4 | [A,,E,]4 [D,,A,,F,]4 |\n[V:1] \"Gb\"[DGB]4 \"Ebm\"[EGB]4 | \"F\"[F=Ac]4 [FAc]4 | \"Bbm\"[DFB]4 \"Eb\"[E=GB]4 | \"Ab\"[EAc]4 \"Db\"[DFA]4 |\n[V:2] [G,,D,]4 [E,,B,,G,]4 | [F,,C,]8 | [B,,,F,,D,]4 [E,,B,,=G,]4 | [A,,E,]4 [D,,A,,F,]4 |\n[V:1] \"Gb\"[DGB]4 \"Ebm\"[EGB]4 | \"F\"[F=Ac]4 [FAc]4 | \"Bb\"[=DFB]4 \"Eb\"[E=GB]4 | \"Dm\"[=DF=A]4 \"Eb\"[E=GB]4 |\n[V:2] [G,,D,]4 [E,,B,,G,]4 | [F,,C,]8 | [B,,,F,,=D,]4 [E,,B,,=G,]4 | [=D,,=A,,F,]4 [E,,B,,=G,]4 |\n[V:1] \"Bb\"[=DFB]4 \"F\"[F=Ac]4 | \"Gm\"[=D=GB]2 \"F\"[F=Ac]2 \"Eb\"[EGB]4 | \"Bb\"[=DFB]4 \"Eb\"[E=GB]4 | \"Dm\"[=DF=A]4 \"Eb\"[E=GB]4 |\n[V:2] [B,,,F,,=D,]4 [F,,C,]4 | [=G,,=D,]2 [F,,C,]2 [E,,B,,=G,]4 | [B,,,F,,=D,]4 [E,,B,,=G,]4 | [=D,,=A,,F,]4 [E,,B,,=G,]4 |\n[V:1] \"Bb\"[=DFB]4 \"F\"[F=Ac]4 | \"Gm\"[=D=GB]2 \"F\"[F=Ac]2 \"Eb\"[EGB]4 |]\n[V:2] [B,,,F,,=D,]4 [F,,C,]4 | [=G,,=D,]2 [F,,C,]2 [E,,B,,=G,]4 |]",
+     "key": "B♭ minor (chorus in B♭ major)",
+     "bars": 18,
+     "bpm": 72
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:Bbm\n[V:1] \"F\"[F=Ac]2 [FAc][FAc] \"Bbm\"[DFB]2 [DFB][FAc] | \"F\"[F=Ac]2 [FAc][FAc] \"Bbm\"[DFB]2 [DFB][DFB] | \"Bbm\"[DFB]2 [DFB][DFB] \"Eb\"[E=GB]2 [EGB][EAc] | \"Ab\"[EAc]2 [EAc][EAc] \"Db\"[DFA]2 [DFA][DGB] |\n[V:2] [F,,,F,,C,]4 [B,,,F,,A,,D,]4 | [F,,,F,,C,]4 [B,,,F,,A,,D,]4 | [B,,,F,,A,,D,]4 [E,,B,,=G,]4 | [A,,,A,,E,]4 [D,,A,,F,]4 |\n[V:1] \"Gb\"[DGB]2 [DGB][DGB] \"Ebm\"[EGB]2 [EGB][F=Ac] | \"F\"[F=Ac]2 [FAc][FAc] [FAc]2 [FAc][DFB] | \"Bbm\"[DFB]2 [DFB][DFB] \"Eb\"[E=GB]2 [EGB][EAc] | \"Ab\"[EAc]2 [EAc][EAc] \"Db\"[DFA]2 [DFA][DGB] |\n[V:2] [G,,,G,,D,]4 [E,,B,,D,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [B,,,F,,A,,D,]4 [E,,B,,=G,]4 | [A,,,A,,E,]4 [D,,A,,F,]4 |\n[V:1] \"Gb\"[DGB]2 [DGB][DGB] \"Ebm\"[EGB]2 [EGB][F=Ac] | \"F\"[F=Ac]2 [FAc][FAc] [FAc]2 [FAc][=DFB] | \"Bb\"[=DFB]2 [DFB][DFB] \"Eb\"[E=GB]2 [EGB][DF=A] | \"Dm\"[=DF=A]2 [DFA][DFA] \"Eb\"[E=GB]2 [EGB][DFB] |\n[V:2] [G,,,G,,D,]4 [E,,B,,D,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [B,,,F,,=D,=G,]4 [E,,B,,G,]4 | [=D,,=A,,C,F,]4 [E,,B,,=G,]4 |\n[V:1] \"Bb\"[=DFB]2 [DFB][DFB] \"F\"[F=Ac]2 [FAc][D=GB] | \"Gm\"[=D=GB]2 \"F\"[F=Ac][FAc] \"Eb\"[EGB]2 [EGB][DFB] | \"Bb\"[=DFB]2 [DFB][DFB] \"Eb\"[E=GB]2 [EGB][DF=A] | \"Dm\"[=DF=A]2 [DFA][DFA] \"Eb\"[E=GB]2 [EGB][DFB] |\n[V:2] [B,,,F,,=D,=G,]4 [F,,,F,,C,]4 | [=G,,,=G,,=D,F,]2 [F,,,F,,C,]2 [E,,B,,=G,]4 | [B,,,F,,=D,=G,]4 [E,,B,,G,]4 | [=D,,=A,,C,F,]4 [E,,B,,=G,]4 |\n[V:1] \"Bb\"[=DFB]2 [DFB][DFB] \"F\"[F=Ac]2 [FAc][D=GB] | \"Gm\"[=D=GB]2 \"F\"[F=Ac][FAc] \"Eb\"[EGB]2 [EGB][EGB] |]\n[V:2] [B,,,F,,=D,=G,]4 [F,,,F,,C,]4 | [=G,,,=G,,=D,F,]2 [F,,,F,,C,]2 [E,,B,,=G,]4 |]",
+     "key": "B♭ minor (chorus in B♭ major)",
+     "bars": 18,
+     "bpm": 72
+    }
+   },
+   "status": "play",
+   "chart": {
+    "key": "B♭ minor (chorus in B♭ major)",
+    "feel": "Slow, gentle ballad, 4/4, about 72 BPM",
+    "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "F",
+        "Bbm"
+       ],
+       [
+        "F",
+        "Bbm"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "Bbm",
+        "Eb"
+       ],
+       [
+        "Ab",
+        "Db"
+       ],
+       [
+        "Gb",
+        "Ebm"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Bbm",
+        "Eb"
+       ],
+       [
+        "Ab",
+        "Db"
+       ],
+       [
+        "Gb",
+        "Ebm"
+       ],
+       [
+        "F"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "Bb",
+        "Eb"
+       ],
+       [
+        "Dm",
+        "Eb"
+       ],
+       [
+        "Bb",
+        "F"
+       ],
+       [
+        "Gm",
+        "F",
+        "Eb",
+        "Eb"
+       ],
+       [
+        "Bb",
+        "Eb"
+       ],
+       [
+        "Dm",
+        "Eb"
+       ],
+       [
+        "Bb",
+        "F"
+       ],
+       [
+        "Gm",
+        "F",
+        "Eb",
+        "Eb"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-strange-currencies",
+   "title": "Strange Currencies",
+   "composer": "R.E.M.",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=56\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]6 | \"Fadd9\"[GAc]6 | \"C\"[EGc]6 | \"Fadd9\"[GAc]6 |\n[V:2] C,,6 | F,,6 | C,,6 | F,,6 |\n[V:1] \"C\"[EGc]6 | \"F\"[FAc]6 | \"Dm\"[DFA]6 | \"G\"[DGB]6 |\n[V:2] C,,6 | F,,6 | D,,6 | G,,6 |\n[V:1] \"C\"[EGc]3 \"G\"[DGB]3 | \"F\"[FAc]3 \"C\"[EGc]3 | \"F\"[FAc]6 | \"G\"[DGB]6 |\n[V:2] C,,3 G,,3 | F,,3 C,,3 | F,,6 | G,,6 |\n[V:1] \"C\"[EGc]3 \"G\"[DGB]3 | \"F\"[FAc]6 | \"C\"[EGc]6 | \"Dm\"[DFA]6 |\n[V:2] C,,3 G,,3 | F,,6 | C,,6 | D,,6 |\n[V:1] \"G\"[DGB]6 | \"Am\"[EAc]6 | \"G\"[DGB]6 | \"Am\"[EAc]6 |\n[V:2] G,,6 | A,,6 | G,,6 | A,,6 |\n[V:1] \"G\"[DGB]6 | \"Am\"[EAc]6 | \"F\"[FAc]6 | \"Dm\"[DFA]6 |\n[V:2] G,,6 | A,,6 | F,,6 | D,,6 |\n[V:1] \"G\"[DGB]6 |]\n[V:2] G,,6 |]",
+     "key": "C major",
+     "bars": 25,
+     "bpm": 56
+    },
+    "inter": {
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=56\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]2[EGc]4 | \"Fadd9\"[GAc]2[GAc]4 | \"C\"[EGc]2[EGc]4 | \"Fadd9\"[GAc]2[GAc]4 |\n[V:2] [C,,G,,E,]6 | [F,,G,,A,,]6 | [C,,G,,E,]6 | [F,,G,,A,,]6 |\n[V:1] \"C\"[EGc]2[EGc]4 | \"F\"[FAc]2[FAc]4 | \"Dm\"[DFA]2[DFA]4 | \"G\"[DGB]2[DGB]4 |\n[V:2] [C,,G,,E,]6 | [F,,C,]6 | [D,,A,,F,]6 | [G,,D,]6 |\n[V:1] \"C\"[EGc]2[EGc] \"G\"[DGB]3 | \"F\"[FAc]2[FAc] \"C\"[EGc]3 | \"F\"[FAc]2[FAc]4 | \"G\"[DGB]2[DGB]4 |\n[V:2] [C,,G,,E,]3 [G,,D,]3 | [F,,C,]3 [C,,G,,E,]3 | [F,,C,]6 | [G,,D,]6 |\n[V:1] \"C\"[EGc]2[EGc] \"G\"[DGB]3 | \"F\"[FAc]2[FAc]4 | \"C\"[EGc]2[EGc]4 | \"Dm\"[DFA]2[DFA]4 |\n[V:2] [C,,G,,E,]3 [G,,D,]3 | [F,,C,]6 | [C,,G,,E,]6 | [D,,A,,F,]6 |\n[V:1] \"G\"[DGB]2[DGB]4 | \"Am\"[EAc]2[EAc]4 | \"G\"[DGB]2[DGB]4 | \"Am\"[EAc]2[EAc]4 |\n[V:2] [G,,D,]6 | [A,,E,]6 | [G,,D,]6 | [A,,E,]6 |\n[V:1] \"G\"[DGB]2[DGB]4 | \"Am\"[EAc]2[EAc]4 | \"F\"[FAc]2[FAc]4 | \"Dm\"[DFA]2[DFA]4 |\n[V:2] [G,,D,]6 | [A,,E,]6 | [F,,C,]6 | [D,,A,,F,]6 |\n[V:1] \"G\"[DGB]2[DGB]4 |]\n[V:2] [G,,D,]6 |]",
+     "key": "C major",
+     "bars": 25,
+     "bpm": 56
+    },
+    "adv": {
+     "abc": "X:1\nM:6/8\nL:1/8\nQ:3/8=56\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:C\n[V:1] \"C\"[EGc]2[EGc] [EGc][EGc][GAc] | \"Fadd9\"[GAc]2[GAc] [GAc][GAc][EGc] | \"C\"[EGc]2[EGc] [EGc][EGc][GAc] | \"Fadd9\"[GAc]2[GAc] [GAc][GAc][EGc] |\n[V:2] [C,,G,,E,]6 | [F,,,F,,G,,A,,C,]6 | [C,,G,,E,]6 | [F,,,F,,G,,A,,C,]6 |\n[V:1] \"C\"[EGc]2[EGc] [EGc][EGc][FAc] | \"F\"[FAc]2[FAc] [FAc][FAc][DFA] | \"Dm\"[DFA]2[DFA] [DFA][DFA][DGB] | \"G\"[DGB]2[DGB] [DGB][DGB][EGc] |\n[V:2] [C,,G,,E,]6 | [F,,,F,,C,]6 | [D,,A,,C,F,]6 | [G,,,G,,D,]6 |\n[V:1] \"C\"[EGc]2[EGc] \"G\"[DGB][DGB][FAc] | \"F\"[FAc]2[FAc] \"C\"[EGc][EGc][FAc] | \"F\"[FAc]2[FAc] [FAc][FAc][DGB] | \"G\"[DGB]2[DGB] [DGB][DGB][EGc] |\n[V:2] [C,,G,,E,]3 [G,,,G,,D,]3 | [F,,,F,,C,]3 [C,,G,,E,]3 | [F,,,F,,C,]6 | [G,,,G,,D,]6 |\n[V:1] \"C\"[EGc]2[EGc] \"G\"[DGB][DGB][FAc] | \"F\"[FAc]2[FAc] [FAc][FAc][EGc] | \"C\"[EGc]2[EGc] [EGc][EGc][DFA] | \"Dm\"[DFA]2[DFA] [DFA][DFA][DGB] |\n[V:2] [C,,G,,E,]3 [G,,,G,,D,]3 | [F,,,F,,C,]6 | [C,,G,,E,]6 | [D,,A,,C,F,]6 |\n[V:1] \"G\"[DGB]2[DGB] [DGB][DGB][EAc] | \"Am\"[EAc]2[EAc] [EAc][EAc][DGB] | \"G\"[DGB]2[DGB] [DGB][DGB][EAc] | \"Am\"[EAc]2[EAc] [EAc][EAc][DGB] |\n[V:2] [G,,,G,,D,]6 | [A,,,A,,E,G,]6 | [G,,,G,,D,]6 | [A,,,A,,E,G,]6 |\n[V:1] \"G\"[DGB]2[DGB] [DGB][DGB][EAc] | \"Am\"[EAc]2[EAc] [EAc][EAc][FAc] | \"F\"[FAc]2[FAc] [FAc][FAc][DFA] | \"Dm\"[DFA]2[DFA] [DFA][DFA][DGB] |\n[V:2] [G,,,G,,D,]6 | [A,,,A,,E,G,]6 | [F,,,F,,C,]6 | [D,,A,,C,F,]6 |\n[V:1] \"G\"[DGB]2[DGB] [DGB][DGB][DGB] |]\n[V:2] [G,,,G,,D,]6 |]",
+     "key": "C major",
+     "bars": 25,
+     "bpm": 56
+    }
+   },
+   "status": "learn",
+   "chart": {
+    "key": "C major",
+    "feel": "Slow 6/8 sway, about 56 BPM",
+    "sections": [
+     {
+      "name": "Intro / Verse",
+      "bars": [
+       [
+        "C"
+       ],
+       [
+        "Fadd9"
+       ],
+       [
+        "C"
+       ],
+       [
+        "Fadd9"
+       ],
+       [
+        "C"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Dm"
+       ],
+       [
+        "G"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus (one source)",
+      "bars": [
+       [
+        "C",
+        "G"
+       ],
+       [
+        "F",
+        "C"
+       ],
+       [
+        "F"
+       ],
+       [
+        "G"
+       ],
+       [
+        "C",
+        "G"
+       ],
+       [
+        "F"
+       ],
+       [
+        "C"
+       ],
+       [
+        "Dm"
+       ],
+       [
+        "G"
+       ]
+      ]
+     },
+     {
+      "name": "Bridge",
+      "bars": [
+       [
+        "Am"
+       ],
+       [
+        "G"
+       ],
+       [
+        "Am"
+       ],
+       [
+        "G"
+       ],
+       [
+        "Am"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Dm"
+       ],
+       [
+        "G"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-what-a-wonderful-world",
+   "title": "What a Wonderful World",
+   "composer": "Bob Thiele and George David Weiss (Louis Armstrong recording)",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]4 \"Gm\"[DGB]4 | \"F\"[FAc]4 \"Gm\"[DGB]4 | \"F\"[FAc]4 \"Am\"[EAc]4 | \"Bb\"[DFB]4 \"Am\"[EAc]4 |\n[V:2] F,,4 G,,4 | F,,4 G,,4 | F,,4 A,,4 | B,,,4 A,,4 |\n[V:1] \"Gm7\"[FGB]4 \"F\"[FAc]4 | \"A7\"[^CEG]4 \"Dm\"[DFA]4 | \"Db\"[_DF_A]8 | \"Gm7\"[FGB]4 \"C7\"[EGB]4 |\n[V:2] G,,4 F,,4 | A,,4 D,,4 | _D,,8 | G,,4 C,,4 |\n[V:1] \"F\"[FAc]8 | \"F\"[FAc]8 | \"C7\"[EGB]8 | \"F\"[FAc]8 |\n[V:2] F,,8 | F,,8 | C,,8 | F,,8 |\n[V:1] \"C7\"[EGB]8 | \"F\"[FAc]8 | \"Dm\"[DFA]4 \"C\"[EGc]4 | \"Dm\"[DFA]4 \"C\"[EGc]4 |\n[V:2] C,,8 | F,,8 | D,,4 C,,4 | D,,4 C,,4 |\n[V:1] \"Dm\"[DFA]4 \"F#dim7\"[_E^FA]4 | \"Gm7\"[FGB]4 \"C7\"[EGB]4 |]\n[V:2] D,,4 ^F,,4 | G,,4 C,,4 |]",
+     "key": "F major",
+     "bars": 18,
+     "bpm": 72
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]4 \"Gm\"[DGB]4 | \"F\"[FAc]4 \"Gm\"[DGB]4 | \"F\"[FAc]4 \"Am\"[EAc]4 | \"Bb\"[DFB]4 \"Am\"[EAc]4 |\n[V:2] [F,,C,]4 [G,,D,]4 | [F,,C,]4 [G,,D,]4 | [F,,C,]4 [A,,E,]4 | [B,,,F,,D,]4 [A,,E,]4 |\n[V:1] \"Gm7\"[FGB]4 \"F\"[FAc]4 | \"A7\"[^CEG]4 \"Dm\"[DFA]4 | \"Db\"[_DF_A]4 [DFA]4 | \"Gm7\"[FGB]4 \"C7\"[EGB]4 |\n[V:2] [G,,F,]4 [F,,C,]4 | [A,,G,]4 [D,,A,,F,]4 | [_D,,_A,,F,]8 | [G,,F,]4 [C,,B,,E,]4 |\n[V:1] \"F\"[FAc]4 [FAc]4 | \"F\"[FAc]4 [FAc]4 | \"C7\"[EGB]4 [EGB]4 | \"F\"[FAc]4 [FAc]4 |\n[V:2] [F,,C,]8 | [F,,C,]8 | [C,,B,,E,]8 | [F,,C,]8 |\n[V:1] \"C7\"[EGB]4 [EGB]4 | \"F\"[FAc]4 [FAc]4 | \"Dm\"[DFA]4 \"C\"[EGc]4 | \"Dm\"[DFA]4 \"C\"[EGc]4 |\n[V:2] [C,,B,,E,]8 | [F,,C,]8 | [D,,A,,F,]4 [C,,G,,E,]4 | [D,,A,,F,]4 [C,,G,,E,]4 |\n[V:1] \"Dm\"[DFA]4 \"F#dim7\"[_E^FA]4 | \"Gm7\"[FGB]4 \"C7\"[EGB]4 |]\n[V:2] [D,,A,,F,]4 [^F,,A,,C,_E,]4 | [G,,F,]4 [C,,B,,E,]4 |]",
+     "key": "F major",
+     "bars": 18,
+     "bpm": 72
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:F\n[V:1] \"F\"[FAc]2 [FAc][FAc] \"Gm\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 [FAc][FAc] \"Gm\"[DGB]2 [DGB][FAc] | \"F\"[FAc]2 [FAc][FAc] \"Am\"[EAc]2 [EAc][DFB] | \"Bb\"[DFB]2 [DFB][DFB] \"Am\"[EAc]2 [EAc][FGB] |\n[V:2] [F,,,F,,C,]4 [G,,,G,,D,F,]4 | [F,,,F,,C,]4 [G,,,G,,D,F,]4 | [F,,,F,,C,]4 [A,,,A,,E,G,]4 | [B,,,F,,D,G,]4 [A,,,A,,E,G,]4 |\n[V:1] \"Gm7\"[FGB]2 [FGB][FGB] \"F\"[FAc]2 [FAc][^CEG] | \"A7\"[^CEG]2 [CEG][CEG] \"Dm\"[DFA]2 [DFA][_DF_A] | \"Db\"[_DF_A]2 [DFA][DFA] [DFA]2 [DFA][FGB] | \"Gm7\"[FGB]2 [FGB][FGB] \"C7\"[EGB]2 [EGB][FAc] |\n[V:2] [G,,,G,,F,]4 [F,,,F,,C,]4 | [A,,,A,,G,]4 [D,,A,,C,F,]4 | [_D,,_A,,F,]4 [D,,A,,F,]4 | [G,,,G,,F,]4 [C,,B,,E,G,]4 |\n[V:1] \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][EGB] | \"C7\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][EGB] |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [C,,B,,E,G,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"C7\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FAc] | \"F\"[FAc]2 [FAc][FAc] [FAc]2 [FAc][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"C\"[EGc]2 [EGc][DFA] | \"Dm\"[DFA]2 [DFA][DFA] \"C\"[EGc]2 [EGc][DFA] |\n[V:2] [C,,B,,E,G,]4 [C,,B,,E,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [D,,A,,C,F,]4 [C,,G,,E,]4 | [D,,A,,C,F,]4 [C,,G,,E,]4 |\n[V:1] \"Dm\"[DFA]2 [DFA][DFA] \"F#dim7\"[_E^FA]2 [EFA][=FGB] | \"Gm7\"[FGB]2 [FGB][FGB] \"C7\"[EGB]2 [EGB][EGB] |]\n[V:2] [D,,A,,C,F,]4 [^F,,,^F,,A,,C,_E,]4 | [G,,,G,,F,]4 [C,,B,,E,G,]4 |]",
+     "key": "F major",
+     "bars": 18,
+     "bpm": 72
+    }
+   },
+   "status": "play",
+   "chart": {
+    "key": "F major",
+    "feel": "Slow, warm ballad, 4/4, about 72 BPM",
+    "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "F",
+        "Gm"
+       ],
+       [
+        "F",
+        "Gm"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "F",
+        "Am"
+       ],
+       [
+        "Bb",
+        "Am"
+       ],
+       [
+        "Gm7",
+        "F"
+       ],
+       [
+        "A7",
+        "Dm"
+       ],
+       [
+        "Db"
+       ],
+       [
+        "Gm7",
+        "C7"
+       ],
+       [
+        "F"
+       ],
+       [
+        "F"
+       ]
+      ]
+     },
+     {
+      "name": "Bridge",
+      "bars": [
+       [
+        "C7"
+       ],
+       [
+        "F"
+       ],
+       [
+        "C7"
+       ],
+       [
+        "F"
+       ],
+       [
+        "Dm",
+        "C"
+       ],
+       [
+        "Dm",
+        "C"
+       ],
+       [
+        "Dm",
+        "F#dim7"
+       ],
+       [
+        "Gm7",
+        "C7"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-hard-to-say-i-m-sorry",
+   "title": "Hard to Say I'm Sorry",
+   "composer": "Chicago",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:E\n[V:1] \"E\"[EGB]8 | \"G#m7\"[FGB]8 | \"A\"[CEA]8 | \"A\"[CEA]4 \"B\"[DFB]4 |\n[V:2] E,,8 | G,,8 | A,,8 | A,,4 B,,,4 |\n[V:1] \"C#m\"[CEG]4 \"B\"[DFB]4 | \"E\"[EGB]8 | \"G#m7\"[FGB]8 | \"A\"[CEA]8 |\n[V:2] C,,4 B,,,4 | E,,8 | G,,8 | A,,8 |\n[V:1] \"A\"[CEA]4 \"B\"[DFB]4 | \"C#m\"[CEG]4 \"B\"[DFB]4 | \"C#m\"[CEG]4 \"F#m\"[CFA]4 | \"Bsus4\"[EFB]4 \"B\"[DFB]4 |\n[V:2] A,,4 B,,,4 | C,,4 B,,,4 | C,,4 F,,4 | B,,,4 B,,,4 |\n[V:1] \"E\"[EGB]8 | \"C#m\"[CEG]4 \"F#m\"[CFA]4 | \"Bsus4\"[EFB]4 \"B\"[DFB]4 | \"E\"[EGB]8 |\n[V:2] E,,8 | C,,4 F,,4 | B,,,4 B,,,4 | E,,8 |\n[V:1] \"A\"[CEA]4 \"B\"[DFB]4 | \"G#\"[DG^B]8 | \"C#m\"[CEG]8 | \"F#\"[CF^A]8 |\n[V:2] A,,4 B,,,4 | G,,8 | C,,8 | F,,8 |\n[V:1] \"B\"[DFB]8 | \"E\"[EGB]8 | \"A\"[CEA]4 \"B\"[DFB]4 | \"G#\"[DG^B]8 |\n[V:2] B,,,8 | E,,8 | A,,4 B,,,4 | G,,8 |\n[V:1] \"C#m\"[CEG]4 \"F#\"[CF^A]4 | \"Bsus4\"[EFB]4 \"B\"[DFB]4 |]\n[V:2] C,,4 F,,4 | B,,,4 B,,,4 |]",
+     "key": "E major",
+     "bars": 26,
+     "bpm": 72
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:E\n[V:1] \"E\"[EGB]4 [EGB]4 | \"G#m7\"[FGB]4 [FGB]4 | \"A\"[CEA]4 [CEA]4 | \"A\"[CEA]4 \"B\"[DFB]4 |\n[V:2] [E,,B,,G,]8 | [G,,F,]8 | [A,,E,]8 | [A,,E,]4 [B,,,F,,D,]4 |\n[V:1] \"C#m\"[CEG]4 \"B\"[DFB]4 | \"E\"[EGB]4 [EGB]4 | \"G#m7\"[FGB]4 [FGB]4 | \"A\"[CEA]4 [CEA]4 |\n[V:2] [C,,G,,E,]4 [B,,,F,,D,]4 | [E,,B,,G,]8 | [G,,F,]8 | [A,,E,]8 |\n[V:1] \"A\"[CEA]4 \"B\"[DFB]4 | \"C#m\"[CEG]4 \"B\"[DFB]4 | \"C#m\"[CEG]4 \"F#m\"[CFA]4 | \"Bsus4\"[EFB]4 \"B\"[DFB]4 |\n[V:2] [A,,E,]4 [B,,,F,,D,]4 | [C,,G,,E,]4 [B,,,F,,D,]4 | [C,,G,,E,]4 [F,,C,]4 | [B,,,F,,B,,F,]4 [B,,,F,,D,]4 |\n[V:1] \"E\"[EGB]4 [EGB]4 | \"C#m\"[CEG]4 \"F#m\"[CFA]4 | \"Bsus4\"[EFB]4 \"B\"[DFB]4 | \"E\"[EGB]4 [EGB]4 |\n[V:2] [E,,B,,G,]8 | [C,,G,,E,]4 [F,,C,]4 | [B,,,F,,B,,F,]4 [B,,,F,,D,]4 | [E,,B,,G,]8 |\n[V:1] \"A\"[CEA]4 \"B\"[DFB]4 | \"G#\"[DG^B]4 [DGB]4 | \"C#m\"[CEG]4 [CEG]4 | \"F#\"[CF^A]4 [CFA]4 |\n[V:2] [A,,E,]4 [B,,,F,,D,]4 | [G,,D,]8 | [C,,G,,E,]8 | [F,,C,]8 |\n[V:1] \"B\"[DFB]4 [DFB]4 | \"E\"[EGB]4 [EGB]4 | \"A\"[CEA]4 \"B\"[DFB]4 | \"G#\"[DG^B]4 [DGB]4 |\n[V:2] [B,,,F,,D,]8 | [E,,B,,G,]8 | [A,,E,]4 [B,,,F,,D,]4 | [G,,D,]8 |\n[V:1] \"C#m\"[CEG]4 \"F#\"[CF^A]4 | \"Bsus4\"[EFB]4 \"B\"[DFB]4 |]\n[V:2] [C,,G,,E,]4 [F,,C,]4 | [B,,,F,,B,,F,]4 [B,,,F,,D,]4 |]",
+     "key": "E major",
+     "bars": 26,
+     "bpm": 72
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=72\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:E\n[V:1] \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FGB] | \"G#m7\"[FGB]2 [FGB][FGB] [FGB]2 [FGB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CEA] | \"A\"[CEA]2 [CEA][CEA] \"B\"[DFB]2 [DFB][CEG] |\n[V:2] [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [G,,,G,,F,]4 [G,,,G,,F,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 | [A,,,A,,E,]4 [B,,,F,,D,G,]4 |\n[V:1] \"C#m\"[CEG]2 [CEG][CEG] \"B\"[DFB]2 [DFB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][FGB] | \"G#m7\"[FGB]2 [FGB][FGB] [FGB]2 [FGB][CEA] | \"A\"[CEA]2 [CEA][CEA] [CEA]2 [CEA][CEA] |\n[V:2] [C,,G,,B,,E,]4 [B,,,F,,D,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [G,,,G,,F,]4 [G,,,G,,F,]4 | [A,,,A,,E,]4 [A,,,A,,E,]4 |\n[V:1] \"A\"[CEA]2 [CEA][CEA] \"B\"[DFB]2 [DFB][CEG] | \"C#m\"[CEG]2 [CEG][CEG] \"B\"[DFB]2 [DFB][CEG] | \"C#m\"[CEG]2 [CEG][CEG] \"F#m\"[CFA]2 [CFA][EFB] | \"Bsus4\"[EFB]2 [EFB][EFB] \"B\"[DFB]2 [DFB][EGB] |\n[V:2] [A,,,A,,E,]4 [B,,,F,,D,G,]4 | [C,,G,,B,,E,]4 [B,,,F,,D,G,]4 | [C,,G,,B,,E,]4 [F,,,F,,C,E,]4 | [B,,,F,,B,,F,]4 [B,,,F,,D,G,]4 |\n[V:1] \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CEG] | \"C#m\"[CEG]2 [CEG][CEG] \"F#m\"[CFA]2 [CFA][EFB] | \"Bsus4\"[EFB]2 [EFB][EFB] \"B\"[DFB]2 [DFB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CEA] |\n[V:2] [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [C,,G,,B,,E,]4 [F,,,F,,C,E,]4 | [B,,,F,,B,,F,]4 [B,,,F,,D,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 |\n[V:1] \"A\"[CEA]2 [CEA][CEA] \"B\"[DFB]2 [DFB][DG^B] | \"G#\"[DG^B]2 [DGB][DGB] [DGB]2 [DGB][CEG] | \"C#m\"[CEG]2 [CEG][CEG] [CEG]2 [CEG][CF^A] | \"F#\"[CF^A]2 [CFA][CFA] [CFA]2 [CFA][DFB] |\n[V:2] [A,,,A,,E,]4 [B,,,F,,D,G,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 | [C,,G,,B,,E,]4 [C,,G,,B,,E,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CEA] | \"A\"[CEA]2 [CEA][CEA] \"B\"[DFB]2 [DFB][DG^B] | \"G#\"[DG^B]2 [DGB][DGB] [DGB]2 [DGB][CEG] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [A,,,A,,E,]4 [B,,,F,,D,G,]4 | [G,,,G,,D,]4 [G,,,G,,D,]4 |\n[V:1] \"C#m\"[CEG]2 [CEG][CEG] \"F#\"[CF^A]2 [CFA][EFB] | \"Bsus4\"[EFB]2 [EFB][EFB] \"B\"[DFB]2 [DFB][DFB] |]\n[V:2] [C,,G,,B,,E,]4 [F,,,F,,C,]4 | [B,,,F,,B,,F,]4 [B,,,F,,D,G,]4 |]",
+     "key": "E major",
+     "bars": 26,
+     "bpm": 72
+    }
+   },
+   "status": "learn",
+   "chart": {
+    "key": "E major",
+    "feel": "Piano power ballad, 4/4, about 72 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "E"
+       ],
+       [
+        "G#m7"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "C#m",
+        "B"
+       ],
+       [
+        "E"
+       ],
+       [
+        "G#m7"
+       ],
+       [
+        "A"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "C#m",
+        "B"
+       ]
+      ]
+     },
+     {
+      "name": "Pre-chorus",
+      "bars": [
+       [
+        "C#m",
+        "F#m"
+       ],
+       [
+        "Bsus4",
+        "B"
+       ],
+       [
+        "E"
+       ],
+       [
+        "C#m",
+        "F#m"
+       ],
+       [
+        "Bsus4",
+        "B"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "E"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "G#"
+       ],
+       [
+        "C#m"
+       ],
+       [
+        "F#"
+       ],
+       [
+        "B"
+       ],
+       [
+        "E"
+       ],
+       [
+        "A",
+        "B"
+       ],
+       [
+        "G#"
+       ],
+       [
+        "C#m",
+        "F#"
+       ],
+       [
+        "Bsus4",
+        "B"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-if-you-leave-me-now",
+   "title": "If You Leave Me Now",
+   "composer": "Chicago",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"B\"[DFB]8 | \"G#m\"[DGB]8 | \"D#m\"[DFA]8 | \"D#m\"[DFA]8 |\n[V:2] B,,,8 | G,,8 | D,,8 | D,,8 |\n[V:1] \"G#m\"[DGB]4 \"C#\"[C^EG]4 | \"F#\"[CFA]8 | \"B\"[DFB]8 | \"B\"[DFB]8 |\n[V:2] G,,4 C,,4 | F,,8 | B,,,8 | B,,,8 |\n[V:1] \"Eadd9\"[FGB]8 | \"Am\"[E=A=c]8 | \"E\"[EGB]8 | \"E\"[EGB]8 |\n[V:2] E,,8 | =A,,8 | E,,8 | E,,8 |\n[V:1] \"G#m\"[DGB]4 \"E\"[EGB]4 | \"F#\"[CFA]4 \"B\"[DFB]4 | \"A#m\"[C^EA]4 \"D#\"[D^^FA]4 | \"Eadd9\"[FGB]8 |\n[V:2] G,,4 E,,4 | F,,4 B,,,4 | A,,,4 D,,4 | E,,8 |\n[V:1] \"Am\"[E=A=c]8 | \"E\"[EGB]8 | \"E\"[EGB]8 | \"G#m\"[DGB]4 \"E\"[EGB]4 |\n[V:2] =A,,8 | E,,8 | E,,8 | G,,4 E,,4 |\n[V:1] \"F#\"[CFA]4 \"B\"[DFB]4 | \"D#m\"[DFA]4 \"G#m\"[DGB]4 | \"C#m\"[CEG]4 \"Em\"[E=GB]4 |]\n[V:2] F,,4 B,,,4 | D,,4 G,,4 | C,,4 E,,4 |]",
+     "key": "B major",
+     "bars": 23,
+     "bpm": 96
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"B\"[DFB]4 [DFB]4 | \"G#m\"[DGB]4 [DGB]4 | \"D#m\"[DFA]4 [DFA]4 | \"D#m\"[DFA]4 [DFA]4 |\n[V:2] [B,,,F,,D,]8 | [G,,D,]8 | [D,,A,,F,]8 | [D,,A,,F,]8 |\n[V:1] \"G#m\"[DGB]4 \"C#\"[C^EG]4 | \"F#\"[CFA]4 [CFA]4 | \"B\"[DFB]4 [DFB]4 | \"B\"[DFB]4 [DFB]4 |\n[V:2] [G,,D,]4 [C,,G,,^E,]4 | [F,,C,]8 | [B,,,F,,D,]8 | [B,,,F,,D,]8 |\n[V:1] \"Eadd9\"[FGB]4 [FGB]4 | \"Am\"[E=A=c]4 [EAc]4 | \"E\"[EGB]4 [EGB]4 | \"E\"[EGB]4 [EGB]4 |\n[V:2] [E,,F,,G,,]8 | [=A,,E,]8 | [E,,B,,G,]8 | [E,,B,,G,]8 |\n[V:1] \"G#m\"[DGB]4 \"E\"[EGB]4 | \"F#\"[CFA]4 \"B\"[DFB]4 | \"A#m\"[C^EA]4 \"D#\"[D^^FA]4 | \"Eadd9\"[FGB]4 [FGB]4 |\n[V:2] [G,,D,]4 [E,,B,,G,]4 | [F,,C,]4 [B,,,F,,D,]4 | [A,,,^E,,C,]4 [D,,A,,^^F,]4 | [E,,F,,G,,]8 |\n[V:1] \"Am\"[E=A=c]4 [EAc]4 | \"E\"[EGB]4 [EGB]4 | \"E\"[EGB]4 [EGB]4 | \"G#m\"[DGB]4 \"E\"[EGB]4 |\n[V:2] [=A,,E,]8 | [E,,B,,G,]8 | [E,,B,,G,]8 | [G,,D,]4 [E,,B,,G,]4 |\n[V:1] \"F#\"[CFA]4 \"B\"[DFB]4 | \"D#m\"[DFA]4 \"G#m\"[DGB]4 | \"C#m\"[CEG]4 \"Em\"[E=GB]4 |]\n[V:2] [F,,C,]4 [B,,,F,,D,]4 | [D,,A,,F,]4 [G,,D,]4 | [C,,G,,E,]4 [E,,B,,=G,]4 |]",
+     "key": "B major",
+     "bars": 23,
+     "bpm": 96
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=96\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][DGB] | \"G#m\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][DFA] | \"D#m\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][DFA] | \"D#m\"[DFA]2 [DFA][DFA] [DFA]2 [DFA][DGB] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [G,,,G,,D,F,]4 [G,,,G,,D,F,]4 | [D,,A,,C,F,]4 [D,,A,,C,F,]4 | [D,,A,,C,F,]4 [D,,A,,C,F,]4 |\n[V:1] \"G#m\"[DGB]2 [DGB][DGB] \"C#\"[C^EG]2 [CEG][CFA] | \"F#\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][DFB] | \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][DFB] | \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][FGB] |\n[V:2] [G,,,G,,D,F,]4 [C,,G,,^E,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 |\n[V:1] \"Eadd9\"[FGB]2 [FGB][FGB] [FGB]2 [FGB][E=A=c] | \"Am\"[E=A=c]2 [EAc][EAc] [EAc]2 [EAc][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DGB] |\n[V:2] [E,,,E,,F,,G,,B,,]4 [E,,,E,,F,,G,,B,,]4 | [=A,,,=A,,E,=G,]4 [A,,,A,,E,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 |\n[V:1] \"G#m\"[DGB]2 [DGB][DGB] \"E\"[EGB]2 [EGB][CFA] | \"F#\"[CFA]2 [CFA][CFA] \"B\"[DFB]2 [DFB][C^EA] | \"A#m\"[C^EA]2 [CEA][CEA] \"D#\"[D^^FA]2 [DFA][^FGB] | \"Eadd9\"[FGB]2 [FGB][FGB] [FGB]2 [FGB][E=A=c] |\n[V:2] [G,,,G,,D,F,]4 [E,,,E,,B,,G,]4 | [F,,,F,,C,]4 [B,,,F,,D,G,]4 | [A,,,^E,,G,,C,]4 [D,,A,,^^F,]4 | [E,,,E,,F,,G,,B,,]4 [E,,,E,,F,,G,,B,,]4 |\n[V:1] \"Am\"[E=A=c]2 [EAc][EAc] [EAc]2 [EAc][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DGB] | \"G#m\"[DGB]2 [DGB][DGB] \"E\"[EGB]2 [EGB][CFA] |\n[V:2] [=A,,,=A,,E,=G,]4 [A,,,A,,E,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [G,,,G,,D,F,]4 [E,,,E,,B,,G,]4 |\n[V:1] \"F#\"[CFA]2 [CFA][CFA] \"B\"[DFB]2 [DFB][DFA] | \"D#m\"[DFA]2 [DFA][DFA] \"G#m\"[DGB]2 [DGB][CEG] | \"C#m\"[CEG]2 [CEG][CEG] \"Em\"[E=GB]2 [EGB][EGB] |]\n[V:2] [F,,,F,,C,]4 [B,,,F,,D,G,]4 | [D,,A,,C,F,]4 [G,,,G,,D,F,]4 | [C,,G,,B,,E,]4 [E,,,E,,B,,=D,=G,]4 |]",
+     "key": "B major",
+     "bars": 23,
+     "bpm": 96
+    }
+   },
+   "status": "learn",
+   "chart": {
+    "key": "B major",
+    "feel": "Soft ballad, 4/4, about 96 BPM",
+    "sections": [
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "B"
+       ],
+       [
+        "G#m"
+       ],
+       [
+        "D#m"
+       ],
+       [
+        "D#m"
+       ],
+       [
+        "G#m",
+        "C#"
+       ],
+       [
+        "F#"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "Eadd9"
+       ],
+       [
+        "Am"
+       ],
+       [
+        "E"
+       ],
+       [
+        "E"
+       ],
+       [
+        "G#m",
+        "E"
+       ],
+       [
+        "F#",
+        "B"
+       ],
+       [
+        "A#m",
+        "D#"
+       ],
+       [
+        "Eadd9"
+       ],
+       [
+        "Am"
+       ],
+       [
+        "E"
+       ],
+       [
+        "E"
+       ],
+       [
+        "G#m",
+        "E"
+       ],
+       [
+        "F#",
+        "B"
+       ],
+       [
+        "D#m",
+        "G#m"
+       ],
+       [
+        "C#m",
+        "Em"
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "chart-sweet-caroline",
+   "title": "Sweet Caroline",
+   "composer": "Neil Diamond",
+   "cat": "Pop Requests",
+   "kind": "chart",
+   "badges": [
+    "Chord chart"
+   ],
+   "note": "",
+   "featured": false,
+   "levels": {
+    "easy": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=126\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"F#7\"[EFA]8 | \"F#7\"[EFA]8 | \"F#7\"[EFA]8 | \"F#7\"[EFA]8 |\n[V:2] F,,8 | F,,8 | F,,8 | F,,8 |\n[V:1] \"B\"[DFB]8 | \"B\"[DFB]8 | \"E\"[EGB]8 | \"E\"[EGB]8 |\n[V:2] B,,,8 | B,,,8 | E,,8 | E,,8 |\n[V:1] \"B\"[DFB]8 | \"B\"[DFB]8 | \"F#\"[CFA]8 | \"F#\"[CFA]8 |\n[V:2] B,,,8 | B,,,8 | F,,8 | F,,8 |\n[V:1] \"B\"[DFB]8 | \"B\"[DFB]8 | \"G#m\"[DGB]8 | \"G#m\"[DGB]8 |\n[V:2] B,,,8 | B,,,8 | G,,8 | G,,8 |\n[V:1] \"F#\"[CFA]8 | \"F#\"[CFA]8 | \"E\"[EGB]8 | \"F#\"[CFA]8 |\n[V:2] F,,8 | F,,8 | E,,8 | F,,8 |\n[V:1] \"B\"[DFB]8 | \"E\"[EGB]8 | \"E\"[EGB]8 | \"F#\"[CFA]8 |\n[V:2] B,,,8 | E,,8 | E,,8 | F,,8 |\n[V:1] \"B\"[DFB]8 | \"E\"[EGB]8 | \"E\"[EGB]8 | \"F#\"[CFA]8 |\n[V:2] B,,,8 | E,,8 | E,,8 | F,,8 |\n[V:1] \"E\"[EGB]4 \"D#m\"[DFA]4 | \"C#m\"[CEG]8 |]\n[V:2] E,,4 D,,4 | C,,8 |]",
+     "key": "B major",
+     "bars": 30,
+     "bpm": 126
+    },
+    "inter": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=126\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"F#7\"[EFA]4 [EFA]4 | \"F#7\"[EFA]4 [EFA]4 | \"F#7\"[EFA]4 [EFA]4 | \"F#7\"[EFA]4 [EFA]4 |\n[V:2] [F,,E,]8 | [F,,E,]8 | [F,,E,]8 | [F,,E,]8 |\n[V:1] \"B\"[DFB]4 [DFB]4 | \"B\"[DFB]4 [DFB]4 | \"E\"[EGB]4 [EGB]4 | \"E\"[EGB]4 [EGB]4 |\n[V:2] [B,,,F,,D,]8 | [B,,,F,,D,]8 | [E,,B,,G,]8 | [E,,B,,G,]8 |\n[V:1] \"B\"[DFB]4 [DFB]4 | \"B\"[DFB]4 [DFB]4 | \"F#\"[CFA]4 [CFA]4 | \"F#\"[CFA]4 [CFA]4 |\n[V:2] [B,,,F,,D,]8 | [B,,,F,,D,]8 | [F,,C,]8 | [F,,C,]8 |\n[V:1] \"B\"[DFB]4 [DFB]4 | \"B\"[DFB]4 [DFB]4 | \"G#m\"[DGB]4 [DGB]4 | \"G#m\"[DGB]4 [DGB]4 |\n[V:2] [B,,,F,,D,]8 | [B,,,F,,D,]8 | [G,,D,]8 | [G,,D,]8 |\n[V:1] \"F#\"[CFA]4 [CFA]4 | \"F#\"[CFA]4 [CFA]4 | \"E\"[EGB]4 [EGB]4 | \"F#\"[CFA]4 [CFA]4 |\n[V:2] [F,,C,]8 | [F,,C,]8 | [E,,B,,G,]8 | [F,,C,]8 |\n[V:1] \"B\"[DFB]4 [DFB]4 | \"E\"[EGB]4 [EGB]4 | \"E\"[EGB]4 [EGB]4 | \"F#\"[CFA]4 [CFA]4 |\n[V:2] [B,,,F,,D,]8 | [E,,B,,G,]8 | [E,,B,,G,]8 | [F,,C,]8 |\n[V:1] \"B\"[DFB]4 [DFB]4 | \"E\"[EGB]4 [EGB]4 | \"E\"[EGB]4 [EGB]4 | \"F#\"[CFA]4 [CFA]4 |\n[V:2] [B,,,F,,D,]8 | [E,,B,,G,]8 | [E,,B,,G,]8 | [F,,C,]8 |\n[V:1] \"E\"[EGB]4 \"D#m\"[DFA]4 | \"C#m\"[CEG]4 [CEG]4 |]\n[V:2] [E,,B,,G,]4 [D,,A,,F,]4 | [C,,G,,E,]8 |]",
+     "key": "B major",
+     "bars": 30,
+     "bpm": 126
+    },
+    "adv": {
+     "abc": "X:1\nM:4/4\nL:1/8\nQ:1/4=126\n%%staves {1 2}\nV:1 clef=treble\nV:2 clef=bass\nK:B\n[V:1] \"F#7\"[EFA]2 [EFA][EFA] [EFA]2 [EFA][EFA] | \"F#7\"[EFA]2 [EFA][EFA] [EFA]2 [EFA][EFA] | \"F#7\"[EFA]2 [EFA][EFA] [EFA]2 [EFA][EFA] | \"F#7\"[EFA]2 [EFA][EFA] [EFA]2 [EFA][DFB] |\n[V:2] [F,,,F,,E,]4 [F,,,F,,E,]4 | [F,,,F,,E,]4 [F,,,F,,E,]4 | [F,,,F,,E,]4 [F,,,F,,E,]4 | [F,,,F,,E,]4 [F,,,F,,E,]4 |\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][DFB] | \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][DFB] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 |\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][DFB] | \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][CFA] | \"F#\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][CFA] | \"F#\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][DFB] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][DFB] | \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][DGB] | \"G#m\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][DGB] | \"G#m\"[DGB]2 [DGB][DGB] [DGB]2 [DGB][CFA] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [G,,,G,,D,F,]4 [G,,,G,,D,F,]4 | [G,,,G,,D,F,]4 [G,,,G,,D,F,]4 |\n[V:1] \"F#\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][CFA] | \"F#\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CFA] | \"F#\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][DFB] |\n[V:2] [F,,,F,,C,]4 [F,,,F,,C,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CFA] | \"F#\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][DFB] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"B\"[DFB]2 [DFB][DFB] [DFB]2 [DFB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][EGB] | \"E\"[EGB]2 [EGB][EGB] [EGB]2 [EGB][CFA] | \"F#\"[CFA]2 [CFA][CFA] [CFA]2 [CFA][EGB] |\n[V:2] [B,,,F,,D,G,]4 [B,,,F,,D,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [E,,,E,,B,,G,]4 [E,,,E,,B,,G,]4 | [F,,,F,,C,]4 [F,,,F,,C,]4 |\n[V:1] \"E\"[EGB]2 [EGB][EGB] \"D#m\"[DFA]2 [DFA][CEG] | \"C#m\"[CEG]2 [CEG][CEG] [CEG]2 [CEG][CEG] |]\n[V:2] [E,,,E,,B,,G,]4 [D,,A,,C,F,]4 | [C,,G,,B,,E,]4 [C,,G,,B,,E,]4 |]",
+     "key": "B major",
+     "bars": 30,
+     "bpm": 126
+    }
+   },
+   "status": "learn",
+   "chart": {
+    "key": "B major",
+    "feel": "Mid-tempo singalong, 4/4, about 126 BPM",
+    "sections": [
+     {
+      "name": "Intro",
+      "bars": [
+       [
+        "F#7"
+       ],
+       [
+        "F#7"
+       ],
+       [
+        "F#7"
+       ],
+       [
+        "F#7"
+       ]
+      ]
+     },
+     {
+      "name": "Verse",
+      "bars": [
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "E"
+       ],
+       [
+        "E"
+       ],
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "F#"
+       ],
+       [
+        "F#"
+       ]
+      ]
+     },
+     {
+      "name": "Pre-chorus",
+      "bars": [
+       [
+        "B"
+       ],
+       [
+        "B"
+       ],
+       [
+        "G#m"
+       ],
+       [
+        "G#m"
+       ],
+       [
+        "F#"
+       ],
+       [
+        "F#"
+       ],
+       [
+        "E"
+       ],
+       [
+        "F#"
+       ]
+      ]
+     },
+     {
+      "name": "Chorus",
+      "bars": [
+       [
+        "B"
+       ],
+       [
+        "E"
+       ],
+       [
+        "E"
+       ],
+       [
+        "F#"
+       ],
+       [
+        "B"
+       ],
+       [
+        "E"
+       ],
+       [
+        "E"
+       ],
+       [
+        "F#"
+       ],
+       [
+        "E",
+        "D#m"
+       ],
+       [
+        "C#m"
+       ]
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "req-if-i-had-a-hammer",
@@ -3322,18 +7103,8 @@ window.SONGBOOK = {
    "badges": [],
    "note": "",
    "featured": false,
-   "levels": {}
-  },
-  {
-   "id": "req-we-shall-overcome",
-   "title": "We Shall Overcome",
-   "composer": "Traditional / Pete Seeger",
-   "cat": "Pop Requests",
-   "kind": "request",
-   "badges": [],
-   "note": "",
-   "featured": false,
-   "levels": {}
+   "levels": {},
+   "status": ""
   }
  ]
 };

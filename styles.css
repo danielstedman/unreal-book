@@ -79,6 +79,8 @@ a { color: #2c5a51; }
 .pill.cat { background: #5fa596; color: #1d1d1b; }
 .pill.warn { background: #f1d9a0; color: #5b4300; }
 .pill.feat { background: #1d1d1b; color: #f3ecd9; }
+.pill.play { background: #3f7d70; color: #fff; }
+.pill.learn { background: #d28a00; color: #1d1d1b; }
 .card .rq { font-size: .88rem; color: #55534b; margin-top: 8px; display: block; }
 .star { flex: none; width: 52px; background: none; border: 0; border-left: 1px dashed #d8ccab; font-size: 1.5rem; color: #b8ad8d; }
 .star[aria-pressed="true"] { color: #d28a00; }

@@ -286,7 +286,17 @@ QUAL = [
     ('sus4', [(3, 5), (4, 7)]), ('sus', [(3, 5), (4, 7)]), ('aug', [(2, 4), (4, 8)]), ('+', [(2, 4), (4, 8)]),
     ('m', [(2, 3), (4, 7)]), ('7', [(2, 4), (4, 7), (6, 10)]), ('9', [(2, 4), (4, 7), (6, 10)]),
     ('6', [(2, 4), (4, 7), (5, 9)]), ('', [(2, 4), (4, 7)]),
+    # chords without a third
+    ('5', [(4, 7)]), ('sus2', [(1, 2), (4, 7)]), ('7sus4', [(3, 5), (4, 7), (6, 10)]), ('7sus', [(3, 5), (4, 7), (6, 10)]),
+    ('11', [(3, 5), (4, 7), (6, 10)]),
+    # colour chords, reduced to what the voicings use (3rd, 5th, one extra tone)
+    ('add9', [(2, 4), (4, 7), (1, 2)]), ('add2', [(2, 4), (4, 7), (1, 2)]), ('madd9', [(2, 3), (4, 7), (1, 2)]),
+    ('maj9', [(2, 4), (4, 7), (6, 11)]), ('m9', [(2, 3), (4, 7), (6, 10)]), ('m11', [(2, 3), (4, 7), (6, 10)]),
+    ('13', [(2, 4), (4, 7), (6, 10)]), ('7b9', [(2, 4), (4, 7), (6, 10)]), ('7#9', [(2, 4), (4, 7), (6, 10)]),
+    ('7#5', [(2, 4), (4, 8), (6, 10)]), ('aug7', [(2, 4), (4, 8), (6, 10)]), ('mmaj7', [(2, 3), (4, 7), (6, 11)]),
+    ('m7b5', [(2, 3), (4, 6), (6, 10)]), ('6/9', [(2, 4), (4, 7), (5, 9)]),
 ]
+NO_THIRD = ('5', 'sus2', 'sus4', 'sus', '7sus4', '7sus', '11')
 
 
 def chord_tones(c):
@@ -538,10 +548,11 @@ def voicing(c, ceil, rich=False, mel=()):
     b = place(bass, 36)
     if b.midi > 45:
         b = b.tr(-7, -12)
-    plain = q not in ('dim', 'dim7', 'aug', '+', 'm7b5')
+    plain = q not in ('dim', 'dim7', 'aug', '+', 'm7b5', '7#5', 'aug7') and q not in NO_THIRD and len(tones) >= 3
     slash = _pc(bass) != _pc(tones[0])
     if not plain or slash:
-        lad = ladder(c, b.midi)
+        # chords with no third: keep the low voicing open (root, fifth, octave) rather than a low cluster
+        lad = ladder(CH.match(c).group(1) + '5' if (q in NO_THIRD and not slash) else c, b.midi)
         ups = lad[1:4] if (rich or not slash) else lad[1:3]
     else:
         third, fifth = tones[1], tones[2]
@@ -572,10 +583,10 @@ def voicing(c, ceil, rich=False, mel=()):
     return list({p.midi: p for p in ps}.values())
 
 
-def upper_chord(c, ceil, lo=48, n=3):
+def upper_chord(c, ceil, lo=48, n=3, cap=66):
     """Closed chord (3 notes, keeping 3rd and 7th) just under the melody."""
     tones, _ = chord_tones(c.split('/')[0])
-    ceil = min(ceil, 66)
+    ceil = min(ceil, cap)
     pits = []
     for o in range(2, 7):
         for tc in tones:
@@ -583,7 +594,8 @@ def upper_chord(c, ceil, lo=48, n=3):
             if lo <= p.midi <= ceil:
                 pits.append(p)
     pits.sort(key=lambda p: p.midi)
-    need = {_pc(tones[1])} | ({_pc(tones[3])} if len(tones) > 3 else set())
+    q = CH.match(c.split('/')[0]).group(2)
+    need = (set() if q in NO_THIRD or len(tones) < 3 else {_pc(tones[1])}) | ({_pc(tones[3])} if len(tones) > 3 else set())
     for i in range(len(pits) - n, -1, -1):
         win = pits[i:i + n]
         if need <= {p.midi % 12 for p in win}:
@@ -970,31 +982,120 @@ def thin(bars, how):
                         e.pitches = ps[-1:] if how == 'top' else ps[:1] if how == 'bottom' else ps[-2:]
 
 
-def chart_abc(chart, bpm):
-    """Chord chart -> playable block-chord ABC (chords only, no melody)."""
+# Accompaniment patterns for chord charts, on an eighth-note grid for one bar.
+# 'on' = strike, '-' = keep holding, 'z' = rest;  for the left hand 'lo' = bass octave, 'up' = the upper notes.
+# These are generic comping figures written for this book, not transcriptions of any recording.
+COMP_RH = {
+    'ballad': {8: 'on - on on on - on on', 6: 'on - on on on on'},
+    'rock': {8: 'z on z on z on z on'},
+    'folk': {8: 'z z on on z z on on'},
+    'waltz': {6: 'z z on - on on'},
+    'compound': {6: 'on - on on - on', 12: 'on - on on - on on - on on - on'},
+}
+COMP_LH = {
+    'ballad': {8: 'on - - - on - - -', 6: 'on - - - - -'},
+    'rock': {8: 'lo - up - lo - up -'},
+    'folk': {8: 'lo - up - lo - up -'},
+    'waltz': {6: 'on - - - - -'},
+    'compound': {6: 'on - - up - -', 12: 'on - - up - - on - - up - -'},
+}
+
+
+def _grid(cells, segs, notes_for, syms=False, anticipate=None):
+    """cells: per-eighth actions for the bar.  segs: [(start8, len8, chord)].  -> list of Ev."""
+    out = []
+    n = len(cells)
+    for (st, ln, c) in segs:
+        i = st
+        first = True
+        while i < st + ln:
+            act = cells[i]
+            if i == st and act == '-':
+                act = 'on'
+            j = i + 1
+            while j < st + ln and cells[j] == ('z' if act == 'z' else '-'):
+                j += 1
+            d = (j - i) * E8
+            chord = c
+            if anticipate and i == n - 1 and act != 'z':
+                chord = anticipate
+            evs = held([] if act == 'z' else notes_for(chord, act), d)
+            if first and syms:
+                evs[0].sym = c
+            first = False
+            out += evs
+            i = j
+    return out
+
+
+def chart_levels(chart, bpm):
+    """Chord chart -> Easy / Intermediate / Advanced accompaniment (chords only, never a melody)."""
     M = chart.get('M', '4/4')
     blen, beam = meter(M)
-    v1, v2 = [], []
-    for sec in chart['sections']:
-        first = True
-        for bar in sec['bars']:
-            slot = blen / len(bar)
-            l1, l2 = [], []
-            for c in bar:
-                up = ladder(c.split('/')[0], 55)
-                tones, _ = chord_tones(c)
-                rh = up[:4] if len(tones) > 3 else up[:3]
-                lo = ladder(c, 36)
-                a = held(rh, slot)
-                a[0].sym = c
-                l1 += a
-                l2 += held([lo[0]], slot)
-            v1.append([l1])
-            v2.append([l2])
+    n8 = int(blen / E8)
+    compound = beam == Fr(3, 8)
+    comp = 'compound' if compound else chart.get('comp', 'ballad')
+    if blen == Fr(3, 4) and comp not in ('waltz',):
+        comp = 'ballad'
+    allbars = [bar for sec in chart['sections'] for bar in sec['bars']]
     key = chart.get('abckey', 'C')
-    unit = '3/8' if beam == Fr(3, 8) else '1/4'
-    abc = emit(v1, v2, key, M, E8, '%s=%d' % (unit, bpm))
-    return dict(abc=abc, key=chart['key'], bars=len(v1), bpm=bpm)
+    unit = '3/8' if compound else '1/4'
+
+    def rh(c, act=None):
+        return upper_chord(c, 72, lo=57, n=3, cap=72) or ladder(c.split('/')[0], 57)[:3]
+
+    def bass(c):
+        tones, b = chord_tones(c)
+        p = place(b, 36)
+        return p.tr(-7, -12) if p.midi > 45 else p
+
+    def lh_pad(c, act=None):
+        return voicing(c, 56, rich=False)
+
+    def lh_rich(c, act='on'):
+        v = sorted(voicing(c, 56, rich=True), key=lambda p: p.midi)
+        if act == 'lo':
+            return v[:2] if len(v) > 2 and v[1].midi - v[0].midi == 12 else v[:1]
+        if act == 'up':
+            up = v[2:] if len(v) > 2 and v[1].midi - v[0].midi == 12 else v[1:]
+            return up or v
+        return v
+
+    half = n8 // 2 if n8 in (8, 12) else (3 if compound else n8)
+    out = {}
+    for level in LEVELS:
+        v1, v2 = [], []
+        for bi, bar in enumerate(allbars):
+            if n8 % len(bar):
+                raise ValueError('%s: a bar with %d chords does not divide a %s bar' % (chart['id'], len(bar), M))
+            per = n8 // len(bar)
+            segs = []
+            for k, c in enumerate(bar):
+                if segs and segs[-1][2] == c:
+                    segs[-1][1] += per
+                else:
+                    segs.append([k * per, per, c])
+            nxt = allbars[bi + 1][0] if bi + 1 < len(allbars) else None
+            if level == 'easy':
+                r = _grid(['on'] + ['-'] * (n8 - 1), segs, rh, True)
+                l = _grid(['on'] + ['-'] * (n8 - 1), segs, lambda c, a: [bass(c)])
+            elif level == 'inter':
+                cells = [('on' if i % half == 0 else '-') for i in range(n8)]
+                if blen == Fr(3, 4):
+                    cells = ['on', '-', 'on', '-', '-', '-']
+                r = _grid(cells, segs, rh, True)
+                l = _grid(['on'] + ['-'] * (n8 - 1), segs, lh_pad)
+            else:
+                rc = COMP_RH[comp].get(n8) or COMP_RH['ballad'][n8]
+                lc = COMP_LH[comp].get(n8) or COMP_LH['ballad'][n8]
+                ant = nxt if (comp == 'ballad' and nxt and nxt != bar[-1]) else None
+                r = _grid(rc.split(), segs, rh, True, ant)
+                l = _grid(lc.split(), segs, lh_rich)
+            v1.append([r])
+            v2.append([l])
+        abc = emit(v1, v2, key, M, E8, '%s=%d' % (unit, bpm))
+        out[level] = dict(abc=abc, key=chart['key'], bars=len(v1), bpm=bpm)
+    return out
 
 
 def octs(body, down=True):

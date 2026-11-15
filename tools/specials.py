@@ -324,39 +324,178 @@ def bars(s):
     return [b.split() for b in s.strip().strip('|').split('|')]
 
 
+# Chord charts for the pop requests: chord names, section labels and bar structure only.
+# No melody and no lyrics.  Each chart was checked against the chord pages listed above it
+# (UG = ultimate-guitar.com, GT = guitartabs.cc, GTAB = guitaretab.com); where a page is written
+# for guitar with a capo, the chords are given here at sounding pitch.  Bar lengths are the
+# arranger's reading of those pages and may differ from a printed score.
+# status: 'play' = Danny can play it, 'learn' = Danny wants to learn it.
 CHARTS = [
-    dict(id='chart-let-it-be', title='Let It Be', artist='The Beatles', key='C major', feel='Slow gospel ballad, 4/4', bpm=72, sections=[
-        ('Verse', 'C|G|Am|F|C|G|F F C/E Dm7|C'), ('Chorus', 'Am|G|F|C|C|G|F F C/E Dm7|C')]),
-    dict(id='chart-yesterday', title='Yesterday', artist='The Beatles', key='F major', feel='Gentle ballad, 4/4', bpm=96, sections=[
-        ('Verse (7 bars)', 'F|Em7 A7|Dm Dm/C|Bb C7|F C/E|Dm7 G7|Bb F'), ('Bridge', 'Em7 A7|Dm C Bb Bb|Gm C7|F')]),
-    dict(id='chart-hey-jude', title='Hey Jude', artist='The Beatles', key='F major', feel='Broad ballad, 4/4', bpm=74, sections=[
-        ('Verse', 'F|C|C7|F|Bb|F|C7|F'), ('Bridge', 'F7|Bb Bb/A|Gm Gm/F|C7/E C7|F'), ('Coda', 'F|Eb|Bb|F')]),
-    dict(id='chart-in-my-life', title='In My Life', artist='The Beatles', key='A major', feel='Moderate, 4/4', bpm=104, sections=[
-        ('Verse', 'A E|F#m A7/G|D Dm|A|A E|F#m A7/G|D Dm|A'), ('Chorus', 'F#m|D|G|A|F#m|B7|Dm|A')]),
-    dict(id='chart-imagine', title='Imagine', artist='John Lennon', key='C major', feel='Slow piano ballad, 4/4', bpm=76, sections=[
-        ('Verse', 'C Cmaj7|F|C Cmaj7|F'), ('Pre-chorus', 'F Am/E|Dm7 F/C|G|G7'), ('Chorus', 'F G|C E7|F G|C E7|F G|C')]),
-    dict(id='chart-your-song', title='Your Song', artist='Elton John', key='E♭ major', feel='Flowing ballad, 4/4', bpm=66, sections=[
-        ('Verse', 'Eb|Abmaj7|Bb/D|Gm|Cm|Cm/Bb|Cm/A|Ab|Eb/Bb|Bb|G/B|Cm|Eb|Fm7|Ab|Bb')]),
-    dict(id='chart-piano-man', title='Piano Man', artist='Billy Joel', key='C major', feel='Waltz, 3/4 (felt in one)', bpm=170, M='3/4', sections=[
+    # https://tabs.ultimate-guitar.com/tab/the-beatles/let-it-be-chords-17427
+    # https://www.guitartabs.cc/tabs/b/beatles/let_it_be_acoustic_crd.html
+    dict(id='chart-let-it-be', title='Let It Be', artist='The Beatles', key='C major', abckey='C', feel='Slow gospel ballad, 4/4', bpm=72, sections=[
+        ('Intro', 'C G|Am F|C G|F F C/E Dm7 C C C C'),
+        ('Verse', 'C G|Am F|C G|F F C/E Dm7 C C C C|C G|Am F|C G|F F C/E Dm7 C C C C'),
+        ('Chorus', 'Am G|F C|C G|F F C/E Dm7 C C C C')]),
+    # https://tabs.ultimate-guitar.com/tab/the-beatles/yesterday-chords-17450
+    # https://www.guitartabs.cc/tabs/b/beatles/yesterday_crd.html
+    dict(id='chart-yesterday', title='Yesterday', artist='The Beatles', key='F major', abckey='F', feel='Gentle ballad, 4/4', bpm=96, sections=[
+        ('Verse (7 bars)', 'F|Em7 A7|Dm Dm/C|Bb C7|F C/E|Dm7 G7|Bb F'), ('Bridge', 'Em7 A7|Dm Dm/C Bb Bb|Gm C7|F|Em7 A7|Dm Dm/C Bb Bb|Gm C7|F')]),
+    # https://tabs.ultimate-guitar.com/tab/the-beatles/hey-jude-chords-1061739  (capo 3)
+    # https://www.guitartabs.cc/tabs/b/beatles/hey_jude_crd_ver_5.html  (written in G)
+    dict(id='chart-hey-jude', title='Hey Jude', artist='The Beatles', key='F major', abckey='F', feel='Broad ballad, 4/4', bpm=74, sections=[
+        ('Verse', 'F|C|C7|F|Bb|F|C7|F'), ('Bridge', 'F7|Bb Bb/A|Gm Gm/F|C7/E C7|F'), ('Outro', 'F|Eb|Bb|F')]),
+    # https://tabs.ultimate-guitar.com/tab/the-beatles/in-my-life-chords-17422  (capo 2)
+    # https://www.guitartabs.cc/tabs/b/beatles/in_my_life_crd_ver_5.html
+    dict(id='chart-in-my-life', title='In My Life', artist='The Beatles', key='A major', abckey='A', feel='Moderate, 4/4', bpm=104, sections=[
+        ('Intro', 'A|E|A|E'), ('Verse', 'A E|F#m A7/G|D Dm|A|A E|F#m A7/G|D Dm|A'), ('Chorus', 'F#m|D|G|A|F#m|B7|Dm|A')]),
+    # https://tabs.ultimate-guitar.com/tab/john-lennon/imagine-chords-9306
+    # https://www.guitartabs.cc/tabs/l/lennon_john/imagine_crd.html  (partial)
+    dict(id='chart-imagine', title='Imagine', artist='John Lennon', key='C major', abckey='C', feel='Slow piano ballad, 4/4', bpm=76, status='learn', sections=[
+        ('Intro / Verse', 'C Cmaj7|F|C Cmaj7|F'), ('Bridge', 'F Am/E|Dm7 F/C|G|G7'), ('Chorus', 'F G|C Cmaj7 E E7|F G|C Cmaj7 E E7|F G|C')]),
+    # https://tabs.ultimate-guitar.com/tab/elton-john/your-song-chords-29113  (capo 1)
+    # https://www.guitartabs.cc/tabs/e/elton_john/your_song_crd_ver_5.html  (written in C)
+    dict(id='chart-your-song', title='Your Song', artist='Elton John', key='E♭ major', abckey='Eb', feel='Flowing ballad, 4/4', bpm=66, status='play', sections=[
+        ('Intro', 'Eb Ab/Eb|Bb/Eb Ab/Eb'),
+        ('Verse', 'Eb Abmaj7|Bb/D Gm|Cm Cm/Bb|Cm/A Abmaj7|Eb Bb|G/B Cm|Eb Fm7|Ab Bb'),
+        ('Chorus', 'Bb/D Cm|Fm7 Ab|Bb/D Cm|Fm7 Ab|Cm Cm/Bb|Cm/A Ab|Eb/G Fm7|Ab Bb')]),
+    # https://tabs.ultimate-guitar.com/tab/billy-joel/piano-man-chords-1051336
+    # https://www.guitartabs.cc/tabs/b/billy_joel/piano_man_crd.html  (partial)
+    dict(id='chart-piano-man', title='Piano Man', artist='Billy Joel', key='C major', abckey='C', feel='Waltz, 3/4 (felt in one)', bpm=170, M='3/4', comp='waltz', sections=[
         ('Verse / Chorus', 'C|G/B|F/A|C/G|F|C/E|D7|G|C|G/B|F/A|C/G|F|G|C|C'), ('Interlude', 'Am|Am/G|D7/F#|F|Am|Am/G|D7/F#|G')]),
-    dict(id='chart-old-time-rock-and-roll', title='Old Time Rock and Roll', artist='Bob Seger', key='F♯ major (I – IV – V)', feel='Driving rock and roll, 4/4', bpm=124, sections=[
+    # https://tabs.ultimate-guitar.com/tab/bob-seger/old-time-rock-and-roll-chords-331847  (capo 2)
+    # https://www.guitartabs.cc/tabs/b/bob_seger/old_time_rock_and_roll_crd.html
+    dict(id='chart-old-time-rock-and-roll', title='Old Time Rock and Roll', artist='Bob Seger', key='F♯ major (I – IV – V)', abckey='F#', feel='Driving rock and roll, 4/4', bpm=124, comp='rock', sections=[
         ('Verse / Chorus', 'F#|F#|B|B|C#|C#|F#|F#')]),
-    dict(id='chart-turn-the-page', title='Turn the Page', artist='Bob Seger', key='E minor', feel='Slow rock ballad, 4/4', bpm=70, sections=[
-        ('Verse', 'Em|Em|D|D|A|A|Em|Em')]),
-    dict(id='chart-where-have-all-the-flowers-gone', title='Where Have All the Flowers Gone?', artist='Pete Seeger', key='C major', feel='Gentle folk, 4/4', bpm=100, sections=[
-        ('Verse', 'C|Am|F|G|C|Am|F|G|C|Am|F|G|F|C|F G|C')]),
-    dict(id='chart-this-land-is-your-land', title='This Land Is Your Land', artist='Woody Guthrie', key='G major', feel='Easy folk two-step, 4/4', bpm=112, sections=[
-        ('Verse / Chorus', 'C|G|D7|G|C|G|D7|G')]),
+    # https://tabs.ultimate-guitar.com/tab/bob-seger-the-silver-bullet-band/turn-the-page-chords-2166139
+    # https://www.guitartabs.cc/tabs/b/bob_seger/turn_the_page_crd.html
+    dict(id='chart-turn-the-page', title='Turn the Page', artist='Bob Seger', key='E minor', abckey='Em', feel='Slow rock ballad, 4/4', bpm=70, sections=[
+        ('Verse', 'Em|Em|D|D|A|A|Em|Em'), ('Chorus', 'D|Em|D|Em|D|A|C D|Em')]),
+    # https://tabs.ultimate-guitar.com/tab/pete-seeger/where-have-all-the-flowers-gone-chords-1055880
+    # https://www.guitaretab.com/p/pete-seeger/276967.html
+    dict(id='chart-where-have-all-the-flowers-gone', title='Where Have All the Flowers Gone?', artist='Pete Seeger', key='A major', abckey='A', feel='Gentle folk, 4/4', bpm=100, comp='folk', sections=[
+        ('Verse', 'A|F#m|D|E|A|F#m|Bm|E7|A|F#m|D|E|D|A|D E|A')]),
+    # https://tabs.ultimate-guitar.com/tab/woody-guthrie/this-land-is-your-land-chords-1054304
+    # https://www.guitartabs.cc/tabs/w/woody_guthrie/this_land_is_your_land_crd_ver_2.html
+    dict(id='chart-this-land-is-your-land', title='This Land Is Your Land', artist='Woody Guthrie', key='D major', abckey='D', feel='Easy folk two-step, 4/4', bpm=112, comp='folk', sections=[
+        ('Verse / Chorus', 'G|D|A7|D|G|D|A7|D')]),
+    # https://tabs.ultimate-guitar.com/tab/the-beatles/the-long-and-winding-road-chords-525032  (capo 1)
+    # https://www.guitartabs.cc/tabs/b/beatles/the_long_and_winding_road_crd.html
+    dict(id='chart-the-long-and-winding-road', title='The Long and Winding Road', artist='The Beatles', key='E♭ major (starts on C minor)', abckey='Eb', feel='Slow ballad, 4/4', bpm=66, sections=[
+        ('Verse', 'Cm|Ab/Bb|Eb Eb7|Ab|Gm Cm|Fm7 Bb7|Eb Eb7|Ab|Gm Cm|Fm7 Bb7|Eb'), ('Bridge', 'Eb Ab|Gm Fm7 Bb7 Bb7|Eb Ab|Gm Fm7 Bb7 Bb7')]),
+    # https://tabs.ultimate-guitar.com/tab/elton-john/tiny-dancer-chords-900075
+    # https://www.guitartabs.cc/tabs/e/elton_john/tiny_dancer_crd_ver_4.html
+    # Danny's printed copy is in G (it opens G | C | G | C): the same pattern, a fourth lower.
+    dict(id='chart-tiny-dancer', title='Tiny Dancer', artist='Elton John', key="C major (Danny's printed copy is in G: read C as G, F as C, G as D)", abckey='C', feel='Rolling piano ballad, 4/4', bpm=72, sections=[
+        ('Intro', 'C F/C|C F/C'),
+        ('Verse', 'C F/C|C F/C|C F/A|G/B G|C F/C|C F/C|C F/A|G|F Em7|Am7 D7/F#|Dm7 E7|Am G7|C F/C|C F/C|C G|F Em7 Dm7 Dm7'),
+        ('Pre-chorus', 'Ab Bb|Gm Cm|Ab Bb|G/B G/D'),
+        ('Chorus', 'F C/E|Dm C|F C/E|A7sus4|F C/E|Dm C|F C/E|A7sus4')]),
+    # https://tabs.ultimate-guitar.com/tab/elton-john/rocket-man-chords-10744  (capo 3)
+    # https://www.guitartabs.cc/tabs/e/elton_john/rocket_man_crd.html
+    dict(id='chart-rocket-man', title='Rocket Man', artist='Elton John', key='B♭ major (verse starts on G minor)', abckey='Bb', feel='Spacious ballad, 4/4', bpm=70, sections=[
+        ('Verse', 'Gm7|C9|Gm7|C9|Eb Bb/D|Cm Cm/Bb|F/A|F'), ('Chorus', 'Bb|Eb|Bb|Eb|Bb/D|C9|Eb|Bb Eb')]),
+    # https://tabs.ultimate-guitar.com/tab/elton-john/candle-in-the-wind-chords-1086982  (capo 2)
+    # https://www.guitartabs.cc/tabs/e/elton_john/candle_in_the_wind_crd.html
+    dict(id='chart-candle-in-the-wind', title='Candle in the Wind', artist='Elton John', key='E major', abckey='E', feel='Gentle ballad, 4/4', bpm=84, sections=[
+        ('Verse', 'E|E|A|A|E|E|A|A'), ('Chorus', 'B|B7|E|A|E|B|A|C#m|B|A|E')]),
+    # https://tabs.ultimate-guitar.com/tab/elton-john/dont-let-the-sun-go-down-on-me-chords-1065058
+    # https://www.guitaretab.com/e/elton-john/280545.html
+    dict(id='chart-don-t-let-the-sun-go-down-on-me', title="Don't Let the Sun Go Down on Me", artist='Elton John', key='C major', abckey='C', feel='Slow, broad ballad, 4/4', bpm=68, sections=[
+        ('Intro', 'C|C/Bb|F C|F'), ('Verse', 'G C/G G G|F|C F/C C C/E|F Bb/F F F|G C/G G G|G'),
+        ('Chorus', 'C|C/Bb|F/A|D7/F#|C/G|F/G G|C|C/Bb|F/A|Dm C/E|F|C/G G')]),
+    # https://tabs.ultimate-guitar.com/tab/bob-seger-the-silver-bullet-band/night-moves-chords-1765474  (capo 1)
+    # https://www.guitartabs.cc/tabs/b/bob_seger/night_moves_crd.html  (written in G)
+    dict(id='chart-night-moves', title='Night Moves', artist='Bob Seger', key='A♭ major', abckey='Ab', feel='Loose, strummed rock, 4/4', bpm=118, comp='folk', sections=[
+        ('Intro / Verse', 'Ab Gb|Db Gb|Ab Gb|Db Gb'), ('Chorus', 'Db Eb|Fm Eb|Db|Db|Db Eb|Fm Eb|Db|Db|Ab Gb|Db Gb'),
+        ('Bridge', 'Dbmaj7|Ab|Dbmaj7|Ab|Gb|Eb|Ab|Ab')]),
+    # https://tabs.ultimate-guitar.com/tab/bob-seger-the-silver-bullet-band/against-the-wind-chords-1708124
+    # https://www.guitartabs.cc/tabs/b/bob_seger/against_the_wind_crd.html
+    dict(id='chart-against-the-wind', title='Against the Wind', artist='Bob Seger', key='G major', abckey='G', feel='Easy country rock, 4/4', bpm=108, comp='folk', sections=[
+        ('Verse', 'G|G|Bm|Bm|C|G|D C|G|G|G|Bm|Bm|C|G|C|D'), ('Pre-chorus', 'Em D|G|Em C|G|Em D|C|C|D'), ('Chorus', 'G|Bm|C|G|C Bm|Am|C|G')]),
+    # https://tabs.ultimate-guitar.com/tab/bob-seger-the-silver-bullet-band/weve-got-tonight-chords-1930509
+    # https://www.guitaretab.com/b/bob-seger/289887.html  (written in G)
+    dict(id='chart-we-ve-got-tonight', title="We've Got Tonight", artist='Bob Seger', key='B major', abckey='B', feel='Slow piano ballad, 4/4', bpm=70, sections=[
+        ('Verse', 'B F#/A#|E F#|B F#/A#|E/G# F#|B/D# Emaj7|B F#'), ('Chorus', 'B Emaj7|E6 B|B/D# Emaj7|E6 B')]),
+    # https://tabs.ultimate-guitar.com/tab/bob-seger-the-silver-bullet-band/still-the-same-chords-1691983
+    # https://www.guitartabs.cc/tabs/b/bob_seger/still_the_same_crd_ver_2.html
+    dict(id='chart-still-the-same', title='Still the Same', artist='Bob Seger', key='C major', abckey='C', feel='Steady mid-tempo, 4/4', bpm=112, sections=[
+        ('Intro / Verse', 'Cmaj7 C|Cmaj7 C|Cadd9|Em G|Cmaj7 C|Cmaj7 C|Cadd9|Em G|F G|C|E7|Am|Dm|G'), ('Chorus', 'C|E|A|Dm G|C|E|A|Dm G')]),
+    # Danny's printed lead sheet (F major: F5, Bbsus2, G5, F/A, Bb5, C5)
+    # https://tabs.ultimate-guitar.com/tab/pat-benatar/we-belong-chords-713978  (capo 3)
+    # https://www.guitartabs.cc/tabs/p/pat_benatar/we_belong_crd.html
+    dict(id='chart-we-belong', title='We Belong', artist='Pat Benatar', key='F major', abckey='F', feel='Moderate, pulsing eighths, 4/4', bpm=132, sections=[
+        ('Verse', 'F5|F5|Bbsus2|Bbsus2|F5|F5|Bbsus2|Bbsus2'), ('Pre-chorus', 'G5|G5|F/A|Bb5|G5|G5|C5|C5'),
+        ('Chorus', 'F|Bb|C5|C5|F|Bb|C5|C5|F|Bb|C5|C5|F|Bb|C5|C5')]),
+    # Danny's printed copy (E-flat minor: intro, the Abm7 section and the turn Cb Gb/Bb | Abm7 Gb | Cb/Db)
+    # https://tabs.ultimate-guitar.com/tab/foreigner/i-want-to-know-what-love-is-chords-42854  (tuned a half step down)
+    # https://www.guitartabs.cc/tabs/f/foreigner/i_want_to_know_what_love_is_crd.html  (partial, other key)
+    dict(id='chart-i-want-to-know-what-love-is', title='I Want to Know What Love Is', artist='Foreigner', key='E♭ minor (chorus in G♭ major)', abckey='Ebm', feel='Power ballad, 4/4', bpm=76, sections=[
+        ('Intro', 'Ebm'), ('Verse', 'Ebm Ebm Ebm Db|Gb|Cb|Ebm|Ebm Ebm Ebm Db|Gb|Cb|Ebm'),
+        ('Pre-chorus', 'Abm7|Db/Ab Abm7|Db/Ab Abm7|Abm7|Cb Gb/Bb|Abm7 Gb|Cb/Db'),
+        ('Chorus (one source)', 'Gb|Ebm Db|Abm|Ebm Db|Gb|Ebm Db|Abm|Ebm Db')]),
+    # https://www.guitaretab.com/b/byrds/275602.html
+    # https://www.guitartabs.cc/tabs/b/byrds/turn_turn_turn_crd.html  (written in C)
+    dict(id='chart-turn-turn-turn', title='Turn! Turn! Turn!', artist='Pete Seeger (as recorded by The Byrds)', key='D major', abckey='D', feel='Bright folk rock, 4/4', bpm=124, comp='folk', sections=[
+        ('Chorus', 'D G|F#m A|D G|F#m A|G F#m|Em A|D'), ('Verse', 'A|D|A|D|A|D|G F#m|Em A|D')]),
+    # https://tabs.ultimate-guitar.com/tab/pete-seeger/we-shall-overcome-chords-1055577
+    # https://www.guitaretab.com/p/pete-seeger/276987.html
+    dict(id='chart-we-shall-overcome', title='We Shall Overcome', artist='Traditional / Pete Seeger', key='C major', abckey='C', feel='Slow and steady, 4/4', bpm=72, sections=[
+        ('Verse', 'C F|C|C F|C|C F G Am|D G D G|C F|C|F G|Am|C F C G|C')]),
+    # https://tabs.ultimate-guitar.com/tab/elton-john/goodbye-yellow-brick-road-chords-10735
+    # https://www.guitartabs.cc/tabs/e/elton_john/goodbye_yellow_brick_road_crd.html
+    dict(id='chart-goodbye-yellow-brick-road', title='Goodbye Yellow Brick Road', artist='Elton John', key='F major', abckey='F', feel='Slow, stately ballad, 4/4', bpm=62, status='learn', sections=[
+        ('Intro', 'F C/E|Dm Dm/C|Bb C|F'),
+        ('Verse', 'Gm C|F Bb|Eb C|F|Gm C|F Bb|Eb C|F|Db Eb|Ab Db|Bbm|C7'),
+        ('Chorus', 'F A7|Bb F|D7 Gm|C F|Dm A|Bb Db|Db Eb|F C/E|Dm Dm/C|Bb C|Db Eb|Ab Db|Bbm C7|F')]),
+    # https://tabs.ultimate-guitar.com/tab/misc-soundtrack/willy-wonka-and-the-chocolate-factory-pure-imagination-chords-1240149
+    # https://www.guitaretab.com/w/willy-wonka/351254.html
+    dict(id='chart-pure-imagination', title='Pure Imagination', artist='Leslie Bricusse and Anthony Newley, 1971', key='C major (as charted; not checked against the film key)', abckey='C', feel='Dreamy ballad, 4/4', bpm=70, sections=[
+        ('Verse', 'Cmaj7|Dm7 G7|Cmaj7 Am7|Dm7 G7|Cmaj7|Dm9 G13|Cmaj7 Am7|Dm9 Db7#9|E'),
+        ('Bridge', 'Fmaj7 Em7|Dm7 G7|Cmaj7 Dm7|D#dim Em7|F#m7b5 B7b9|Em|A7sus4 A7|Dm7 G7'),
+        ('Last verse', 'Dm9 G13|Cmaj7 Am7|Dm9 G13|C6')]),
+    # https://tabs.ultimate-guitar.com/tab/crowded-house/dont-dream-its-over-chords-92855  (capo 3)
+    # https://www.guitaretab.com/c/crowded-house/358041.html  (written in G)
+    dict(id='chart-don-t-dream-it-s-over', title="Don't Dream It's Over", artist='Crowded House', key='E♭ major', abckey='Eb', feel='Laid-back pop ballad, 4/4', bpm=82, status='learn', sections=[
+        ('Intro', 'Ebsus2|Ebsus2'), ('Verse', 'Ebsus2|Cm|Ab|G|Ebsus2|Cm|Ab|G'), ('Chorus', 'Ab Bb|Eb Cm|Ab Bb|Eb Cm|Ab Bb|Eb Cm|Ab|Bb')]),
+    # https://tabs.ultimate-guitar.com/tab/bob-dylan/i-shall-be-released-chords-1047043
+    # https://www.guitartabs.cc/tabs/b/bob_dylan/i_shall_be_released_crd.html
+    dict(id='chart-i-shall-be-released', title='I Shall Be Released', artist='Bob Dylan', key='A major', abckey='A', feel='Slow gospel-folk, 4/4', bpm=76, comp='folk', status='learn', sections=[
+        ('Verse', 'A|Bm|C#m Bm|A|A|Bm|C#m Bm|A E7'), ('Chorus', 'A|Bm|C#m Bm|A|A|Bm|C#m Bm|A')]),
+    # https://tabs.ultimate-guitar.com/tab/lou-reed/perfect-day-chords-96657  (capo 1)
+    # https://www.guitartabs.cc/tabs/l/lou_reed/perfect_day_crd.html
+    dict(id='chart-perfect-day', title='Perfect Day', artist='Lou Reed', key='B♭ minor (chorus in B♭ major)', abckey='Bbm', feel='Slow, gentle ballad, 4/4', bpm=72, status='play', sections=[
+        ('Intro', 'F Bbm|F Bbm'), ('Verse', 'Bbm Eb|Ab Db|Gb Ebm|F|Bbm Eb|Ab Db|Gb Ebm|F'),
+        ('Chorus', 'Bb Eb|Dm Eb|Bb F|Gm F Eb Eb|Bb Eb|Dm Eb|Bb F|Gm F Eb Eb')]),
+    # https://tabs.ultimate-guitar.com/tab/r-e-m-/strange-currencies-chords-1094294
+    # https://www.guitartabs.cc/tabs/r/rem/strange_currencies_crd.html  (agrees on verse and bridge; its chorus differs)
+    dict(id='chart-strange-currencies', title='Strange Currencies', artist='R.E.M.', key='C major', abckey='C', feel='Slow 6/8 sway', bpm=56, M='6/8', status='learn', sections=[
+        ('Intro / Verse', 'C|Fadd9|C|Fadd9|C|F|Dm|G'), ('Chorus (one source)', 'C G|F C|F|G|C G|F|C|Dm|G'), ('Bridge', 'Am|G|Am|G|Am|F|Dm|G')]),
+    # https://tabs.ultimate-guitar.com/tab/louis-armstrong/what-a-wonderful-world-chords-955258  (capo 5)
+    # https://www.guitartabs.cc/tabs/l/louis_armstrong/what_a_wonderful_world_crd.html
+    dict(id='chart-what-a-wonderful-world', title='What a Wonderful World', artist='Bob Thiele and George David Weiss (Louis Armstrong recording)', key='F major', abckey='F', feel='Slow, warm ballad, 4/4', bpm=72, status='play', sections=[
+        ('Intro', 'F Gm|F Gm'), ('Verse', 'F Am|Bb Am|Gm7 F|A7 Dm|Db|Gm7 C7|F|F'), ('Bridge', 'C7|F|C7|F|Dm C|Dm C|Dm F#dim7|Gm7 C7')]),
+    # https://tabs.ultimate-guitar.com/tab/chicago/hard-to-say-im-sorry-chords-1423583
+    # https://www.guitaretab.com/c/chicago/369970.html  (simpler chords, same outline)
+    dict(id='chart-hard-to-say-i-m-sorry', title="Hard to Say I'm Sorry", artist='Chicago', key='E major', abckey='E', feel='Piano power ballad, 4/4', bpm=72, status='learn', sections=[
+        ('Verse', 'E|G#m7|A|A B|C#m B|E|G#m7|A|A B|C#m B'), ('Pre-chorus', 'C#m F#m|Bsus4 B|E|C#m F#m|Bsus4 B'),
+        ('Chorus', 'E|A B|G#|C#m|F#|B|E|A B|G#|C#m F#|Bsus4 B')]),
+    # https://tabs.ultimate-guitar.com/tab/chicago/if-you-leave-me-now-chords-151311  (tuned a half step down)
+    # https://www.guitartabs.cc/tabs/c/chicago/if_you_leave_me_now_crd.html  (same shapes, written in C)
+    dict(id='chart-if-you-leave-me-now', title='If You Leave Me Now', artist='Chicago', key='B major', abckey='B', feel='Soft ballad, 4/4', bpm=96, status='learn', sections=[
+        ('Verse', 'B|G#m|D#m|D#m|G#m C#|F#|B|B'), ('Chorus', 'Eadd9|Am|E|E|G#m E|F# B|A#m D#|Eadd9|Am|E|E|G#m E|F# B|D#m G#m|C#m Em')]),
+    # https://tabs.ultimate-guitar.com/tab/neil-diamond/sweet-caroline-chords-1053578  (capo 2)
+    # https://www.guitartabs.cc/tabs/n/neil_diamond/sweet_caroline_crd.html  (written in A)
+    dict(id='chart-sweet-caroline', title='Sweet Caroline', artist='Neil Diamond', key='B major', abckey='B', feel='Mid-tempo singalong, 4/4', bpm=126, status='learn', sections=[
+        ('Intro', 'F#7|F#7|F#7|F#7'), ('Verse', 'B|B|E|E|B|B|F#|F#'), ('Pre-chorus', 'B|B|G#m|G#m|F#|F#|E|F#'),
+        ('Chorus', 'B|E|E|F#|B|E|E|F#|E D#m|C#m')]),
 ]
 for c in CHARTS:
     c['sections'] = [dict(name=n, bars=bars(b)) for n, b in c['sections']]
 
+# Still only requests: the chord pages found for this one are different arrangements that do not agree.
 REQUESTS = [
-    ('The Long and Winding Road', 'The Beatles'), ('Tiny Dancer', 'Elton John'), ('Rocket Man', 'Elton John'),
-    ('Candle in the Wind', 'Elton John'), ("Don't Let the Sun Go Down on Me", 'Elton John'),
-    ('Night Moves', 'Bob Seger'), ('Against the Wind', 'Bob Seger'), ("We've Got Tonight", 'Bob Seger'), ('Still the Same', 'Bob Seger'),
-    ('We Belong', 'Pat Benatar'), ('I Want to Know What Love Is', 'Foreigner'),
-    ('Turn! Turn! Turn!', 'Pete Seeger'), ('If I Had a Hammer', 'Pete Seeger'), ('We Shall Overcome', 'Traditional / Pete Seeger'),
+    ('If I Had a Hammer', 'Pete Seeger'),
 ]
 # Public-domain songs that were asked for but are not notated yet (melody not verified against a score).
 PENDING = [
